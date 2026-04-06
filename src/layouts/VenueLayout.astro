@@ -37,10 +37,12 @@ interface Props {
   visitInsteadSlug?: string;
   visitInsteadDescription?: string;
   nearbyVenues?: { name: string; venueSlug?: string; venueType?: string; distance?: string; image?: string }[];
+  sections?: { heading?: string; image?: string; imageAlt?: string; caption?: string; copy?: string; callout?: string }[];
 }
 
 const props = Astro.props;
 const isClosed = props.status?.toLowerCase().includes('closed') || props.status?.toLowerCase().includes('demolished');
+const sections = props.sections || [];
 ---
 
 <BaseLayout title={props.name} description={props.excerpt} image={props.heroImage || undefined} type="article">
@@ -124,11 +126,38 @@ const isClosed = props.status?.toLowerCase().includes('closed') || props.status?
       <div class="lg:col-span-8">
         <!-- The Story -->
         <section class="mb-16">
-          <div class="prose prose-lg max-w-none prose-p:font-sans prose-p:text-[#2b3a55] prose-headings:font-serif prose-headings:text-[#1a2b4c]">
-            <h2 class="text-4xl md:text-5xl mb-8 border-b border-[#d4b872]/30 pb-4">The Story</h2>
-            <div class="first-letter:text-7xl first-letter:font-serif first-letter:text-[#c13a3a] first-letter:mr-3 first-letter:float-left first-letter:leading-none">
-              <slot />
-            </div>
+          <h2 class="font-serif text-4xl md:text-5xl text-[#1a2b4c] mb-8 border-b border-[#d4b872]/30 pb-4">The Story</h2>
+          <div class="font-sans text-lg leading-relaxed text-[#2b3a55]">
+            {sections.map((section, i) => (
+              <div class={`mb-10 ${i === 0 ? 'first-letter:text-7xl first-letter:font-serif first-letter:text-[#c13a3a] first-letter:mr-3 first-letter:float-left first-letter:leading-none' : ''}`}>
+                {section.heading && (
+                  <h3 class="font-serif text-3xl text-[#1a2b4c] mb-4">
+                    {section.heading}
+                  </h3>
+                )}
+
+                {section.image && (
+                  <figure class={`my-6 p-2 bg-[#fdfbf2] border border-[#d4b872] shadow-[4px_4px_0px_rgba(212,184,114,0.4)] ${i % 2 === 0 ? 'transform -rotate-1' : 'transform rotate-1'} flow-root`}>
+                    <img src={section.image} alt={section.imageAlt || section.heading} class="w-full h-64 md:h-96 object-cover filter contrast-125 sepia-[.3]" />
+                    {section.caption && (
+                      <figcaption class="text-center font-typewriter text-xs text-[#8b5a2b] mt-3 mb-1 uppercase tracking-widest">{section.caption}</figcaption>
+                    )}
+                  </figure>
+                )}
+
+                {section.copy && section.copy.split('\n\n').map((para) => (
+                  <p class="mb-4" set:html={para} />
+                ))}
+
+                {section.callout && (
+                  <blockquote class="my-10 border-l-4 border-[#c13a3a] pl-6 py-4 bg-[#f4e4bc]/50 italic font-serif text-2xl text-[#8b5a2b] relative shadow-sm flow-root">
+                    <span class="absolute -top-6 -left-4 font-anton text-8xl text-[#c13a3a] opacity-20">"</span>
+                    {section.callout}
+                  </blockquote>
+                )}
+              </div>
+            ))}
+            <div class="clear-both"></div>
           </div>
         </section>
 

@@ -99,7 +99,6 @@ export default config({
       label: 'Star Guides',
       slugField: 'name',
       path: 'src/content/star-guides/*',
-      format: { contentField: 'body' },
       schema: {
         name: fields.slug({ name: { label: 'Star Name' } }),
         nickname: fields.text({
@@ -146,15 +145,31 @@ export default config({
           fields.relationship({ label: 'Related Article', collection: 'articles' }),
           { label: 'Related Articles' }
         ),
-        body: fields.markdoc({
-          label: 'Guide Body',
-          options: {
-            image: {
+        sections: fields.array(
+          fields.object({
+            heading: fields.text({ label: 'Section Heading' }),
+            image: fields.image({
+              label: 'Section Image',
               directory: 'src/assets/stars',
               publicPath: '/src/assets/stars/',
-            },
-          },
-        }),
+            }),
+            imageAlt: fields.text({ label: 'Image Alt Text' }),
+            caption: fields.text({ label: 'Image Caption' }),
+            copy: fields.text({
+              label: 'Body Copy',
+              multiline: true,
+              description: 'Main text for this section. Separate paragraphs with blank lines.',
+            }),
+            callout: fields.text({
+              label: 'Pull Quote / Callout (optional)',
+              multiline: true,
+            }),
+          }),
+          {
+            label: 'Guide Sections',
+            itemLabel: (props) => props.fields.heading.value || 'New Section',
+          }
+        ),
       },
     }),
 
@@ -162,7 +177,6 @@ export default config({
       label: 'Venues',
       slugField: 'name',
       path: 'src/content/venues/*',
-      format: { contentField: 'story' },
       schema: {
         name: fields.slug({ name: { label: 'Venue Name' } }),
         locationLine: fields.text({ label: 'Address Line' }),
@@ -316,15 +330,31 @@ export default config({
           fields.relationship({ label: 'Related Article', collection: 'articles' }),
           { label: 'Related Articles' }
         ),
-        story: fields.markdoc({
-          label: 'The Story',
-          options: {
-            image: {
+        sections: fields.array(
+          fields.object({
+            heading: fields.text({ label: 'Section Heading' }),
+            image: fields.image({
+              label: 'Section Image',
               directory: 'src/assets/venues',
               publicPath: '/src/assets/venues/',
-            },
-          },
-        }),
+            }),
+            imageAlt: fields.text({ label: 'Image Alt Text' }),
+            caption: fields.text({ label: 'Image Caption' }),
+            copy: fields.text({
+              label: 'Body Copy',
+              multiline: true,
+              description: 'Main text for this section. Separate paragraphs with blank lines.',
+            }),
+            callout: fields.text({
+              label: 'Pull Quote / Callout (optional)',
+              multiline: true,
+            }),
+          }),
+          {
+            label: 'Story Sections',
+            itemLabel: (props) => props.fields.heading.value || 'New Section',
+          }
+        ),
       },
     }),
 
@@ -447,7 +477,6 @@ export default config({
       label: 'Destination Guides',
       slugField: 'title',
       path: 'src/content/destinations/*',
-      format: { contentField: 'body' },
       schema: {
         title: fields.slug({ name: { label: 'Title' } }),
         country: fields.text({ label: 'Country' }),
@@ -488,15 +517,31 @@ export default config({
           fields.relationship({ label: 'Related Article', collection: 'articles' }),
           { label: 'Related Articles' }
         ),
-        body: fields.markdoc({
-          label: 'Guide Body',
-          options: {
-            image: {
+        sections: fields.array(
+          fields.object({
+            heading: fields.text({ label: 'Section Heading' }),
+            image: fields.image({
+              label: 'Section Image',
               directory: 'src/assets/destinations',
               publicPath: '/src/assets/destinations/',
-            },
-          },
-        }),
+            }),
+            imageAlt: fields.text({ label: 'Image Alt Text' }),
+            caption: fields.text({ label: 'Image Caption' }),
+            copy: fields.text({
+              label: 'Body Copy',
+              multiline: true,
+              description: 'Main text for this section. Separate paragraphs with blank lines.',
+            }),
+            callout: fields.text({
+              label: 'Pull Quote / Callout (optional)',
+              multiline: true,
+            }),
+          }),
+          {
+            label: 'Guide Sections',
+            itemLabel: (props) => props.fields.heading.value || 'New Section',
+          }
+        ),
       },
     }),
   },

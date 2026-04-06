@@ -2,7 +2,6 @@
 import { createReader } from '@keystatic/core/reader';
 import keystaticConfig from '../../../keystatic.config';
 import VenueLayout from '../../layouts/VenueLayout.astro';
-import Markdoc from '@markdoc/markdoc';
 
 export async function getStaticPaths() {
   const reader = createReader(process.cwd(), keystaticConfig);
@@ -17,9 +16,6 @@ const { slug } = Astro.props;
 const reader = createReader(process.cwd(), keystaticConfig);
 const venue = await reader.collections.venues.read(slug);
 if (!venue) return Astro.redirect('/404');
-
-const story = await venue.story();
-const rendered = Markdoc.renderers.html(Markdoc.transform(story.node));
 ---
 
 <VenueLayout
@@ -56,6 +52,5 @@ const rendered = Markdoc.renderers.html(Markdoc.transform(story.node));
   visitInsteadSlug={venue.visitInsteadSlug}
   visitInsteadDescription={venue.visitInsteadDescription}
   nearbyVenues={venue.nearbyVenues}
->
-  <Fragment set:html={rendered} />
-</VenueLayout>
+  sections={venue.sections}
+/>

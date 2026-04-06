@@ -4,6 +4,15 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import VintageMap from '../components/VintageMap';
 
+interface Section {
+  heading?: string;
+  image?: string;
+  imageAlt?: string;
+  caption?: string;
+  copy?: string;
+  callout?: string;
+}
+
 interface Props {
   name: string;
   nickname?: string;
@@ -14,9 +23,11 @@ interface Props {
   excerpt?: string;
   keyFilms?: { title: string; year?: string }[];
   keyDestinations?: string[];
+  sections?: Section[];
 }
 
 const props = Astro.props;
+const sections = props.sections || [];
 ---
 
 <BaseLayout title={`The Ultimate ${props.name} Travel Guide`} description={props.excerpt} image={props.portraitImage || undefined} type="article">
@@ -90,13 +101,36 @@ const props = Astro.props;
 
       <!-- Editorial Body -->
       <div class="p-8 md:p-16 max-w-4xl mx-auto">
-        <div class="font-sans text-lg leading-relaxed text-[#222] space-y-6
-          prose prose-lg max-w-none
-          prose-headings:font-oswald prose-headings:text-[#1a2b4c] prose-headings:uppercase prose-headings:tracking-widest
-          prose-a:text-[#c13a3a] prose-a:hover:underline prose-a:decoration-[#d4b872]
-          prose-blockquote:border-l-4 prose-blockquote:border-[#c13a3a] prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:font-serif prose-blockquote:text-2xl
-        ">
-          <slot />
+        <div class="font-sans text-lg leading-relaxed text-[#222]">
+          {sections.map((section, i) => (
+            <div class="mb-12">
+              {section.heading && (
+                <h2 class="font-oswald text-3xl text-[#1a2b4c] uppercase tracking-widest mb-4 border-b-2 border-dotted border-[#d4b872] pb-2">
+                  {section.heading}
+                </h2>
+              )}
+
+              {section.image && (
+                <figure class={`my-6 p-2 bg-[#fdfbf2] border border-[#d4b872] shadow-[4px_4px_0px_rgba(212,184,114,0.4)] ${i % 2 === 0 ? 'transform -rotate-1' : 'transform rotate-1'} flow-root`}>
+                  <img src={section.image} alt={section.imageAlt || section.heading} class="w-full h-64 md:h-96 object-cover filter contrast-125 sepia-[.3]" />
+                  {section.caption && (
+                    <figcaption class="text-center font-typewriter text-xs text-[#8b5a2b] mt-3 mb-1 uppercase tracking-widest">{section.caption}</figcaption>
+                  )}
+                </figure>
+              )}
+
+              {section.copy && section.copy.split('\n\n').map((para) => (
+                <p class="mb-4" set:html={para} />
+              ))}
+
+              {section.callout && (
+                <blockquote class="my-10 border-l-4 border-[#c13a3a] pl-6 py-4 bg-[#f4e4bc]/50 italic font-serif text-2xl text-[#8b5a2b] relative shadow-sm flow-root">
+                  <span class="absolute -top-6 -left-4 font-anton text-8xl text-[#c13a3a] opacity-20">"</span>
+                  {section.callout}
+                </blockquote>
+              )}
+            </div>
+          ))}
         </div>
       </div>
 

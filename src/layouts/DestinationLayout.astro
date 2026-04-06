@@ -3,6 +3,15 @@ import BaseLayout from './BaseLayout.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 
+interface Section {
+  heading?: string;
+  image?: string;
+  imageAlt?: string;
+  caption?: string;
+  copy?: string;
+  callout?: string;
+}
+
 interface Props {
   title: string;
   country?: string;
@@ -11,9 +20,11 @@ interface Props {
   heroImageAlt?: string;
   excerpt?: string;
   passportStamps?: { city: string; detail?: string; date?: string }[];
+  sections?: Section[];
 }
 
 const props = Astro.props;
+const sections = props.sections || [];
 ---
 
 <BaseLayout title={`Old Hollywood Guide to ${props.title}`} description={props.excerpt} image={props.heroImage || undefined} type="article">
@@ -62,14 +73,36 @@ const props = Astro.props;
       <!-- Body Content -->
       <div class="p-6 md:p-12 lg:p-16 relative">
         <div class="max-w-5xl mx-auto relative">
-          <div class="font-sans text-lg leading-relaxed text-[#222] space-y-6
-            prose prose-lg max-w-none
-            prose-headings:font-anton prose-headings:text-[#1a2b4c] prose-headings:uppercase prose-headings:tracking-widest
-            prose-h2:text-4xl prose-h2:md:text-5xl prose-h2:mb-12 prose-h2:text-center prose-h2:border-b-4 prose-h2:border-double prose-h2:border-[#1a2b4c] prose-h2:pb-4
-            prose-a:text-[#c13a3a] prose-a:hover:underline prose-a:decoration-[#d4b872]
-            prose-blockquote:border-l-4 prose-blockquote:border-[#c13a3a] prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:font-serif prose-blockquote:text-2xl
-          ">
-            <slot />
+          <div class="font-sans text-lg leading-relaxed text-[#222]">
+            {sections.map((section, i) => (
+              <div class="mb-12">
+                {section.heading && (
+                  <h2 class="font-anton text-4xl md:text-5xl text-[#1a2b4c] uppercase tracking-widest mb-12 text-center border-b-4 border-double border-[#1a2b4c] pb-4">
+                    {section.heading}
+                  </h2>
+                )}
+
+                {section.image && (
+                  <figure class={`my-6 p-2 bg-[#fdfbf2] border border-[#d4b872] shadow-[4px_4px_0px_rgba(212,184,114,0.4)] ${i % 2 === 0 ? 'transform -rotate-1' : 'transform rotate-1'} flow-root`}>
+                    <img src={section.image} alt={section.imageAlt || section.heading} class="w-full h-64 md:h-96 object-cover filter contrast-125 sepia-[.3]" />
+                    {section.caption && (
+                      <figcaption class="text-center font-typewriter text-xs text-[#8b5a2b] mt-3 mb-1 uppercase tracking-widest">{section.caption}</figcaption>
+                    )}
+                  </figure>
+                )}
+
+                {section.copy && section.copy.split('\n\n').map((para) => (
+                  <p class="mb-4" set:html={para} />
+                ))}
+
+                {section.callout && (
+                  <blockquote class="my-10 border-l-4 border-[#c13a3a] pl-6 py-4 bg-[#f4e4bc]/50 italic font-serif text-2xl text-[#8b5a2b] relative shadow-sm flow-root">
+                    <span class="absolute -top-6 -left-4 font-anton text-8xl text-[#c13a3a] opacity-20">"</span>
+                    {section.callout}
+                  </blockquote>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </div>

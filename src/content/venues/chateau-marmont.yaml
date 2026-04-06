@@ -1,0 +1,64 @@
+name: Chateau Marmont
+locationLine: "8221 Sunset Blvd, Los Angeles, CA 90046"
+venueType: Hotel
+status: Open
+established: "1929"
+cityCountry: "Los Angeles, USA"
+priceIndicator: "$$$"
+hollywoodRating: 5
+heroImageAlt: "The Chateau Marmont on Sunset Boulevard"
+excerpt: "The legendary Sunset Boulevard hotel where Old Hollywood checked in and never quite checked out. From Garbo to Gable, the Chateau has hosted them all."
+pullQuote: "If you must get into trouble, do it at the Chateau Marmont."
+pullQuoteAttribution: "Columbia Pictures boss Harry Cohn"
+gallery: []
+whoCameHere:
+  - name: "Greta Garbo"
+    starGuideSlug: ""
+  - name: "Clark Gable"
+    starGuideSlug: ""
+  - name: "Jean Harlow"
+    starGuideSlug: ""
+  - name: "James Dean"
+    starGuideSlug: ""
+asSeenIn:
+  - title: "A Star Is Born"
+    year: "1937"
+    filmLocationsSlug: ""
+  - title: "Somewhere"
+    year: "2010"
+    filmLocationsSlug: ""
+signatureExperiences:
+  - name: "Bungalow Suite"
+    description: "Stay in one of the private bungalows that have housed everyone from Howard Hughes to Lindsay Lohan."
+    price: "From $1,200/night"
+    availability: "Book well in advance"
+website: "https://www.chateaumarmont.com"
+phone: "+1 323-656-1010"
+openingHours: "24/7 — Hotel residents and members only"
+priceRange: "$$$$ — Rooms from $600, Bungalows from $1,200"
+howToBook: "Direct via hotel website or phone. Members receive priority."
+nearestAirport: "LAX — 45 minutes"
+transportNotes: "Valet parking available. Located on Sunset Blvd near the Sunset Strip."
+dressCode: "Smart casual"
+bestTimeToVisit: "Year-round. Spring and autumn avoid peak summer heat."
+tips: "The lobby and restaurant are now members-only. Book a room to experience the full Chateau."
+whatsThereNow: ""
+visitInsteadName: ""
+visitInsteadSlug: ""
+visitInsteadDescription: ""
+nearbyVenues: []
+relatedArticles: []
+accessibilityNotes: ""
+sections:
+  - heading: ""
+    copy: "The Chateau Marmont has stood on its hillside perch above Sunset Boulevard since 1929, modelled after the Chateau d'Amboise in France's Loire Valley and built to survive earthquakes — which, given its history, seems fitting. From the moment it opened, the Chateau became the preferred refuge of Hollywood's most famous and most troubled, a place where the industry's brightest stars could behave as they pleased behind Gothic Revival walls and overgrown gardens. It has outlasted studios, scandals, and seismic shifts in the entertainment business, and it remains, almost a century later, the single most storied hotel in Los Angeles."
+    callout: ""
+  - heading: "A Guest List Like No Other"
+    copy: |-
+      The Chateau's legend is inseparable from its guest list. Greta Garbo lived here. So did Jean Harlow and Clark Gable, who reportedly carried on their affair in one of the private bungalows. Howard Hughes rented a suite to spy on the pool below with binoculars. Billy Wilder lived at the hotel for years while establishing himself in Hollywood. James Dean once leapt through a window at an audition held in one of the suites. In the decades that followed, the Chateau attracted Jim Morrison, John Belushi, and countless others who found in the hotel's deliberate discretion a licence to live without restraint.
+
+      What makes the Chateau Marmont essential for the Old Hollywood traveller is not merely its past but its persistence. Unlike so many landmarks of Golden Age Los Angeles — the Ambassador Hotel, the Garden of Allah, the Brown Derby — the Chateau is still here, still operating, still atmospheric. The lobby remains dark and overfurnished, the bungalows still feel like private hideaways, and the garden terrace still carries the faint air of conspiracy and romance that has clung to the property for nearly a hundred years.
+    callout: "The Chateau Marmont doesn't judge. That's the whole point."
+  - heading: ""
+    copy: "In 2020, the hotel converted to a members-only model under the continued ownership of Andre Balazs, adding another layer of exclusivity to a place that was already famously difficult to access. For visitors, the best way to experience the Chateau is to book a room — not cheap, but the cost buys entry into a living monument of Hollywood history. Sleep where Garbo slept. Sit where Wilder sat. The ghosts are part of the amenities."
+    callout: ""

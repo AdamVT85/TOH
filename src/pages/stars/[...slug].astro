@@ -2,7 +2,6 @@
 import { createReader } from '@keystatic/core/reader';
 import keystaticConfig from '../../../keystatic.config';
 import StarGuideLayout from '../../layouts/StarGuideLayout.astro';
-import Markdoc from '@markdoc/markdoc';
 
 export async function getStaticPaths() {
   const reader = createReader(process.cwd(), keystaticConfig);
@@ -17,9 +16,6 @@ const { slug } = Astro.props;
 const reader = createReader(process.cwd(), keystaticConfig);
 const guide = await reader.collections.starGuides.read(slug);
 if (!guide) return Astro.redirect('/404');
-
-const body = await guide.body();
-const rendered = Markdoc.renderers.html(Markdoc.transform(body.node));
 ---
 
 <StarGuideLayout
@@ -32,6 +28,5 @@ const rendered = Markdoc.renderers.html(Markdoc.transform(body.node));
   excerpt={guide.excerpt}
   keyFilms={guide.keyFilms}
   keyDestinations={guide.keyDestinations}
->
-  <Fragment set:html={rendered} />
-</StarGuideLayout>
+  sections={guide.sections}
+/>
