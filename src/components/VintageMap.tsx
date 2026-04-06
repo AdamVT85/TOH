@@ -75,7 +75,8 @@ export default function VintageMap() {
               onClick={() => setSelectedDest(dest)}
               className="cursor-pointer group"
             >
-              <g transform="translate(-12, -24)" className="transition-transform group-hover:scale-110 group-hover:-translate-y-1 origin-bottom">
+              <circle cx="0" cy="0" r="16" fill="transparent" className="pointer-events-auto" />
+              <g transform="translate(-12, -24)" className="transition-transform group-hover:scale-110 origin-bottom pointer-events-none">
                 <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z" fill="#c13a3a" stroke="#1a2b4c" strokeWidth="1.5" />
                 <circle cx="12" cy="10" r="3" fill="#fdfbf2" />
               </g>
