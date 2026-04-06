@@ -1,102 +1,171 @@
 title: Swimming Pools of Classic Hollywood
-subtitle: "Discover the most glamourous pools, from Italy to California, that your favourite Hollywood stars took a plunge in..."
-seriesLabel: "Part of: The Golden Age of Travel"
-heroImageAlt: "A vintage swimming pool surrounded by palm trees"
-publishDate: "2025-06-15"
-excerpt: "From the Neptune Pool at Hearst Castle to the cabanas of the Beverly Hills Hotel, discover the iconic swimming pools where Hollywood's elite lounged, schemed, and made history."
+subtitle: >-
+  Discover the most glamourous pools, from Italy to California, that your
+  favourite Hollywood stars took a plunge in...
+seriesLabel: 'Part of: The Golden Age of Travel'
+heroImageAlt: A vintage swimming pool surrounded by palm trees
+publishDate: 2025-06-15
+excerpt: >-
+  From the Neptune Pool at Hearst Castle to the cabanas of the Beverly Hills
+  Hotel, discover the iconic swimming pools where Hollywood's elite lounged,
+  schemed, and made history.
 watchList:
-  - title: "Designing Woman"
-    year: "1957"
-  - title: "The Bad and the Beautiful"
-    year: "1952"
-  - title: "The Barefoot Contessa"
-    year: "1954"
-  - title: "That Touch of Mink"
-    year: "1962"
-  - title: "It's A Wonderful Life"
-    year: "1946"
+  - title: Designing Woman
+    year: '1957'
+  - title: The Bad and the Beautiful
+    year: '1952'
+  - title: The Barefoot Contessa
+    year: '1954'
+  - title: That Touch of Mink
+    year: '1962'
+  - title: It's A Wonderful Life
+    year: '1946'
 sections:
-  - heading: "Beverly Hills Hotel Pool"
-    venueSlug: ""
-    imageAlt: "Beverly Hills Hotel Pool"
-    caption: "The Sand and Pool Club, circa 1950"
-    copy: |-
-      Esther Williams had a clause written into her MGM contract that gave her a free pass to the Beverly Hills Hotel pool, where she'd swim most mornings. Katharine Hepburn allegedly once jumped in fully clothed, while the Beatles hosted a raucous poolside party amongst the luxury cabanas.
+  - heading: Beverly Hills Hotel Pool
+    image: >-
+      /src/assets/articles/swimming-pools-of-classic-hollywood/sections/0/image.jpg
+    imageAlt: Beverly Hills Hotel Pool
+    caption: The Sand and Pool Club, circa 1950
+    copy: >-
+      Esther Williams had a clause written into her MGM contract that gave her a
+      free pass to the Beverly Hills Hotel pool, where she'd swim most mornings.
+      Katharine Hepburn allegedly once jumped in fully clothed, while the
+      Beatles hosted a raucous poolside party amongst the luxury cabanas.
 
-      The pool has featured in such classic 1950s women's movies as Designing Woman, with Lauren Bacall and Gregory Peck, and soapy Hollywood melodrama The Bad and the Beautiful, with Kirk Douglas and Lana Turner.
 
-      The Beverly Hills Hotel is an icon of vintage Hollywood glamour. Constructed in the shadow of Mary Pickford and Douglas Fairbank's legendary Pickfair pad, the hotel has a Hollywood pedigree like no other. The pool dates back to 1938, when it was known to guests as 'The Sand and Pool Club;' and surrounded by sand to give it a beachy vibe.
+      The pool has featured in such classic 1950s women's movies as Designing
+      Woman, with Lauren Bacall and Gregory Peck, and soapy Hollywood melodrama
+      The Bad and the Beautiful, with Kirk Douglas and Lana Turner.
 
-      Nowadays there are 11 private poolside cabanas to choose from, each named after an area of Los Angeles. Cabana treats include plush bathrobes, a 46-inch widescreen TV, a mini fridge, a universal phone charging station unlimited sparkling or coconut water, snacks like peanut butter cups and mojito popsicles, organic sunscreen and Evian misters. Swimmers may be surprised to hear music playing underwater.
-    callout: "Faye Dunaway's iconic poolside photograph... was described by the photographer as \"one of the most Hollywood pictures of all time.\""
 
-  - heading: "Roosevelt Hotel Pool"
-    venueSlug: ""
-    imageAlt: "Roosevelt Hotel Pool"
-    caption: "Tropicana Pool, Los Angeles"
-    copy: |-
-      Marilyn Monroe did her first commercial photo shoot by the Tropicana Pool at the Roosevelt Hotel, located at 7000 Hollywood Boulevard in Los Angeles. She lived at the hotel for two years when she was a struggling model.
+      The Beverly Hills Hotel is an icon of vintage Hollywood glamour.
+      Constructed in the shadow of Mary Pickford and Douglas Fairbank's
+      legendary Pickfair pad, the hotel has a Hollywood pedigree like no other.
+      The pool dates back to 1938, when it was known to guests as 'The Sand and
+      Pool Club;' and surrounded by sand to give it a beachy vibe.
 
-      Like the Beverly Hills Hotel, the Roosevelt has a strong classic Hollywood pedigree; the original owners were Douglas Fairbanks, Mary Pickford and Sid Grauman, and it was the venue for the first ever Academy Award ceremony in 1929.
 
-      Nowadays you can stay in the luxurious Marilyn Monroe suite, with a wrap around balcony overlooking the pool, and sunbathe on a daybed beside the pool (exclusive to hotel guests), which now has a $1 million David Hockney mural at the bottom.
-    callout: ""
+      Nowadays there are 11 private poolside cabanas to choose from, each named
+      after an area of Los Angeles. Cabana treats include plush bathrobes, a
+      46-inch widescreen TV, a mini fridge, a universal phone charging station
+      unlimited sparkling or coconut water, snacks like peanut butter cups and
+      mojito popsicles, organic sunscreen and Evian misters. Swimmers may be
+      surprised to hear music playing underwater.
+    callout: >-
+      Faye Dunaway's iconic poolside photograph... was described by the
+      photographer as "one of the most Hollywood pictures of all time."
+  - heading: Roosevelt Hotel Pool
+    imageAlt: Roosevelt Hotel Pool
+    caption: Tropicana Pool, Los Angeles
+    copy: >-
+      Marilyn Monroe did her first commercial photo shoot by the Tropicana Pool
+      at the Roosevelt Hotel, located at 7000 Hollywood Boulevard in Los
+      Angeles. She lived at the hotel for two years when she was a struggling
+      model.
 
-  - heading: "Hotel Splendido"
-    venueSlug: ""
-    imageAlt: "Hotel Splendido pool"
-    caption: "Italian Riviera Elegance"
-    copy: |-
-      A heated saltwater pool surrounded by lush gardens and sensational views of the enchanting Italian Riviera, the pool at the Splendido in magical Portofino was a magnet for celebrities in the 1950s and 60s.
 
-      The Splendido rose from the ashes of a former 16th century monastery, to become one of the world's most celebrated hotels, playing host to Hollywood stars like Clark Gable, Humphrey Bogart, Lauren Bacall, Ava Gardner, Elizabeth Taylor and Richard Burton.
+      Like the Beverly Hills Hotel, the Roosevelt has a strong classic Hollywood
+      pedigree; the original owners were Douglas Fairbanks, Mary Pickford and
+      Sid Grauman, and it was the venue for the first ever Academy Award
+      ceremony in 1929.
 
-      Bogie, Bacall and Ava Gardner stayed her during filming for The Barefoot Contessa, while Taylor and Burton used the hotel as an escape from the paparazzi during the height of their much-publicized affair and returned many times after that. It's rumoured that Burton proposed to Elizabeth on the wisteria-clad terrace.
-    callout: ""
 
-  - heading: "Chateau Marmont"
-    venueSlug: "chateau-marmont"
-    imageAlt: "Chateau Marmont pool"
-    caption: "Refuge Above Sunset Strip"
-    copy: |-
-      The castle-like Chateau Marmont, perched above Sunset Strip like a gothic folly that somehow wound up in California, has been a refuge for Hollywood's most complicated souls since it opened in 1929. Greta Garbo, who else, was an early devotee, drawn by the promise of absolute discretion.
+      Nowadays you can stay in the luxurious Marilyn Monroe suite, with a wrap
+      around balcony overlooking the pool, and sunbathe on a daybed beside the
+      pool (exclusive to hotel guests), which now has a $1 million David Hockney
+      mural at the bottom.
+  - heading: Hotel Splendido
+    imageAlt: Hotel Splendido pool
+    caption: Italian Riviera Elegance
+    copy: >-
+      A heated saltwater pool surrounded by lush gardens and sensational views
+      of the enchanting Italian Riviera, the pool at the Splendido in magical
+      Portofino was a magnet for celebrities in the 1950s and 60s.
 
-      Howard Hughes, who occupied a penthouse suite for four years, allegedly used the height advantage to spy on girls sunbathing by the pool with a pair of binoculars — which, for Hughes, was probably the tamest thing he got up to at the Chateau.
 
-      The pool itself is small by Hollywood standards — a simple rectangle, surrounded by lush garden and the kind of purposeful shade that suggests its guests are not, on the whole, here for the tan. Rooms start from around $400 per night, and the hotel's famous rule — "don't embarrass yourself or the hotel" — has been cheerfully broken by almost everyone who's ever stayed here.
-    callout: ""
+      The Splendido rose from the ashes of a former 16th century monastery, to
+      become one of the world's most celebrated hotels, playing host to
+      Hollywood stars like Clark Gable, Humphrey Bogart, Lauren Bacall, Ava
+      Gardner, Elizabeth Taylor and Richard Burton.
 
-  - heading: "Hearst Castle Pool"
-    venueSlug: ""
-    imageAlt: "Hearst Castle Neptune Pool"
-    caption: "The Grand Liquid Ballroom"
-    copy: |-
-      The architect Charles Moore, who is often described as the father of post-modernism, once described the pools at William Randolph Hearst's Castle as a "grand liquid ballroom" for Hollywood Olympians.
 
-      Designed by a prolific female architect, Julia Morgan, the stunning pools were inspired by Italian villas, such as Tivoli and the Villa Borghese in Rome.
+      Bogie, Bacall and Ava Gardner stayed her during filming for The Barefoot
+      Contessa, while Taylor and Burton used the hotel as an escape from the
+      paparazzi during the height of their much-publicized affair and returned
+      many times after that. It's rumoured that Burton proposed to Elizabeth on
+      the wisteria-clad terrace.
+  - heading: Chateau Marmont
+    venueSlug: chateau-marmont
+    imageAlt: Chateau Marmont pool
+    caption: Refuge Above Sunset Strip
+    copy: >-
+      The castle-like Chateau Marmont, perched above Sunset Strip like a gothic
+      folly that somehow wound up in California, has been a refuge for
+      Hollywood's most complicated souls since it opened in 1929. Greta Garbo,
+      who else, was an early devotee, drawn by the promise of absolute
+      discretion.
 
-      Howard Hughes, Joan Crawford, Charlie Chaplin and Cary Grant have all taken a dip in this legendary paradise in San Simeon. Hearst himself was known to swim in the pool with his beloved dachshund Helen.
 
-      To raise money for the upkeep of Hearst Castle, the castle association holds regular pool open days that offer movie fans the chance to swim in exchange for a generous donation.
-    callout: ""
+      Howard Hughes, who occupied a penthouse suite for four years, allegedly
+      used the height advantage to spy on girls sunbathing by the pool with a
+      pair of binoculars — which, for Hughes, was probably the tamest thing he
+      got up to at the Chateau.
 
-  - heading: "Eden Roc Hotel Pool"
-    venueSlug: ""
-    imageAlt: "Eden Roc Hotel Pool"
-    caption: "Chiselled from the Riviera Rocks"
-    copy: |-
-      On the sparkling shore of the French Riviera stands the Eden Roc hotel and its saltwater pool that's been chiselled out of the rocks. A galaxy of classic Hollywood stars have made the pilgrimage, including Charlie Chaplin, Fred Astaire, Marlene Dietrich, Cary Grant, Frank Sinatra and the Kennedys.
 
-      F. Scott Fitzgerald used the hotel for inspiration in his final novel, Tender is the Night. The Eden Roc is also the hotel of choice for big stars when in town for the Cannes Film Festival.
+      The pool itself is small by Hollywood standards — a simple rectangle,
+      surrounded by lush garden and the kind of purposeful shade that suggests
+      its guests are not, on the whole, here for the tan. Rooms start from
+      around $400 per night, and the hotel's famous rule — "don't embarrass
+      yourself or the hotel" — has been cheerfully broken by almost everyone
+      who's ever stayed here.
+  - heading: Hearst Castle Pool
+    imageAlt: Hearst Castle Neptune Pool
+    caption: The Grand Liquid Ballroom
+    copy: >-
+      The architect Charles Moore, who is often described as the father of
+      post-modernism, once described the pools at William Randolph Hearst's
+      Castle as a "grand liquid ballroom" for Hollywood Olympians.
 
-      The pool is open to hotel guests only, from mid-April to mid-October, 8am to 7pm. Afterwards, dry off at the pool bar and order an Eden-Roc Splash — a Riviera classic from 1934, made with cognac, raspberry, lemon and champagne. Rooms start from approximately £800 per night in low season.
-    callout: ""
+
+      Designed by a prolific female architect, Julia Morgan, the stunning pools
+      were inspired by Italian villas, such as Tivoli and the Villa Borghese in
+      Rome.
+
+
+      Howard Hughes, Joan Crawford, Charlie Chaplin and Cary Grant have all
+      taken a dip in this legendary paradise in San Simeon. Hearst himself was
+      known to swim in the pool with his beloved dachshund Helen.
+
+
+      To raise money for the upkeep of Hearst Castle, the castle association
+      holds regular pool open days that offer movie fans the chance to swim in
+      exchange for a generous donation.
+  - heading: Eden Roc Hotel Pool
+    imageAlt: Eden Roc Hotel Pool
+    caption: Chiselled from the Riviera Rocks
+    copy: >-
+      On the sparkling shore of the French Riviera stands the Eden Roc hotel and
+      its saltwater pool that's been chiselled out of the rocks. A galaxy of
+      classic Hollywood stars have made the pilgrimage, including Charlie
+      Chaplin, Fred Astaire, Marlene Dietrich, Cary Grant, Frank Sinatra and the
+      Kennedys.
+
+
+      F. Scott Fitzgerald used the hotel for inspiration in his final novel,
+      Tender is the Night. The Eden Roc is also the hotel of choice for big
+      stars when in town for the Cannes Film Festival.
+
+
+      The pool is open to hotel guests only, from mid-April to mid-October, 8am
+      to 7pm. Afterwards, dry off at the pool bar and order an Eden-Roc Splash —
+      a Riviera classic from 1934, made with cognac, raspberry, lemon and
+      champagne. Rooms start from approximately £800 per night in low season.
 destinationTags:
-  - "California"
-  - "Italy"
-  - "Florida"
-  - "France"
-  - "Michigan"
+  - California
+  - Italy
+  - Florida
+  - France
+  - Michigan
 relatedStars: []
 relatedVenues: []
 relatedArticles: []
