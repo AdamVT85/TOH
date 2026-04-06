@@ -1,0 +1,36 @@
+---
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../../keystatic.config';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import Markdoc from '@markdoc/markdoc';
+
+export async function getStaticPaths() {
+  const reader = createReader(process.cwd(), keystaticConfig);
+  const articles = await reader.collections.articles.all();
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+    props: { slug: article.slug },
+  }));
+}
+
+const { slug } = Astro.props;
+const reader = createReader(process.cwd(), keystaticConfig);
+const article = await reader.collections.articles.read(slug);
+if (!article) return Astro.redirect('/404');
+
+const body = await article.body();
+const rendered = Markdoc.renderers.html(body.node);
+---
+
+<ArticleLayout
+  title={article.title}
+  subtitle={article.subtitle}
+  seriesLabel={article.seriesLabel}
+  heroImage={article.heroImage || undefined}
+  heroImageAlt={article.heroImageAlt}
+  publishDate={article.publishDate || undefined}
+  excerpt={article.excerpt}
+  watchList={article.watchList}
+>
+  <Fragment set:html={rendered} />
+</ArticleLayout>

@@ -1,0 +1,39 @@
+---
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../../keystatic.config';
+import FilmLocationsLayout from '../../layouts/FilmLocationsLayout.astro';
+import Markdoc from '@markdoc/markdoc';
+
+export async function getStaticPaths() {
+  const reader = createReader(process.cwd(), keystaticConfig);
+  const guides = await reader.collections.filmLocations.all();
+  return guides.map((guide) => ({
+    params: { slug: guide.slug },
+    props: { slug: guide.slug },
+  }));
+}
+
+const { slug } = Astro.props;
+const reader = createReader(process.cwd(), keystaticConfig);
+const guide = await reader.collections.filmLocations.read(slug);
+if (!guide) return Astro.redirect('/404');
+
+const intro = await guide.introduction();
+const rendered = Markdoc.renderers.html(intro.node);
+---
+
+<FilmLocationsLayout
+  filmTitle={guide.filmTitle}
+  subtitle={guide.subtitle}
+  year={guide.year}
+  director={guide.director}
+  stars={guide.stars}
+  primaryLocations={guide.primaryLocations}
+  heroImage={guide.heroImage || undefined}
+  heroImageAlt={guide.heroImageAlt}
+  excerpt={guide.excerpt}
+  locations={guide.locations}
+  whereToStay={guide.whereToStay}
+>
+  <Fragment set:html={rendered} />
+</FilmLocationsLayout>

@@ -1,0 +1,86 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+interface Props {
+  title: string;
+  country?: string;
+  region?: string;
+  heroImage?: string;
+  heroImageAlt?: string;
+  excerpt?: string;
+  passportStamps?: { city: string; detail?: string; date?: string }[];
+}
+
+const props = Astro.props;
+---
+
+<BaseLayout title={`Old Hollywood Guide to ${props.title}`} description={props.excerpt} image={props.heroImage || undefined} type="article">
+  <div class="min-h-screen bg-[#d8c5a5] text-[#1a2b4c] p-2 md:p-8 font-sans" style="background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png')">
+    <div class="max-w-6xl mx-auto border-[12px] border-double border-[#1a2b4c] bg-[#fdfbf2] shadow-2xl relative overflow-hidden">
+
+      <!-- Texture Overlays -->
+      <div class="absolute inset-0 opacity-[0.03] mix-blend-multiply pointer-events-none z-50" style="background-image: url('https://www.transparenttextures.com/patterns/stardust.png')"></div>
+      <div class="absolute inset-0 opacity-[0.02] mix-blend-color-burn pointer-events-none z-50" style="background-image: url('https://www.transparenttextures.com/patterns/diagmonds-light.png')"></div>
+
+      <Header backLink="/" backLabel="Return to Lobby" variant="dark" />
+
+      <!-- Hero Section -->
+      <div class="relative w-full h-[60vh] min-h-[500px] overflow-hidden">
+        {props.heroImage && (
+          <img src={props.heroImage} alt={props.heroImageAlt || props.title} class="w-full h-full object-cover filter contrast-125 sepia-[.3]" />
+        )}
+        <div class="absolute inset-0 bg-gradient-to-t from-[#1a2b4c] via-[#1a2b4c]/40 to-transparent opacity-90"></div>
+
+        <!-- Passport Stamps -->
+        {props.passportStamps && props.passportStamps.length > 0 && (
+          <div class="absolute top-12 right-12 z-20 transform rotate-12 opacity-80">
+            <div class="w-32 h-32 rounded-full border-4 border-double border-[#c13a3a] flex items-center justify-center relative">
+              <div class="absolute inset-2 rounded-full border border-[#c13a3a] border-dashed"></div>
+              <div class="text-center text-[#c13a3a] font-typewriter">
+                <p class="text-sm font-bold tracking-widest">{props.passportStamps[0].city}</p>
+                {props.passportStamps[0].detail && <p class="text-[10px] tracking-wider">{props.passportStamps[0].detail}</p>}
+                {props.passportStamps[0].date && <p class="text-xs font-bold mt-1">{props.passportStamps[0].date}</p>}
+              </div>
+            </div>
+          </div>
+        )}
+
+        <div class="absolute bottom-0 left-0 w-full p-6 md:p-16 text-center z-20 flex flex-col items-center">
+          <h1 class="font-anton text-6xl md:text-8xl lg:text-9xl text-[#fceeb5] tracking-wide uppercase text-3d transform -rotate-2 mb-2 leading-none">
+            {props.country || props.title}
+          </h1>
+          {props.region && (
+            <p class="font-cursive text-4xl md:text-6xl text-[#fdfbf2] transform -rotate-2" style="text-shadow: 2px 2px 0px #1a2b4c; -webkit-text-stroke: 1px #1a2b4c">
+              {props.region}
+            </p>
+          )}
+        </div>
+      </div>
+
+      <!-- Body Content -->
+      <div class="p-6 md:p-12 lg:p-16 relative">
+        <div class="max-w-5xl mx-auto relative">
+          <div class="font-sans text-lg leading-relaxed text-[#222] space-y-6
+            prose prose-lg max-w-none
+            prose-headings:font-anton prose-headings:text-[#1a2b4c] prose-headings:uppercase prose-headings:tracking-widest
+            prose-h2:text-4xl prose-h2:md:text-5xl prose-h2:mb-12 prose-h2:text-center prose-h2:border-b-4 prose-h2:border-double prose-h2:border-[#1a2b4c] prose-h2:pb-4
+            prose-a:text-[#c13a3a] prose-a:hover:underline prose-a:decoration-[#d4b872]
+            prose-blockquote:border-l-4 prose-blockquote:border-[#c13a3a] prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:font-serif prose-blockquote:text-2xl
+          ">
+            <slot />
+          </div>
+        </div>
+      </div>
+
+      <!-- You Might Also Like -->
+      <div class="bg-[#1a2b4c] p-8 md:p-16 border-t-[12px] border-double border-[#d4b872]">
+        <h3 class="font-anton text-4xl md:text-5xl text-[#fceeb5] tracking-widest uppercase text-center mb-12">Explore Further</h3>
+        <slot name="related" />
+      </div>
+
+      <Footer />
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,128 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  title: string;
+  subtitle?: string;
+  seriesLabel?: string;
+  heroImage?: string;
+  heroImageAlt?: string;
+  publishDate?: string;
+  excerpt?: string;
+  watchList?: { title: string; year: string; image?: string }[];
+}
+
+const {
+  title,
+  subtitle,
+  seriesLabel,
+  heroImage,
+  heroImageAlt,
+  publishDate,
+  excerpt,
+  watchList = [],
+} = Astro.props;
+---
+
+<BaseLayout title={title} description={excerpt} image={heroImage} type="article">
+  <div class="min-h-screen bg-[#fdfbf2] text-[#1a2b4c] p-2 md:p-8 font-sans" style="background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png')">
+    <div class="max-w-6xl mx-auto border-[12px] border-double border-[#1a2b4c] bg-[#fdfbf2] shadow-2xl relative overflow-hidden">
+
+      <Header backLink="/" backLabel="Return to Lobby" variant="dark" />
+
+      <!-- Hero Section -->
+      <div class="relative w-full h-[60vh] min-h-[400px]">
+        {heroImage && (
+          <img
+            src={heroImage}
+            alt={heroImageAlt || title}
+            class="w-full h-full object-cover filter contrast-125 sepia-[.3]"
+          />
+        )}
+        <div class="absolute inset-0 bg-gradient-to-t from-[#1a2b4c] via-[#1a2b4c]/40 to-transparent opacity-90"></div>
+
+        {seriesLabel && (
+          <div class="absolute top-8 right-8 bg-[#c13a3a] text-[#fceeb5] font-oswald uppercase tracking-[0.2em] px-4 py-2 text-xs md:text-sm border-2 border-[#fceeb5] shadow-[4px_4px_0px_rgba(0,0,0,0.5)] transform rotate-2 z-20">
+            {seriesLabel}
+          </div>
+        )}
+
+        <div class="absolute bottom-0 left-0 w-full p-6 md:p-16 text-center z-20">
+          <h1 class="font-anton text-4xl md:text-6xl lg:text-7xl text-[#fceeb5] tracking-wide uppercase text-3d transform -rotate-1 mb-4 leading-tight">
+            {title}
+          </h1>
+          {subtitle && (
+            <p class="font-cursive text-2xl md:text-4xl text-[#fdfbf2] transform -rotate-1" style="text-shadow: 2px 2px 0px #1a2b4c">
+              {subtitle}
+            </p>
+          )}
+        </div>
+      </div>
+
+      <!-- Content Area -->
+      <div class="p-6 md:p-12 lg:p-16 max-w-6xl mx-auto">
+        <div class="font-sans text-lg leading-relaxed text-[#222]">
+
+          {subtitle && (
+            <p class="text-xl md:text-2xl font-serif italic text-[#1a2b4c] leading-snug mb-12">
+              {subtitle}
+            </p>
+          )}
+
+          <!-- Sidebar (Floated Right on Desktop) -->
+          {watchList.length > 0 && (
+            <aside class="w-full lg:w-[340px] lg:float-right lg:ml-12 lg:mb-10 mb-12 space-y-12 clear-right">
+              <div class="bg-[#1a2b4c] text-[#fceeb5] p-6 border-4 border-[#d4b872] shadow-[8px_8px_0px_#8b5a2b] transform rotate-1">
+                <h3 class="font-anton text-3xl uppercase tracking-wider mb-2 text-center">The Watch List</h3>
+                <p class="font-sans text-xs mb-6 text-center opacity-80 uppercase tracking-widest border-b border-[#d4b872] pb-4">Films to view before your departure</p>
+                <div class="space-y-6">
+                  {watchList.map((film) => (
+                    <div class="flex gap-4 items-center group cursor-pointer">
+                      {film.image && (
+                        <div class="w-16 h-24 border-2 border-[#d4b872] overflow-hidden flex-shrink-0 bg-black">
+                          <img src={film.image} alt={film.title} class="w-full h-full object-cover filter contrast-125 sepia-[.5] group-hover:scale-110 transition-transform" />
+                        </div>
+                      )}
+                      <div>
+                        <h4 class="font-oswald text-lg uppercase tracking-wider leading-tight group-hover:text-white transition-colors">{film.title}</h4>
+                        <span class="font-typewriter text-xs opacity-70 block mb-2">{film.year}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </aside>
+          )}
+
+          <!-- Article Body Content (from Markdoc) -->
+          <div class="prose prose-lg max-w-none
+            prose-headings:font-oswald prose-headings:text-[#c13a3a] prose-headings:uppercase prose-headings:tracking-widest
+            prose-h2:text-3xl prose-h2:border-b-2 prose-h2:border-dotted prose-h2:border-[#d4b872] prose-h2:pb-2 prose-h2:mb-4
+            prose-p:mb-4 prose-p:text-[#222]
+            prose-a:text-[#c13a3a] prose-a:hover:underline prose-a:decoration-[#d4b872] prose-a:underline-offset-4
+            prose-blockquote:border-l-4 prose-blockquote:border-[#c13a3a] prose-blockquote:pl-6 prose-blockquote:py-4 prose-blockquote:bg-[#f4e4bc]/50 prose-blockquote:italic prose-blockquote:font-serif prose-blockquote:text-2xl prose-blockquote:text-[#8b5a2b]
+            prose-img:border prose-img:border-[#d4b872] prose-img:shadow-[4px_4px_0px_rgba(212,184,114,0.4)]
+            prose-figcaption:text-center prose-figcaption:font-typewriter prose-figcaption:text-xs prose-figcaption:text-[#8b5a2b] prose-figcaption:uppercase prose-figcaption:tracking-widest
+          ">
+            <slot />
+          </div>
+
+          <!-- Clear float -->
+          <div class="clear-both"></div>
+        </div>
+      </div>
+
+      <!-- You Might Also Like -->
+      <div class="bg-[#1a2b4c] p-8 md:p-16 border-t-[12px] border-double border-[#d4b872]">
+        <h3 class="font-anton text-4xl md:text-5xl text-[#fceeb5] tracking-widest uppercase text-center mb-12">You Might Also Like</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <slot name="related" />
+        </div>
+      </div>
+
+      <Footer />
+    </div>
+  </div>
+</BaseLayout>

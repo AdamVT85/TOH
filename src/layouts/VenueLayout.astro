@@ -1,0 +1,324 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Footer from '../components/Footer.astro';
+import StarRating from '../components/StarRating.astro';
+
+interface Props {
+  name: string;
+  locationLine?: string;
+  venueType: string;
+  heroImage?: string;
+  heroImageAlt?: string;
+  established?: string;
+  cityCountry?: string;
+  priceIndicator?: string;
+  hollywoodRating?: number;
+  status: string;
+  excerpt?: string;
+  pullQuote?: string;
+  pullQuoteAttribution?: string;
+  gallery?: { image?: string; caption?: string; credit?: string }[];
+  whoCameHere?: { name: string; starGuideSlug?: string }[];
+  asSeenIn?: { title: string; year?: string; filmLocationsSlug?: string }[];
+  signatureExperiences?: { name: string; description?: string; price?: string; availability?: string }[];
+  website?: string;
+  phone?: string;
+  openingHours?: string;
+  priceRange?: string;
+  nearestAirport?: string;
+  transportNotes?: string;
+  dressCode?: string;
+  bestTimeToVisit?: string;
+  tips?: string;
+  bookingUrl?: string;
+  bookingCtaText?: string;
+  whatsThereNow?: string;
+  visitInsteadName?: string;
+  visitInsteadSlug?: string;
+  visitInsteadDescription?: string;
+  nearbyVenues?: { name: string; venueSlug?: string; venueType?: string; distance?: string; image?: string }[];
+}
+
+const props = Astro.props;
+const isClosed = props.status?.toLowerCase().includes('closed') || props.status?.toLowerCase().includes('demolished');
+---
+
+<BaseLayout title={props.name} description={props.excerpt} image={props.heroImage || undefined} type="article">
+  <div class="min-h-screen bg-[#fdfbf2] font-sans">
+
+    <!-- 1. Hero Section -->
+    <section class="relative h-[60vh] md:h-[75vh] w-full bg-[#1a2b4c]">
+      <div class="absolute inset-0">
+        {props.heroImage && (
+          <img
+            src={props.heroImage}
+            alt={props.heroImageAlt || props.name}
+            class={`w-full h-full object-cover ${isClosed ? 'grayscale sepia-[0.3]' : 'contrast-110 saturate-110'}`}
+          />
+        )}
+        <div class="absolute inset-0 bg-gradient-to-t from-[#1a2b4c] via-[#1a2b4c]/40 to-transparent"></div>
+      </div>
+
+      <div class="absolute top-6 left-6 z-50">
+        <a href="/" class="flex items-center gap-2 font-oswald uppercase tracking-widest text-white drop-shadow-md hover:text-[#fceeb5] transition-colors" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.8)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+          Return to Lobby
+        </a>
+      </div>
+
+      <div class="absolute bottom-0 left-0 w-full p-6 md:p-12 lg:p-16 z-10">
+        <div class="max-w-6xl mx-auto">
+          <div class="inline-block px-3 py-1 bg-[#d4b872] text-[#1a2b4c] font-oswald text-xs md:text-sm tracking-widest uppercase mb-4 shadow-md">
+            {props.venueType}
+          </div>
+          <h1 class="font-serif text-5xl md:text-7xl lg:text-8xl text-[#fdfbf2] leading-none mb-4 drop-shadow-lg">
+            {props.name}
+          </h1>
+          {props.locationLine && (
+            <p class="font-sans text-lg md:text-xl text-[#fceeb5] tracking-wide flex items-center gap-2 opacity-90">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              {props.locationLine}
+            </p>
+          )}
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Key Facts Bar -->
+    <div class="bg-[#1a2b4c] text-[#fdfbf2] border-y-4 border-[#d4b872] sticky top-0 z-40 shadow-md">
+      <div class="max-w-6xl mx-auto px-4 md:px-8 py-3 md:py-4 flex flex-wrap items-center justify-between gap-4 md:gap-8 text-sm md:text-base font-sans">
+        {props.established && (
+          <div class="flex items-center gap-2">
+            <span class="text-[#d4b872] font-bold uppercase tracking-wider text-xs">Est.</span>
+            <span>{props.established}</span>
+          </div>
+        )}
+        <div class="hidden md:block w-px h-6 bg-[#d4b872]/30"></div>
+        {props.cityCountry && (
+          <div class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#d4b872]"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            <span>{props.cityCountry}</span>
+          </div>
+        )}
+        <div class="hidden md:block w-px h-6 bg-[#d4b872]/30"></div>
+        {props.priceIndicator && (
+          <div class="flex items-center gap-2">
+            <span class="text-[#d4b872] font-bold uppercase tracking-wider text-xs">Price</span>
+            <span class="font-mono tracking-widest">{props.priceIndicator}</span>
+          </div>
+        )}
+        <div class="hidden md:block w-px h-6 bg-[#d4b872]/30"></div>
+        {props.hollywoodRating && <StarRating rating={props.hollywoodRating} />}
+        <div class="hidden md:block w-px h-6 bg-[#d4b872]/30"></div>
+        <div class="flex items-center gap-2">
+          <span class={`px-2 py-0.5 text-xs font-bold uppercase tracking-wider rounded-sm ${isClosed ? 'bg-red-900/50 text-red-200 border border-red-800' : 'bg-green-900/50 text-green-200 border border-green-800'}`}>
+            {props.status}
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 md:px-8 py-12 md:py-20 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+
+      <!-- Main Content Column -->
+      <div class="lg:col-span-8">
+        <!-- The Story -->
+        <section class="mb-16">
+          <div class="prose prose-lg max-w-none prose-p:font-sans prose-p:text-[#2b3a55] prose-headings:font-serif prose-headings:text-[#1a2b4c]">
+            <h2 class="text-4xl md:text-5xl mb-8 border-b border-[#d4b872]/30 pb-4">The Story</h2>
+            <div class="first-letter:text-7xl first-letter:font-serif first-letter:text-[#c13a3a] first-letter:mr-3 first-letter:float-left first-letter:leading-none">
+              <slot />
+            </div>
+          </div>
+        </section>
+
+        <!-- Gallery -->
+        {props.gallery && props.gallery.length > 0 && (
+          <section class="mb-16">
+            <h2 class="font-serif text-4xl text-[#1a2b4c] mb-8 border-b border-[#d4b872]/30 pb-4">Gallery</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {props.gallery.map((img, idx) => (
+                <div class={`relative group overflow-hidden bg-[#1a2b4c] ${idx === 0 ? 'md:col-span-2 aspect-video' : 'aspect-square'}`}>
+                  {img.image && (
+                    <img src={img.image} alt={img.caption || ''} class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90 group-hover:opacity-100" />
+                  )}
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
+                    {img.caption && <p class="text-white font-sans text-sm">{img.caption}</p>}
+                    {img.credit && <p class="text-white/60 font-typewriter text-xs mt-1 uppercase tracking-wider">Credit: {img.credit}</p>}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <!-- Signature Experiences -->
+        {!isClosed && props.signatureExperiences && props.signatureExperiences.length > 0 && (
+          <section class="mb-16">
+            <h2 class="font-serif text-4xl text-[#1a2b4c] mb-8 border-b border-[#d4b872]/30 pb-4">Signature Experiences</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {props.signatureExperiences.map((exp) => (
+                <div class="bg-white border border-[#e8d5b5] p-6 shadow-sm hover:shadow-md transition-shadow">
+                  <h3 class="font-serif text-2xl text-[#1a2b4c] mb-2">{exp.name}</h3>
+                  {exp.description && <p class="font-sans text-sm text-[#2b3a55] mb-4">{exp.description}</p>}
+                  <div class="flex flex-wrap items-center gap-4 text-xs font-sans text-[#8b5a2b] uppercase tracking-wider">
+                    {exp.price && <span class="flex items-center gap-1">{exp.price}</span>}
+                    {exp.availability && <span class="flex items-center gap-1">{exp.availability}</span>}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <!-- What's There Now (closed venues) -->
+        {isClosed && props.whatsThereNow && (
+          <section class="mb-16 bg-[#1a2b4c]/5 border-l-4 border-[#1a2b4c] p-6 md:p-8">
+            <h2 class="font-serif text-3xl text-[#1a2b4c] mb-4">What's There Now?</h2>
+            <p class="font-sans text-[#2b3a55]">{props.whatsThereNow}</p>
+            {props.visitInsteadName && (
+              <div class="mt-6 pt-6 border-t border-[#1a2b4c]/10">
+                <h3 class="font-oswald text-sm tracking-widest uppercase text-[#c13a3a] mb-2">Visit Instead</h3>
+                <a href={props.visitInsteadSlug ? `/venues/${props.visitInsteadSlug}` : '#'} class="inline-flex items-center gap-2 font-serif text-2xl text-[#1a2b4c] hover:text-[#c13a3a] transition-colors">
+                  {props.visitInsteadName}
+                </a>
+                {props.visitInsteadDescription && <p class="font-sans text-sm text-[#2b3a55] mt-1">{props.visitInsteadDescription}</p>}
+              </div>
+            )}
+          </section>
+        )}
+      </div>
+
+      <!-- Sidebar Column -->
+      <div class="lg:col-span-4 space-y-8">
+        <!-- Famous Connections -->
+        {(props.whoCameHere?.length || props.asSeenIn?.length) && (
+          <div class="bg-[#f4e4bc] border-2 border-[#d4b872] p-6 md:p-8 shadow-[8px_8px_0px_#1a2b4c]">
+            <h3 class="font-anton text-2xl uppercase tracking-widest text-[#1a2b4c] mb-6 text-center">Famous Connections</h3>
+
+            {props.whoCameHere && props.whoCameHere.length > 0 && (
+              <div class="mb-8">
+                <h4 class="font-oswald text-sm tracking-widest uppercase text-[#c13a3a] mb-3 border-b border-[#d4b872] pb-1">Who Came Here</h4>
+                <div class="flex flex-wrap gap-2">
+                  {props.whoCameHere.map((star, idx) => (
+                    <>
+                      <a href={star.starGuideSlug ? `/stars/${star.starGuideSlug}` : '#'} class="font-sans text-sm text-[#1a2b4c] hover:text-[#c13a3a] hover:underline decoration-[#d4b872] underline-offset-4 transition-colors">
+                        {star.name}
+                      </a>
+                      {idx < (props.whoCameHere?.length || 0) - 1 && <span class="text-[#d4b872]">&middot;</span>}
+                    </>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {props.asSeenIn && props.asSeenIn.length > 0 && (
+              <div>
+                <h4 class="font-oswald text-sm tracking-widest uppercase text-[#c13a3a] mb-3 border-b border-[#d4b872] pb-1">As Seen In</h4>
+                <ul class="space-y-2">
+                  {props.asSeenIn.map((film) => (
+                    <li>
+                      <a href={film.filmLocationsSlug ? `/film-locations/${film.filmLocationsSlug}` : '#'} class="group flex items-baseline justify-between font-sans text-sm text-[#1a2b4c]">
+                        <span class="group-hover:text-[#c13a3a] transition-colors italic">{film.title}</span>
+                        {film.year && <span class="font-typewriter text-xs text-[#8b5a2b]">{film.year}</span>}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
+
+        <!-- Plan Your Visit -->
+        {!isClosed && (props.website || props.phone || props.openingHours) && (
+          <div class="bg-white border border-[#e8d5b5] p-6 md:p-8 shadow-md">
+            <h3 class="font-serif text-3xl text-[#1a2b4c] mb-6 border-b border-[#e8d5b5] pb-4">Plan Your Visit</h3>
+
+            <div class="space-y-4 mb-8">
+              {props.openingHours && (
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#c13a3a] mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span class="font-sans text-sm text-[#2b3a55]">{props.openingHours}</span>
+                </div>
+              )}
+              {props.phone && (
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#c13a3a] mt-0.5 shrink-0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <span class="font-sans text-sm text-[#2b3a55]">{props.phone}</span>
+                </div>
+              )}
+              {props.website && (
+                <div class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#c13a3a] mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                  <a href={props.website} target="_blank" rel="noopener noreferrer" class="font-sans text-sm text-[#c13a3a] hover:underline break-all">
+                    Official Website
+                  </a>
+                </div>
+              )}
+            </div>
+
+            {(props.dressCode || props.bestTimeToVisit || props.tips) && (
+              <div class="space-y-2 mb-8">
+                <h4 class="font-oswald text-xs tracking-widest uppercase text-[#8b5a2b] mb-2">Good to Know</h4>
+                <ul class="space-y-2 font-sans text-sm text-[#2b3a55]">
+                  {props.dressCode && <li><strong>Dress Code:</strong> {props.dressCode}</li>}
+                  {props.bestTimeToVisit && <li><strong>Best Time:</strong> {props.bestTimeToVisit}</li>}
+                  {props.tips && <li><strong>Tip:</strong> {props.tips}</li>}
+                </ul>
+              </div>
+            )}
+
+            {props.bookingUrl && (
+              <div class="mt-8 pt-6 border-t border-[#e8d5b5]">
+                {props.priceRange && (
+                  <div class="text-center mb-4">
+                    <span class="font-oswald text-xs tracking-widest uppercase text-[#8b5a2b]">Typical Rates</span>
+                    <p class="font-serif text-xl text-[#1a2b4c] font-bold">{props.priceRange}</p>
+                  </div>
+                )}
+                <a href={props.bookingUrl} target="_blank" rel="noopener noreferrer" class="block w-full bg-[#1a2b4c] text-[#fceeb5] text-center font-oswald text-lg tracking-widest uppercase py-4 hover:bg-[#c13a3a] transition-colors">
+                  {props.bookingCtaText || "Book Now"}
+                </a>
+                <p class="text-center font-sans text-[10px] text-[#8b5a2b] mt-3 opacity-70">
+                  Booking via our partners helps support Travel Old Hollywood.
+                </p>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+
+    <!-- Nearby -->
+    {props.nearbyVenues && props.nearbyVenues.length > 0 && (
+      <section class="bg-[#1a2b4c] py-16 border-t-8 border-double border-[#d4b872]">
+        <div class="max-w-6xl mx-auto px-4 md:px-8">
+          <div class="flex flex-col md:flex-row justify-between items-end mb-10 gap-4">
+            <div>
+              <h2 class="font-anton text-4xl md:text-5xl text-[#fceeb5] uppercase tracking-widest">Nearby</h2>
+              <p class="font-cursive text-2xl text-[#d4b872] mt-2">Continue the tour</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {props.nearbyVenues.map((item) => (
+              <a href={item.venueSlug ? `/venues/${item.venueSlug}` : '#'} class="group flex items-center gap-4 bg-[#2b3a55] p-3 hover:bg-[#3a4a65] transition-colors border border-[#d4b872]/20 hover:border-[#d4b872]/60">
+                {item.image && (
+                  <div class="w-20 h-20 shrink-0 overflow-hidden">
+                    <img src={item.image} alt={item.name} class="w-full h-full object-cover grayscale sepia-[0.2] group-hover:grayscale-0 transition-all duration-500" />
+                  </div>
+                )}
+                <div>
+                  <span class="font-oswald text-[10px] tracking-widest uppercase text-[#d4b872] block mb-1">{item.venueType} &middot; {item.distance}</span>
+                  <h4 class="font-serif text-xl text-[#fdfbf2] leading-tight group-hover:text-[#fceeb5] transition-colors">{item.name}</h4>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <Footer />
+  </div>
+</BaseLayout>

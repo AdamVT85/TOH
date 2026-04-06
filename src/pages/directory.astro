@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+
+// Fetch all collections
+const allStars = await reader.collections.starGuides.all();
+const allFilms = await reader.collections.filmLocations.all();
+const allVenues = await reader.collections.venues.all();
+
+// Group by first letter
+function groupByLetter(items: { slug: string; entry: { name?: string; filmTitle?: string } }[], nameKey: 'name' | 'filmTitle') {
+  const grouped: Record<string, { name: string; slug: string }[]> = {};
+  for (const item of items) {
+    const name = (item.entry as any)[nameKey] as string;
+    const letter = name.charAt(0).toUpperCase();
+    if (!grouped[letter]) grouped[letter] = [];
+    grouped[letter].push({ name, slug: item.slug });
+  }
+  return Object.entries(grouped).sort(([a], [b]) => a.localeCompare(b));
+}
+
+const starsByLetter = groupByLetter(allStars, 'name');
+const filmsByLetter = groupByLetter(allFilms, 'filmTitle');
+const venuesByLetter = groupByLetter(allVenues, 'name');
+---
+
+<BaseLayout title="Film, Star & Venue Index" description="A comprehensive directory of Old Hollywood stars, films, and venues.">
+  <div class="min-h-screen bg-[#fdfbf2] text-[#1a2b4c] p-4 md:p-12 font-sans" style="background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png')">
+    <div class="max-w-6xl mx-auto border-[12px] border-double border-[#1a2b4c] p-6 md:p-16 bg-[#fdfbf2] shadow-2xl relative">
+
+      <Header backLink="/" backLabel="Return to Lobby" variant="light" />
+
+      <!-- Playbill Header -->
+      <div class="text-center mb-16 mt-8">
+        <p class="font-oswald uppercase tracking-[0.3em] text-sm md:text-base mb-4 text-[#8b5a2b]">The Management Presents</p>
+        <h1 class="font-anton text-5xl md:text-7xl tracking-wide uppercase mb-4 text-[#1a2b4c]">Film, Star & Venue Index</h1>
+        <div class="flex items-center justify-center gap-4 mb-4">
+          <div class="h-px w-16 bg-[#1a2b4c]"></div>
+          <span class="font-typewriter text-xl text-[#1a2b4c]">Directory of the Golden Age</span>
+          <div class="h-px w-16 bg-[#1a2b4c]"></div>
+        </div>
+        <p class="font-cursive text-3xl text-[#c13a3a] mt-6">A comprehensive guide to our curated features</p>
+      </div>
+
+      <!-- Three Column Layout -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
+
+        <!-- Stars Column -->
+        <div>
+          <h2 class="font-anton text-3xl text-center border-b-4 border-double border-[#1a2b4c] pb-4 mb-8 uppercase tracking-wider text-[#1a2b4c]">Stars A-Z</h2>
+          <div class="space-y-8">
+            {starsByLetter.length > 0 ? starsByLetter.map(([letter, items]) => (
+              <div class="relative">
+                <div class="flex items-baseline gap-4 mb-4">
+                  <h3 class="font-oswald text-3xl text-[#c13a3a]">{letter}</h3>
+                  <div class="h-px flex-grow border-b-2 border-dotted border-[#d4b872]"></div>
+                </div>
+                <ul class="space-y-3 pl-4">
+                  {items.map((item) => (
+                    <li class="font-sans text-base text-[#1a2b4c]">
+                      <a href={`/stars/${item.slug}`} class="hover:text-[#c13a3a] hover:italic transition-all flex justify-between group">
+                        <span>{item.name}</span>
+                        <span class="opacity-0 group-hover:opacity-100 font-typewriter text-[10px] text-[#8b5a2b] transition-opacity uppercase tracking-widest mt-1">View</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )) : (
+              <p class="font-sans text-sm text-[#8b5a2b] italic text-center">No star guides yet. Check back soon.</p>
+            )}
+          </div>
+        </div>
+
+        <!-- Films Column -->
+        <div>
+          <h2 class="font-anton text-3xl text-center border-b-4 border-double border-[#1a2b4c] pb-4 mb-8 uppercase tracking-wider text-[#1a2b4c]">Films A-Z</h2>
+          <div class="space-y-8">
+            {filmsByLetter.length > 0 ? filmsByLetter.map(([letter, items]) => (
+              <div class="relative">
+                <div class="flex items-baseline gap-4 mb-4">
+                  <h3 class="font-oswald text-3xl text-[#c13a3a]">{letter}</h3>
+                  <div class="h-px flex-grow border-b-2 border-dotted border-[#d4b872]"></div>
+                </div>
+                <ul class="space-y-3 pl-4">
+                  {items.map((item) => (
+                    <li class="font-sans text-base text-[#1a2b4c]">
+                      <a href={`/film-locations/${item.slug}`} class="hover:text-[#c13a3a] hover:italic transition-all flex justify-between group">
+                        <span>{item.name}</span>
+                        <span class="opacity-0 group-hover:opacity-100 font-typewriter text-[10px] text-[#8b5a2b] transition-opacity uppercase tracking-widest mt-1">View</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )) : (
+              <p class="font-sans text-sm text-[#8b5a2b] italic text-center">No film location guides yet. Check back soon.</p>
+            )}
+          </div>
+        </div>
+
+        <!-- Venues Column -->
+        <div>
+          <h2 class="font-anton text-3xl text-center border-b-4 border-double border-[#1a2b4c] pb-4 mb-8 uppercase tracking-wider text-[#1a2b4c]">Venues A-Z</h2>
+          <div class="space-y-8">
+            {venuesByLetter.length > 0 ? venuesByLetter.map(([letter, items]) => (
+              <div class="relative">
+                <div class="flex items-baseline gap-4 mb-4">
+                  <h3 class="font-oswald text-3xl text-[#c13a3a]">{letter}</h3>
+                  <div class="h-px flex-grow border-b-2 border-dotted border-[#d4b872]"></div>
+                </div>
+                <ul class="space-y-3 pl-4">
+                  {items.map((item) => (
+                    <li class="font-sans text-base text-[#1a2b4c]">
+                      <a href={`/venues/${item.slug}`} class="hover:text-[#c13a3a] hover:italic transition-all flex justify-between group">
+                        <span>{item.name}</span>
+                        <span class="opacity-0 group-hover:opacity-100 font-typewriter text-[10px] text-[#8b5a2b] transition-opacity uppercase tracking-widest mt-1">View</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )) : (
+              <p class="font-sans text-sm text-[#8b5a2b] italic text-center">No venue guides yet. Check back soon.</p>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Ornament -->
+      <div class="mt-20 text-center">
+        <div class="font-typewriter text-[#8b5a2b] tracking-[0.5em]">***</div>
+        <p class="font-oswald uppercase tracking-widest text-sm mt-4 text-[#1a2b4c] opacity-70">Expandable as the archive grows</p>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,35 @@
+---
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../../keystatic.config';
+import DestinationLayout from '../../layouts/DestinationLayout.astro';
+import Markdoc from '@markdoc/markdoc';
+
+export async function getStaticPaths() {
+  const reader = createReader(process.cwd(), keystaticConfig);
+  const destinations = await reader.collections.destinations.all();
+  return destinations.map((dest) => ({
+    params: { slug: dest.slug },
+    props: { slug: dest.slug },
+  }));
+}
+
+const { slug } = Astro.props;
+const reader = createReader(process.cwd(), keystaticConfig);
+const dest = await reader.collections.destinations.read(slug);
+if (!dest) return Astro.redirect('/404');
+
+const body = await dest.body();
+const rendered = Markdoc.renderers.html(body.node);
+---
+
+<DestinationLayout
+  title={dest.title}
+  country={dest.country}
+  region={dest.region}
+  heroImage={dest.heroImage || undefined}
+  heroImageAlt={dest.heroImageAlt}
+  excerpt={dest.excerpt}
+  passportStamps={dest.passportStamps}
+>
+  <Fragment set:html={rendered} />
+</DestinationLayout>

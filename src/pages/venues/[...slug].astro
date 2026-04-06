@@ -1,0 +1,61 @@
+---
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../../keystatic.config';
+import VenueLayout from '../../layouts/VenueLayout.astro';
+import Markdoc from '@markdoc/markdoc';
+
+export async function getStaticPaths() {
+  const reader = createReader(process.cwd(), keystaticConfig);
+  const venues = await reader.collections.venues.all();
+  return venues.map((venue) => ({
+    params: { slug: venue.slug },
+    props: { slug: venue.slug },
+  }));
+}
+
+const { slug } = Astro.props;
+const reader = createReader(process.cwd(), keystaticConfig);
+const venue = await reader.collections.venues.read(slug);
+if (!venue) return Astro.redirect('/404');
+
+const story = await venue.story();
+const rendered = Markdoc.renderers.html(story.node);
+---
+
+<VenueLayout
+  name={venue.name}
+  locationLine={venue.locationLine}
+  venueType={venue.venueType}
+  heroImage={venue.heroImage || undefined}
+  heroImageAlt={venue.heroImageAlt}
+  established={venue.established}
+  cityCountry={venue.cityCountry}
+  priceIndicator={venue.priceIndicator}
+  hollywoodRating={venue.hollywoodRating || undefined}
+  status={venue.status}
+  excerpt={venue.excerpt}
+  pullQuote={venue.pullQuote}
+  pullQuoteAttribution={venue.pullQuoteAttribution}
+  gallery={venue.gallery}
+  whoCameHere={venue.whoCameHere}
+  asSeenIn={venue.asSeenIn}
+  signatureExperiences={venue.signatureExperiences}
+  website={venue.website || undefined}
+  phone={venue.phone}
+  openingHours={venue.openingHours}
+  priceRange={venue.priceRange}
+  nearestAirport={venue.nearestAirport}
+  transportNotes={venue.transportNotes}
+  dressCode={venue.dressCode}
+  bestTimeToVisit={venue.bestTimeToVisit}
+  tips={venue.tips}
+  bookingUrl={venue.bookingUrl || undefined}
+  bookingCtaText={venue.bookingCtaText}
+  whatsThereNow={venue.whatsThereNow}
+  visitInsteadName={venue.visitInsteadName}
+  visitInsteadSlug={venue.visitInsteadSlug}
+  visitInsteadDescription={venue.visitInsteadDescription}
+  nearbyVenues={venue.nearbyVenues}
+>
+  <Fragment set:html={rendered} />
+</VenueLayout>

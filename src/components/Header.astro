@@ -1,0 +1,25 @@
+---
+interface Props {
+  backLink?: string;
+  backLabel?: string;
+  variant?: 'light' | 'dark';
+}
+
+const { backLink = '/', backLabel = 'Return to Lobby', variant = 'dark' } = Astro.props;
+---
+
+<div class="absolute top-6 left-6 z-50">
+  <a
+    href={backLink}
+    class:list={[
+      'flex items-center gap-2 font-oswald uppercase tracking-widest transition-colors',
+      variant === 'dark'
+        ? 'text-white drop-shadow-md hover:text-[#fceeb5]'
+        : 'text-[#c13a3a] hover:text-[#1a2b4c]',
+    ]}
+    style={variant === 'dark' ? 'text-shadow: 1px 1px 2px rgba(0,0,0,0.8)' : undefined}
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+    {backLabel}
+  </a>
+</div>
