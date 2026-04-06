@@ -1,35 +1,69 @@
 name: Audrey Hepburn
-nickname: "The Eternal Gamine"
+nickname: The Eternal Gamine
 birthYear: 1929
 deathYear: 1993
-excerpt: "Follow Audrey Hepburn's footsteps from the Spanish Steps to the Swiss Alps — a guide to the real-world locations of Hollywood's most beloved icon."
-publishDate: "2025-07-01"
+portraitImage: /src/assets/stars/audrey-hepburn/portraitImage.jpg
+heroImage: /src/assets/stars/audrey-hepburn/heroImage.png
+excerpt: >-
+  Follow Audrey Hepburn's footsteps from the Spanish Steps to the Swiss Alps — a
+  guide to the real-world locations of Hollywood's most beloved icon.
+publishDate: 2025-07-01
 keyFilms:
-  - title: "Roman Holiday"
-    year: "1953"
-  - title: "Breakfast at Tiffany's"
-    year: "1961"
-  - title: "Funny Face"
-    year: "1957"
-  - title: "Charade"
-    year: "1963"
+  - title: Roman Holiday
+    year: '1953'
+  - title: Breakfast at Tiffany's
+    year: '1961'
+  - title: Funny Face
+    year: '1957'
+  - title: Charade
+    year: '1963'
 keyDestinations:
-  - "Rome, Italy"
-  - "Paris, France"
-  - "Tolochenaz, Switzerland"
+  - Rome, Italy
+  - Paris, France
+  - Tolochenaz, Switzerland
 relatedStars: []
 relatedVenues: []
 relatedArticles: []
 sections:
-  - heading: ""
-    copy: "No star has left a more enchanting trail across Europe than Audrey Hepburn. Born in Brussels, raised between Belgium, England, and the Netherlands, and ultimately laid to rest in a small Swiss village, Hepburn lived a life that reads like an itinerary through the most beautiful corners of the continent. Her films only deepened the connection — she made Rome feel like a fairy tale, Paris like a fashion plate, and the Swiss countryside like the quietest kind of paradise."
-    callout: ""
-  - heading: "Rome: The Eternal Stage"
-    copy: "Begin where her legend truly began: Rome. In 1953, William Wyler's Roman Holiday turned the city into Hepburn's co-star, and the locations from that film remain virtually unchanged. The Spanish Steps, where Princess Ann falls asleep and is found by Gregory Peck's reporter, are still thronged with visitors — many of them there because of Hepburn. Walk from there to the Mouth of Truth at Santa Maria in Cosmedin, ride a Vespa along the Tiber embankment, and finish at Castel Sant'Angelo. Rome was Hepburn's first great city on screen, and the romance between actress and location has never faded."
-    callout: ""
-  - heading: "Paris: Funny Face and Beyond"
-    copy: "Paris claimed Hepburn next. In Funny Face (1957), she descended the staircase beneath the Winged Victory of Samothrace at the Louvre, danced in a bohemian cafe near Saint-Germain-des-Pres, and posed for photographs against every landmark the city could offer. Later, in Charade (1963), she and Cary Grant turned the Palais-Royal gardens, the outdoor stamp market along the Champs-Elysees, and a bateau-mouche on the Seine into settings for elegant suspense. Today, a visitor can piece together a full day of Hepburn's Paris simply by walking from the Right Bank to the Left and back again."
-    callout: ""
-  - heading: "Tolochenaz: A Quiet Ending"
-    copy: "The trail ends in the village of Tolochenaz, near Lausanne, Switzerland, where Hepburn spent the last three decades of her life at a farmhouse called La Paisible. She chose this place deliberately — far from Hollywood, surrounded by orchards, with a view of Lake Geneva and the Alps. She is buried in the village cemetery, and her grave is always adorned with fresh flowers left by visitors who have made the pilgrimage. It is a quiet, modest place, perfectly suited to a woman who spent her later years devoted to humanitarian work with UNICEF rather than to the spotlight. Visiting Tolochenaz is less a tourist stop and more an act of gratitude."
-    callout: ""
+  - copy: >-
+      No star has left a more enchanting trail across Europe than Audrey
+      Hepburn. Born in Brussels, raised between Belgium, England, and the
+      Netherlands, and ultimately laid to rest in a small Swiss village, Hepburn
+      lived a life that reads like an itinerary through the most beautiful
+      corners of the continent. Her films only deepened the connection — she
+      made Rome feel like a fairy tale, Paris like a fashion plate, and the
+      Swiss countryside like the quietest kind of paradise.
+  - heading: 'Rome: The Eternal Stage'
+    copy: >-
+      Begin where her legend truly began: Rome. In 1953, William Wyler's Roman
+      Holiday turned the city into Hepburn's co-star, and the locations from
+      that film remain virtually unchanged. The Spanish Steps, where Princess
+      Ann falls asleep and is found by Gregory Peck's reporter, are still
+      thronged with visitors — many of them there because of Hepburn. Walk from
+      there to the Mouth of Truth at Santa Maria in Cosmedin, ride a Vespa along
+      the Tiber embankment, and finish at Castel Sant'Angelo. Rome was Hepburn's
+      first great city on screen, and the romance between actress and location
+      has never faded.
+  - heading: 'Paris: Funny Face and Beyond'
+    copy: >-
+      Paris claimed Hepburn next. In Funny Face (1957), she descended the
+      staircase beneath the Winged Victory of Samothrace at the Louvre, danced
+      in a bohemian cafe near Saint-Germain-des-Pres, and posed for photographs
+      against every landmark the city could offer. Later, in Charade (1963), she
+      and Cary Grant turned the Palais-Royal gardens, the outdoor stamp market
+      along the Champs-Elysees, and a bateau-mouche on the Seine into settings
+      for elegant suspense. Today, a visitor can piece together a full day of
+      Hepburn's Paris simply by walking from the Right Bank to the Left and back
+      again.
+  - heading: 'Tolochenaz: A Quiet Ending'
+    copy: >-
+      The trail ends in the village of Tolochenaz, near Lausanne, Switzerland,
+      where Hepburn spent the last three decades of her life at a farmhouse
+      called La Paisible. She chose this place deliberately — far from
+      Hollywood, surrounded by orchards, with a view of Lake Geneva and the
+      Alps. She is buried in the village cemetery, and her grave is always
+      adorned with fresh flowers left by visitors who have made the pilgrimage.
+      It is a quiet, modest place, perfectly suited to a woman who spent her
+      later years devoted to humanitarian work with UNICEF rather than to the
+      spotlight. Visiting Tolochenaz is less a tourist stop and more an act of
+      gratitude.
