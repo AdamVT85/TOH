@@ -4,12 +4,12 @@ import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 import keystatic from '@keystatic/astro';
 import sitemap from '@astrojs/sitemap';
-import node from '@astrojs/node';
+import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://traveloldhollywood.com',
-  adapter: node({ mode: 'standalone' }),
+  adapter: vercel(),
   integrations: [react(), keystatic(), sitemap()],
   vite: {
     plugins: [tailwindcss()],
