@@ -23,7 +23,7 @@ watchList:
 sections:
   - heading: Beverly Hills Hotel Pool
     image: >-
-      /src/assets/articles/swimming-pools-of-classic-hollywood/sections/0/image.jpg
+      /images/articles/swimming-pools-of-classic-hollywood/sections/0/image.jpg
     imageAlt: Beverly Hills Hotel Pool
     caption: The Sand and Pool Club, circa 1950
     copy: >-
@@ -56,7 +56,7 @@ sections:
       photographer as "one of the most Hollywood pictures of all time."
   - heading: Roosevelt Hotel Pool
     image: >-
-      /src/assets/articles/swimming-pools-of-classic-hollywood/sections/1/image.png
+      /images/articles/swimming-pools-of-classic-hollywood/sections/1/image.png
     imageAlt: Roosevelt Hotel Pool
     caption: Tropicana Pool, Los Angeles
     copy: >-

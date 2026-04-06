@@ -19,8 +19,8 @@ export default config({
         }),
         heroImage: fields.image({
           label: 'Hero Image',
-          directory: 'src/assets/articles',
-          publicPath: '/src/assets/articles/',
+          directory: 'public/images/articles',
+          publicPath: '/images/articles/',
         }),
         heroImageAlt: fields.text({ label: 'Hero Image Alt Text' }),
         publishDate: fields.date({ label: 'Publish Date' }),
@@ -109,13 +109,13 @@ export default config({
         deathYear: fields.integer({ label: 'Death Year' }),
         portraitImage: fields.image({
           label: 'Portrait Image',
-          directory: 'src/assets/stars',
-          publicPath: '/src/assets/stars/',
+          directory: 'public/images/stars',
+          publicPath: '/images/stars/',
         }),
         heroImage: fields.image({
           label: 'Hero Background Image',
-          directory: 'src/assets/stars',
-          publicPath: '/src/assets/stars/',
+          directory: 'public/images/stars',
+          publicPath: '/images/stars/',
         }),
         excerpt: fields.text({ label: 'Excerpt / Meta Description', multiline: true }),
         publishDate: fields.date({ label: 'Publish Date' }),
@@ -226,8 +226,8 @@ export default config({
         }),
         heroImage: fields.image({
           label: 'Hero Image',
-          directory: 'src/assets/venues',
-          publicPath: '/src/assets/venues/',
+          directory: 'public/images/venues',
+          publicPath: '/images/venues/',
         }),
         heroImageAlt: fields.text({ label: 'Hero Image Alt Text' }),
         excerpt: fields.text({ label: 'Excerpt / Meta Description', multiline: true }),
@@ -372,8 +372,8 @@ export default config({
         primaryLocations: fields.text({ label: 'Primary Filming Locations (comma separated)' }),
         heroImage: fields.image({
           label: 'Hero Image',
-          directory: 'src/assets/film-locations',
-          publicPath: '/src/assets/film-locations/',
+          directory: 'public/images/film-locations',
+          publicPath: '/images/film-locations/',
         }),
         heroImageAlt: fields.text({ label: 'Hero Image Alt Text' }),
         excerpt: fields.text({ label: 'Excerpt / Meta Description', multiline: true }),
@@ -483,8 +483,8 @@ export default config({
         region: fields.text({ label: 'Region / Subheading' }),
         heroImage: fields.image({
           label: 'Hero Image',
-          directory: 'src/assets/destinations',
-          publicPath: '/src/assets/destinations/',
+          directory: 'public/images/destinations',
+          publicPath: '/images/destinations/',
         }),
         heroImageAlt: fields.text({ label: 'Hero Image Alt Text' }),
         excerpt: fields.text({ label: 'Excerpt / Meta Description', multiline: true }),
@@ -555,8 +555,8 @@ export default config({
         subheadline: fields.text({ label: 'Subheadline' }),
         heroImage: fields.image({
           label: 'Hero Image',
-          directory: 'src/assets',
-          publicPath: '/src/assets/',
+          directory: 'public/images',
+          publicPath: '/images/',
         }),
         featuredDestinations: fields.array(
           fields.object({
