@@ -55,6 +55,8 @@ sections:
       Faye Dunaway's iconic poolside photograph... was described by the
       photographer as "one of the most Hollywood pictures of all time."
   - heading: Roosevelt Hotel Pool
+    image: >-
+      /src/assets/articles/swimming-pools-of-classic-hollywood/sections/1/image.png
     imageAlt: Roosevelt Hotel Pool
     caption: Tropicana Pool, Los Angeles
     copy: >-
