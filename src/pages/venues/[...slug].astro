@@ -19,7 +19,7 @@ const venue = await reader.collections.venues.read(slug);
 if (!venue) return Astro.redirect('/404');
 
 const story = await venue.story();
-const rendered = Markdoc.renderers.html(story.node);
+const rendered = Markdoc.renderers.html(Markdoc.transform(story.node));
 ---
 
 <VenueLayout

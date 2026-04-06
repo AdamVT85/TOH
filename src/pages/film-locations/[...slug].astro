@@ -19,7 +19,7 @@ const guide = await reader.collections.filmLocations.read(slug);
 if (!guide) return Astro.redirect('/404');
 
 const intro = await guide.introduction();
-const rendered = Markdoc.renderers.html(intro.node);
+const rendered = Markdoc.renderers.html(Markdoc.transform(intro.node));
 ---
 
 <FilmLocationsLayout

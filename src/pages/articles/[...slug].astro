@@ -19,7 +19,7 @@ const article = await reader.collections.articles.read(slug);
 if (!article) return Astro.redirect('/404');
 
 const body = await article.body();
-const rendered = Markdoc.renderers.html(body.node);
+const rendered = Markdoc.renderers.html(Markdoc.transform(body.node));
 ---
 
 <ArticleLayout
