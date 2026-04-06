@@ -2,8 +2,8 @@ name: Audrey Hepburn
 nickname: The Eternal Gamine
 birthYear: 1929
 deathYear: 1993
-portraitImage: /src/assets/stars/audrey-hepburn/portraitImage.jpg
-heroImage: /src/assets/stars/audrey-hepburn/heroImage.png
+portraitImage: /images/stars/audrey-hepburn/portraitImage.jpg
+heroImage: /images/stars/audrey-hepburn/heroImage.png
 excerpt: >-
   Follow Audrey Hepburn's footsteps from the Spanish Steps to the Swiss Alps — a
   guide to the real-world locations of Hollywood's most beloved icon.
