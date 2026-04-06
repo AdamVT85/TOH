@@ -3,6 +3,16 @@ import BaseLayout from './BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
+interface Section {
+  heading?: string;
+  venueSlug?: string;
+  image?: string;
+  imageAlt?: string;
+  caption?: string;
+  copy?: string;
+  callout?: string;
+}
+
 interface Props {
   title: string;
   subtitle?: string;
@@ -12,6 +22,8 @@ interface Props {
   publishDate?: string;
   excerpt?: string;
   watchList?: { title: string; year: string; image?: string }[];
+  sections?: Section[];
+  destinationTags?: string[];
 }
 
 const {
@@ -23,6 +35,8 @@ const {
   publishDate,
   excerpt,
   watchList = [],
+  sections = [],
+  destinationTags = [],
 } = Astro.props;
 ---
 
@@ -96,18 +110,61 @@ const {
             </aside>
           )}
 
-          <!-- Article Body Content (from Markdoc) -->
-          <div class="prose prose-lg max-w-none
-            prose-headings:font-oswald prose-headings:text-[#c13a3a] prose-headings:uppercase prose-headings:tracking-widest
-            prose-h2:text-3xl prose-h2:border-b-2 prose-h2:border-dotted prose-h2:border-[#d4b872] prose-h2:pb-2 prose-h2:mb-4
-            prose-p:mb-4 prose-p:text-[#222]
-            prose-a:text-[#c13a3a] prose-a:hover:underline prose-a:decoration-[#d4b872] prose-a:underline-offset-4
-            prose-blockquote:border-l-4 prose-blockquote:border-[#c13a3a] prose-blockquote:pl-6 prose-blockquote:py-4 prose-blockquote:bg-[#f4e4bc]/50 prose-blockquote:italic prose-blockquote:font-serif prose-blockquote:text-2xl prose-blockquote:text-[#8b5a2b]
-            prose-img:border prose-img:border-[#d4b872] prose-img:shadow-[4px_4px_0px_rgba(212,184,114,0.4)]
-            prose-figcaption:text-center prose-figcaption:font-typewriter prose-figcaption:text-xs prose-figcaption:text-[#8b5a2b] prose-figcaption:uppercase prose-figcaption:tracking-widest
-          ">
-            <slot />
-          </div>
+          <!-- Article Sections -->
+          {sections.map((section, i) => (
+            <div class="mb-12">
+              {section.heading && (
+                <h2 class="font-oswald text-3xl text-[#c13a3a] uppercase tracking-widest mb-4 border-b-2 border-dotted border-[#d4b872] pb-2">
+                  {section.venueSlug ? (
+                    <a href={`/venues/${section.venueSlug}`} class="hover:text-[#1a2b4c] transition-colors">{section.heading}</a>
+                  ) : (
+                    section.heading
+                  )}
+                </h2>
+              )}
+
+              {section.image && (
+                <figure class={`my-6 p-2 bg-[#fdfbf2] border border-[#d4b872] shadow-[4px_4px_0px_rgba(212,184,114,0.4)] ${i % 2 === 0 ? 'transform -rotate-1' : 'transform rotate-1'} flow-root`}>
+                  {section.venueSlug ? (
+                    <a href={`/venues/${section.venueSlug}`}>
+                      <img src={section.image} alt={section.imageAlt || section.heading} class="w-full h-64 md:h-96 object-cover filter contrast-125 sepia-[.3]" />
+                    </a>
+                  ) : (
+                    <img src={section.image} alt={section.imageAlt || section.heading} class="w-full h-64 md:h-96 object-cover filter contrast-125 sepia-[.3]" />
+                  )}
+                  {section.caption && (
+                    <figcaption class="text-center font-typewriter text-xs text-[#8b5a2b] mt-3 mb-1 uppercase tracking-widest">{section.caption}</figcaption>
+                  )}
+                </figure>
+              )}
+
+              {section.copy && section.copy.split('\n\n').map((para) => (
+                <p class="mb-4" set:html={para} />
+              ))}
+
+              {section.callout && (
+                <blockquote class="my-10 border-l-4 border-[#c13a3a] pl-6 py-4 bg-[#f4e4bc]/50 italic font-serif text-2xl text-[#8b5a2b] relative shadow-sm flow-root">
+                  <span class="absolute -top-6 -left-4 font-anton text-8xl text-[#c13a3a] opacity-20">"</span>
+                  {section.callout}
+                </blockquote>
+              )}
+            </div>
+          ))}
+
+          <!-- Destination Tags -->
+          {destinationTags.length > 0 && (
+            <div class="mt-16 pt-8 border-t-4 border-double border-[#1a2b4c] clear-both">
+              <h3 class="font-oswald uppercase tracking-widest text-[#1a2b4c] mb-6 text-xl">Destinations in this dispatch:</h3>
+              <div class="flex flex-wrap gap-4">
+                {destinationTags.map((tag) => (
+                  <div class="relative bg-[#e8dcb8] border-2 border-[#8b5a2b] px-5 py-2 font-typewriter text-sm font-bold text-[#8b5a2b] uppercase tracking-widest shadow-[4px_4px_0px_rgba(139,90,43,0.3)] transform hover:-translate-y-1 transition-transform cursor-pointer">
+                    <div class="absolute -left-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-[#fdfbf2] border-2 border-[#8b5a2b] rounded-full shadow-inner"></div>
+                    <span class="ml-2">{tag}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           <!-- Clear float -->
           <div class="clear-both"></div>

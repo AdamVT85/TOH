@@ -2,7 +2,6 @@
 import { createReader } from '@keystatic/core/reader';
 import keystaticConfig from '../../../keystatic.config';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
-import Markdoc from '@markdoc/markdoc';
 
 export async function getStaticPaths() {
   const reader = createReader(process.cwd(), keystaticConfig);
@@ -17,9 +16,6 @@ const { slug } = Astro.props;
 const reader = createReader(process.cwd(), keystaticConfig);
 const article = await reader.collections.articles.read(slug);
 if (!article) return Astro.redirect('/404');
-
-const body = await article.body();
-const rendered = Markdoc.renderers.html(Markdoc.transform(body.node));
 ---
 
 <ArticleLayout
@@ -31,6 +27,6 @@ const rendered = Markdoc.renderers.html(Markdoc.transform(body.node));
   publishDate={article.publishDate || undefined}
   excerpt={article.excerpt}
   watchList={article.watchList}
->
-  <Fragment set:html={rendered} />
-</ArticleLayout>
+  sections={article.sections}
+  destinationTags={article.destinationTags}
+/>

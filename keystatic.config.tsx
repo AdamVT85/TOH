@@ -10,7 +10,6 @@ export default config({
       label: 'Articles',
       slugField: 'title',
       path: 'src/content/articles/*',
-      format: { contentField: 'body' },
       schema: {
         title: fields.slug({ name: { label: 'Title' } }),
         subtitle: fields.text({ label: 'Subtitle / Tagline' }),
@@ -47,6 +46,40 @@ export default config({
             itemLabel: (props) => props.fields.title.value,
           }
         ),
+        sections: fields.array(
+          fields.object({
+            heading: fields.text({ label: 'Section Heading' }),
+            venueSlug: fields.text({
+              label: 'Venue Slug (optional)',
+              description: 'If this section links to a venue page, enter the slug.',
+            }),
+            image: fields.image({
+              label: 'Section Image',
+              directory: 'src/assets/articles',
+              publicPath: '/src/assets/articles/',
+            }),
+            imageAlt: fields.text({ label: 'Image Alt Text' }),
+            caption: fields.text({ label: 'Image Caption' }),
+            copy: fields.text({
+              label: 'Body Copy',
+              multiline: true,
+              description: 'Main text for this section. Separate paragraphs with blank lines.',
+            }),
+            callout: fields.text({
+              label: 'Pull Quote / Callout (optional)',
+              multiline: true,
+              description: 'An optional highlighted quote or callout for this section.',
+            }),
+          }),
+          {
+            label: 'Article Sections',
+            itemLabel: (props) => props.fields.heading.value || 'New Section',
+          }
+        ),
+        destinationTags: fields.array(
+          fields.text({ label: 'Destination' }),
+          { label: 'Destination Tags' }
+        ),
         relatedStars: fields.array(
           fields.relationship({ label: 'Related Star', collection: 'starGuides' }),
           { label: 'Related Star Guides' }
@@ -59,15 +92,6 @@ export default config({
           fields.relationship({ label: 'Related Article', collection: 'articles' }),
           { label: 'Related Articles' }
         ),
-        body: fields.markdoc({
-          label: 'Article Body',
-          options: {
-            image: {
-              directory: 'src/assets/articles',
-              publicPath: '/src/assets/articles/',
-            },
-          },
-        }),
       },
     }),
 
