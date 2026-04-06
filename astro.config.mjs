@@ -13,5 +13,10 @@ export default defineConfig({
   integrations: [react(), keystatic(), sitemap()],
   vite: {
     plugins: [tailwindcss()],
+    define: {
+      'import.meta.env.KEYSTATIC_GITHUB_CLIENT_ID': 'process.env.KEYSTATIC_GITHUB_CLIENT_ID',
+      'import.meta.env.KEYSTATIC_GITHUB_CLIENT_SECRET': 'process.env.KEYSTATIC_GITHUB_CLIENT_SECRET',
+      'import.meta.env.KEYSTATIC_SECRET': 'process.env.KEYSTATIC_SECRET',
+    },
   },
 });
