@@ -76,7 +76,7 @@ export default function ArticlesCarousel({ articles }: Props) {
             href={`/articles/${article.slug}`}
             draggable={false}
             onClick={handleCardClick}
-            className="min-w-[280px] md:min-w-[320px] flex-shrink-0 snap-center group select-none no-underline"
+            className="w-[280px] md:w-[320px] flex-shrink-0 snap-center group select-none no-underline"
           >
             <div className="h-full flex flex-col border-[6px] border-[#d4b872] bg-[#fdfbf2] p-4 transform transition-transform duration-500 group-hover:scale-105">
               <div className="w-full h-48 overflow-hidden border-2 border-[#1a2b4c] mb-5 relative pointer-events-none bg-[#1a2b4c]">
