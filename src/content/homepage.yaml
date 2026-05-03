@@ -5,3 +5,5 @@ featuredDestinations:
     text: Living and staying in the chateau a brief description
     linkUrl: https://toh-xi.vercel.app/venues/chateau-marmont
     ctaText: Read More
+featuredStars:
+  - audrey-hepburn
