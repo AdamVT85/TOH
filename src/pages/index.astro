@@ -39,6 +39,23 @@ const featuredDestinations = (homepage?.featuredDestinations || [])
     ...card,
     ...cardThemes[i % cardThemes.length],
   }));
+
+const featuredStarSlugs = (homepage?.featuredStars || []).filter((s): s is string => !!s);
+const featuredStars = (
+  await Promise.all(
+    featuredStarSlugs.map(async (slug) => {
+      const star = await reader.collections.starGuides.read(slug);
+      if (!star) return null;
+      return {
+        slug,
+        name: star.name,
+        portraitImage: star.portraitImage || undefined,
+      };
+    })
+  )
+).filter((s): s is NonNullable<typeof s> => s !== null && !!s.portraitImage);
+
+const lastNameUpper = (name: string) => name.trim().split(/\s+/).pop()?.toUpperCase() ?? '';
 ---
 
 <BaseLayout title="Travel Old Hollywood" description="Travel in the footsteps of the stars. A curated guide to the hotels, restaurants, and destinations of classic Hollywood.">
@@ -170,25 +187,21 @@ const featuredDestinations = (homepage?.featuredDestinations || [])
             </p>
           </div>
 
-          <div class="flex flex-wrap justify-center gap-6 md:gap-10">
-            {[
-              { name: "HEPBURN", img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop" },
-              { name: "BOGART", img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400&auto=format&fit=crop" },
-              { name: "KELLY", img: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=400&auto=format&fit=crop" },
-              { name: "GRANT", img: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=400&auto=format&fit=crop" },
-              { name: "MONROE", img: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=400&auto=format&fit=crop" },
-            ].map((star) => (
-              <a href="/directory" class="flex flex-col items-center group cursor-pointer transform transition-transform hover:-translate-y-2">
-                <div class="w-24 h-32 md:w-32 md:h-40 rounded-full border-[4px] border-[#d4b872] shadow-[0_0_15px_rgba(212,184,114,0.6)] overflow-hidden mb-4 relative bg-[#1a2b4c]">
-                  <div class="absolute inset-0 border-[3px] border-[#8a6d3b] rounded-full z-10 pointer-events-none"></div>
-                  <img src={star.img} alt={star.name} class="w-full h-full object-cover grayscale contrast-125 sepia-[.2] group-hover:scale-110 transition-transform duration-700" />
-                </div>
-                <span class="font-oswald text-lg md:text-xl text-[#fceeb5] tracking-widest uppercase bg-[#1a2b4c] px-4 py-1 border-2 border-[#d4b872] shadow-[4px_4px_0px_rgba(0,0,0,0.5)]">
-                  {star.name}
-                </span>
-              </a>
-            ))}
-          </div>
+          {featuredStars.length > 0 && (
+            <div class="flex flex-wrap justify-center gap-6 md:gap-10">
+              {featuredStars.map((star) => (
+                <a href={`/stars/${star.slug}`} class="flex flex-col items-center group cursor-pointer transform transition-transform hover:-translate-y-2">
+                  <div class="w-24 h-32 md:w-32 md:h-40 rounded-full border-[4px] border-[#d4b872] shadow-[0_0_15px_rgba(212,184,114,0.6)] overflow-hidden mb-4 relative bg-[#1a2b4c]">
+                    <div class="absolute inset-0 border-[3px] border-[#8a6d3b] rounded-full z-10 pointer-events-none"></div>
+                    <img src={star.portraitImage} alt={star.name} class="w-full h-full object-cover grayscale contrast-125 sepia-[.2] group-hover:scale-110 transition-transform duration-700" />
+                  </div>
+                  <span class="font-oswald text-lg md:text-xl text-[#fceeb5] tracking-widest uppercase bg-[#1a2b4c] px-4 py-1 border-2 border-[#d4b872] shadow-[4px_4px_0px_rgba(0,0,0,0.5)]">
+                    {lastNameUpper(star.name)}
+                  </span>
+                </a>
+              ))}
+            </div>
+          )}
 
           <div class="mt-12 text-center">
             <a href="/directory" class="inline-block border-2 border-[#fceeb5] px-8 py-3 font-oswald text-lg tracking-[0.2em] text-[#fceeb5] hover:bg-[#fceeb5] hover:text-[#1a2b4c] transition-colors uppercase">

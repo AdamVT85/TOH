@@ -579,6 +579,14 @@ export default config({
             itemLabel: (props) => props.fields.titleBottom.value,
           }
         ),
+        featuredStars: fields.array(
+          fields.relationship({ label: 'Star', collection: 'starGuides' }),
+          {
+            label: 'Featured Stars',
+            description: 'Stars to feature in the "Travel by Star" portrait row on the homepage. Order here is the order on the page.',
+            itemLabel: (props) => props.value || 'Select a star',
+          }
+        ),
       },
     }),
 
