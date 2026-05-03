@@ -2,7 +2,6 @@
 import BaseLayout from './BaseLayout.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import VintageMap from '../components/VintageMap';
 
 interface Section {
   heading?: string;
@@ -134,18 +133,6 @@ const sections = props.sections || [];
               )}
             </div>
           ))}
-        </div>
-      </div>
-
-      <!-- Travel Map -->
-      <div class="py-16 px-4 md:px-8 bg-[#1a2b4c] relative border-y-[6px] border-[#d4b872]">
-        <div class="text-center mb-12">
-          <h2 class="font-anton text-4xl md:text-5xl text-[#fceeb5] uppercase tracking-widest text-3d transform -rotate-1">
-            THE WORLD OF {props.name.toUpperCase()}
-          </h2>
-        </div>
-        <div class="max-w-5xl mx-auto">
-          <VintageMap client:visible />
         </div>
       </div>
 
