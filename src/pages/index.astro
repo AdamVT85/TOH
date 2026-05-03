@@ -1,7 +1,27 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Footer from '../components/Footer.astro';
-import DecadesFilter from '../components/DecadesFilter';
+import ArticlesCarousel from '../components/ArticlesCarousel';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+const allArticles = await reader.collections.articles.all();
+
+const featuredArticles = allArticles
+  .map(({ slug, entry }) => ({
+    slug,
+    title: entry.title,
+    heroImage: entry.heroImage || undefined,
+    excerpt: entry.excerpt,
+    publishDate: entry.publishDate || undefined,
+  }))
+  .sort((a, b) => {
+    if (!a.publishDate) return 1;
+    if (!b.publishDate) return -1;
+    return b.publishDate.localeCompare(a.publishDate);
+  })
+  .slice(0, 8);
 ---
 
 <BaseLayout title="Travel Old Hollywood" description="Travel in the footsteps of the stars. A curated guide to the hotels, restaurants, and destinations of classic Hollywood.">
@@ -78,9 +98,9 @@ import DecadesFilter from '../components/DecadesFilter';
           ))}
         </div>
 
-        <!-- Decades Filter -->
+        <!-- Featured Articles -->
         <div class="relative z-20 w-[105%] -ml-[2.5%]">
-          <DecadesFilter client:visible />
+          <ArticlesCarousel client:visible articles={featuredArticles} />
         </div>
 
         <!-- Newsletter Ticket -->
