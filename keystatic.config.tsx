@@ -569,6 +569,10 @@ export default config({
             }),
             text: fields.text({ label: 'Description' }),
             linkUrl: fields.text({ label: 'Link URL' }),
+            ctaText: fields.text({
+              label: 'CTA Button Text',
+              description: "Text shown on the button. Defaults to 'BOOK NOW' if blank.",
+            }),
           }),
           {
             label: 'Featured Destinations',
