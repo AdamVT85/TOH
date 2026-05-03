@@ -167,15 +167,25 @@ const sections = props.sections || [];
             <h2 class="font-serif text-4xl text-[#1a2b4c] mb-8 border-b border-[#d4b872]/30 pb-4">Gallery</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               {props.gallery.map((img, idx) => (
-                <div class={`relative group overflow-hidden bg-[#1a2b4c] ${idx === 0 ? 'md:col-span-2 aspect-video' : 'aspect-square'}`}>
+                <button
+                  type="button"
+                  class={`lightbox-trigger relative group overflow-hidden bg-[#1a2b4c] cursor-zoom-in p-0 border-0 text-left ${idx === 0 ? 'md:col-span-2 aspect-video' : 'aspect-square'}`}
+                  data-image={img.image}
+                  data-caption={img.caption || ''}
+                  data-credit={img.credit || ''}
+                  aria-label={`View larger: ${img.caption || 'gallery image'}`}
+                >
                   {img.image && (
                     <img src={img.image} alt={img.caption || ''} class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90 group-hover:opacity-100" />
                   )}
+                  <div class="absolute top-3 right-3 w-9 h-9 rounded-full bg-[#1a2b4c]/80 text-[#fceeb5] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                  </div>
                   <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
                     {img.caption && <p class="text-white font-sans text-sm">{img.caption}</p>}
                     {img.credit && <p class="text-white/60 font-typewriter text-xs mt-1 uppercase tracking-wider">Credit: {img.credit}</p>}
                   </div>
-                </div>
+                </button>
               ))}
             </div>
           </section>
@@ -347,6 +357,63 @@ const sections = props.sections || [];
         </div>
       </section>
     )}
+
+    <!-- Lightbox -->
+    {props.gallery && props.gallery.length > 0 && (
+      <dialog
+        id="lightbox"
+        class="m-0 max-w-none max-h-none w-screen h-screen p-0 bg-transparent backdrop:bg-[#1a2b4c]/95 backdrop:backdrop-blur-sm"
+      >
+        <div id="lightbox-bg" class="w-full h-full flex items-center justify-center p-4 md:p-12 cursor-zoom-out">
+          <figure class="relative bg-[#fdfbf2] border-[8px] border-[#fceeb5] shadow-[0_20px_60px_rgba(0,0,0,0.6)] max-w-[90vw] max-h-[90vh] flex flex-col cursor-default">
+            <button
+              type="button"
+              id="lightbox-close"
+              class="absolute -top-4 -right-4 z-10 w-10 h-10 rounded-full bg-[#1a2b4c] text-[#fceeb5] flex items-center justify-center shadow-lg hover:bg-[#c13a3a] transition-colors border-2 border-[#fceeb5]"
+              aria-label="Close"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            <img id="lightbox-image" src="" alt="" class="block max-w-[88vw] max-h-[70vh] md:max-h-[75vh] object-contain" />
+            <figcaption id="lightbox-figcaption" class="text-center font-typewriter text-sm text-[#1a2b4c] px-4 py-3 border-t border-[#d4b872]/30 bg-[#fceeb5]/40">
+              <span id="lightbox-caption"></span>
+              <span id="lightbox-credit" class="block text-xs text-[#8b5a2b] mt-1 uppercase tracking-widest"></span>
+            </figcaption>
+          </figure>
+        </div>
+      </dialog>
+    )}
+
+    <script>
+      const dialog = document.getElementById('lightbox') as HTMLDialogElement | null;
+      const bg = document.getElementById('lightbox-bg');
+      const closeBtn = document.getElementById('lightbox-close');
+      const lightboxImg = document.getElementById('lightbox-image') as HTMLImageElement | null;
+      const lightboxCaption = document.getElementById('lightbox-caption');
+      const lightboxCredit = document.getElementById('lightbox-credit');
+      const lightboxFigcaption = document.getElementById('lightbox-figcaption');
+
+      if (dialog && bg && closeBtn && lightboxImg && lightboxCaption && lightboxCredit && lightboxFigcaption) {
+        document.querySelectorAll<HTMLButtonElement>('.lightbox-trigger').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            const src = btn.dataset.image || '';
+            const caption = btn.dataset.caption || '';
+            const credit = btn.dataset.credit || '';
+            lightboxImg.src = src;
+            lightboxImg.alt = caption;
+            lightboxCaption.textContent = caption;
+            lightboxCredit.textContent = credit ? `Credit: ${credit}` : '';
+            lightboxFigcaption.style.display = caption || credit ? '' : 'none';
+            dialog.showModal();
+          });
+        });
+
+        closeBtn.addEventListener('click', () => dialog.close());
+        bg.addEventListener('click', (e) => {
+          if (e.target === bg) dialog.close();
+        });
+      }
+    </script>
 
     <Footer />
   </div>
