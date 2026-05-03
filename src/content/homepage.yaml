@@ -1,5 +1,6 @@
 featuredDestinations:
-  - titleTop: Visit Venice
-    titleBottom: It's a really good place for a honeymoon
+  - titleTop: Stay at the
+    titleBottom: Chateau Marmont
     image: /images/featuredDestinations/0/image.jpg
-    text: what is the description and where does it appear?
+    text: Living and staying in the chateau a brief description
+    linkUrl: https://toh-xi.vercel.app/venues/chateau-marmont
