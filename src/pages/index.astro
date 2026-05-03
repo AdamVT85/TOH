@@ -142,11 +142,6 @@ const lastNameUpper = (name: string) => name.trim().split(/\s+/).pop()?.toUpperC
           <ArticlesCarousel client:visible articles={featuredArticles} />
         </div>
 
-        <!-- Departures Board -->
-        <div class="relative z-20 w-[105%] -ml-[2.5%] my-16">
-          <DeparturesBoard />
-        </div>
-
         <!-- Newsletter Ticket -->
         <div class="my-24 px-4 md:px-8 relative z-20">
           <div class="w-full max-w-4xl mx-auto bg-[#f4e4bc] border-[3px] border-[#1a2b4c] flex flex-col md:flex-row relative shadow-[12px_12px_0px_#1a2b4c] transform rotate-1">
@@ -180,6 +175,11 @@ const lastNameUpper = (name: string) => name.trim().split(/\s+/).pop()?.toUpperC
               <span class="font-typewriter text-xs text-[#fceeb5] mt-4 opacity-70">ADMIT ONE</span>
             </div>
           </div>
+        </div>
+
+        <!-- Departures Board -->
+        <div class="relative z-20 w-[105%] -ml-[2.5%] my-16">
+          <DeparturesBoard />
         </div>
 
         <!-- Travel by Star -->
