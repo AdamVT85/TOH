@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Footer from '../components/Footer.astro';
-import VintageMap from '../components/VintageMap';
 import DecadesFilter from '../components/DecadesFilter';
 ---
 
@@ -77,19 +76,6 @@ import DecadesFilter from '../components/DecadesFilter';
               </div>
             </div>
           ))}
-        </div>
-
-        <!-- Interactive Map -->
-        <div class="my-24 px-4 md:px-8 relative z-20">
-          <div class="text-center mb-8">
-            <h3 class="font-anton text-5xl md:text-6xl text-[#fceeb5] tracking-wide uppercase text-3d transform rotate-1">
-              Explore the Globe
-            </h3>
-            <p class="font-cursive text-3xl md:text-4xl text-[#fdfbf2] mt-2 transform -rotate-1" style="-webkit-text-stroke: 1px #1a2b4c; text-shadow: 2px 2px 0px #1a2b4c">
-              Chart your next adventure
-            </p>
-          </div>
-          <VintageMap client:visible />
         </div>
 
         <!-- Decades Filter -->
