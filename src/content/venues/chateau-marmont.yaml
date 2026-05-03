@@ -14,8 +14,8 @@ excerpt: >-
 pullQuote: If you must get into trouble, do it at the Chateau Marmont.
 pullQuoteAttribution: Columbia Pictures boss Harry Cohn
 gallery:
-  - image: /src/assets/venues/chateau-marmont/gallery/0/image.avif
-  - image: /src/assets/venues/chateau-marmont/gallery/1/image.jpg
+  - image: /images/venues/chateau-marmont/gallery/0/image.avif
+  - image: /images/venues/chateau-marmont/gallery/1/image.jpg
     caption: a babyman eating an ice cream
 whoCameHere:
   - name: Greta Garbo
@@ -49,7 +49,7 @@ tips: >-
 nearbyVenues: []
 relatedArticles: []
 sections:
-  - image: /src/assets/venues/chateau-marmont/sections/0/image.jpg
+  - image: /images/venues/chateau-marmont/sections/0/image.jpg
     copy: >-
       The Chateau Marmont has stood on its hillside perch above Sunset Boulevard
       since 1929, modelled after the Chateau d'Amboise in France's Loire Valley
