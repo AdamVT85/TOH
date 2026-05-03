@@ -48,7 +48,8 @@ tips: >-
 nearbyVenues: []
 relatedArticles: []
 sections:
-  - copy: >-
+  - image: /src/assets/venues/chateau-marmont/sections/0/image.jpg
+    copy: >-
       The Chateau Marmont has stood on its hillside perch above Sunset Boulevard
       since 1929, modelled after the Chateau d'Amboise in France's Loire Valley
       and built to survive earthquakes — which, given its history, seems
