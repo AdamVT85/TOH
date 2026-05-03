@@ -36,8 +36,8 @@ export default config({
             year: fields.text({ label: 'Year' }),
             image: fields.image({
               label: 'Poster Image',
-              directory: 'src/assets/articles',
-              publicPath: '/src/assets/articles/',
+              directory: 'public/images/articles',
+              publicPath: '/images/articles/',
             }),
           }),
           {
@@ -55,8 +55,8 @@ export default config({
             }),
             image: fields.image({
               label: 'Section Image',
-              directory: 'src/assets/articles',
-              publicPath: '/src/assets/articles/',
+              directory: 'public/images/articles',
+              publicPath: '/images/articles/',
             }),
             imageAlt: fields.text({ label: 'Image Alt Text' }),
             caption: fields.text({ label: 'Image Caption' }),
@@ -150,8 +150,8 @@ export default config({
             heading: fields.text({ label: 'Section Heading' }),
             image: fields.image({
               label: 'Section Image',
-              directory: 'src/assets/stars',
-              publicPath: '/src/assets/stars/',
+              directory: 'public/images/stars',
+              publicPath: '/images/stars/',
             }),
             imageAlt: fields.text({ label: 'Image Alt Text' }),
             caption: fields.text({ label: 'Image Caption' }),
@@ -240,8 +240,8 @@ export default config({
           fields.object({
             image: fields.image({
               label: 'Image',
-              directory: 'src/assets/venues',
-              publicPath: '/src/assets/venues/',
+              directory: 'public/images/venues',
+              publicPath: '/images/venues/',
             }),
             caption: fields.text({ label: 'Caption' }),
             credit: fields.text({ label: 'Credit' }),
@@ -283,8 +283,8 @@ export default config({
             availability: fields.text({ label: 'Availability Note (optional)' }),
             image: fields.image({
               label: 'Image (optional)',
-              directory: 'src/assets/venues',
-              publicPath: '/src/assets/venues/',
+              directory: 'public/images/venues',
+              publicPath: '/images/venues/',
             }),
           }),
           {
@@ -317,8 +317,8 @@ export default config({
             distance: fields.text({ label: 'Distance/Travel Time' }),
             image: fields.image({
               label: 'Thumbnail Image',
-              directory: 'src/assets/venues',
-              publicPath: '/src/assets/venues/',
+              directory: 'public/images/venues',
+              publicPath: '/images/venues/',
             }),
           }),
           {
@@ -335,8 +335,8 @@ export default config({
             heading: fields.text({ label: 'Section Heading' }),
             image: fields.image({
               label: 'Section Image',
-              directory: 'src/assets/venues',
-              publicPath: '/src/assets/venues/',
+              directory: 'public/images/venues',
+              publicPath: '/images/venues/',
             }),
             imageAlt: fields.text({ label: 'Image Alt Text' }),
             caption: fields.text({ label: 'Image Caption' }),
@@ -403,8 +403,8 @@ export default config({
             filmContext: fields.text({ label: 'Film Context', multiline: true }),
             image: fields.image({
               label: 'Location Photo',
-              directory: 'src/assets/film-locations',
-              publicPath: '/src/assets/film-locations/',
+              directory: 'public/images/film-locations',
+              publicPath: '/images/film-locations/',
             }),
             imageCaption: fields.text({ label: 'Image Caption' }),
             visitStatus: fields.text({ label: 'Status (open/private/demolished)' }),
@@ -444,8 +444,8 @@ export default config({
             venueSlug: fields.text({ label: 'Venue Page Slug (optional)' }),
             image: fields.image({
               label: 'Image',
-              directory: 'src/assets/film-locations',
-              publicPath: '/src/assets/film-locations/',
+              directory: 'public/images/film-locations',
+              publicPath: '/images/film-locations/',
             }),
           }),
           {
@@ -465,8 +465,8 @@ export default config({
           label: 'Introduction',
           options: {
             image: {
-              directory: 'src/assets/film-locations',
-              publicPath: '/src/assets/film-locations/',
+              directory: 'public/images/film-locations',
+              publicPath: '/images/film-locations/',
             },
           },
         }),
@@ -522,8 +522,8 @@ export default config({
             heading: fields.text({ label: 'Section Heading' }),
             image: fields.image({
               label: 'Section Image',
-              directory: 'src/assets/destinations',
-              publicPath: '/src/assets/destinations/',
+              directory: 'public/images/destinations',
+              publicPath: '/images/destinations/',
             }),
             imageAlt: fields.text({ label: 'Image Alt Text' }),
             caption: fields.text({ label: 'Image Caption' }),
@@ -564,8 +564,8 @@ export default config({
             titleBottom: fields.text({ label: 'Title Bottom Line' }),
             image: fields.image({
               label: 'Destination Image',
-              directory: 'src/assets',
-              publicPath: '/src/assets/',
+              directory: 'public/images',
+              publicPath: '/images/',
             }),
             text: fields.text({ label: 'Description' }),
             linkUrl: fields.text({ label: 'Link URL' }),
