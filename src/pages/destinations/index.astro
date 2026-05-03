@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import { createReader } from '@keystatic/core/reader';
+import keystaticConfig from '../../../keystatic.config';
+
+const reader = createReader(process.cwd(), keystaticConfig);
+const allDestinations = await reader.collections.destinations.all();
+
+const destinations = allDestinations
+  .map(({ slug, entry }) => ({
+    slug,
+    title: entry.title,
+    country: entry.country,
+    region: entry.region,
+    heroImage: entry.heroImage || undefined,
+    heroImageAlt: entry.heroImageAlt,
+    excerpt: entry.excerpt,
+    publishDate: entry.publishDate || undefined,
+  }))
+  .sort((a, b) => {
+    if (!a.publishDate) return 1;
+    if (!b.publishDate) return -1;
+    return b.publishDate.localeCompare(a.publishDate);
+  });
+
+function formatDate(dateStr?: string): string {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  if (Number.isNaN(d.getTime())) return dateStr;
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).toUpperCase();
+}
+---
+
+<BaseLayout title="Destination Guides" description="The full timetable of Travel Old Hollywood destination guides — cities and coastlines walked by the stars.">
+  <div class="min-h-screen bg-[#fdfbf2] text-[#1a2b4c] p-4 md:p-12 font-sans" style="background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png')">
+    <div class="max-w-6xl mx-auto border-[12px] border-double border-[#1a2b4c] p-6 md:p-16 bg-[#fdfbf2] shadow-2xl relative">
+
+      <Header backLink="/" backLabel="Return to Lobby" variant="light" />
+
+      <div class="text-center mb-16 mt-8">
+        <p class="font-oswald uppercase tracking-[0.3em] text-sm md:text-base mb-4 text-[#8b5a2b]">The Full Timetable</p>
+        <h1 class="font-anton text-5xl md:text-7xl tracking-wide uppercase mb-4 text-[#1a2b4c]">Destinations</h1>
+        <div class="flex items-center justify-center gap-4 mb-4">
+          <div class="h-px w-16 bg-[#1a2b4c]"></div>
+          <span class="font-typewriter text-xl text-[#1a2b4c]">Cities of the Golden Age</span>
+          <div class="h-px w-16 bg-[#1a2b4c]"></div>
+        </div>
+        <p class="font-cursive text-3xl text-[#c13a3a] mt-6">Where the stars went, and how to follow</p>
+      </div>
+
+      {destinations.length === 0 ? (
+        <p class="text-center font-sans text-[#8b5a2b] italic py-16">No destinations yet. Check back soon.</p>
+      ) : (
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+          {destinations.map((dest) => (
+            <a href={`/destinations/${dest.slug}`} class="group block bg-[#fdfbf2] border border-[#d8c5a5] shadow-[6px_6px_0px_rgba(26,43,76,0.15)] hover:shadow-[10px_10px_0px_rgba(26,43,76,0.25)] hover:-translate-y-1 transition-all duration-300">
+              {dest.heroImage && (
+                <div class="w-full h-56 overflow-hidden border-b border-[#d8c5a5] bg-[#1a2b4c]">
+                  <img src={dest.heroImage} alt={dest.heroImageAlt || dest.title} class="w-full h-full object-cover filter sepia-[.2] contrast-110 group-hover:scale-105 transition-transform duration-700" />
+                </div>
+              )}
+              <div class="p-6">
+                {dest.country && (
+                  <p class="font-oswald text-[10px] tracking-[0.2em] uppercase text-[#c13a3a] mb-3">{dest.country}</p>
+                )}
+                {dest.publishDate && (
+                  <p class="font-typewriter text-xs text-[#8b5a2b] mb-3 tracking-widest">{formatDate(dest.publishDate)}</p>
+                )}
+                <h2 class="font-serif text-2xl text-[#1a2b4c] mb-3 leading-tight group-hover:text-[#c13a3a] transition-colors">{dest.title}</h2>
+                {dest.region && (
+                  <p class="font-sans text-sm text-[#2b3a55] italic mb-3 opacity-80">{dest.region}</p>
+                )}
+                {dest.excerpt && (
+                  <p class="font-sans text-sm text-[#2b3a55] leading-relaxed line-clamp-3">{dest.excerpt}</p>
+                )}
+                <p class="mt-4 font-oswald text-xs text-[#c13a3a] uppercase tracking-widest">View guide →</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+
+    </div>
+  </div>
+</BaseLayout>

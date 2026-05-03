@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Footer from '../components/Footer.astro';
 import ArticlesCarousel from '../components/ArticlesCarousel';
+import DeparturesBoard from '../components/DeparturesBoard.astro';
 import { createReader } from '@keystatic/core/reader';
 import keystaticConfig from '../../keystatic.config';
 
@@ -139,6 +140,11 @@ const lastNameUpper = (name: string) => name.trim().split(/\s+/).pop()?.toUpperC
         <!-- Featured Articles -->
         <div class="relative z-20 w-[105%] -ml-[2.5%]">
           <ArticlesCarousel client:visible articles={featuredArticles} />
+        </div>
+
+        <!-- Departures Board -->
+        <div class="relative z-20 w-[105%] -ml-[2.5%] my-16">
+          <DeparturesBoard />
         </div>
 
         <!-- Newsletter Ticket -->

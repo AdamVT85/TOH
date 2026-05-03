@@ -1,0 +1,114 @@
+---
+type Status = 'BOARDING' | 'ON TIME' | 'DELAYED';
+
+interface Departure {
+  code: string;
+  city: string;
+  country: string;
+  flight: string;
+  via: string;
+  stars: string;
+  status: Status;
+  href: string;
+}
+
+interface Props {
+  departures?: Departure[];
+}
+
+const SEED: Departure[] = [
+  { code: 'LAX', city: 'HOLLYWOOD',   country: 'USA',     flight: 'TOH 1929', via: 'Sunset Blvd',     stars: 'Garbo · Gable · Dean',     status: 'BOARDING', href: '/destinations' },
+  { code: 'FCO', city: 'ROME',        country: 'ITALY',   flight: 'TOH 1953', via: 'Via Veneto',      stars: 'Hepburn · Peck',           status: 'ON TIME',  href: '/destinations' },
+  { code: 'NCE', city: 'CÔTE D’AZUR', country: 'FRANCE',  flight: 'TOH 1955', via: 'Antibes · Monaco', stars: 'Kelly · Grant',            status: 'ON TIME',  href: '/destinations/the-french-riviera' },
+  { code: 'CMN', city: 'CASABLANCA',  country: 'MOROCCO', flight: 'TOH 1942', via: 'Rick’s Café',     stars: 'Bogart · Bergman',         status: 'DELAYED',  href: '/destinations' },
+  { code: 'HAV', city: 'HAVANA',      country: 'CUBA',    flight: 'TOH 1959', via: 'Hotel Nacional',  stars: 'Sinatra · Hemingway',      status: 'ON TIME',  href: '/destinations' },
+  { code: 'VCE', city: 'VENICE',      country: 'ITALY',   flight: 'TOH 1955', via: 'Lido',            stars: 'Hepburn · Brazzi',         status: 'BOARDING', href: '/destinations' },
+  { code: 'HKG', city: 'HONG KONG',   country: 'B.C.',    flight: 'TOH 1955', via: 'Repulse Bay',     stars: 'Holden · Jones',           status: 'ON TIME',  href: '/destinations' },
+];
+
+const { departures = SEED } = Astro.props;
+
+function statusStyle(status: Status): string {
+  if (status === 'BOARDING') return 'color: #7bff96; text-shadow: 0 0 8px #7bff96;';
+  if (status === 'DELAYED')  return 'color: #ffb37b; text-shadow: 0 0 8px #ffb37b;';
+  return 'color: #fceeb5;';
+}
+
+const headlineShadow = '1px 1px 0 #9e2a2b, 2px 2px 0 #9e2a2b, 3px 3px 0 #9e2a2b, 4px 4px 0 #1a2b4c, 5px 5px 0 #1a2b4c, 6px 6px 8px rgba(0,0,0,.5)';
+---
+
+<section class="bg-[#151515] relative px-4 md:px-8 pt-[72px] pb-16">
+  <!-- Top perforation -->
+  <div class="absolute top-0 left-0 right-0 h-3 opacity-90 pointer-events-none" style="background-image: repeating-linear-gradient(90deg, #d8c5a5 0 16px, transparent 16px 32px);"></div>
+
+  <div class="max-w-[1100px] mx-auto">
+    <!-- Header -->
+    <div class="text-center mb-7">
+      <div class="font-oswald font-semibold text-[11px] tracking-[.4em] uppercase text-[#d4b872]">— Today’s Schedule —</div>
+      <h2 class="font-anton uppercase text-[#fceeb5] my-[10px] tracking-[.08em] text-[44px] md:text-[64px] leading-none" style={`text-shadow: ${headlineShadow}`}>
+        Departures
+      </h2>
+      <p class="font-serif italic text-base md:text-[18px] text-[#fdfbf2] opacity-85 m-0">
+        Seven destinations. One ticket. Pick a row to board.
+      </p>
+    </div>
+
+    <!-- Board -->
+    <div class="bg-[#0a0a0a] border-2 border-[#d4b872]" style="box-shadow: 8px 8px 0 #9e2a2b;">
+      <!-- Header row (desktop only) -->
+      <div class="hidden lg:grid grid-cols-[80px_1fr_1.2fr_110px_110px_130px] items-center px-6 py-[14px] border-b border-[#d4b872] font-oswald font-semibold text-[11px] tracking-[.3em] uppercase text-[#d4b872]">
+        <span>Code</span>
+        <span>Destination</span>
+        <span>Via</span>
+        <span>Flight</span>
+        <span>Status</span>
+        <span class="text-right">Action</span>
+      </div>
+
+      <!-- Rows -->
+      {departures.map((row) => (
+        <a
+          href={row.href}
+          class="group grid grid-cols-1 gap-2 p-5 lg:grid-cols-[80px_1fr_1.2fr_110px_110px_130px] lg:gap-0 lg:items-center lg:px-6 lg:py-[18px] border-b border-[rgba(212,184,114,.25)] last:border-b-0 no-underline transition-colors duration-150 hover:bg-[rgba(212,184,114,.07)] focus:outline-none focus-visible:outline-2 focus-visible:outline-dotted focus-visible:outline-[#d4b872] focus-visible:outline-offset-[-2px]"
+        >
+          <!-- Code + City group: flex on mobile, contents on desktop -->
+          <div class="flex items-baseline gap-3 lg:contents">
+            <span class="font-anton text-[24px] text-[#fceeb5] tracking-[.1em]">{row.code}</span>
+            <div>
+              <div class="font-anton text-[20px] lg:text-[22px] text-[#fceeb5] tracking-[.06em] leading-none">{row.city}</div>
+              <!-- Desktop: country/stars under city -->
+              <div class="hidden lg:block font-typewriter text-[11px] text-[#d4b872] tracking-[.15em] uppercase mt-1">{row.country} · {row.stars}</div>
+            </div>
+          </div>
+
+          <!-- Mobile-only country/stars line -->
+          <div class="block lg:hidden font-typewriter text-[11px] text-[#d4b872] tracking-[.15em] uppercase">{row.country} · {row.stars}</div>
+
+          <!-- Via -->
+          <span class="font-serif italic text-[16px] lg:text-[18px] text-[#fdfbf2]">{row.via}</span>
+
+          <!-- Flight + status + action group: flex row on mobile, contents on desktop -->
+          <div class="flex items-center justify-between gap-3 lg:contents">
+            <span class="font-typewriter text-[14px] text-[#fceeb5] tracking-[.1em]">{row.flight}</span>
+            <span class="font-oswald font-semibold text-[12px] tracking-[.2em] uppercase" style={statusStyle(row.status)}>{row.status}</span>
+            <span class="lg:text-right font-oswald font-semibold text-[12px] tracking-[.25em] uppercase text-[#d4b872] group-hover:text-[#fceeb5] transition-colors duration-150">Board →</span>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-8">
+      <a
+        href="/destinations"
+        class="inline-block bg-[#fceeb5] text-[#1a2b4c] font-oswald font-semibold text-[15px] tracking-[.25em] uppercase px-8 py-[14px] border-[3px] border-[#d4b872] no-underline"
+        style="box-shadow: 6px 6px 0 #0a0a0a;"
+      >
+        View Full Timetable →
+      </a>
+    </div>
+  </div>
+
+  <!-- Bottom perforation -->
+  <div class="absolute bottom-0 left-0 right-0 h-3 opacity-90 pointer-events-none" style="background-image: repeating-linear-gradient(90deg, #d8c5a5 0 16px, transparent 16px 32px);"></div>
+</section>
