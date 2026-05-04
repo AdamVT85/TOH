@@ -7,7 +7,9 @@ cityCountry: Los Angeles, USA
 priceIndicator: $$$
 hollywoodRating: 5
 heroImage: /images/venues/chateau-marmont/heroImage.jpg
-heroImageAlt: The Chateau Marmont on Sunset Boulevard
+heroImageAlt: >-
+  The Chateau Marmont on Sunset Boulevard - Image courtesy of Tony Mariotti
+  https://commons.wikimedia.org/w/index.php?curid=101766270
 excerpt: >-
   The legendary Sunset Boulevard hotel where Old Hollywood checked in and never
   quite checked out. From Garbo to Gable, the Chateau has hosted them all.
@@ -46,46 +48,89 @@ bestTimeToVisit: Year-round. Spring and autumn avoid peak summer heat.
 tips: >-
   The lobby and restaurant are now members-only. Book a room to experience the
   full Chateau.
-nearbyVenues: []
+nearbyVenues:
+  - name: 'Sunset Plaza Hotel '
+    venueType: 'Hotel '
 relatedArticles: []
 sections:
   - image: /images/venues/chateau-marmont/sections/0/image.jpg
+    caption: >-
+      The Sunset Strip in the early 1930s. The Garden of Allah can be seen on
+      the left and the Chateau Marmont further down on the right.
     copy: >-
-      The Chateau Marmont has stood on its hillside perch above Sunset Boulevard
-      since 1929, modelled after the Chateau d'Amboise in France's Loire Valley
-      and built to survive earthquakes — which, given its history, seems
-      fitting. From the moment it opened, the Chateau became the preferred
-      refuge of Hollywood's most famous and most troubled, a place where the
-      industry's brightest stars could behave as they pleased behind Gothic
-      Revival walls and overgrown gardens. It has outlasted studios, scandals,
-      and seismic shifts in the entertainment business, and it remains, almost a
-      century later, the single most storied hotel in Los Angeles.
+      Perched somewhat menacingly above Sunset Boulevard, the Chateau Marmont
+      has been quietly absorbing Hollywood's worst behaviour since 1929. It was
+      built to look like the Château d'Amboise in the Loire Valley and
+      engineered to survive earthquakes, which, given some of the explosive
+      goings on behind closed doors at the hotel, was prescient.
+
+
+      When it first opened, the Sunset Strip was the engine room of Hollywood
+      nightlife. The Trocadero was a stagger away. The Garden of Allah, that
+      scandalous compound of bungalows where Sinatra and Fitzgerald and the
+      Algonquin set drank themselves stupid, was directly across Sunset.
+      Schwab's Drug Store, where every starlet swore she had been discovered at
+      the soda counter, sat a block down. Into this dense little ecosystem of
+      vice, the Chateau dropped itself as the after-hours alternative. The
+      Trocadero closed at two. The Chateau did not.
+
+
+      The hotel took off in the early 1930s when Ann Little, an ex-silent-film
+      actress with serious style and a serious address book, took over as
+      manager. She remodelled, bought new furniture, and started inviting her
+      famous friends. Within a few years, the Chateau was THE place to party in
+      private. Harry Cohn, the head of Columbia Pictures, kept suites on
+      permanent retainer specifically so his stars could misbehave in private.
+    callout: '"If you must get into trouble, do it at the Chateau Marmont." - Harry Cohn'
   - heading: A Guest List Like No Other
+    image: /images/venues/chateau-marmont/sections/1/image.webp
+    caption: >-
+      Jean Harlow, her husband Harold Rosson and her parents at the Chateau
+      Marmont in 1933.
     copy: >-
-      The Chateau's legend is inseparable from its guest list. Greta Garbo lived
-      here. So did Jean Harlow and Clark Gable, who reportedly carried on their
-      affair in one of the private bungalows. Howard Hughes rented a suite to
-      spy on the pool below with binoculars. Billy Wilder lived at the hotel for
-      years while establishing himself in Hollywood. James Dean once leapt
-      through a window at an audition held in one of the suites. In the decades
-      that followed, the Chateau attracted Jim Morrison, John Belushi, and
-      countless others who found in the hotel's deliberate discretion a licence
-      to live without restraint.
+      Greta Garbo lived here for stretches under the alias Harriet Brown and
+      reportedly spoke to no one. Howard Hughes took a higher-floor suite
+      specifically so he could watch the pool through binoculars; when he was
+      not doing that, he was working through what staff remembered as a truly
+      heroic standing order of ice cream from the kitchen. Jean Harlow moved in
+      with her new husband, the cinematographer Harold Rosson, in September 1933
+      on the principle that one suite would not be enough. They took two. Jean
+      redecorated hers in white-on-white, and the staff began to notice a steady
+      traffic of gentleman callers in and out of her rooms while her new
+      husband, when he was in residence, slept on the sofa in the living room.
+      When the marriage collapsed a few months later, the news that they had
+      "moved out of the Chateau Marmont" became the sentence that put the hotel
+      on the front pages of every newspaper in America. The Chateau has not had
+      to advertise since.
 
 
-      What makes the Chateau Marmont essential for the Old Hollywood traveller
-      is not merely its past but its persistence. Unlike so many landmarks of
-      Golden Age Los Angeles — the Ambassador Hotel, the Garden of Allah, the
-      Brown Derby — the Chateau is still here, still operating, still
-      atmospheric. The lobby remains dark and overfurnished, the bungalows still
-      feel like private hideaways, and the garden terrace still carries the
-      faint air of conspiracy and romance that has clung to the property for
-      nearly a hundred years.
-    callout: The Chateau Marmont doesn't judge. That's the whole point.
-  - copy: >-
+      Billy Wilder lived at the hotel in the early 1940s, and legend has it that
+      the seedy bachelor apartment Walter Neff occupies in Double Indemnity,
+      which Wilder co-wrote at the Chateau, is more or less his own Chateau
+      lodgings transposed wholesale to the screen. James Dean once leapt through
+      a window during an audition in one of the suites, won the lead in Rebel
+      Without a Cause on the strength of it, and gave Hollywood a new monologue.
+      Montgomery Clift convalesced at the Chateau after his catastrophic 1956
+      car crash, hiding from the press while his face was being reconstructed.
+      Desi Arnaz fled here after almost every one of his famously frequent rows
+      with Lucy. Shelley Winters and her second husband, the actor Anthony
+      Franciosa, were such reliably enthusiastic guests in the late 1950s that
+      Winters later delivered the verdict above.
+    callout: |
+      "If there had been an Olympic sex team, Tony would have been the captain."
+      — Shelley Winters, on her husband Anthony Franciosa, both Chateau regulars
+  - heading: The Last One Standing
+    copy: >-
+      What makes the Chateau essential for the Old Hollywood traveller is not
+      its past but its persistence. The Trocadero, the Garden of Allah, the
+      Brown Derby, Schwab's: all gone. The Chateau is still here, still dark in
+      the lobby, still overfurnished, still serving the old-school cocktails for
+      which the bar has always been famous, still threaded with bougainvillea
+      that has been keeping Hollywood's secrets for nearly a hundred years.
+
+
       In 2020, the hotel converted to a members-only model under the continued
-      ownership of Andre Balazs, adding another layer of exclusivity to a place
-      that was already famously difficult to access. For visitors, the best way
-      to experience the Chateau is to book a room — not cheap, but the cost buys
-      entry into a living monument of Hollywood history. Sleep where Garbo
-      slept. Sit where Wilder sat. The ghosts are part of the amenities.
+      ownership of Andre Balazs. For visiting pilgrims, the way in is to book a
+      room; not cheap, but the cost buys access to one of the last working
+      monuments of Hollywood's Golden Age. Sleep where Garbo slept. Sit where
+      Wilder wrote. Order the ice cream, and quietly toast Howard Hughes.
