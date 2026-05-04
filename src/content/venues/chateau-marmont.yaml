@@ -17,8 +17,16 @@ pullQuote: If you must get into trouble, do it at the Chateau Marmont.
 pullQuoteAttribution: Columbia Pictures boss Harry Cohn
 gallery:
   - image: /images/venues/chateau-marmont/gallery/0/image.jpg
+    caption: 'Fancy a Marmont Mai Tai? '
+    credit: Booking.com
   - image: /images/venues/chateau-marmont/gallery/1/image.jpg
-    caption: just a test
+    caption: If these sofas could talk, the legal department would have a problem
+    credit: Booking.com
+  - image: /images/venues/chateau-marmont/gallery/2/image.jpg
+    caption: >-
+      Sunbathe at will. Howard Hughes is no longer in residence on the eighth
+      floor to spy on you
+    credit: Booking.com
 whoCameHere:
   - name: Greta Garbo
   - name: Clark Gable
@@ -129,8 +137,8 @@ sections:
       that has been keeping Hollywood's secrets for nearly a hundred years.
 
 
-      In 2020, the hotel converted to a members-only model under the continued
-      ownership of Andre Balazs. For visiting pilgrims, the way in is to book a
-      room; not cheap, but the cost buys access to one of the last working
-      monuments of Hollywood's Golden Age. Sleep where Garbo slept. Sit where
-      Wilder wrote. Order the ice cream, and quietly toast Howard Hughes.
+      In 2020, owner André Balazs announced plans to convert the hotel into a
+      members-only club, a proposal abandoned in 2022 after a high-profile
+      dispute with the unionising staff. The hotel remains, for now, bookable by
+      anyone who can afford it. Sleep where Garbo slept. Sit where Wilder wrote.
+      Order the ice cream, and quietly toast Howard Hughes.
