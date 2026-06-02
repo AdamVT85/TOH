@@ -1,0 +1,147 @@
+name: Hotel Splendido
+locationLine: Salita Baratta 16, 16034 Portofino, Genoa, Italy
+venueType: Hotel
+status: Seasonal
+established: '1902'
+cityCountry: Portofino, Italy
+priceIndicator: $$$
+hollywoodRating: 4
+heroImage: /images/venues/hotel-splendido/heroImage.jpg
+heroImageFocus: top
+heroImageAlt: The Belmond Hotel Splendido on the hillside above Portofino harbour, Italian Riviera
+excerpt: >-
+  A former 16th-century monastery turned ultra-luxury hotel on the hillside above
+  Portofino harbour, the Splendido has been the default destination for Hollywood
+  royalty visiting the Italian Riviera since the 1950s. Bogart and Bacall, Ava
+  Gardner, Elizabeth Taylor and Richard Burton, Clark Gable, Grace Kelly and Frank
+  Sinatra all came for the heated saltwater pool, the wisteria-clad terrace and
+  those sensational views.
+pullQuote: >-
+  It's rumoured that Burton proposed to Elizabeth on the wisteria-clad terrace.
+  And if you're going to propose anywhere, a wisteria-clad terrace overlooking
+  Portofino harbour is a fairly solid choice.
+pullQuoteAttribution: Travel Old Hollywood
+gallery: []
+whoCameHere:
+  - name: Humphrey Bogart
+  - name: Lauren Bacall
+  - name: Ava Gardner
+    starGuideSlug: ava-gardner
+  - name: Elizabeth Taylor
+    starGuideSlug: elizabeth-taylor
+  - name: Richard Burton
+  - name: Frank Sinatra
+    starGuideSlug: frank-sinatra
+  - name: Clark Gable
+  - name: Grace Kelly
+  - name: Charlie Chaplin
+  - name: Maria Callas
+  - name: Marlene Dietrich
+  - name: Rex Harrison
+asSeenIn:
+  - title: The Barefoot Contessa
+    year: '1954'
+signatureExperiences:
+  - name: The heated saltwater pool
+    description: >-
+      A heated saltwater pool surrounded by lush gardens and sensational views of
+      the Italian Riviera, with bright orange umbrellas and a terracotta-and-azure
+      colour palette. It was a magnet for celebrities in the 1950s and 60s and is
+      the image most people picture when they think of old Hollywood glamour on the
+      Ligurian coast.
+  - name: La Terrazza restaurant
+    description: >-
+      The hotel's main restaurant, where you can eat fresh pasta while looking down
+      at the yachts bobbing in the harbour below — one of the most romantic dining
+      spots in the Mediterranean. It now serves a spaghetti dish called "Homage to
+      Elizabeth Taylor."
+  - name: The wisteria-clad terrace
+    description: >-
+      The terrace overlooking Portofino harbour where, it is rumoured, Richard
+      Burton proposed to Elizabeth Taylor.
+website: https://www.belmond.com/hotels/europe/italy/portofino/belmond-hotel-splendido/
+phone: +39 0185 267801
+openingHours: Seasonal — typically open from spring to early November. Closed in winter.
+priceRange: Rooms from around $2,000 per night in high season, breakfast included.
+howToBook: >-
+  Book direct at <a
+  href="https://www.belmond.com/hotels/europe/italy/portofino/belmond-hotel-splendido/"
+  target="_blank" rel="noopener">belmond.com</a> or by phone on +39 0185 267801.
+  The hotel is seasonal and books up well in advance, so reserve early. If the
+  Splendido is beyond reach, its harbourside sister hotel Splendido Mare offers
+  more affordable rooms and shares some of the same Belmond polish.
+nearestAirport: Genoa Cristoforo Colombo (GOA) — approx. 40 minutes by car
+transportNotes: >-
+  Perched on the hillside above Portofino harbour. The harbour piazzetta, which has
+  barely changed since the 1950s, is a five-minute walk downhill from the hotel.
+dressCode: ''
+bestTimeToVisit: >-
+  The hotel is open seasonally, roughly spring to early November. Late spring and
+  early autumn are quieter than the high-summer crush.
+accessibilityNotes: >-
+  Contact the hotel directly to confirm accessible rooms and step-free access,
+  particularly given the property's hillside setting.
+tips: >-
+  Order the "Homage to Elizabeth Taylor" spaghetti at La Terrazza and, if you are
+  feeling indulgent, a chocolate martini (Liz's favourite drink) as you gaze out
+  over the harbour. One thing to note: Portofino has introduced a selfie ban in
+  certain areas, so you may need to admire the view with your actual eyes, like
+  some kind of 1950s film star.
+bookingUrl: ''
+nearbyVenues:
+  - name: The Gritti Palace
+    venueSlug: the-gritti-palace
+    venueType: Hotel
+  - name: Westin Excelsior Rome
+    venueSlug: westin-excelsior-rome
+    venueType: Hotel
+relatedArticles:
+  - swimming-pools-of-classic-hollywood
+  - 26-old-hollywood-hotels
+sections:
+  - heading: From monastery to movie-star magnet
+    copy: >-
+      The Splendido rose from the ashes of a former 16th-century monastery to
+      become one of the world's most celebrated hotels. The building was bought in
+      1901 and reopened as a hotel in 1902, and by the middle of the century it had
+      become the place Hollywood went when it wanted the Italian Riviera at its
+      most glamorous.
+
+      It played host to Clark Gable, Humphrey Bogart, Lauren Bacall, Ava Gardner,
+      Elizabeth Taylor and Richard Burton. Charlie Chaplin was a regular. Grace
+      Kelly adored the place. Maria Callas came here to be dramatic in more
+      beautiful surroundings than La Scala could offer. And Frank Sinatra liked
+      Portofino so much there's a lookout point on Mount Portofino named after him,
+      which feels about right for a man who expected the landscape itself to pay
+      tribute.
+    callout: >-
+      A heated saltwater pool, lush gardens, bright orange umbrellas, and that
+      terracotta-and-azure colour palette — you half expect to see Bogart slouched
+      in a deckchair while Bacall pretends not to notice him from behind enormous
+      sunglasses.
+  - heading: The Barefoot Contessa and a wisteria-clad proposal
+    copy: >-
+      Bogie, Bacall and Ava Gardner stayed here during filming for The Barefoot
+      Contessa, the whimsical, over-the-top drama in which Gardner plays a flamenco
+      dancer propelled towards stardom. Gardner fell in love with Portofino and
+      returned often on private holidays; the Splendido was her hotel of choice.
+
+      Taylor and Burton, meanwhile, used the hotel as an escape from the paparazzi
+      during the height of their much-publicised affair, arriving on the yacht
+      Kalizma and returning many times afterwards. It's rumoured that Burton
+      proposed to Elizabeth on the wisteria-clad terrace — and if you're going to
+      propose anywhere, a wisteria-clad terrace overlooking Portofino harbour is a
+      fairly solid choice.
+  - heading: Still splendid
+    copy: >-
+      The hotel was renovated in 2025 but has kept its character firmly intact, and
+      it now holds two Michelin keys. La Terrazza, the main restaurant, serves a
+      spaghetti dish called "Homage to Elizabeth Taylor." The sister property,
+      Splendido Mare, down by the harbour, even has a suite named after Ava Gardner,
+      complete with a sprawling waterfront terrace and lemon trees, which feels
+      entirely appropriate.
+
+      This is not a budget swim. Rooms at the Splendido now start above $2,000 per
+      night in high season, which is rather the point — it is, as the stars who came
+      here would tell you, the luxury end of the Riviera. The hotel is seasonal, so
+      book well in advance.

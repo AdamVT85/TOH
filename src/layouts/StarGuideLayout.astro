@@ -18,11 +18,22 @@ interface Props {
   birthYear?: number;
   deathYear?: number;
   portraitImage?: string;
+  portraitFocus?: string;
   heroImage?: string;
   excerpt?: string;
   keyFilms?: { title: string; year?: string }[];
   keyDestinations?: string[];
   sections?: Section[];
+  regions?: {
+    region?: string;
+    intro?: string;
+    image?: string;
+    imageAlt?: string;
+    imageFocus?: string;
+    caption?: string;
+    places?: { name?: string; category?: string; venueSlug?: string; description?: string; detail?: string; status?: string }[];
+  }[];
+  lifestyle?: { label?: string; text?: string }[];
 }
 
 const props = Astro.props;
@@ -44,7 +55,7 @@ const sections = props.sections || [];
         <!-- Portrait Left -->
         <div class="w-full md:w-[40%] h-[50vh] md:h-auto relative group">
           {props.portraitImage && (
-            <img src={props.portraitImage} alt={props.name} class="w-full h-full object-cover filter grayscale contrast-125 group-hover:sepia-[.4] transition-all duration-700" />
+            <img src={props.portraitImage} alt={props.name} class="w-full h-full object-cover filter grayscale contrast-125 group-hover:sepia-[.4] transition-all duration-700" style={`object-position: ${props.portraitFocus || 'top'}`} />
           )}
           <div class="absolute inset-0 bg-gradient-to-t from-[#1a2b4c]/80 to-transparent md:hidden"></div>
         </div>
@@ -136,6 +147,86 @@ const sections = props.sections || [];
         </div>
       </div>
 
+      <!-- The Trail: regions -> places -->
+      {props.regions && props.regions.length > 0 && (
+        <div class="bg-[#fdfbf2] border-t-4 border-double border-[#1a2b4c]">
+          <div class="max-w-5xl mx-auto px-6 md:px-12 py-12 md:py-16">
+            <h2 class="font-anton text-4xl md:text-5xl text-[#1a2b4c] uppercase tracking-widest">The Trail</h2>
+            <p class="font-cursive text-2xl md:text-3xl text-[#c13a3a] mb-12">Where to walk in his footsteps</p>
+
+            {props.regions.map((region) => (
+              <section class="mb-16">
+                {region.region && (
+                  <h3 class="font-oswald text-2xl md:text-3xl text-[#c13a3a] uppercase tracking-widest border-b-2 border-[#d4b872] pb-2 mb-5">{region.region}</h3>
+                )}
+                {region.intro && region.intro.split('\n\n').map((para) => (
+                  <p class="mb-4 text-[#222] leading-relaxed" set:html={para} />
+                ))}
+                {region.image && (
+                  <figure class="my-6 p-2 bg-[#fdfbf2] border border-[#d4b872] shadow-[4px_4px_0px_rgba(212,184,114,0.4)] flow-root">
+                    <img src={region.image} alt={region.imageAlt || region.region} class="w-full h-64 md:h-80 object-cover filter contrast-125 sepia-[.3]" style={`object-position: ${region.imageFocus || 'center'}`} />
+                    {region.caption && (
+                      <figcaption class="text-center font-typewriter text-xs text-[#8b5a2b] mt-3 uppercase tracking-widest">{region.caption}</figcaption>
+                    )}
+                  </figure>
+                )}
+                {region.places && region.places.length > 0 && (
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6">
+                    {region.places.map((place) => {
+                      const closed = place.status && place.status !== 'Open';
+                      return (
+                        <div class="bg-white border border-[#e8d5b5] p-5 shadow-sm hover:shadow-md transition-shadow">
+                          <div class="flex flex-wrap items-center gap-2 mb-2">
+                            {place.category && (
+                              <span class="font-oswald text-[10px] tracking-widest uppercase bg-[#1a2b4c] text-[#fceeb5] px-2 py-0.5">{place.category}</span>
+                            )}
+                            {closed && (
+                              <span class="font-oswald text-[10px] tracking-widest uppercase bg-[#8b2b2b] text-[#fceeb5] px-2 py-0.5">{place.status}</span>
+                            )}
+                          </div>
+                          <h4 class="font-serif text-2xl text-[#1a2b4c] leading-tight mb-2">
+                            {place.venueSlug ? (
+                              <a href={`/venues/${place.venueSlug}`} class="hover:text-[#c13a3a] transition-colors underline decoration-[#d4b872] underline-offset-4">{place.name}</a>
+                            ) : (
+                              place.name
+                            )}
+                          </h4>
+                          {place.description && (
+                            <p class="font-sans text-sm text-[#2b3a55] mb-3" set:html={place.description} />
+                          )}
+                          {place.detail && (
+                            <p class="font-typewriter text-xs text-[#8b5a2b] border-t border-[#e8d5b5] pt-2">{place.detail}</p>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </section>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Live Like… -->
+      {props.lifestyle && props.lifestyle.length > 0 && (
+        <div class="bg-[#1a2b4c] py-16 px-6 md:px-12 border-t-[8px] border-double border-[#d4b872]">
+          <div class="max-w-5xl mx-auto">
+            <h2 class="font-anton text-3xl md:text-4xl text-[#d4b872] uppercase tracking-widest text-center mb-12">Live Like {props.name.split(' ')[0]}</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
+              {props.lifestyle.map((item) => (
+                <div class="border-l-4 border-[#c13a3a] pl-5">
+                  {item.label && <h3 class="font-oswald text-xl text-[#fceeb5] uppercase tracking-wider mb-2">{item.label}</h3>}
+                  {item.text && item.text.split('\n\n').map((para) => (
+                    <p class="font-sans text-sm text-[#d8c5a5] mb-3 leading-relaxed" set:html={para} />
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
       <!-- Key Films -->
       {props.keyFilms && props.keyFilms.length > 0 && (
         <div class="bg-[#1a2b4c] relative py-16 px-4 md:px-8 lg:px-12 border-y-[8px] border-double border-[#d4b872]">
@@ -158,6 +249,12 @@ const sections = props.sections || [];
           </div>
         </div>
       )}
+
+      <!-- Keep Exploring -->
+      <div class="bg-[#1a2b4c] p-8 md:p-16 border-t-[8px] border-double border-[#d4b872]">
+        <h3 class="font-anton text-4xl md:text-5xl text-[#fceeb5] tracking-widest uppercase text-center mb-12">Keep Exploring</h3>
+        <slot name="related" />
+      </div>
 
       <Footer />
     </div>

@@ -2,6 +2,8 @@
 import { createReader } from '@keystatic/core/reader';
 import keystaticConfig from '../../../keystatic.config';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import RelatedCards from '../../components/RelatedCards.astro';
+import { resolveRelated } from '../../lib/related.js';
 
 export async function getStaticPaths() {
   const reader = createReader(process.cwd(), keystaticConfig);
@@ -16,6 +18,12 @@ const { slug } = Astro.props;
 const reader = createReader(process.cwd(), keystaticConfig);
 const article = await reader.collections.articles.read(slug);
 if (!article) return Astro.redirect('/404');
+
+const related = await resolveRelated(reader, {
+  venues: article.relatedVenues,
+  stars: article.relatedStars,
+  articles: article.relatedArticles,
+});
 ---
 
 <ArticleLayout
@@ -24,9 +32,12 @@ if (!article) return Astro.redirect('/404');
   seriesLabel={article.seriesLabel}
   heroImage={article.heroImage || undefined}
   heroImageAlt={article.heroImageAlt}
+  heroImageFocus={article.heroImageFocus}
   publishDate={article.publishDate || undefined}
   excerpt={article.excerpt}
   watchList={article.watchList}
   sections={article.sections}
   destinationTags={article.destinationTags}
-/>
+>
+  <RelatedCards slot="related" items={related} />
+</ArticleLayout>

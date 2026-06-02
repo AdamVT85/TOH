@@ -1,0 +1,67 @@
+title: Paris
+country: Paris
+region: The Ritz, the George V and a duck with a serial number
+heroImage: /images/destinations/paris/heroImage.jpg
+heroImageAlt: Notre-Dame and the Île de la Cité on the Seine at dusk, the view across to which Tour d'Argent has served diners since 1582
+excerpt: >-
+  From Ava Gardner and Frank Sinatra's romantic dinners at Tour d'Argent to
+  Elizabeth Taylor's suites at the George V and Hemingway "liberating" the bar at
+  the Ritz, Paris was where Old Hollywood came to disappear into luxury and
+  reappear ten years younger. Here is the city as the stars knew it.
+passportStamps:
+  - city: PARIS
+    detail: George V
+    date: '1951'
+  - city: PARIS
+    detail: Tour d'Argent
+    date: '1582'
+  - city: PARIS
+    detail: Place Vendôme
+  - city: PARIS
+    detail: Plaza Athénée
+sections:
+  - heading: A City Built for Stars
+    copy: |-
+      Paris has its own gravity. Where the Riviera was Hollywood's summer playground, Paris was the place the stars came to between films, between marriages, between reinventions — a city of grand hotels, three-star restaurants and bars where the cocktails were superb and superbly priced.
+
+      The names overlap with the Riviera guide, but the stories are distinct enough to stand alone: Ava Gardner on a break from filming, Sinatra flying out to see her, Elizabeth Taylor and Richard Burton occupying suites through their European years, and Ernest Hemingway treating the bar of the Ritz as a personal trophy. This is the Paris they knew, and a remarkable amount of it is still there.
+  - heading: Tour d'Argent — Ava, Frank and the Numbered Duck
+    image: /images/destinations/paris/heroImage.jpg
+    imageAlt: The Seine and Notre-Dame at dusk, the view across which Tour d'Argent looks
+    caption: Tour d'Argent has been serving diners overlooking Notre-Dame since 1582
+    copy: |-
+      It is well known that Sinatra hated fancy restaurants, preferring mom-and-pop diners and little Italian steakhouses, but he made an exception for Tour d'Argent. He enjoyed several romantic dates here with Ava Gardner in the 1950s, when the restaurant on the Quai de la Tournelle held three Michelin stars and was considered one of the finest in the world. In her later years, Gardner was known to visit by herself and reminisce with the waiting staff about the times she had spent here with Frank.
+
+      Tour d'Argent has been serving diners overlooking the Seine and Notre-Dame since 1582, which makes it one of the oldest restaurants in Paris. It has since been downgraded — it lost its third star in 1996 and its second in 2006, leaving it with one, a demotion that would have made Ava shrug — but it recently reopened after a major renovation and remains very much an experience. Its legendary pressed duck comes with its own serial number, and diners who order it receive a postcard with the bird's number, now well over one million. Marlene Dietrich's was #203,728.
+    callout: Some restaurants are simply too good to visit only once, even if the Michelin inspectors disagree.
+  - heading: The George V — Gardner's and Taylor's Parisian Base
+    image: /images/destinations/paris/sections/1/image.jpg
+    imageAlt: Avenue George V in the 8th arrondissement, Paris
+    caption: Avenue George V, home of the most opulent hotel in Paris
+    copy: |-
+      The most opulent hotel in Paris has been a favourite of Hollywood royalty since it opened in 1928. Ava Gardner stayed here while on a break from filming Pandora and the Flying Dutchman in 1951 — it was on this trip that Frank Sinatra flew out to see her and the pair dined at Tour d'Argent. The George V was Gardner's Paris hotel of choice, and Elizabeth Taylor and Richard Burton occupied suites here during their European years. It was also a favourite of Orson Welles and the Beatles.
+
+      Now the Four Seasons George V, the hotel is the kind of place where a star could disappear for a week and emerge looking ten years younger and €50,000 poorer. The flower arrangements in the lobby cost a rumoured €40,000 per week, which tells you everything about the hotel's approach to understatement, and its restaurant, Le Cinq, holds two Michelin stars. The courtyard garden is one of the most tranquil spaces in the city.
+  - heading: The Ritz — Chanel, Hemingway and Place Vendôme
+    image: /images/destinations/paris/sections/0/image.jpg
+    imageAlt: Place Vendôme, Paris, home of the Ritz
+    caption: Place Vendôme — the Ritz is not so much a hotel as a monument to 20th-century glamour
+    copy: |-
+      The Ritz on Place Vendôme is not so much a hotel as a monument to 20th-century glamour. Coco Chanel lived here for over thirty years, occupying a suite on the Rue Cambon side until her death in 1971. Marlene Dietrich was a regular between the wars, Garbo checked in under assumed names, and F. Scott Fitzgerald drank here (of course he did).
+
+      But the hotel's greatest Hollywood story belongs to Ernest Hemingway, who during the liberation of Paris in 1944 arrived at the Ritz with a group of resistance fighters and "liberated" the bar. The bar is now named after him, and a plaque marks the occasion — the fact that the Germans had already left the hotel before Hemingway arrived has never been allowed to diminish the legend. The Bar Hemingway is small, wood-panelled and decorated with photographs of Papa. The hotel was closed for a four-year renovation between 2012 and 2016 and emerged even more pristine than before, which is the Ritz equivalent of a very expensive facelift that nobody is supposed to mention.
+  - heading: More Paris Sleeps and Stories
+    copy: |-
+      More than a decade after her George V years, Ava was back in Paris to discuss starring in The Pink Panther opposite Peter Sellers. On this occasion she stayed at the Plaza Athénée and once again visited Tour d'Argent, to reminisce about the romantic times with Frank.
+
+      Elizabeth Taylor's Paris extended well beyond her hotel suites. In October 1971 she attended the Shah of Iran's celebration of the 2,500th anniversary of the Persian Empire at Persepolis, one of the most extravagant parties in history — a banquet catered by Maxim's of Paris and featuring 25,000 bottles of wine. The Paris of the movies lingers too: much of Funny Face was shot at home in California, but Audrey Hepburn and Fred Astaire did soak up the real thing at the Place de l'Opéra, the Champs-Élysées and the Eiffel Tower, while Hemingway's old Left Bank haunts — Les Deux Magots and Café de Flore on the Boulevard Saint-Germain — still serve coffee and overpriced croissants to literary tourists daily.
+featuredVenues:
+  - the-ritz-paris
+  - george-v-paris
+relatedStars:
+  - ava-gardner
+  - elizabeth-taylor
+  - frank-sinatra
+relatedFilmLocations: []
+relatedArticles:
+  - 26-old-hollywood-hotels

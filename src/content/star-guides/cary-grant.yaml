@@ -1,0 +1,391 @@
+name: Cary Grant
+nickname: Bristol Boy and Hollywood Legend
+birthYear: 1904
+deathYear: 1986
+portraitImage: /images/stars/cary-grant/portrait.jpg
+portraitFocus: top
+excerpt: >-
+  Follow Cary Grant from a terraced house in Bristol to the backstages of New
+  York vaudeville, the poolside of his Hollywood bachelor pad, and the
+  sun-drenched corniche roads of the French Riviera. This is the ultimate guide
+  to the places that made the man who reinvented himself so completely that even
+  he wanted to be Cary Grant.
+keyDestinations:
+  - Bristol
+  - London
+  - New York
+  - Los Angeles
+  - Palm Springs
+  - French Riviera
+  - Rome
+  - Hong Kong
+keyFilms:
+  - title: To Catch a Thief
+    year: '1955'
+  - title: North by Northwest
+    year: '1959'
+sections:
+  - heading: Everyone Wants to Be Cary Grant
+    copy: |-
+      There is nobody in the history of cinema quite like Cary Grant. Other actors were more talented. None were more watchable. Born Archibald Alec Leach in a terraced house in Bristol in 1904, the son of a clothes presser and a seamstress, he reinvented himself so completely that even he seemed unsure where Archie ended and Cary began. "Everyone wants to be Cary Grant," he once said. "Even I want to be Cary Grant."
+
+      This guide follows Grant from the working-class streets of Bristol to the backstages of New York vaudeville, from the poolside of his infamous Hollywood bachelor pad to the sun-drenched corniche roads of the French Riviera. It ends, as Grant's story does, in the most unlikely place imaginable: a hotel room in Davenport, Iowa.
+regions:
+  - region: Bristol
+    intro: |-
+      Every Cary Grant pilgrimage must begin where Archie Leach began: in Bristol, the port city in southwest England that shaped the voice, the charm, and the quiet sadness behind the smile.
+
+      Grant was born on 18 January 1904 at 15 Hughenden Road in Horfield, a modest suburb just north of the city centre. A blue plaque marks the house. His father Elias worked as a clothes presser at a garment factory. His mother Elsie suffered from depression following the death of her first child, and when Archie was nine, his father had her committed to the Bristol Lunatic Asylum, telling the boy she had gone on holiday. Later, he told him she had died. Grant did not discover his mother was alive until he was 31 years old and already famous. He arranged her release and visited her in Bristol every year until her death in 1973.
+
+      It is one of the saddest stories in Hollywood, and it explains almost everything about the man Grant became: the immaculate self-invention, the emotional guardedness, the perfectionism, and the deep, unshakeable attachment to the city he came from. He never forgot Bristol. He visited constantly, well into his seventies, and he credited his upbringing for shaping the voice that seduced the world. Grant's voice was actually a unique mid-Atlantic hybrid that belonged to neither Bristol nor Hollywood, which was rather the point. He had invented a new country and made himself its only citizen.
+    places:
+      - name: Cary Grant Birthplace Trail
+        category: Do
+        status: Open
+        description: >-
+          The trail begins at 15 Hughenden Road in Horfield (blue plaque) and
+          winds through the streets of his childhood. A second blue plaque was
+          unveiled at his other childhood home, 50 Berkeley Road in Bishopston,
+          in November 2024, marking the 120th anniversary of his birth. Both
+          houses are modest terraced properties, entirely unchanged from when
+          young Archie lived there.
+        detail: 'Starts at 15 Hughenden Road, Horfield, Bristol.'
+      - name: Cary Grant Statue, Millennium Square
+        category: See
+        status: Open
+        description: >-
+          Erected in 2001 on the harbourside, the handsome bronze bears the
+          inscription: "Cary Grant, Archibald Alec Leach, 1904-1986, Bristol boy
+          and Hollywood legend." No statue could quite capture the way the real
+          Grant moved.
+        detail: 'Millennium Square, Bristol harbourside.'
+      - name: Bristol Hippodrome
+        category: See
+        status: Open
+        description: >-
+          This is where everything started. Young Archie got a weekend job
+          operating the stage lights at the age of 14, which led to his meeting
+          the Bob Pender Troupe, a comedy and acrobatic act who took him under
+          their wing. He joined the troupe, trained as a stilt-walker and
+          acrobat, and in 1920 sailed with them to America. He was sixteen years
+          old and had never been out of Bristol. When he returned, it was as Cary
+          Grant.
+        detail: 'St Augustine''s Parade, Bristol.'
+      - name: Stewy Street Art Portrait, Gloucester Road
+        category: See
+        status: Open
+        description: >-
+          Look out for the street art portrait of Grant by graffiti artist
+          Stewy, part of an expanding series of hand-cut stencils depicting
+          famous Bristolians.
+        detail: 'Gloucester Road, Bristol.'
+      - name: 'Cary Comes Home: From Bristol to Hollywood Walking Tour'
+        category: Do
+        status: Open
+        description: >-
+          Show of Strength Theatre Company runs this walking tour. Private tours
+          are available by arrangement. The biennial Cary Comes Home Festival is
+          returning in late 2026.
+        detail: 'Run by Show of Strength Theatre Company. Private tours by arrangement.'
+      - name: Glenside Hospital Museum
+        category: See
+        status: Open
+        description: >-
+          On the site of the former Bristol Lunatic Asylum where Grant's mother
+          was held, the museum tells the story of Elsie Leach and the asylum's
+          history. It is a poignant and worthwhile visit.
+        detail: 'Glenside, Bristol.'
+      - name: Avon Gorge Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          When Grant returned to Bristol as a star, he would stay at the Avon
+          Gorge Hotel overlooking the Clifton Suspension Bridge.
+        detail: 'Overlooking the Clifton Suspension Bridge, Bristol.'
+  - region: London
+    intro: >-
+      Grant's London connections are surprisingly thin for a man who was born
+      English. He passed through London on his way to America with the Pender
+      Troupe in 1920, and he returned occasionally for premieres and social
+      engagements, but London was never really his city. Bristol was home.
+      Hollywood was work. London was somewhere in between.
+    places:
+      - name: Claridge's
+        category: Sleep
+        status: Open
+        venueSlug: claridges
+        description: >-
+          The art deco grande dame in Mayfair was Grant's London hotel of
+          choice. He stayed here on visits to the UK throughout his career.
+        detail: 'Mayfair, London. Rooms from around £500 per night.'
+  - region: New York
+    intro: >-
+      New York is where Archie Leach became Cary Grant. He arrived in 1920 as a
+      teenage acrobat with the Bob Pender Troupe, and he stayed after the tour
+      ended, scratching out a living on the vaudeville circuit and in small
+      theatrical roles.
+    places:
+      - name: Greenwich Village & the Cherry Lane Theatre
+        category: Do
+        status: Open
+        description: >-
+          Grant's real theatrical start was in Greenwich Village, where he lived
+          at 21 Commerce Street and 75½ Bedford Street, the latter being the
+          narrowest house in Greenwich Village (just 9.5 feet wide). He performed
+          at the Cherry Lane Theatre on Commerce Street, which opened in 1924 and
+          remains New York's longest-running off-Broadway theatre. All three
+          buildings are still standing and within a few minutes' walk of each
+          other.
+        detail: 'Commerce Street & Bedford Street, Greenwich Village, New York.'
+      - name: The Warwick Hotel
+        category: Sleep
+        status: Open
+        venueSlug: the-warwick-new-york
+        description: >-
+          The essential Cary Grant hotel in New York. Built by William Randolph
+          Hearst in 1926, it stands on West 54th Street across from where the
+          Ziegfeld Theatre once stood. Grant lived here for twelve years while he
+          was working in New York, occupying the Suite of the Stars on the 27th
+          floor, a 1,200-square-foot apartment with a four-poster king bed,
+          whirlpool tub, sauna, and a large wrap-around terrace with sweeping
+          views of Manhattan. The suite is still available to book today, now
+          also known as the Cary Grant Suite. In a typically generous gesture,
+          Grant lent it to his friend Roger Moore and Moore's wife Luisa while
+          they were in New York filming Live and Let Die. The hotel has also
+          hosted Elizabeth Taylor, Elvis Presley, James Dean, and the Beatles.
+        detail: >-
+          West 54th Street, New York. Standard rooms from around $300 per night;
+          the Cary Grant Suite from considerably more.
+      - name: The Plaza Hotel
+        category: See
+        status: Open
+        description: >-
+          The Plaza on Fifth Avenue deserves a mention for one of the most
+          memorable scenes in North by Northwest (1959). The Oak Bar, where Roger
+          Thornhill (Grant) is mistaken for a spy and kidnapped, is no longer
+          operating as a bar, but the hotel itself is magnificent and visitable.
+        detail: 'Fifth Avenue, New York.'
+  - region: Los Angeles
+    intro: >-
+      Grant lived in Los Angeles for most of his adult life, and his homes there
+      tell the story of his evolving identity.
+    places:
+      - name: Santa Anita Racetrack
+        category: Do
+        status: Open
+        description: >-
+          In Arcadia, this was one of Grant's regular haunts. He loved horse
+          racing and was a frequent visitor during the track's golden era, when
+          it attracted Hollywood's biggest names. The art deco grandstand, built
+          in 1934, is one of the finest in America.
+        detail: >-
+          Arcadia, Los Angeles. General admission from around $5 on race days.
+      - name: The Formosa Cafe
+        category: Eat
+        status: Open
+        description: >-
+          On Santa Monica Boulevard, the Formosa was a favourite of Grant's
+          generation.
+        detail: 'Santa Monica Boulevard, Los Angeles.'
+      - name: Grant & Randolph Scott Bachelor Pad, Los Feliz
+        category: See
+        status: Open
+        description: >-
+          The bachelor pad Grant shared with Randolph Scott on West Live Oak
+          Drive in Los Feliz is the most famous of his homes. Built in 1930 for
+          silent movie star Norma Talmadge, Grant and Scott bought it from her
+          and lived together throughout the early 1930s, fuelling endless
+          speculation about the nature of their relationship. They threw
+          legendary pool parties and were photographed together in matching
+          outfits. Whether they were lovers or merely very close friends remains
+          one of Hollywood's most debated questions. Paramount eventually ordered
+          Grant to marry, and when he wed Virginia Cherrill in 1934, Scott moved
+          out. The two remained close friends for life.
+        detail: 'West Live Oak Drive, Los Feliz, Los Angeles. Private residence.'
+      - name: Beverly Hills Mansion (built by Buster Keaton)
+        category: See
+        status: Open
+        description: >-
+          The Beverly Hills mansion that Grant and his second wife, Woolworth
+          heiress Barbara Hutton, occupied during their marriage had been built
+          by Buster Keaton in 1924 (twenty rooms on three and a half acres, with
+          a Roman-bath-inspired swimming pool), and included a secret passage to
+          a hidden bar, which Keaton had installed during Prohibition. Grant
+          would have appreciated the craftsmanship.
+        detail: 'Beverly Hills, Los Angeles. Private residence.'
+  - region: Palm Springs
+    intro: >-
+      Palm Springs was a private retreat for Grant, where his former 1940s
+      guesthouse and a later vacation home anchor his desert connection.
+    places:
+      - name: Copley's on Palm Canyon
+        category: Eat
+        status: Open
+        description: >-
+          The most delightful Cary Grant dining experience you can have anywhere
+          in the world. The restaurant is housed in Grant's former 1940s Palm
+          Springs guesthouse, where he hosted visiting friends and family, many
+          of them Hollywood royalty. The New York Times called it "the hottest
+          place" in Palm Springs. Chef Andrew Copley (English-born, trained at
+          the Savoy in London) serves elevated American cuisine with mountain
+          views from the outdoor patio. The fire pit area is perfect for a
+          post-dinner cocktail under the desert stars.
+        detail: >-
+          621 North Palm Canyon Drive, Palm Springs. Dinner only, Tuesday to
+          Sunday from 5pm. Closed July and August. Mains from around $40.
+          Reservations essential.
+      - name: Grant's Old Las Palmas Vacation House
+        category: See
+        status: Open
+        description: >-
+          Grant's former vacation house in the Old Las Palmas neighbourhood was
+          listed for sale in February 2026 at $12.7 million, if you fancy the
+          ultimate souvenir.
+        detail: 'Old Las Palmas, Palm Springs. Private residence.'
+  - region: Davenport, Iowa
+    intro: |-
+      On the afternoon of Saturday 29 November 1986, Cary Grant was at the Adler Theatre in Davenport, Iowa, preparing for a performance of "A Conversation with Cary Grant," a touring one-man show in which the 82-year-old actor took questions from the audience. He had been feeling unwell when he arrived, and rehearsed for half an hour before something seemed wrong. He disappeared backstage.
+
+      Grant was taken back to the Blackhawk Hotel, where he and his wife Barbara had checked in. A doctor was called and found that Grant was having a massive stroke. He refused to go to hospital. By 8:45pm he had slipped into a coma and was finally taken to St. Luke's Hospital, where he died at 11:22pm. There was no funeral, per his request.
+
+      They are quiet, unassuming buildings in a quiet, unassuming city, which is perhaps the most un-Cary-Grant ending imaginable, and therefore, somehow, the most Cary Grant ending of all.
+    places:
+      - name: Adler Theatre
+        category: See
+        status: Open
+        description: >-
+          The Adler Theatre still stands in downtown Davenport and hosts
+          performances. It was here, preparing for his one-man show "A
+          Conversation with Cary Grant," that Grant first fell ill on the
+          afternoon of 29 November 1986.
+        detail: 'Downtown Davenport, Iowa.'
+      - name: Blackhawk Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          A beautiful art deco building, still in operation. Grant and his wife
+          Barbara had checked in here; it was to this hotel that he was taken
+          after falling ill, and where he suffered the stroke from which he died
+          later that night.
+        detail: 'Davenport, Iowa.'
+  - region: French Riviera (To Catch a Thief)
+    intro: |-
+      If Bristol is where Cary Grant was born, the French Riviera is where he was most perfectly himself. To Catch a Thief (1955), directed by Alfred Hitchcock, is essentially a ninety-minute love letter to the Côte d'Azur, with Grant as a retired cat burglar and Grace Kelly as the American heiress who wants to catch him in more ways than one.
+
+      The film was shot almost entirely on location, and the locations are almost entirely still visitable.
+    places:
+      - name: InterContinental Carlton (now Regent Carlton)
+        category: Sleep
+        status: Open
+        venueSlug: carlton-cannes
+        description: >-
+          The centrepiece of the film. Grace Kelly's character Frances Stevens
+          stays here, and Grant's John Robie arrives at the hotel's private beach
+          after escaping by boat. The Carlton is the most famous hotel on the
+          Croisette and the traditional headquarters of the Cannes Film Festival,
+          held every May. It is where Kelly, during the 1955 festival, met Prince
+          Rainier III of Monaco for the first time. She married him the following
+          year and never made another film.
+        detail: >-
+          58 La Croisette, Cannes. Rooms from around €500 per night in season.
+      - name: The Grande Corniche
+        category: See
+        status: Open
+        description: >-
+          The hair-raising driving scene, in which Kelly terrifies Grant on
+          winding cliff roads, was filmed on the Grande Corniche, the high road
+          between Nice and Monaco that passes through the medieval villages of La
+          Turbie and Èze. Kelly, who was not a confident driver, was obliged to
+          do her own driving for the scene.
+        detail: 'The high road between Nice and Monaco, via La Turbie and Èze.'
+      - name: Beausoleil Picnic Viewpoint
+        category: See
+        status: Open
+        description: >-
+          The picnic scene, one of the most romantic in Hitchcock's career, was
+          filmed at a viewpoint in Beausoleil overlooking Monaco. The view is
+          much the same today.
+        detail: 'Beausoleil, overlooking Monaco.'
+      - name: Cours Saleya Flower Market
+        category: See
+        status: Open
+        description: >-
+          The flower market where Grant meets the insurance man from Lloyd's is
+          the Cours Saleya in Nice's Old Town, still operating daily.
+        detail: 'Cours Saleya, Old Town, Nice. Daily (except Mondays).'
+      - name: Saint-Jeannet & Villa Les Bolovens
+        category: See
+        status: Open
+        description: >-
+          Grant's character's hilltop villa was located near Saint-Jeannet, a
+          beautiful perched village above Nice with views of the Baou de
+          Saint-Jeannet, a dramatic rocky outcrop. The actual villa used in the
+          film, Villa Les Bolovens, is privately owned but can be seen from the
+          road.
+        detail: 'Near Saint-Jeannet, above Nice. Villa privately owned.'
+      - name: Monte Carlo & Cagnes-sur-Mer
+        category: See
+        status: Open
+        description: >-
+          The harbour scenes were filmed in Monte Carlo, Monaco. The village of
+          Cagnes-sur-Mer (specifically the medieval hilltop quarter of
+          Haut-de-Cagnes) also features in the film.
+        detail: 'Monte Carlo, Monaco; and Haut-de-Cagnes, Cagnes-sur-Mer.'
+  - region: Rome
+    intro: >-
+      Grant visited Rome on his honeymoon with his first wife, Virginia
+      Cherrill, in 1934. The marriage lasted barely a year. Rome, however,
+      endured.
+    places: []
+  - region: Hong Kong
+    intro: >-
+      Grant was famous for getting his suits made cheaply by tailors in Hong
+      Kong, a fact that delighted and horrified the fashion press in equal
+      measure. The man whom Edith Head considered to have the greatest fashion
+      sense of any actor she had ever worked with was buying off the rack in
+      Kowloon. The specific tailors he used are not recorded, but the tradition
+      of bespoke tailoring in Hong Kong remains strong.
+    places:
+      - name: Sam's Tailor, Tsim Sha Tsui
+        category: Do
+        status: Open
+        description: >-
+          Sam's Tailor in Tsim Sha Tsui has dressed everyone from Bill Clinton to
+          David Beckham, and would have been exactly Grant's kind of place:
+          excellent quality, no pretension, and about a quarter of the price of
+          Savile Row.
+        detail: 'Tsim Sha Tsui, Kowloon, Hong Kong.'
+lifestyle:
+  - label: A note on Grant's style
+    text: >-
+      Grant's approach to travel and style were inseparable. He was immaculate in
+      his personal grooming. He tanned obsessively (a habit he picked up from
+      Douglas Fairbanks), and the tan deepened as he aged. He avoided being
+      photographed smoking, despite smoking two packs a day. He came from a
+      working-class background and was not well educated, so he made a particular
+      effort throughout his career to mix with high society and absorb their
+      knowledge, manners, and etiquette. He was, in other words, entirely
+      self-made, which is the most American thing about him, despite the fact that
+      he was English.
+  - label: Dress like Cary
+    text: >-
+      Edith Head, the legendary Hollywood costume designer, considered him
+      "meticulous" about his clothing. He favoured dark suits, white shirts, and
+      minimal accessories. He looked equally good in a dinner jacket and a pair of
+      swimming trunks, which is a trick that almost nobody else in the history of
+      cinema has managed.
+  - label: Pack like Cary
+    text: >-
+      The lesson for travellers is this: Grant proved that style is not about
+      money. It is about attention. Pack less. Choose well. And whatever you do,
+      make sure the suit fits.
+relatedStars:
+  - frank-sinatra
+  - ava-gardner
+  - elizabeth-taylor
+relatedVenues:
+  - claridges
+  - the-warwick-new-york
+  - carlton-cannes
+relatedArticles:
+  - the-classic-hollywood-history-of-hearst-castle

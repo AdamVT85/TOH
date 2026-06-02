@@ -2,6 +2,8 @@
 import { createReader } from '@keystatic/core/reader';
 import keystaticConfig from '../../../keystatic.config';
 import StarGuideLayout from '../../layouts/StarGuideLayout.astro';
+import RelatedCards from '../../components/RelatedCards.astro';
+import { resolveRelated } from '../../lib/related.js';
 
 export async function getStaticPaths() {
   const reader = createReader(process.cwd(), keystaticConfig);
@@ -16,6 +18,12 @@ const { slug } = Astro.props;
 const reader = createReader(process.cwd(), keystaticConfig);
 const guide = await reader.collections.starGuides.read(slug);
 if (!guide) return Astro.redirect('/404');
+
+const related = await resolveRelated(reader, {
+  venues: guide.relatedVenues,
+  stars: guide.relatedStars,
+  articles: guide.relatedArticles,
+});
 ---
 
 <StarGuideLayout
@@ -24,9 +32,14 @@ if (!guide) return Astro.redirect('/404');
   birthYear={guide.birthYear || undefined}
   deathYear={guide.deathYear || undefined}
   portraitImage={guide.portraitImage || undefined}
+  portraitFocus={guide.portraitFocus}
   heroImage={guide.heroImage || undefined}
   excerpt={guide.excerpt}
   keyFilms={guide.keyFilms}
   keyDestinations={guide.keyDestinations}
   sections={guide.sections}
-/>
+  regions={guide.regions}
+  lifestyle={guide.lifestyle}
+>
+  <RelatedCards slot="related" items={related} />
+</StarGuideLayout>

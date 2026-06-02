@@ -1,0 +1,106 @@
+name: The Warwick Hotel
+locationLine: 65 West 54th Street, New York, NY 10019
+venueType: Hotel
+status: Open
+established: '1926'
+cityCountry: New York, USA
+priceIndicator: $$$
+hollywoodRating: 4
+heroImage: /images/venues/the-warwick-new-york/heroImage.jpg
+heroImageAlt: The Warwick Hotel on West 54th Street in Midtown Manhattan
+heroImageFocus: top
+excerpt: >-
+  Built by William Randolph Hearst in 1926 as a place for his Hollywood friends
+  to stay in New York, the Warwick on West 54th Street has a guest list that
+  reads like a casting call for the 20th century. Cary Grant lived here for
+  twelve years, and his 27th-floor suite is still available to book today.
+pullQuote: It is a building-sized love letter to old Hollywood.
+pullQuoteAttribution: Travel Old Hollywood
+gallery: []
+whoCameHere:
+  - name: Cary Grant
+    starGuideSlug: cary-grant
+  - name: Elizabeth Taylor
+    starGuideSlug: elizabeth-taylor
+  - name: Roger Moore
+  - name: Elvis Presley
+  - name: James Dean
+  - name: The Beatles
+asSeenIn: []
+signatureExperiences:
+  - name: The Cary Grant Suite (Suite of the Stars)
+    description: >-
+      Grant's home for twelve years, on the 27th floor: a 1,200-square-foot
+      apartment with a four-poster king bed, whirlpool tub, sauna, and a large
+      wrap-around terrace with sweeping views of Manhattan. Still available to
+      book, now also known as the Cary Grant Suite.
+    availability: Signature suite, on request
+  - name: The Hearst Suite and Marion Davies Suite
+    description: >-
+      The hotel also has suites named after William Randolph Hearst and Marion
+      Davies, for those who want to complete the Hearst Castle connection, plus
+      further suites named after Jane Russell and the Ziegfeld Follies, each
+      designed to reflect the style and tastes of its namesake.
+    availability: Signature suites, on request
+website: https://www.warwickhotels.com/warwick-new-york
+phone: +1 212-247-2700
+openingHours: Open year-round; reception 24 hours
+priceRange: Standard rooms from around $300 per night; signature suites on request
+howToBook: >-
+  Book direct at <a href="https://www.warwickhotels.com/warwick-new-york"
+  target="_blank" rel="noopener">warwickhotels.com</a> or by phone. The Cary
+  Grant Suite and other signature suites can be requested through the hotel.
+nearestAirport: LaGuardia (LGA) — approx. 30–45 minutes by car; JFK approx. 45–60 minutes
+transportNotes: >-
+  Midtown Manhattan, on West 54th Street at Sixth Avenue, a few blocks from
+  Central Park and the Museum of Modern Art. The 57th Street (F) and Fifth
+  Avenue/53rd Street (E, M) subway stations are a short walk away.
+bestTimeToVisit: Year-round.
+accessibilityNotes: Contact the hotel directly to confirm access requirements.
+tips: >-
+  The Cary Grant Suite (the former Suite of the Stars) is still available to
+  book for those who want to sleep where Grant lived for twelve years. The
+  hotel's Hearst and Marion Davies suites make a neat pairing with a visit to
+  Hearst Castle in California.
+nearbyVenues: []
+relatedArticles:
+  - 26-old-hollywood-hotels
+sections:
+  - copy: >-
+      Built by William Randolph Hearst in 1926 as a place for his Hollywood
+      friends to stay when visiting New York, the Warwick on West 54th Street
+      has a guest list that reads like a casting call for the 20th century. It
+      stands across from where the Ziegfeld Theatre once stood, a few blocks
+      from Central Park and the Museum of Modern Art.
+
+      The Beatles stayed during their first American tour. Elvis checked in.
+      James Dean brooded in the lobby. Over its century in business the hotel
+      has also hosted Elizabeth Taylor, and it remains a working hotel where you
+      can still book a room tonight.
+  - heading: The essential Cary Grant hotel in New York
+    copy: >-
+      Cary Grant lived here for twelve years while he was working in New York,
+      occupying the Suite of the Stars on the 27th floor — a 1,200-square-foot
+      apartment with a four-poster king bed, whirlpool tub, sauna, and a large
+      wrap-around terrace with sweeping views of Manhattan. The suite is still
+      available to book today, now also known as the Cary Grant Suite.
+
+      In a typically generous gesture, Grant lent the suite to his friend Roger
+      Moore (a fellow director of the Fabergé cosmetics company) and Moore's
+      wife Luisa while they were in New York filming Live and Let Die. On their
+      first night in the apartment, Moore and his wife watched an old Randolph
+      Scott western on television, which — given Grant's long history with Scott
+      — must have amused everybody involved.
+    callout: >-
+      On Roger Moore's first night in Grant's suite, decades later, Moore chose
+      to watch a Randolph Scott western. Draw your own conclusions.
+  - heading: A building-sized love letter to old Hollywood
+    copy: >-
+      The Warwick is more than the Cary Grant connection. The hotel also has
+      suites named after Hearst, Marion Davies, Jane Russell, and the Ziegfeld
+      Follies, each designed to reflect the style and tastes of its namesake.
+
+      For anyone tracing the Hearst Castle story across the country, the Hearst
+      Suite and Marion Davies Suite make this Midtown hotel an unexpected coda
+      to a visit to San Simeon — proof that Hearst built places for his
+      Hollywood circle on both coasts.

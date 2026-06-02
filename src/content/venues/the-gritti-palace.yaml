@@ -1,0 +1,100 @@
+name: The Gritti Palace
+locationLine: Campo Santa Maria del Giglio, San Marco 2467, 30124 Venice, Italy
+venueType: Hotel
+status: Open
+established: '1895'
+cityCountry: Venice, Italy
+priceIndicator: $$$
+hollywoodRating: 3
+heroImage: /images/venues/the-gritti-palace/heroImage.jpg
+heroImageAlt: The Gritti Palace, a 15th-century palazzo on the Grand Canal in Venice
+heroImageFocus: top
+excerpt: >-
+  A 15th-century palazzo on the Grand Canal that has been receiving illustrious
+  guests since the Doge's day. Hemingway wrote here with a bottle of Valpolicella
+  for company, Garbo retreated here in her usual irritable anonymity, and the
+  Venice Film Festival has sent film stars through the lobby every September
+  since 1932.
+pullQuote: >-
+  The terrace restaurant overlooking Santa Maria della Salute is one of the most
+  beautiful dining spots in Venice, and possibly the world.
+pullQuoteAttribution: Travel Old Hollywood
+gallery: []
+whoCameHere:
+  - name: Ernest Hemingway
+  - name: Greta Garbo
+  - name: Humphrey Bogart
+  - name: Charlie Chaplin
+  - name: Elizabeth Taylor
+    starGuideSlug: elizabeth-taylor
+asSeenIn: []
+signatureExperiences:
+  - name: The terrace restaurant
+    description: >-
+      The terrace overlooking the church of Santa Maria della Salute is one of
+      the most beautiful dining spots in Venice, and possibly the world. The
+      hotel's Bellini — prosecco and white peach puree, invented at Harry's Bar
+      just down the canal — is served with appropriate reverence.
+website: https://www.marriott.com/en-us/hotels/vcegl-the-gritti-palace-a-luxury-collection-hotel-venice/overview/
+phone: +39 041 794611
+openingHours: Open year-round
+priceRange: Rooms from around €700 per night
+howToBook: >-
+  Book direct at <a
+  href="https://www.marriott.com/en-us/hotels/vcegl-the-gritti-palace-a-luxury-collection-hotel-venice/overview/"
+  target="_blank" rel="noopener">marriott.com</a> or by phone. The hotel is part
+  of Marriott's Luxury Collection.
+nearestAirport: Venice Marco Polo Airport (VCE) — approx. 30–45 minutes by water taxi or land transfer plus boat
+transportNotes: >-
+  On the Grand Canal in the San Marco district, beside Campo Santa Maria del
+  Giglio. The Santa Maria del Giglio vaporetto stop is steps from the door, and
+  the hotel can be reached directly by private water taxi.
+bestTimeToVisit: >-
+  Open year-round, though Venice is best visited outside the peak summer months.
+  September brings the Venice Film Festival and its film-star clientele.
+accessibilityNotes: Contact the hotel directly to confirm access requirements.
+tips: >-
+  Even if you are not staying, the terrace restaurant overlooking Santa Maria
+  della Salute is worth the visit — order a Bellini and watch the Grand Canal go
+  by.
+nearbyVenues:
+  - name: Westin Excelsior Rome
+    venueSlug: westin-excelsior-rome
+    venueType: Hotel
+  - name: Four Seasons San Domenico Palace
+    venueSlug: four-seasons-san-domenico-palace
+    venueType: Hotel
+relatedArticles:
+  - 26-old-hollywood-hotels
+sections:
+  - heading: A palazzo on the Grand Canal
+    copy: >-
+      The Gritti Palace is the most unlikely kind of hotel: a 15th-century
+      palazzo on the Grand Canal that has been receiving illustrious guests since
+      the Doge's day, though its Hollywood credentials were cemented in the 20th
+      century. The building takes its name from Doge Andrea Gritti, and it began
+      taking paying guests in the 19th century before becoming a hotel in 1895.
+
+      The Venice Film Festival, held on the nearby Lido every September, has
+      ensured a steady stream of film stars through the lobby since 1932 —
+      generation after generation of festival attendees passing through the same
+      gilded rooms.
+  - heading: Hemingway's writing table
+    copy: >-
+      Ernest Hemingway wrote Across the River and into the Trees here, working at
+      a corner table overlooking the water with a bottle of Valpolicella for
+      company. Greta Garbo stayed in her usual fashion: anonymously,
+      unsuccessfully, and with great irritation at anyone who recognised her.
+
+      Bogart, Chaplin and Elizabeth Taylor were among the other names who passed
+      through, joining the festival crowd that has made the Gritti a fixture of
+      cinematic Venice.
+    callout: >-
+      Garbo stayed in her usual fashion: anonymously, unsuccessfully, and with
+      great irritation at anyone who recognised her.
+  - heading: The terrace and the Bellini
+    copy: >-
+      The terrace restaurant overlooking Santa Maria della Salute is one of the
+      most beautiful dining spots in Venice, and possibly the world. The hotel's
+      Bellini — prosecco and white peach puree, invented at Harry's Bar just down
+      the canal — is served with appropriate reverence.

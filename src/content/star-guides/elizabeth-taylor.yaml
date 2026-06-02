@@ -1,0 +1,847 @@
+name: Elizabeth Taylor
+nickname: Hollywood's Most Famous Romantic
+birthYear: 1932
+deathYear: 2011
+portraitImage: /images/stars/elizabeth-taylor/portrait.jpg
+portraitFocus: top
+excerpt: >-
+  If you're looking for romance with a hint of old Hollywood sex appeal, ask
+  yourself: where would Liz Taylor go? Told through the hotels she scandalised,
+  the restaurants she emptied and the cities she set alight with Richard Burton,
+  this is the ultimate guide to travelling in the footsteps of Hollywood's most
+  famous couple.
+keyDestinations:
+  - Los Angeles
+  - Rome
+  - Portofino
+  - Puerto Vallarta
+  - Gstaad
+  - Paris
+  - London
+keyFilms:
+  - title: Father of the Bride
+    year: '1950'
+  - title: Ivanhoe
+    year: '1952'
+  - title: Giant
+    year: '1956'
+  - title: Cleopatra
+    year: '1963'
+  - title: The V.I.P.s
+    year: '1963'
+  - title: The Night of the Iguana
+    year: '1964'
+  - title: Becket
+    year: '1964'
+  - title: Who's Afraid of Virginia Woolf?
+    year: '1966'
+  - title: The Taming of the Shrew
+    year: '1967'
+  - title: Identikit (The Driver's Seat)
+    year: '1974'
+sections:
+  - heading: Ruled by Her Passions
+    copy: |-
+      A self-confessed romance addict, Taylor was the ultimate Hollywood movie star. Her tumultuous life off screen was often more fascinating than the characters she played on it. Her epic, diamond-filled romances with Richard Burton and Mike Todd dominated newspaper headlines around the world for three decades, and her globe-trotting lifestyle has provided a tantalising blueprint for amorous couples in search of their own starry-eyed passion ever since.
+
+      Burton, for his part, documented their extraordinary life together in his diaries with the eye of a poet and the liver of a sailor. His description of first seeing Taylor at a Hollywood pool party is one of the great passages of romantic writing: "She was so extraordinarily beautiful that I nearly laughed out loud... She was lavish. She was a dark unyielding largesse. She was, in short, too bloody much, and not only that, she was totally ignoring me."
+
+      What follows is their story, told through the hotels they scandalised, the restaurants they emptied, and the cities they set alight. From the filming locations of Cleopatra to the Burtons' beloved chalet in snowy Gstaad, from a retro Texas hotel where James Dean's room remains untouched, to a yacht that carried a Monet, a Picasso, and a Van Gogh across the Mediterranean, this is the ultimate guide to travelling in the footsteps of Hollywood's most famous couple.
+    callout: '"I''ve always admitted that I''m ruled by my passions." — Elizabeth Taylor'
+regions:
+  - region: North America
+    intro: >-
+      Elizabeth Taylor's parents were American but she was born in the UK and
+      lived there until the age of seven, when the family moved to Los Angeles in
+      1939. Father Francis ran an art gallery at the Beverly Hills Hotel, while
+      mother Sara, a former actress, championed her daughter all over town as the
+      next big movie starlet. Taylor practically grew up on the MGM lot, going to
+      school there with fellow child actors Roddy McDowall and Margaret O'Brien.
+      She had homes in California and Virginia, but LA was her professional home
+      for the rest of her life. From there the Liz-and-Dick trail runs east to
+      New York, Boston and Miami, north to Canada, and out to a tiny West Texas
+      town where Giant was filmed.
+    places:
+      - name: The Beverly Hills Hotel Polo Lounge
+        category: Eat
+        venueSlug: beverly-hills-hotel
+        status: Open
+        description: >-
+          A constant in Taylor's life from childhood to old age. As a tribute,
+          they have immortalised her with a signature cocktail: the "Violet
+          Eyes," made with butterfly pea flower tea-infused vodka, elderflower
+          liqueur, lime, and white cranberry. Inspired by who else?
+        detail: 'Beverly Hills. Mains from around $45; the cocktail is about $25.'
+      - name: Musso and Frank Grill
+        category: Eat
+        status: Open
+        description: >-
+          The best restaurant in LA for old Hollywood atmosphere. The interior
+          has barely changed since 1919 (the ceiling is still stained with
+          Bogart's cigarette smoke) and the guest list over the decades reads
+          like a who's who of classic cinema. Taylor visited often, alongside
+          Chaplin, Dorothy Parker, Hitchcock, and Raymond Chandler. This was
+          where film deals were done.
+        detail: 'Hollywood Boulevard, LA. Martinis from around $18.'
+      - name: Canter's Deli
+        category: Eat
+        status: Open
+        description: >-
+          A legendary 24-hour Jewish deli in business since 1931 and a favourite
+          of Taylor's. Which is no surprise, given that it was one of the few
+          places in the city open all night, offering kosher delights to LA's
+          night owls. Perfect for a late-night pastrami sandwich after an evening
+          of Liz-and-Dick-level mischief.
+        detail: 'Fairfax Avenue, LA. Open 24 hours.'
+      - name: La Cabanita
+        category: Eat
+        status: Open
+        description: >-
+          A hidden gem that Taylor visited regularly for the last 15 years of her
+          life after her driver introduced her to it. She developed a lifelong
+          love of Mexican food on the set of Night of the Iguana, and this was
+          her go-to spot for tacos. Still open and still excellent.
+        detail: 'Pasadena. Still open.'
+      - name: Chasen's
+        category: Eat
+        status: Closed
+        description: >-
+          Famous for its chilli, which Taylor had shipped to her frozen on film
+          sets around the world, including to Rome during Cleopatra. When Ronald
+          Reagan won the California governorship, his victory party was catered by
+          Chasen's. When Taylor was asked what she missed most about the old
+          Hollywood, she didn't say the glamour or the studio system. She said
+          the chilli. The restaurant closed in 1995 and is now a Bristol Farms
+          supermarket, which is the most LA sentence ever written. See the "Live
+          Like Liz" section at the end of this guide.
+        detail: 'Beverly Boulevard, LA. Closed 1995; now a Bristol Farms supermarket.'
+      - name: The Beverly Hills Hotel Polo Lounge
+        category: Drink
+        venueSlug: beverly-hills-hotel
+        status: Open
+        description: >-
+          The best place in LA to soak up old-world Hollywood glamour over a
+          cocktail. Taylor spent six of her eight honeymoons at this hotel (a
+          statistic that tells you everything you need to know about Elizabeth
+          Taylor). Her favourite was Bungalow 5 with Burton. Legend has it their
+          standing room-service order included two bottles of vodka with
+          breakfast and another two with lunch. She also stayed in Bungalow 3
+          with Burton while filming their hilarious guest appearance on the I
+          Love Lucy show.
+        detail: 'Beverly Hills.'
+      - name: Beverly Hills Hotel
+        category: Sleep
+        venueSlug: beverly-hills-hotel
+        status: Open
+        description: >-
+          Taylor's spiritual home. Bungalow 5, where she honeymooned with Burton,
+          has tasteful images of Taylor on the walls and a private pool.
+        detail: 'Beverly Hills. Rooms from around $700 per night; bungalows from considerably more.'
+      - name: Hollywood Walk of Fame & Grauman's Chinese Theatre
+        category: Do
+        status: Open
+        description: >-
+          Visit Elizabeth Taylor's star on the Hollywood Walk of Fame and her
+          handprints at Grauman's Chinese Theatre, both on Hollywood Boulevard.
+        detail: 'Hollywood Boulevard, LA.'
+      - name: '"You''re the Star" mural'
+        category: See
+        status: Open
+        description: >-
+          The mural on Hollywood Boulevard at Wilcox Avenue features Liz and Dick
+          in their Cleopatra costumes. A fun selfie opportunity.
+        detail: 'Hollywood Boulevard at Wilcox Avenue, LA.'
+      - name: Church of the Good Shepherd
+        category: See
+        status: Open
+        description: >-
+          Where Taylor married Nicky Hilton at the age of 18, while filming
+          Father of the Bride in 1950. The irony of her playing a bride on screen
+          while being one in real life was not lost on the studio publicity
+          department.
+        detail: '505 North Roxbury Drive, Beverly Hills.'
+      - name: Forest Lawn Memorial Park
+        category: See
+        status: Open
+        description: >-
+          Taylor's final resting place, where she was buried with a love letter
+          from Richard Burton in her hand. Forest Lawn is one of the most famous
+          cemeteries in the world and the resting place of Humphrey Bogart, Jean
+          Harlow, Clark Gable, and Errol Flynn.
+        detail: 'Glendale. Tours run between mid-June and October; the cemetery hosts events including outdoor cinema nights.'
+      - name: Sardi's
+        category: Eat
+        status: Open
+        description: >-
+          Famous for its celebrity caricatures on the walls, this Theatre
+          District institution was a favourite. Taylor hosted many dinners here
+          in Burton's honour during his highly successful run in Hamlet on
+          Broadway. Still open and still covered in caricatures.
+        detail: 'West 44th Street, New York.'
+      - name: Tavern on the Green
+        category: Eat
+        status: Open
+        description: >-
+          Hosted a reception in Taylor's honour in 1986, followed by a ceremony
+          at nearby Avery Fisher Hall where she received a lifetime achievement
+          award from the Lincoln Center Film Society. Her daughter Maria also
+          chose it as the place to introduce her mother to her new son-in-law
+          over lunch. Reopened in 2014 after a renovation.
+        detail: 'Central Park, New York. Mains from around $35.'
+      - name: The St. Regis New York
+        category: Sleep
+        status: Open
+        description: >-
+          Taylor stayed here with her uncle just before leaving for the UK to
+          film Ivanhoe in 1952. One of the world's most legendary hotels and home
+          of the first Bloody Mary cocktail. Opened by the Astor family in 1904.
+        detail: 'East 55th Street, New York. Rooms from around $600 per night.'
+      - name: The Plaza
+        category: Sleep
+        status: Open
+        description: >-
+          Taylor famously stayed here in the aftermath of her divorce from hotel
+          magnate Nicky Hilton. There is a certain poetic justice in divorcing a
+          Hilton and retreating to a rival hotel.
+        detail: 'Fifth Avenue, New York. Rooms from around $500 per night.'
+      - name: Hotel Plaza Athenee
+        category: Sleep
+        status: Open
+        description: >-
+          In her later years, Taylor chose this discreet Upper East Side hotel as
+          her New York residence of choice. She loved the suites with terraces on
+          the top floor, where she enjoyed breakfast with views of the Manhattan
+          skyline.
+        detail: 'East 64th Street, New York. Rooms from around $400 per night.'
+      - name: The Fairmont Copley Plaza
+        category: Sleep
+        status: Open
+        description: >-
+          Where Liz and Dick stayed (then the Sheraton Plaza) during Burton's
+          extremely successful theatre run in Hamlet in 1964. It was in the lobby
+          of this hotel that the New York Times reported the couple were mobbed by
+          fans "tearing at their hair and clothing for souvenirs." They had
+          married for the first time one week before, on 15 March 1964, in
+          Montreal. Liz and Dick fever had gripped the nation. The hotel is a
+          grand Beaux-Arts landmark on Copley Square.
+        detail: 'Copley Square, Boston. Rooms from around $250 per night.'
+      - name: The Eden Roc
+        category: Sleep
+        status: Open
+        description: >-
+          One of the two top hotels in Miami during the 1950s and 60s (the other
+          being the neighbouring Fontainebleau). Eden Roc was beloved by Taylor,
+          as well as Frank Sinatra, Humphrey Bogart, and Lauren Bacall. It's
+          still a showstopper of a hotel, though it has had so many refurbishments
+          since the old Hollywood glory days that you're unlikely to have a
+          similar experience to Liz or Lauren.
+        detail: 'Miami Beach. Rooms from around $250 per night.'
+      - name: Hotel Paisano
+        category: Sleep
+        status: Open
+        description: >-
+          Taylor stayed at this retro hotel for six weeks while filming Giant
+          alongside Rock Hudson and James Dean. The cast ate in the hotel most
+          nights and watched the dailies with director George Stevens in the
+          ballroom. The hotel has embraced its Hollywood history, offering an
+          Elizabeth Taylor Suite with a balcony overlooking the courtyard, plus a
+          Memorabilia Room dedicated to the filming of Giant. James Dean's room
+          has been left virtually untouched since 1955, which is either poignant
+          or mildly creepy depending on your relationship with nostalgia. Marfa
+          itself has become an unlikely art-world destination, well worth
+          exploring.
+        detail: 'Marfa, Texas. Rooms from around $150 per night.'
+      - name: The King Edward Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          Liz and Dick arrived in January 1964 and took over a five-room suite on
+          the eighth floor. Built in 1903 as the city's first luxury hotel, it
+          remains one of the chicest spots in town for a date night. Canada
+          played a pivotal role in the early days of their romance: in 1964, while
+          Le Scandale was still at its height, they travelled together to Toronto
+          and Montreal where Burton was playing to stellar reviews in Hamlet.
+        detail: 'Toronto, Canada. Rooms from around CAD $300 per night.'
+      - name: The Ritz-Carlton Montreal
+        category: Sleep
+        status: Open
+        description: >-
+          Elizabeth Taylor married Burton for the first time in the bridal suite
+          here. The hotel boasts an indoor saltwater pool with views of the
+          Montreal skyline, a full-service spa, and a gourmet French restaurant.
+        detail: 'Montreal, Canada. Rooms from around CAD $400 per night. The bridal suite, should you wish to recreate the ceremony, costs considerably more and does not include a Richard Burton.'
+  - region: Caribbean & Central America
+    intro: >-
+      It was during the filming of Night of the Iguana, in what was then the
+      quaint little fishing village of Puerto Vallarta, that Elizabeth and
+      Richard would finally find some peace away from the paparazzi. They loved
+      it so much that they bought a home here, and it remains the single most
+      important Liz-and-Dick destination outside of Europe. The region also takes
+      in Acapulco, where Taylor married Mike Todd, and Jamaica, where she
+      reportedly holidayed with Noel Coward.
+    places:
+      - name: The Iguana Restaurant at Casa Kimberly
+        category: Eat
+        status: Open
+        description: >-
+          Specialises in five-star Mexican cuisine and serves chocolate martinis
+          at the bar, Taylor's favourite drink. The open-air terrace has views
+          over the city and the bay, and live mariachi music on certain evenings.
+          Reviewers consistently rate it among the best restaurants in Puerto
+          Vallarta.
+        detail: 'Casa Kimberly, Puerto Vallarta, Mexico.'
+      - name: La Palapa
+        category: Eat
+        status: Open
+        description: >-
+          A beachfront restaurant founded in 1959 and described as the first
+          beach restaurant in Puerto Vallarta, this was where Elizabeth would
+          often eat breakfast while Burton was on set filming Night of the Iguana.
+          Still open and still right on the sand.
+        detail: 'Puerto Vallarta, Mexico.'
+      - name: Casa Kimberly
+        category: Sleep
+        status: Open
+        description: >-
+          The jewel in the crown of the Liz-and-Dick travel trail. The Burtons
+          discovered the property during the filming of Night of the Iguana and
+          bought it as their Mexican love nest. Burton then purchased a second
+          house across the cobblestoned street and connected the two with a pink
+          bridge known as the Puente Del Amor (Bridge of Love), inspired by the
+          Bridge of Sighs in Venice. The property has been beautifully
+          transformed into a nine-suite boutique hotel. You can stay in the
+          Elizabeth Taylor Suite, her actual personal quarters, complete with the
+          original pink bathtub that was commissioned especially for her. The
+          bathtub was supposed to be in the shape of a love heart, but a
+          communication mix-up with the Mexican craftsman resulted in it being
+          shaped like an anatomical heart instead. Taylor kept it anyway, because
+          of course she did.
+        detail: 'Puerto Vallarta, Mexico. Rooms from around $250 per night; the Elizabeth Taylor Suite from considerably more.'
+      - name: Hacienda San Angel
+        category: Sleep
+        status: Open
+        description: >-
+          Perched on a hilltop above Puerto Vallarta, this is not quite a Taylor
+          haunt but deserves a mention for Liz-and-Dick completists. Burton
+          purchased it in the late 1970s for his third wife, Susan. It is now a
+          hotel offering spectacular views, a gourmet restaurant, and exquisite
+          furnishings.
+        detail: 'Puerto Vallarta, Mexico. Rooms from around $300 per night.'
+      - name: Playa del Amor (Lovers' Beach)
+        category: Do
+        status: Open
+        description: >-
+          A secret beach only accessible by swimming through a tunnel at low tide.
+          It sounds like something from a Burton-Taylor film that was never made.
+        detail: 'Puerto Vallarta, Mexico.'
+      - name: Gringo Gulch
+        category: Do
+        status: Open
+        description: >-
+          Walk the cobblestoned streets of the hillside neighbourhood above old
+          town Puerto Vallarta where the Burtons lived. The area got its name from
+          the influx of American visitors that followed the Night of the Iguana
+          production, and it remains one of the most atmospheric corners of the
+          city.
+        detail: 'Puerto Vallarta, Mexico.'
+      - name: Acapulco
+        category: See
+        status: Open
+        description: >-
+          Worth a mention as it was once the playground of the rich and famous and
+          is cited in countless Hollywood biographies. The Mayor of Acapulco
+          married Elizabeth Taylor and Mike Todd here, with Eddie Fisher and
+          Debbie Reynolds as best man and bridesmaid respectively. They then
+          stayed on to enjoy their honeymoon. Within two years, Todd was dead,
+          Taylor had married Fisher, and Reynolds wasn't speaking to either of
+          them. Hollywood friendships were nothing if not eventful.
+        detail: 'Acapulco, Mexico. If you know where Taylor and Todd stayed during the honeymoon, drop us a line.'
+      - name: Moxons Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          A rare budget option for Elizabeth Taylor fans, between Ocho Rios and
+          Oracabessa. Built by Englishman Timothy Moxon, who entertained close
+          friends such as Noel Coward and Ian Fleming here, the hotel was later
+          run by his brother Oliver and Oliver's wife, the talented chef Baroness
+          Bonita, who together turned Moxons into a gourmet destination. Dean
+          Martin, Mick Jagger, and Bob Marley all enjoyed the hospitality,
+          alongside Elizabeth, who reportedly holidayed in Jamaica with Noel
+          Coward.
+        detail: 'Between Ocho Rios and Oracabessa, Jamaica. Check current availability before visiting as the hotel has operated intermittently in recent years.'
+  - region: Europe
+    intro: >-
+      Italy is the spiritual home of Le Scandale. It is where Taylor and Burton
+      fell in love, where the paparazzi hunted them, and where they returned
+      again and again for the rest of their lives. But the Burtons' European
+      trail runs far beyond Italy: to London and the rest of the UK, to Burton's
+      beloved Wales, to Ireland, to the snowy chalets of Gstaad, to Paris and the
+      South of France, and on to Croatia, Austria and Hungary.
+    places:
+      - name: Alfredo alla Scrofa
+        category: Eat
+        status: Open
+        description: >-
+          Elizabeth Taylor's favourite restaurant in Rome, home of the original
+          fettuccine Alfredo. She was pictured eating here with Eddie Fisher in
+          September 1961 and many times afterwards. Still going strong today after
+          more than a century; stop by for the classic fettuccine, prepared
+          tableside, surrounded by black-and-white photographs of the stars who
+          have eaten here over the years. Five minutes' walk from Piazza Navona.
+        detail: 'Rome, Italy. Mains from around €25. Cooking classes also available (from around €70 including a tasting menu).'
+      - name: The St. Regis Rome
+        category: Drink
+        status: Open
+        description: >-
+          One of the few surviving venues on the Via Veneto where you can still
+          get a taste of that dolce vita glamour. The Lumen cocktail bar is
+          atmospheric and suitably decadent. The Via Veneto was the epitome of
+          cool in the early 1960s, when Taylor and Burton were seen canoodling in
+          the hippest places along it while they were both still married to other
+          people.
+        detail: 'Via Veneto, Rome, Italy. Rooms from around €590 per night.'
+      - name: The Grand Hotel Palace
+        category: Sleep
+        status: Open
+        description: >-
+          Where Taylor stayed in 1973 while filming the psychological drama The
+          Driver's Seat. During the height of Le Scandale, Taylor and Burton
+          sought to escape the drama by running away to the pretty seaside town of
+          Porto Santo Stefano, only two hours from Rome by train, to hide from the
+          paparazzi.
+        detail: 'Via Veneto, Rome, Italy. Rooms from around €200 per night.'
+      - name: Cinecitta Studios
+        category: Do
+        status: Open
+        description: >-
+          Where Cleopatra was filmed in 1962, and where the love affair began.
+          Burton emerged on set one day feeling the full effects of a hangover;
+          Taylor noticed his hands shaking and his voice unsteady, and his
+          vulnerability in those moments led her to fall for him hard, according
+          to Taylor years later. Europe's most famous film lot now offers guided
+          tours.
+        detail: 'Outside Rome, Italy. Tours from around €15. See also the Ultimate Ava Gardner Travel Guide for more on Cinecitta.'
+      - name: Hotel Condulmer Golf Resort
+        category: Sleep
+        status: Open
+        description: >-
+          In 1967, Taylor and Burton stayed at this romantic 15th-century villa in
+          Treviso, not far from Venice. Right in the middle of filming The Taming
+          of the Shrew, the unpredictable couple decided to take a one-month break
+          (as you do) and chose Hotel Condulmer as one of their retreats. The
+          majestic villa has a fascinating backstory (Giuseppe Verdi was a
+          frequent visitor) and now offers a restaurant and a nine-hole golf
+          course.
+        detail: 'Treviso, Italy. Stay in the Liz Taylor Suite from around €250 per night.'
+      - name: Harry's Bar
+        category: Drink
+        status: Open
+        description: >-
+          In Venice, like all the big movie stars of the time, Taylor always made
+          a beeline for legendary Harry's Bar for a classic Bellini whenever she
+          was in town. It was also a favourite of drinking connoisseur Ernest
+          Hemingway.
+        detail: 'Venice, Italy. Bellinis from around €20.'
+      - name: Regina Isabella Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          The unspoilt island of Ischia, famous for its hot springs and volcanic
+          landscapes, doubled for Tarsus in Cleopatra. During filming, some of the
+          cast and crew stayed here in the charming village of Lacco Ameno. The
+          hotel was originally constructed in the mid-1950s as an extension of the
+          ancient Baths of Queen Isabella, and was owned by Angelo Rizzoli, the
+          legendary publisher and film producer.
+        detail: 'Lacco Ameno, Ischia, Italy. Rooms from around €550 per night.'
+      - name: Hotel Splendido
+        category: Sleep
+        venueSlug: hotel-splendido
+        status: Open
+        description: >-
+          Burton proposed to Taylor at the iconic Hotel Splendido (now Belmond) in
+          picturesque Portofino. Order a "Spaghetti Elizabeth Taylor" from the
+          hotel's restaurant and sip on a chocolate martini (Liz's favourite
+          drink) as you gaze out over the harbour. Add Dalida's "I Found My Love
+          in Portofino" to your romance playlist.
+        detail: 'Portofino, Italy. Rooms from around €680 per night. See also the Ultimate Ava Gardner Travel Guide for the Ava Gardner Suite at the sister hotel, Splendido Mare.'
+      - name: Hotel Santa Caterina
+        category: Sleep
+        status: Open
+        description: >-
+          Another intoxicating location where Taylor and Burton sought sanctuary
+          during Le Scandale: a Belle Epoque 19th-century villa surrounded by
+          sweet bougainvillea, perched on a hilltop overlooking the
+          Mediterranean. Travel + Leisure has described it as "the king of the
+          grand hotels of the Amalfi Coast."
+        detail: 'Amalfi Coast, Italy. Rooms from around €360 per night.'
+      - name: Four Seasons San Domenico Palace
+        category: Sleep
+        venueSlug: four-seasons-san-domenico-palace
+        status: Open
+        description: >-
+          Taylor and Burton stayed at the grand San Domenico Palace, a former
+          15th-century Dominican monastery that boasts spectacular views of Mount
+          Etna and Taormina Bay. Taylor reportedly smashed a mandolin over
+          Burton's head on the terrace during a row in 1967, which gives some
+          indication of the kind of stay they had. The hotel reopened in 2022 as
+          the Four Seasons and became globally famous all over again as the
+          setting for Season 2 of HBO's The White Lotus.
+        detail: 'Taormina, Sicily, Italy. Rooms from around $800 per night. The hotel now restricts non-guest access to its bars and restaurants during peak periods.'
+      - name: Hotel Cala di Volpe
+        category: Sleep
+        status: Open
+        description: >-
+          The Burtons spent extended periods cruising the Mediterranean on the
+          Kalizma, and the Costa Smeralda in Sardinia was one of their regular
+          stops. There are famous photographs of the couple lounging on the
+          yacht's deck off the Sardinian coast, looking exactly as gorgeous and
+          dissolute as you'd imagine. The Costa Smeralda, developed in the 1960s
+          by the Aga Khan, remains one of the most exclusive stretches of
+          coastline in Europe. Cala di Volpe is the closest hotel in spirit to the
+          Burtons' Sardinian lifestyle (and it starred in a Bond movie, so the
+          glam factor is off the charts), though in truth they preferred the
+          yacht.
+        detail: 'Costa Smeralda, Sardinia, Italy. From around €800 per night in season.'
+      - name: Fortnum and Mason
+        category: Eat
+        status: Open
+        description: >-
+          Taylor's favourite places to eat in London included the Cafe Royal on
+          Regent Street, Langan's Brasserie in Mayfair (formerly co-owned by
+          Michael Caine), and the sausages from the Queen's favourite food hall,
+          Fortnum and Mason on Piccadilly. The latter does an excellent afternoon
+          tea, fit for a Hollywood goddess.
+        detail: 'Piccadilly, London. Afternoon tea from around £65.'
+      - name: The Anchor Hotel
+        category: Drink
+        status: Open
+        description: >-
+          In Shepperton, on the outskirts of London and home to Shepperton film
+          studios, this was a favourite drinking haunt of Taylor and Burton while
+          he was filming Becket with Peter O'Toole. Two of the finest drinkers in
+          the history of British cinema, propping up the bar of a quiet Surrey
+          pub. The locals must have had quite the education.
+        detail: 'Shepperton, near London. Rooms from around £70 per night.'
+      - name: The Dorchester
+        category: Sleep
+        venueSlug: the-dorchester
+        status: Open
+        description: >-
+          Without question, Elizabeth's favourite place to stay in London. Hotel
+          staff went the extra mile to ensure her needs were always met. She
+          usually booked the Harlequin Suite; the pink bathroom in it was
+          originally installed just for her, and it's still there today for your
+          bathing pleasure. According to legend, there's even graffiti on the wall
+          that reads "RB xxx ET." While filming The VIPs the Burtons stayed in
+          adjoining rooftop garden suites, and it was in the penthouse suite,
+          after they were married, that Taylor thought it would be funny to hammer
+          a nail into the wall above the fireplace to hang a Van Gogh she had
+          bought for Richard from Sotheby's earlier that day. Most couples bring
+          home a souvenir magnet. Elizabeth bought a Van Gogh and installed it
+          with a hammer. In her later years, Taylor attended a dinner in her
+          honour here when she was made a Dame in 2000.
+        detail: 'Park Lane, London. The Harlequin Suite approximately £5,000 per night; rooms from around £700 per night.'
+      - name: Elizabeth Taylor's Blue Plaque
+        category: See
+        status: Open
+        description: >-
+          Visit the Blue Plaque that commemorates Taylor's birthplace. She was
+          born in the UK, in Hampstead, to American parents, Francis and Sara, and
+          lived in Surrey until the age of seven, when her parents returned to
+          California.
+        detail: 'Heathwood, 8 Wildwood Road, Hampstead Garden Suburb, London.'
+      - name: The Beaverbrook Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          The Surrey estate of newspaper publisher Lord Beaverbrook once played
+          host to wild parties for a who's who of 20th-century icons, including
+          Winston Churchill, Taylor, Ian Fleming, and Charlie Chaplin. Now a
+          luxury country house hotel.
+        detail: 'Surrey, England. Rooms from around £400 per night, breakfast included.'
+      - name: The Lygon Arms
+        category: Sleep
+        status: Open
+        description: >-
+          One of the oldest and most well-known inns in the Cotswolds, a historic
+          hostelry where King Charles I once stayed. Taylor and Burton enjoyed an
+          amorous few days here in 1963. The Cotswolds is one of England's most
+          picturesque areas: all rolling meadows, church spires, and
+          quintessentially English villages with friendly pubs.
+        detail: 'Broadway, Cotswolds, England. Rooms from around £165 per night.'
+      - name: Bath Place Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          The couple spent time in Oxford while Richard performed at the Oxford
+          Playhouse. Their hotel of choice, still open today, was this cute little
+          boutique property in the centre of the city.
+        detail: 'Oxford, England. Rooms from around £145 per night.'
+      - name: Tillmouth Park Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          While shooting Becket at Bamburgh Castle in Northumberland, Burton would
+          often stop at the no-frills Salmon Inn in Belford for a drink (or ten)
+          with Elizabeth or his co-star Peter O'Toole, on their way back to
+          Tillmouth Park, where the cast and crew stayed for the duration of the
+          shoot.
+        detail: 'Northumberland, England. Rooms from around £160 per night.'
+      - name: Richard Burton Birthplace Trail
+        category: Do
+        status: Open
+        description: >-
+          No guide to Elizabeth Taylor's travels would be complete without the
+          place that defined the man she loved most. Burton was born Richard
+          Walter Jenkins in Pontrhydyfen, a tiny mining village in the Afan Valley
+          of West Wales. The couple would stay at the Burton family's terraced
+          house, arriving by helicopter on Aberavon Beach. Taylor insisted on
+          doing the washing up and was taught Welsh by Burton's sisters; she
+          called the village "Pontrhyd-heaven." The 4km trail winds through the
+          village past Burton's birthplace at 2 Dan-y-bont, the imposing 1898
+          viaduct, and Bethel Chapel, where a memorial service was held after his
+          death in 1984. The Miners Arms, the pub where Burton's parents met and
+          married, is now the Pontrhydyfen RFC Clubhouse. You can still have a
+          pint.
+        detail: 'Pontrhydyfen, Afan Valley, Wales (4km trail).'
+      - name: The Gresham Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          A landmark Dublin hotel with a luxurious two-bedroom suite named after
+          Elizabeth Taylor in honour of the time she spent there while Richard
+          filmed the thriller The Spy Who Came in from the Cold in 1965. They took
+          over an entire floor with their entourage, which included a bush baby
+          that Liz had picked up on a whim and which proceeded to wreck the suite.
+          Staff remember Miss Taylor's generosity on St Patrick's Day, when she
+          gave each of them a bottle of whisky and a green carnation to celebrate.
+        detail: 'O''Connell Street, Dublin, Ireland. Rooms from around €89 per night, which makes this one of the most affordable Liz-and-Dick hotels anywhere in the world.'
+      - name: The Gstaad Palace Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          Richard Burton described Gstaad as "the most beautiful place in the
+          world." Taylor purchased Chalet Ariel, her longtime home in Gstaad,
+          while still married to Eddie Fisher; it became her and Richard's
+          European base, where they spent every Christmas and New Year together
+          entertaining friends and family. Guest overflow was billeted at the
+          opulent Gstaad Palace nearby, at her expense. One of the grand palaces
+          of the Swiss Alps.
+        detail: 'Gstaad, Switzerland. Rooms from around €595 per night.'
+      - name: Hotel Olden
+        category: Eat
+        status: Open
+        description: >-
+          While in Gstaad, Elizabeth was known to eat regularly here, where she
+          enjoyed the clientele's eclectic mix of glitzy Hollywood types and local
+          farmers.
+        detail: 'Gstaad, Switzerland. Rooms from around €230 per night.'
+      - name: Chateau de Chillon
+        category: Do
+        status: Open
+        description: >-
+          At the beginning of their courtship, Taylor and Burton enjoyed a date at
+          this romantic 1,000-year-old island castle on Lake Geneva, about an
+          hour's drive from Gstaad. It was a fine dining establishment at the time
+          of Le Scandale but nowadays you can visit for a tour and wine tasting,
+          as well as spellbinding views of the lake.
+        detail: 'Lake Geneva, Switzerland. Entry around CHF 14.'
+      - name: Richard Burton's grave, Celigny
+        category: See
+        status: Open
+        description: >-
+          Richard Burton's grave can be found in the cemetery at Celigny, a sweet
+          little Swiss village near Geneva where Burton bought a home with his
+          third wife. Raise a glass in his honour at the Buffet de la Gare
+          restaurant, one of his regular drinking haunts. He drank here a few
+          hours before his death. It is the kind of detail that Burton, who never
+          did anything without a sense of occasion, would have appreciated.
+        detail: 'Celigny, near Geneva, Switzerland.'
+      - name: Hotel Lancaster
+        category: Sleep
+        status: Open
+        description: >-
+          The Burtons stayed at this hotel near the Champs-Elysees in the wake of
+          Le Scandale, where they met with the original scandalous couple, the
+          Duke and Duchess of Windsor. They also socialised often with the
+          Rothschilds, who became close friends.
+        detail: 'Near the Champs-Elysees, Paris, France. Rooms from around €310 per night.'
+      - name: Four Seasons George V
+        category: Sleep
+        venueSlug: george-v-paris
+        status: Open
+        description: >-
+          Taylor also stayed at the Four Seasons George V, a favourite of Orson
+          Welles and the Beatles.
+        detail: 'Paris, France. Rooms from around €950 per night. See also the Ultimate Ava Gardner Travel Guide for more on the George V.'
+      - name: Welcome Hotel
+        category: Sleep
+        status: Open
+        description: >-
+          When they weren't living on the Kalizma, the Burtons were known to lay
+          their heads down at Jean Cocteau's favourite hotel in the South of
+          France, in the historic old town of Villefranche-sur-Mer, between Nice
+          and Monaco.
+        detail: 'Villefranche-sur-Mer, France. Rooms from around €125 per night, making it one of the most affordable Riviera options on any of our travel guides.'
+      - name: Hotel du Cap-Eden-Roc
+        category: Sleep
+        venueSlug: hotel-du-cap-eden-roc
+        status: Open
+        description: >-
+          The Burtons stayed at the near-mythical Hotel du Cap-Eden-Roc at Cap
+          d'Antibes, one of the world's most famous hotels, where the creme de la
+          creme from the worlds of politics, culture, and royalty have mingled
+          since the 1870s and still do.
+        detail: 'Cap d''Antibes, France. Rooms from around €700 per night. See also the Swimming Pools article for more on the Eden-Roc''s legendary pool.'
+      - name: Villa Sheherezade
+        category: Sleep
+        status: Open
+        description: >-
+          The Burtons stayed in Dubrovnik several times. On one occasion they
+          rented the jaw-droppingly stunning Villa Sheherezade, which overlooks
+          the harbour and is arguably one of the most beautiful properties in the
+          area. It's available for private rental and is a popular wedding venue.
+          They were also known to be guests of President Tito at his glorious
+          Brijuni Islands retreat off the Istrian coast, alongside Sophia Loren,
+          Fidel Castro and Queen Elizabeth II.
+        detail: 'Dubrovnik, Croatia. Available for private rental.'
+      - name: Hotel Excelsior Dubrovnik
+        category: Sleep
+        status: Open
+        description: >-
+          The Burtons stayed at the Hotel Excelsior during another visit to
+          Dubrovnik. A charming five-star hotel, though it's worth noting that
+          much of the original hotel was bombed during the 1991 siege, so little
+          of the Burtons' experience here survives. The hotel has been rebuilt and
+          restored.
+        detail: 'Dubrovnik, Croatia. Rooms from around €900 per night.'
+      - name: Hotel Imperial
+        category: Sleep
+        status: Open
+        description: >-
+          Taylor stayed here in Vienna with Burton in 1972. They famously had sex
+          in the Royal Suite, where Adolf Hitler was once a guest. Richard rather
+          vividly recalled the encounter in his diary, saying that they "made
+          lovely love" that night. Make of that juxtaposition what you will.
+        detail: 'Vienna, Austria. Rooms from around €310 per night. The Royal Suite starts at around €4,720 per night.'
+      - name: The Budapest Marriott
+        category: Sleep
+        status: Open
+        description: >-
+          Formerly the InterContinental Hotel, this Danube-waterfront hotel was
+          the scene of Taylor's lavish, star-studded 40th birthday celebration in
+          1972 while the Burtons were in town for the filming of Bluebeard. The
+          guest list included Princess Grace of Monaco, Ringo Starr, and Michael
+          Caine. A typical low-key Burton-Taylor evening.
+        detail: 'Budapest, Hungary. Rooms from around €133 per night.'
+  - region: Africa
+    intro: >-
+      On 10 October 1975, sixteen months after their divorce, Elizabeth Taylor
+      married Richard Burton for the second time. The ceremony took place at the
+      Chobe Game Lodge on the banks of the Chobe River in northern Botswana. The
+      Burtons' travels also extended to West Africa, where Burton filmed in
+      Dahomey (now Benin) in the late 1960s with Taylor accompanying him.
+    places:
+      - name: Chobe Game Lodge
+        category: Sleep
+        venueSlug: chobe-game-lodge
+        status: Open
+        description: >-
+          The setting of Taylor and Burton's second marriage, in the village of
+          Kasane. The ceremony was conducted by the local African district
+          commissioner, Ambrose Masalila, and witnessed by two lodge employees:
+          the manager and a tour guide. News of the marriage didn't surface for
+          five days. It lasted nine months. The lodge was the first five-star
+          safari lodge in Botswana and remains the only lodge built inside the
+          Chobe National Park, with a Moorish design of tiled floors, towering
+          arches, and Moroccan-style lanterns. All rooms offer private terraces
+          with river views, and the honeymoon suite has its own infinity plunge
+          pool. The lodge now operates with electric safari vehicles and has
+          Botswana's first all-female guiding team, a detail that Taylor, who
+          spent her later years championing women's causes, would have loved. The
+          Chobe River frontage is home to one of the densest concentrations of
+          wildlife in Africa. If you want to remarry your ex-spouse in the
+          presence of elephants and a district commissioner, this is the place to
+          do it.
+        detail: 'Kasane, Botswana. All meals and drinks included. Rooms from around $500 per night.'
+      - name: Dahomey (now Benin)
+        category: See
+        status: Open
+        description: >-
+          Burton filmed in Dahomey (now the Republic of Benin) in the late 1960s,
+          and Taylor accompanied him. West Africa was not their usual territory
+          and the visit was brief, but it is a reminder that the Burtons' travels
+          extended well beyond the Riviera-Gstaad-Rome circuit. Benin is
+          increasingly popular with adventurous travellers for its Vodun culture,
+          the historic slave port of Ouidah, and the royal palaces of Abomey (a
+          UNESCO World Heritage Site).
+        detail: 'Republic of Benin, West Africa.'
+  - region: Rest of World
+    intro: >-
+      In October 1971, Elizabeth Taylor attended the Shah of Iran's celebration
+      of the 2,500th anniversary of the Persian Empire at Persepolis, one of the
+      most extravagant parties in history.
+    places:
+      - name: Persepolis
+        category: See
+        status: Open
+        description: >-
+          Taylor attended the Shah of Iran's 2,500th anniversary celebration of
+          the Persian Empire here in October 1971, one of the most extravagant
+          parties in history. The guest list included heads of state, royalty, and
+          celebrities from around the world. The celebrations included a
+          spectacular son et lumiere at the ancient ruins and a banquet catered by
+          Maxim's of Paris, featuring 25,000 bottles of wine. Taylor was
+          photographed dripping in jewels amid the ruins, looking entirely at home
+          among the ancient columns. Persepolis itself, the ceremonial capital of
+          the Achaemenid Empire dating from 515 BC, is a UNESCO World Heritage
+          Site about 60km northeast of Shiraz, and the ruins remain one of the
+          most impressive archaeological sites in the world.
+        detail: 'About 60km northeast of Shiraz, Iran. Iran tourism is more complex for Western travellers than most of the destinations in this guide (now more than ever), but for those who make the journey, the combination of ancient history and Taylor glamour is hard to beat.'
+lifestyle:
+  - label: A note on the Kalizma
+    text: >-
+      A word about the Burtons' floating home. The Kalizma was a 165-foot yacht
+      that Burton bought for Taylor in 1967 after she won the Oscar for Who's
+      Afraid of Virginia Woolf? He paid $220,000 for her and spent twice that on
+      a refit. Named after their three daughters (Kate, Liza, and Maria), the
+      yacht was decorated with a Monet in the salon, a Picasso and a Van Gogh in
+      the dining room, and an Epstein bust of Churchill brooding over the lot. The
+      Kalizma was recently restored and is in private hands. You cannot charter
+      her, but if the Burtons' yacht lifestyle appeals, the Mediterranean is full
+      of charter companies offering week-long rentals along the same Riviera
+      coastline the Kalizma once cruised. Pull a Liz and Dick, minus the
+      paparazzi. Charter yachts from around €500 per day for a modest vessel;
+      considerably more if you want room for a Monet.
+  - label: Eat like Liz — Chasen's Chilli
+    text: >-
+      Taylor's most famous food obsession was not caviar or lobster but the chilli
+      from Chasen's, the legendary Hollywood restaurant that was the unofficial
+      canteen of the movie industry from 1936 until its closure in 1995. Taylor
+      loved it so much that she had it shipped, frozen, to film sets around the
+      world, including to Rome during the shooting of Cleopatra. Chasen's is gone,
+      but the recipe has been published in several cookbooks and online. The key,
+      according to those who knew it, was the combination of pinto beans, chilli
+      con carne, and a generous hand with the seasoning. It was comfort food, not
+      fine dining, which tells you something important about Taylor that the
+      diamonds and hotel suites don't.
+  - label: Drink like Liz — The Chocolate Martini
+    text: |-
+      Taylor's favourite cocktail in her later years was the chocolate martini, a drink she ordered at Casa Kimberly in Puerto Vallarta, at the Dorchester in London, and at various other establishments lucky enough to host her. Here's how to make one worthy of Liz: 45ml vodka, 30ml dark creme de cacao, 15ml chocolate liqueur (such as Godiva), a splash of cream, and cocoa powder for the rim.
+
+      Rim a chilled martini glass with cocoa powder. Shake all ingredients with ice until very cold. Strain into the glass. Garnish with a chocolate-dipped strawberry if you're feeling extravagant, which you should be, because you're drinking like Elizabeth Taylor. Serve it on a terrace overlooking something beautiful. The Mediterranean, if possible. Central Park will do at a pinch. The important thing is the view, the company, and the absolute refusal to apologise for enjoying yourself.
+relatedStars:
+  - frank-sinatra
+  - ava-gardner
+relatedVenues:
+  - beverly-hills-hotel
+  - the-dorchester
+  - hotel-splendido
+  - four-seasons-san-domenico-palace
+  - george-v-paris
+  - hotel-du-cap-eden-roc
+  - chobe-game-lodge
+relatedArticles:
+  - classic-movies-that-will-inspire-you-to-travel
+  - swimming-pools-of-classic-hollywood
+  - becoming-carmen

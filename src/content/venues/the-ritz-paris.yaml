@@ -1,0 +1,88 @@
+name: The Ritz Paris
+locationLine: 15 Place Vendôme, 75001 Paris, France
+venueType: Hotel
+status: Open
+established: '1898'
+cityCountry: Paris, France
+priceIndicator: $$$
+hollywoodRating: 5
+heroImage: /images/venues/the-ritz-paris/heroImage.jpg
+heroImageAlt: The facade of the Ritz Paris on Place Vendôme
+heroImageFocus: top
+excerpt: >-
+  Not so much a hotel as a monument to 20th-century glamour. Coco Chanel lived
+  here for more than 30 years, Marlene Dietrich was a regular between the wars,
+  Garbo checked in under assumed names, and Hemingway famously "liberated" the
+  bar during the 1944 liberation of Paris.
+pullQuote: The Ritz on Place Vendôme is not so much a hotel as a monument to 20th-century glamour.
+pullQuoteAttribution: Travel Old Hollywood
+gallery: []
+whoCameHere:
+  - name: Coco Chanel
+  - name: Ernest Hemingway
+  - name: F. Scott Fitzgerald
+  - name: Marlene Dietrich
+  - name: Greta Garbo
+  - name: Ava Gardner
+    starGuideSlug: ava-gardner
+  - name: Charlie Chaplin
+asSeenIn: []
+signatureExperiences:
+  - name: Bar Hemingway
+    description: >-
+      Small, wood-panelled, and decorated with photographs of Papa, the bar is
+      named for Ernest Hemingway and his 1944 "liberation" of it. The cocktails
+      are superb and superbly priced.
+  - name: The Coco Chanel Suite
+    description: >-
+      Chanel occupied a suite on the Rue Cambon side of the hotel for over 30
+      years, until her death in 1971. The Coco Chanel Suite is bookable.
+    availability: Bookable
+website: https://www.ritzparis.com
+phone: +33 1 43 16 30 30
+openingHours: Open year-round; reception 24 hours
+priceRange: Rooms from around €1,200 per night
+nearestAirport: Paris–Charles de Gaulle (CDG) — approx. 45–60 minutes by car
+transportNotes: >-
+  On Place Vendôme in the 1st arrondissement. The nearest Métro stations are
+  Opéra, Tuileries, and Madeleine, all a short walk away.
+bestTimeToVisit: Open year-round.
+tips: >-
+  Even if a room is beyond reach, the Bar Hemingway is the place to soak up the
+  legend — small, wood-panelled, hung with photographs of Papa, and home to a
+  plaque marking his 1944 "liberation" of the bar.
+howToBook: >-
+  Book direct at <a href="https://www.ritzparis.com" target="_blank"
+  rel="noopener">ritzparis.com</a> or by phone on +33 1 43 16 30 30. The Coco
+  Chanel Suite is bookable for those who wish to sleep where she lived for three
+  decades.
+accessibilityNotes: Contact the hotel directly to confirm access requirements.
+nearbyVenues:
+  - name: Hôtel George V
+    venueSlug: george-v-paris
+    venueType: Hotel
+relatedArticles:
+  - 26-old-hollywood-hotels
+sections:
+  - copy: >-
+      The Ritz on Place Vendôme is not so much a hotel as a monument to
+      20th-century glamour. Coco Chanel lived here for over 30 years, occupying
+      a suite on the Rue Cambon side until her death in 1971. Marlene Dietrich
+      was a regular between the wars. Garbo checked in under assumed names. F.
+      Scott Fitzgerald drank here, of course he did.
+
+      But the hotel's greatest Hollywood story belongs to Ernest Hemingway, who
+      during the liberation of Paris in 1944 arrived at the Ritz with a group of
+      resistance fighters and "liberated" the bar. The bar is now named after
+      him, and a plaque marks the occasion. The fact that the Germans had
+      already left the hotel before Hemingway arrived has never been allowed to
+      diminish the legend.
+    callout: Hemingway's "liberation" of the Ritz bar in 1944 remains the hotel's greatest Hollywood story.
+  - heading: The Bar Hemingway
+    copy: >-
+      The Bar Hemingway is small, wood-panelled, and decorated with photographs
+      of Papa. The cocktails are superb and superbly priced.
+
+      The hotel was closed for a four-year renovation (2012–2016) and has
+      emerged even more pristine than before, which is the Ritz equivalent of a
+      very expensive facelift that nobody is supposed to mention.

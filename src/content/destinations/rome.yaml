@@ -1,0 +1,57 @@
+title: Rome
+country: Rome
+region: Hollywood on the Tiber
+heroImage: /images/destinations/rome/heroImage.jpg
+heroImageAlt: The Via Vittorio Veneto in Rome, the curving boulevard of the dolce vita era
+excerpt: >-
+  Mid-20th-century Rome was once described as "Hollywood on the Tiber." From Ava
+  Gardner's Mogambo nights on the Via Veneto to the birth of Taylor and Burton's
+  "Le Scandale" on the Cleopatra set at Cinecittà, this is the eternal city as
+  the stars knew it.
+passportStamps:
+  - city: ROME
+    detail: Via Veneto
+    date: '1953'
+  - city: ROME
+    detail: Cinecittà Studios
+    date: '1962'
+  - city: ROME
+    detail: Hotel Excelsior
+  - city: ROME
+    detail: Alfredo alla Scrofa
+sections:
+  - heading: Hollywood on the Tiber
+    copy: |-
+      Some clever scribe once described mid-20th-century Rome as "Hollywood on the Tiber." The iconic Cinecittà Studios and the Via Veneto were the setting for a string of Hollywood scandals, reaching their peak with Taylor and Burton's "Le Scandale" during the sultry Italian summer of 1962 — though Ava Gardner's shenanigans predate Liz and Dick's by a decade.
+
+      The Via Veneto was the epitome of cool in the early 1960s: Fellini's La Dolce Vita was fresh in people's minds, making Rome the "it" city of the moment. The three blocks between the Aurelian Wall and the US Embassy made up the most glamorous street in Europe, a stretch of legendary hotels, bars, and clubs. Many have closed — the Café de Paris was destroyed in an arson attack in 2014 — but enough survives to chase a little dolce vita nostalgia.
+  - heading: Ava Gardner & the Mogambo Nights
+    copy: |-
+      Ava Gardner's most notable Rome-based indiscretions occurred while she was in town to promote Mogambo with her co-stars Grace Kelly and Robert Surtees. The trio were staying at the Hotel Excelsior, from where they enjoyed several boisterous nights out together. The delighted paparazzi followed them to a series of bars on the Via Veneto, then on to some less-than-savoury dens of ill repute in the city's backstreets.
+
+      The Westin Excelsior on the Via Veneto — where Ava and Frank Sinatra reportedly had blazing rows, and where the Mogambo promotional tour descended into chaos — is still one of Rome's grand hotels. Ava also stayed at the Hotel Hassler at the top of the Spanish Steps, where she met up with Sinatra when he dropped into town to see if they could reconcile their stormy marriage. They argued; she left. While filming The Barefoot Contessa, just as her divorce from Sinatra was announced, she took a suite at the Grand Hotel on the Via Vittorio Emanuele Orlando. When she wasn't being put up by the studios, Ava preferred privacy and rented apartments, including one on the Corso d'Italia and another at 9 Piazza di Spagna, right next to the Spanish Steps.
+    callout: Ava became close friends with the Sorelle Fontana — the sisters appointed official dressmakers for The Barefoot Contessa — and continued to wear their clothes throughout her life.
+  - heading: Le Scandale — Taylor & Burton
+    copy: |-
+      The eternal city was the romantic setting for the beginning of Liz and Dick's scandalous love affair. The year was 1962. Taylor and Burton were filming their historical epic Cleopatra at Cinecittà Studios just outside Rome. Burton emerged on set one day feeling the full effects of a hangover; Taylor noticed his hands shaking and his voice unsteady, and his vulnerability in those moments led her to fall for him hard, according to Taylor years later. This is either very romantic or a cautionary tale about the effects of alcohol on the opposite sex, depending on your perspective.
+
+      The pair were seen canoodling in some of the hippest places on the Via Veneto, while they were both still married to other people. During the height of Le Scandale, the couple sought to escape the drama by running away to the pretty seaside town of Porto Santo Stefano, only two hours from Rome by train, to hide from the paparazzi — all gold and terracotta houses and church towers seemingly tumbling down into the azure sea. Taylor returned to Rome in 1973, staying at the Grand Hotel Palace on the Via Veneto while filming the psychological drama The Driver's Seat.
+  - heading: Cinecittà Studios
+    image: /images/destinations/rome/sections/1/image.jpg
+    imageAlt: The entrance to Cinecittà Studios, Rome
+    caption: Cinecittà — Europe's most famous film lot, where Cleopatra was shot and Le Scandale began
+    copy: |-
+      Cinecittà Studios, where Cleopatra was filmed and where the Taylor–Burton love affair began, offers guided tours of Europe's most famous film lot. Fellini, Visconti, and dozens of Hollywood productions worked here. Most of The Barefoot Contessa interiors were shot here too. Tours from around €15.
+  - heading: Where to Eat & Drink
+    copy: |-
+      Alfredo alla Scrofa on Via della Scrofa, the legendary home of the original fettuccine Alfredo, is still open and still serving. Founded in 1914, it was Elizabeth Taylor's favourite restaurant in Rome — she was pictured eating here with Eddie Fisher in September 1961 and many times afterwards — and Ava Gardner would gorge herself here too. The walls are lined with photographs of the celebrities who have eaten here, from Mary Pickford and Douglas Fairbanks (who popularised the dish in America in the 1920s) to Frank Sinatra and Dean Martin. The fettuccine is prepared tableside. Five minutes' walk from Piazza Navona; mains from around €25, with cooking classes also available (from around €70, including a tasting menu).
+
+      For a drink, the Doney restaurant at the Westin Excelsior is still going strong and remains a good spot for some dolce vita nostalgia. The five-star St. Regis Hotel on the Via Veneto is another of the few surviving venues where you can still get a taste of that glamour; its Lumen cocktail bar is atmospheric and suitably decadent.
+featuredVenues:
+  - westin-excelsior-rome
+relatedStars:
+  - ava-gardner
+  - elizabeth-taylor
+relatedFilmLocations: []
+relatedArticles:
+  - classic-movies-that-will-inspire-you-to-travel
