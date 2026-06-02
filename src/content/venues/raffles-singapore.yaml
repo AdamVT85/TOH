@@ -1,0 +1,82 @@
+name: Raffles Singapore
+locationLine: 1 Beach Road, Singapore 189673
+venueType: Hotel
+status: Open
+established: '1887'
+cityCountry: Singapore
+priceIndicator: $$$
+hollywoodRating: 3
+heroImage: /images/venues/raffles-singapore/heroImage.jpg
+heroImageFocus: top
+heroImageAlt: The colonial-era white facade of Raffles Hotel Singapore
+excerpt: >-
+  The grande dame of Southeast Asia, opened in 1887 and an essential stop for
+  Hollywood stars travelling through the region during the golden age. Birthplace
+  of the Singapore Sling, still served at the Long Bar amid the old colonial
+  tradition of peanut shells on the floor.
+pullQuote: One of the few hotels in the world that can claim to have given birth to a globally famous cocktail.
+pullQuoteAttribution: Travel Old Hollywood
+gallery: []
+whoCameHere:
+  - name: Charlie Chaplin
+  - name: Ava Gardner
+    starGuideSlug: ava-gardner
+  - name: Elizabeth Taylor
+    starGuideSlug: elizabeth-taylor
+  - name: Somerset Maugham
+  - name: Rudyard Kipling
+  - name: Joseph Conrad
+asSeenIn: []
+signatureExperiences:
+  - name: The Long Bar
+    description: >-
+      The birthplace of the Singapore Sling, invented here in 1915 by bartender
+      Ngiam Tong Boon. The Sling is still served, and the bar maintains the old
+      colonial tradition of throwing peanut shells on the floor — either charming
+      or annoying depending on how you feel about peanut shells.
+    price: Singapore Sling around S$40
+website: https://www.raffles.com/singapore/
+phone: +65 6337 1886
+openingHours: Open year-round
+priceRange: Rooms from around $500 per night
+howToBook: >-
+  Book direct at <a href="https://www.raffles.com/singapore/" target="_blank"
+  rel="noopener">raffles.com/singapore</a> or by phone. No reservation is needed
+  to visit the Long Bar for a Singapore Sling.
+nearestAirport: Singapore Changi Airport (SIN) — approx. 20 minutes by car
+transportNotes: >-
+  Central Singapore, on Beach Road in the Civic District. City Hall and
+  Esplanade MRT stations are both within a short walk.
+bestTimeToVisit: Open year-round.
+accessibilityNotes: Contact the hotel directly to confirm access requirements.
+tips: >-
+  The Singapore Sling at the Long Bar costs around S$40 — expensive for a
+  cocktail, but cheap for a piece of history.
+nearbyVenues: []
+relatedArticles: []
+sections:
+  - copy: >-
+      The grande dame of Southeast Asia opened in 1887 and became an essential
+      stop for Hollywood stars travelling through the region throughout the
+      golden age. Charlie Chaplin stayed here in the 1930s during a world tour.
+      Ava Gardner checked in during a trip to Asia. Elizabeth Taylor passed
+      through on her way to somewhere more dramatic, as was her habit.
+
+      The guest book reads like a literary as much as a Hollywood register:
+      Somerset Maugham, Rudyard Kipling and Joseph Conrad all passed through its
+      colonial corridors, lending the hotel a reputation as much for letters as
+      for glamour.
+  - heading: Birthplace of the Singapore Sling
+    copy: >-
+      Raffles is where the Singapore Sling was invented in 1915 by bartender
+      Ngiam Tong Boon, making it one of the few hotels in the world that can
+      claim to have given birth to a globally famous cocktail. The Long Bar,
+      where the Sling is still served, maintains the old colonial tradition of
+      throwing peanut shells on the floor — which is either charming or annoying
+      depending on how you feel about peanut shells.
+    callout: The Long Bar — birthplace of the Singapore Sling, 1915.
+  - heading: Colonial grandeur, modern plumbing
+    copy: >-
+      The hotel underwent a major restoration in 2019 and has emerged with its
+      colonial grandeur intact and its plumbing considerably improved — a rare
+      combination of the historic and the genuinely comfortable.

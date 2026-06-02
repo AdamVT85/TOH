@@ -1,0 +1,110 @@
+name: The Savoy
+locationLine: Strand, London WC2R 0EZ, United Kingdom
+venueType: Hotel
+status: Open
+established: '1889'
+cityCountry: London, United Kingdom
+priceIndicator: $$$
+hollywoodRating: 4
+heroImage: /images/venues/the-savoy-london/heroImage.jpg
+heroImageAlt: The Art Deco entrance and forecourt of The Savoy on the Strand in London
+heroImageFocus: top
+excerpt: >-
+  London's most famous hotel, opened in 1889 on the Strand, has hosted virtually
+  every major Hollywood star who crossed the Atlantic — from Ava Gardner and
+  Charlie Chaplin to Marilyn Monroe and Frank Sinatra. Home to the American Bar,
+  which claims to be the oldest surviving cocktail bar in the world.
+pullQuote: >-
+  Marilyn Monroe held a press conference here in 1956, at which she wore a dress
+  so tight that the assembled journalists reportedly forgot every question they
+  had prepared.
+pullQuoteAttribution: The Old Hollywood Guide to London
+gallery: []
+whoCameHere:
+  - name: Ava Gardner
+    starGuideSlug: ava-gardner
+  - name: Frank Sinatra
+    starGuideSlug: frank-sinatra
+  - name: Charlie Chaplin
+  - name: Marilyn Monroe
+  - name: Noel Coward
+  - name: Marlene Dietrich
+  - name: Greta Garbo
+asSeenIn: []
+signatureExperiences:
+  - name: The American Bar
+    description: >-
+      Opened in the 1890s, the American Bar claims to be the oldest surviving
+      cocktail bar in the world. Its head bartenders have included some of the
+      most influential mixologists in history, and the Art Deco interior is a
+      masterclass in how a bar should look and feel.
+  - name: The Savoy Grill
+    description: >-
+      The hotel's storied restaurant, where Ava Gardner dined during her London
+      years and where Noel Coward practically lived.
+website: https://thesavoylondon.com/
+phone: +44 20 7420 2300
+openingHours: Open year-round; reception 24 hours
+priceRange: Rooms from around £400 per night
+howToBook: >-
+  Book direct at <a href="https://thesavoylondon.com/" target="_blank"
+  rel="noopener">thesavoylondon.com</a> or by phone. No reservation is needed to
+  visit the American Bar, though booking a table ahead is wise.
+nearestAirport: London Heathrow (LHR) — approx. 45–60 minutes by car
+transportNotes: >-
+  On the Strand in central London, between Covent Garden and the Thames.
+  Charing Cross and Embankment stations are a short walk away. The Savoy Court
+  forecourt is famously the only street in Britain where traffic drives on the
+  right.
+bestTimeToVisit: Year-round.
+accessibilityNotes: >-
+  Contact the hotel directly to confirm accessible rooms and step-free access to
+  the bars and restaurants.
+tips: >-
+  Come for a drink at the American Bar even if you are not staying — a martini
+  there is considerably cheaper than a room and arguably just as memorable. The
+  Savoy Grill is where Ava Gardner and Noel Coward once dined.
+nearbyVenues:
+  - name: Claridge's
+    venueSlug: claridges
+    venueType: Hotel
+  - name: The Dorchester
+    venueSlug: the-dorchester
+    venueType: Hotel
+relatedArticles:
+  - 26-old-hollywood-hotels
+sections:
+  - copy: >-
+      London's most famous hotel opened in 1889 and has, in the century and a
+      half since, hosted virtually every major Hollywood star who crossed the
+      Atlantic. Charlie Chaplin stayed here on his controversial return visits to
+      England after his exile from America. Greta Garbo and Marlene Dietrich
+      passed through. Frank Sinatra made it his London hotel of choice, and Ava
+      Gardner dined at the Savoy Grill during her London years.
+
+      It is the kind of place where the guest book reads like a roll call of the
+      twentieth century — and where, mercifully, the staff have always known how
+      to keep a secret.
+  - heading: Marilyn, in a dress to remember
+    copy: >-
+      In 1956, Marilyn Monroe held a press conference at the Savoy during the
+      filming of The Prince and the Showgirl with Laurence Olivier. By the most
+      reliable accounts she wore a dress so tight that the assembled journalists
+      forgot every question they had prepared.
+
+      It is a small, perfect anecdote of a hotel that has spent more than a
+      century playing host to people who turned simply arriving into an event.
+    callout: >-
+      The reporters had their questions ready. Then Marilyn walked in, and not
+      one of them could remember a single one.
+  - heading: The oldest cocktail bar in the world
+    copy: >-
+      The American Bar, which opened in the 1890s, claims to be the oldest
+      surviving cocktail bar in the world. Its head bartenders have included some
+      of the most influential mixologists in history, and the Art Deco interior
+      is a masterclass in how a bar should look and feel.
+
+      Frank Sinatra rated the Savoy thoroughly worth a visit even if you only
+      came for a drink at the American Bar. Ava Gardner, who stayed here in 1956
+      while working with a speech coach for her role in Bhowani Junction, would
+      no doubt have approved of raising a glass in her memory.

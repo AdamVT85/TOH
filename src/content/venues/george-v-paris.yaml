@@ -1,0 +1,94 @@
+name: Four Seasons Hotel George V
+locationLine: 31 Avenue George V, 75008 Paris, France
+venueType: Hotel
+status: Open
+established: '1928'
+cityCountry: Paris, France
+priceIndicator: $$$
+hollywoodRating: 4
+heroImage: /images/venues/george-v-paris/heroImage.jpg
+heroImageAlt: The limestone facade of the Four Seasons Hotel George V on Avenue George V in Paris
+heroImageFocus: top
+excerpt: >-
+  The most opulent hotel in Paris and a favourite of Hollywood royalty since it
+  opened in 1928. Ava Gardner made it her Paris hotel of choice, Elizabeth
+  Taylor and Richard Burton occupied suites during their European years, and the
+  lobby flower arrangements reportedly cost a small fortune every week.
+pullQuote: >-
+  The kind of place where a star could disappear into for a week and emerge
+  looking ten years younger and €50,000 poorer.
+pullQuoteAttribution: Travel Old Hollywood
+gallery: []
+whoCameHere:
+  - name: Ava Gardner
+    starGuideSlug: ava-gardner
+  - name: Elizabeth Taylor
+    starGuideSlug: elizabeth-taylor
+  - name: Richard Burton
+  - name: Marlene Dietrich
+  - name: Frank Sinatra
+    starGuideSlug: frank-sinatra
+  - name: Orson Welles
+  - name: The Beatles
+asSeenIn: []
+signatureExperiences:
+  - name: Le Cinq
+    description: >-
+      The hotel's flagship restaurant, which holds two Michelin stars. A serious
+      destination for fine dining in its own right.
+  - name: The courtyard garden
+    description: >-
+      The hotel's interior courtyard garden is one of the most tranquil spaces
+      in the city — a rare pocket of calm just off the Champs-Elysees.
+website: https://www.fourseasons.com/paris/
+phone: +33 1 49 52 70 00
+openingHours: Open year-round
+priceRange: Rooms from around €800 per night
+nearestAirport: Paris Charles de Gaulle (CDG) — approx. 40–50 minutes by car
+transportNotes: >-
+  In the 8th arrondissement, just off the Champs-Elysees. The George V Metro
+  station (line 1) is a short walk away.
+bestTimeToVisit: Year-round.
+accessibilityNotes: Contact the hotel directly to confirm access requirements.
+tips: >-
+  Even if you are not staying, Le Cinq and the hotel's bar are open to visitors,
+  and the lobby's famously extravagant floral displays are worth seeing. The
+  courtyard garden is one of the quietest spots in central Paris.
+howToBook: >-
+  Book direct at <a href="https://www.fourseasons.com/paris/" target="_blank"
+  rel="noopener">fourseasons.com/paris</a> or by phone. Restaurant reservations
+  for Le Cinq can be made through the hotel website.
+nearbyVenues:
+  - name: The Ritz Paris
+    venueSlug: the-ritz-paris
+    venueType: Hotel
+relatedArticles:
+  - 26-old-hollywood-hotels
+sections:
+  - copy: >-
+      The most opulent hotel in Paris and a favourite of Hollywood royalty since
+      it opened in 1928, the George V — now run by Four Seasons — represents, for
+      old Hollywood fans, the pinnacle of European hotel luxury. It is the kind
+      of place where a star could disappear for a week and emerge looking ten
+      years younger and €50,000 poorer.
+
+      The flower arrangements in the lobby cost a rumoured €40,000 per week,
+      which tells you everything you need to know about the hotel's approach to
+      understatement.
+    callout: The flower arrangements in the lobby cost a rumoured €40,000 per week.
+  - heading: Ava's Paris hotel of choice
+    copy: >-
+      Ava Gardner stayed at the George V while on a break from filming Pandora
+      and the Flying Dutchman in 1951. Frank Sinatra flew out to see her, and the
+      pair dined at the much-storied Tour d'Argent, the restaurant that has been
+      serving diners overlooking Notre-Dame since 1582.
+
+      Elizabeth Taylor and Richard Burton later occupied suites here during their
+      European years — Taylor making the George V her Parisian base. Marlene
+      Dietrich, Orson Welles and the Beatles all passed through too.
+  - heading: Le Cinq and the courtyard
+    copy: >-
+      The hotel's restaurant, Le Cinq, holds two Michelin stars and is a serious
+      dining destination in its own right. The interior courtyard garden,
+      meanwhile, is one of the most tranquil spaces in the city — a rare pocket
+      of calm just steps from the Champs-Elysees.

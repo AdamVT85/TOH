@@ -1,0 +1,30 @@
+---
+interface Props {
+  items?: { href: string; title: string; label: string; image?: string }[];
+}
+const { items = [] } = Astro.props;
+---
+{items.length > 0 && (
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    {items.map((it) => (
+      <a
+        href={it.href}
+        class="group block bg-[#2b3a55] border border-[#d4b872]/20 hover:border-[#d4b872]/60 overflow-hidden transition-colors shadow-md"
+      >
+        {it.image && (
+          <div class="aspect-video overflow-hidden">
+            <img
+              src={it.image}
+              alt={it.title}
+              class="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+            />
+          </div>
+        )}
+        <div class="p-4">
+          <span class="font-oswald text-[10px] tracking-widest uppercase text-[#d4b872] block mb-1">{it.label}</span>
+          <h4 class="font-serif text-xl text-[#fdfbf2] leading-tight group-hover:text-[#fceeb5] transition-colors">{it.title}</h4>
+        </div>
+      </a>
+    ))}
+  </div>
+)}

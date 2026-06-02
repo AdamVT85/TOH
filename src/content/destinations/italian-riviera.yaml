@@ -1,0 +1,64 @@
+title: the Italian Riviera
+country: Italian Riviera
+region: Portofino & the Ligurian Coast
+heroImage: /images/destinations/italian-riviera/heroImage.jpg
+heroImageAlt: The harbour of Portofino seen from above, on the Ligurian coast
+excerpt: >-
+  Portofino, the oh-so-glamorous jewel in the crown of the Italian Riviera, was
+  the default destination for Hollywood royalty from the 1950s on. Ava Gardner,
+  Bogart and Bacall, Sinatra, and Taylor and Burton all came for the Splendido,
+  the harbour and the view. Here's how to travel it in the footsteps of the
+  stars.
+passportStamps:
+  - city: PORTOFINO
+    detail: Hotel Splendido
+    date: '1954'
+  - city: SAN REMO
+    detail: Ligurian coast
+  - city: MOUNT PORTOFINO
+    detail: Sinatra lookout
+  - city: PORTOFINO
+    detail: La Terrazza
+sections:
+  - heading: Jewel of the Italian Riviera
+    copy: |-
+      Portofino — the oh-so-glamorous jewel in the crown of the Italian Riviera — has been the default destination for Hollywood royalty visiting the Ligurian coast since the 1950s. A tiny fishing harbour ringed by pastel houses and bobbing yachts, it drew the biggest names in the movies, who came for the seclusion, the seafood and one of the most photographed harbours in Europe.
+
+      The hub of it all was, and is, the Hotel Splendido, perched on the hillside above the harbour. The harbour piazzetta, a five-minute walk downhill from the hotel, has barely changed since the 1950s — which is rather the point. Ava Gardner fell in love with Portofino during filming and returned often on private holidays; Frank Sinatra liked it so much there is a lookout point on Mount Portofino named after him, which feels about right for a man who expected the landscape itself to pay tribute.
+  - heading: The Hotel Splendido
+    image: /images/destinations/italian-riviera/sections/0/image.jpg
+    imageAlt: The harbour of Portofino, a five-minute walk below the Hotel Splendido
+    caption: Portofino harbour — the piazzetta below the Splendido has barely changed since the 1950s
+    copy: |-
+      The Splendido rose from the ashes of a former 16th-century monastery to become one of the world's most celebrated hotels, playing host to Clark Gable, Humphrey Bogart, Lauren Bacall, Ava Gardner, Elizabeth Taylor and Richard Burton. Charlie Chaplin was a regular. Grace Kelly adored the place. Maria Callas came here to be dramatic in more beautiful surroundings than La Scala could offer.
+
+      The restaurant terrace, where you can eat fresh pasta while looking down at the yachts bobbing in the harbour below, is one of the most romantic dining spots in the Mediterranean. The hotel was renovated in 2025 but has kept its character firmly intact, and holds two Michelin keys. Its harbourside sister property, Splendido Mare, has an Ava Gardner Suite with a sprawling waterfront terrace and lemon trees, which feels appropriate.
+
+      This is not a budget swim. Rooms at the Splendido, A Belmond Hotel, Portofino, now start above $2,000 per night in high season, breakfast included. The hotel is seasonal, open from May to early November, and you'll want to book well in advance. If the Splendido is beyond reach, Splendido Mare offers rooms from around $500 per night and shares some of the same Belmond polish, albeit without the hilltop pool. Salita Baratta 16, Portofino.
+    callout: One thing to note — Portofino has introduced a selfie ban in certain areas, so you may need to admire the view with your actual eyes, like some kind of 1950s film star.
+  - heading: Ava Gardner & The Barefoot Contessa
+    copy: |-
+      Ava Gardner stayed in San Remo and Portofino during the location shoots for The Barefoot Contessa, the whimsical, over-the-top drama in which she starred alongside Humphrey Bogart. She fell in love with Portofino and returned often on private holidays for the rest of her life.
+
+      The Splendido was her hotel of choice, and the staff never forgot her: the sister hotel down on the waterfront, Splendido Mare, named a suite after her — the Ava Gardner Suite. For something more affordable than a Contessa-level budget, the restaurants around the harbour serve excellent seafood and the views are free. San Remo, further along the Ligurian coast, is a faded belle époque resort with a fraction of Portofino's prices.
+  - heading: Taylor & Burton, and a Wisteria-Clad Terrace
+    copy: |-
+      Elizabeth Taylor and Richard Burton used the Splendido as an escape from the paparazzi during the height of their much-publicised affair, arriving on their yacht, the Kalizma, and dining on the terrace overlooking the harbour. They returned many times after that. It is rumoured that Burton proposed to Elizabeth on the wisteria-clad terrace — and if you're going to propose anywhere, a wisteria-clad terrace overlooking Portofino harbour is a fairly solid choice.
+
+      The hotel remembers them, too. La Terrazza, the main restaurant, now serves a spaghetti dish called "Homage to Elizabeth Taylor." Order it, sip a chocolate martini (Liz's favourite drink) as you gaze out over the harbour, and add Dalida's "I Found My Love in Portofino" to your romance playlist.
+    callout: Rex Harrison proposed to Kay Kendall at the Splendido. Humphrey Bogart and Lauren Bacall honeymooned here. The terrace has form.
+  - heading: Sinatra on the Ligurian Coast
+    copy: |-
+      Despite being the most famous Italian-American of his generation, Frank Sinatra holidayed regularly in Portofino, staying at the Splendido — a former monastery perched on the hillside overlooking the harbour. There is a lookout point on Mount Portofino that is actually named after him, which gives you some idea of how often he visited.
+
+      Portofino's selfie ban in public areas feels like exactly the kind of privacy policy Sinatra would have approved of.
+featuredVenues:
+  - hotel-splendido
+relatedStars:
+  - frank-sinatra
+  - ava-gardner
+  - elizabeth-taylor
+relatedFilmLocations: []
+relatedArticles:
+  - swimming-pools-of-classic-hollywood
+  - 26-old-hollywood-hotels

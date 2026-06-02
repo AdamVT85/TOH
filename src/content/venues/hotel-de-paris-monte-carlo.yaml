@@ -1,0 +1,107 @@
+name: Hôtel de Paris Monte-Carlo
+locationLine: Place du Casino, 98000 Monte-Carlo, Monaco
+venueType: Hotel
+status: Open
+established: '1864'
+cityCountry: Monte-Carlo, Monaco
+priceIndicator: $$$
+hollywoodRating: 4
+heroImage: /images/venues/hotel-de-paris-monte-carlo/heroImage.jpg
+heroImageAlt: The belle epoque facade of the Hôtel de Paris on the Place du Casino in Monte-Carlo
+heroImageFocus: top
+excerpt: >-
+  The default address for visiting royalty, billionaires and film stars since
+  1864, the Hôtel de Paris sits on the Place du Casino alongside the belle
+  epoque Casino de Monte-Carlo that appears in To Catch a Thief. Frank Sinatra
+  stayed here on his annual visits to Grace Kelly, who later ruled the
+  principality from the palace just up the hill.
+pullQuote: One of the grandest hotels on the Riviera and still a suitably lavish place to lay your head.
+pullQuoteAttribution: The Ultimate Frank Sinatra Travel Guide
+gallery: []
+whoCameHere:
+  - name: Frank Sinatra
+    starGuideSlug: frank-sinatra
+  - name: Cary Grant
+    starGuideSlug: cary-grant
+  - name: Elizabeth Taylor
+    starGuideSlug: elizabeth-taylor
+  - name: Grace Kelly
+  - name: Alfred Hitchcock
+  - name: Richard Burton
+  - name: Marlene Dietrich
+asSeenIn:
+  - title: To Catch a Thief
+    year: '1955'
+signatureExperiences:
+  - name: The Princess Grace Suite
+    description: >-
+      A suite named for Grace Kelly, who became Princess Grace of Monaco after
+      her 1956 marriage to Prince Rainier III and lived just up the hill.
+  - name: Rooftop pool and spa
+    description: >-
+      Added during the hotel's recent multi-hundred-million-euro renovation,
+      the rooftop pool and spa look out over Monte-Carlo.
+website: https://www.montecarlosbm.com/en/hotel-monaco/hotel-paris-monte-carlo
+phone: +377 98 06 30 00
+openingHours: Open year-round
+priceRange: Rooms from around €500 per night
+howToBook: >-
+  Book direct at <a
+  href="https://www.montecarlosbm.com/en/hotel-monaco/hotel-paris-monte-carlo"
+  target="_blank" rel="noopener">montecarlosbm.com</a>, the site of the Société
+  des Bains de Mer, which operates the hotel.
+nearestAirport: Nice Côte d'Azur Airport (NCE) — approx. 30 km / 30–45 minutes by car
+transportNotes: >-
+  On the Place du Casino in the heart of Monte-Carlo, directly beside the Casino
+  de Monte-Carlo and the Opéra. A helicopter transfer between Nice airport and
+  Monaco takes roughly seven minutes.
+dressCode: Smart; jacket required for the Casino's private gaming rooms
+bestTimeToVisit: Open year-round.
+accessibilityNotes: >-
+  Contact the venue directly to confirm access requirements.
+tips: >-
+  Even if you are not staying, the adjacent Casino de Monte-Carlo is open to the
+  public (over-18s, dress code enforced). The interior, all gilt mirrors and
+  frescoed ceilings, is worth the entry fee alone even if you have no intention
+  of gambling — which, given Monaco's prices, might be the prudent choice.
+  Casino entry is around €17, with a jacket required for the private gaming
+  rooms.
+nearbyVenues:
+  - name: Hôtel du Cap-Eden-Roc
+    venueSlug: hotel-du-cap-eden-roc
+    venueType: Hotel
+  - name: Carlton Cannes
+    venueSlug: carlton-cannes
+    venueType: Hotel
+relatedArticles:
+  - 26-old-hollywood-hotels
+sections:
+  - copy: >-
+      The Casino de Monte-Carlo is the belle epoque masterpiece that features in
+      To Catch a Thief, where Cary Grant and Grace Kelly attend the gambling
+      scenes filmed inside its ornate halls. Kelly herself would later live just
+      up the hill as Princess Grace of Monaco after her marriage to Prince
+      Rainier III in 1956.
+
+      The Casino and the adjacent Hôtel de Paris, which has been the default
+      address for visiting royalty, billionaires and film stars since the
+      1860s, together form the centrepiece of Monaco's absurdly glamorous image.
+  - heading: Sinatra on the Riviera
+    copy: >-
+      Every year, Frank Sinatra would visit his old friend Grace Kelly in the
+      South of France for her annual Red Cross Ball. When he was in town, he
+      stayed at the Hôtel de Paris — one of the grandest hotels on the Riviera
+      and still a suitably lavish place to lay your head.
+
+      It was on these visits to Monaco that the worlds of Old Hollywood and
+      European royalty overlapped most completely, with the hotel as the natural
+      meeting point.
+    callout: Rooms from around €500 per night.
+  - heading: A grande dame, recently revived
+    copy: >-
+      The Hôtel de Paris was recently renovated to the tune of several hundred
+      million euros and now includes a rooftop pool and spa. The Casino itself
+      is open to the public — over-18s, with the dress code enforced — and the
+      interior, all gilt mirrors and frescoed ceilings, is worth the entry fee
+      alone even if you have no intention of gambling. Which, given Monaco's
+      prices, might be the prudent choice.

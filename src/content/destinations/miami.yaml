@@ -1,0 +1,62 @@
+title: Miami
+country: Miami
+region: Sinatra's Oceanfront, Art Deco & the Surf Club
+heroImage: /images/destinations/miami/heroImage.jpg
+heroImageAlt: Art Deco hotels along Ocean Drive in the Miami Beach Art Deco Historic District
+excerpt: >-
+  Frank Sinatra and the Rat Pack made the Fontainebleau their stage, Elizabeth
+  Taylor and Lauren Bacall favoured the Eden Roc, and behind a town the members
+  built to protect it sits the Surf Club. Here is Miami as old Hollywood knew it.
+passportStamps:
+  - city: MIAMI BEACH
+    detail: The Fontainebleau
+    date: '1958'
+  - city: SURFSIDE
+    detail: The Surf Club
+    date: '1930'
+  - city: SOUTH BEACH
+    detail: Ocean Drive
+  - city: MIAMI BEACH
+    detail: The Eden Roc
+sections:
+  - heading: Sinatra's Miami
+    image: /images/destinations/miami/sections/0/image.jpg
+    imageAlt: Vintage aerial postcard view of the Hotel Fontainebleau, Miami Beach
+    caption: An aerial view of the Fontainebleau, the oceanfront hotel at the centre of Sinatra's Miami
+    copy: |-
+      Sinatra and his Rat Pack immortalised Las Vegas in song and on film, but his movies and his life took fans all over the world — from Hawaii to Havana, Miami to Monaco. Miami, and the iconic Fontainebleau Hotel, featured prominently in his life.
+
+      The Rat Pack performed at the Fontainebleau on a regular basis, and Sinatra shot three movies here: A Hole in the Head, Tony Rome, and Lady in Cement. It is also where Frank allegedly first met crime boss Sam Giancana in 1958 — at least that is what he told the FBI. He stayed at the hotel that same year with short-lived flame Lauren Bacall.
+
+      In March 1960, Sinatra videotaped his ABC television special The Frank Sinatra Timex Show: Welcome Home Elvis at the Fontainebleau, welcoming back Elvis Presley following his two-year military service in West Germany. It drew an audience of 50 million, making it the top-rated show of the year and the highest-rated television appearance of Sinatra's entire career.
+    callout: The Fontainebleau was also the setting for Frank's fateful introduction of good-time girl Judith Campbell to Giancana — which became big news when it emerged that Campbell was Giancana's lover at the same time she was having an affair with John F. Kennedy.
+  - heading: The Fontainebleau Today
+    copy: |-
+      The Fontainebleau is still very much open, spanning 20 acres of oceanfront with eleven pools, nine restaurants, and a Lapis Spa. It also now has a Las Vegas outpost, which opened in 2023, creating a nice link between the two cities Sinatra shaped most.
+
+      In files released after his death, the FBI reported that Miami Police received a bomb threat in early 1966 aimed at Sinatra during one of his performances at the hotel, threatening that someone would throw a hand grenade at him while he was on stage. Nobody did.
+
+      Miami rooms from around $180 per night in summer, climbing well above $400 in season.
+  - heading: The Surf Club
+    copy: |-
+      The Mediterranean-revival style Surf Club opened in Miami Beach on New Year's Eve 1930, in the final years of Prohibition. It was the brainchild of tire tycoon Harvey Firestone, who hatched the idea on his yacht with a group of industrialist friends who wanted somewhere to hide. They hired Russell Pancoast, a pioneering Miami architect, to design it, and appointed Alfred Barton, a former set designer for Cecil B. DeMille, to run the place. Barton's Hollywood eye for spectacle defined the club for the next four decades.
+
+      During Prohibition, liquor-laden boats from Bimini and Cuba would pull up on the beach and unload cases directly to members' cabanas, many of which were decorated as lavishly as their owners' homes. Winston Churchill painted seascapes in his. Gary Cooper, Noel Coward, Douglas Fairbanks Jr., Elizabeth Taylor, Frank Sinatra, the Rat Pack, Cassius Clay, the Duke and Duchess of Windsor, and Douglas MacArthur were all regulars.
+
+      The club's reputation for discretion and "proper impropriety" was so prized that in 1935, thirty-five of its members literally founded the town of Surfside to prevent Miami Beach from annexing the land around it. When your pool club incorporates an entire town to protect its privacy, you know the membership takes its leisure seriously. The Four Seasons took over in 2017, adding three glass-fronted towers designed by Richard Meier to the original clubhouse.
+    callout: Thomas Keller chose the Surf Club for his Florida debut, and Le Sirenuse — the only place stateside where you can taste the Sersale family's Southern Italian cooking from their legendary Positano restaurant — occupies the former ballroom.
+  - heading: Art Deco South Beach
+    copy: |-
+      Art Deco gem the Cardozo Hotel on Ocean Drive, which featured in A Hole in the Head (1959), is also still open and is one of the prettiest buildings on South Beach. Rooms from around $200 per night.
+  - heading: Where Taylor and Bacall Slept
+    copy: |-
+      The Eden Roc on Miami Beach was one of the two top hotels in Miami during the 1950s and 60s, the other being the neighbouring Fontainebleau. The Eden Roc was beloved by Elizabeth Taylor, as well as Frank Sinatra, Humphrey Bogart, and Lauren Bacall.
+
+      It is still a showstopper of a hotel, though it has had so many refurbishments since the old Hollywood glory days that you are unlikely to have a similar experience to Liz or Lauren. But wherever they are, we are sure they would approve of your choice of accommodation. Rooms from around $250 per night.
+featuredVenues:
+  - four-seasons-surf-club
+relatedStars:
+  - frank-sinatra
+relatedFilmLocations: []
+relatedArticles:
+  - swimming-pools-of-classic-hollywood

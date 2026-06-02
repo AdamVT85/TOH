@@ -1,0 +1,168 @@
+name: The Beverly Hills Hotel
+locationLine: 9641 Sunset Boulevard, Beverly Hills, CA 90210
+venueType: Hotel
+status: Open
+established: '1912'
+cityCountry: Los Angeles, USA
+priceIndicator: $$$
+hollywoodRating: 5
+heroImage: /images/venues/beverly-hills-hotel/heroImage.jpg
+heroImageAlt: The pink-and-green facade of The Beverly Hills Hotel on Sunset Boulevard
+heroImageFocus: top
+excerpt: >-
+  The Pink Palace on Sunset Boulevard has been the epicentre of Hollywood
+  deal-making and heartbreak since 1912. Its banana-leaf wallpaper and famous
+  bungalows have hosted more affairs, breakdowns and career-defining
+  conversations than any other address in California — and the Polo Lounge is
+  still the power-lunch capital of the entertainment industry.
+pullQuote: >-
+  Its bungalows have hosted more affairs, breakdowns, and career-defining
+  conversations than any other address in California.
+pullQuoteAttribution: Travel Old Hollywood
+gallery: []
+whoCameHere:
+  - name: Elizabeth Taylor
+    starGuideSlug: elizabeth-taylor
+  - name: Frank Sinatra
+    starGuideSlug: frank-sinatra
+  - name: Ava Gardner
+    starGuideSlug: ava-gardner
+  - name: Marilyn Monroe
+  - name: Marlene Dietrich
+  - name: Rudolph Valentino
+  - name: Gloria Swanson
+  - name: Charlie Chaplin
+  - name: Buster Keaton
+  - name: Howard Hughes
+  - name: Esther Williams
+  - name: Katharine Hepburn
+asSeenIn:
+  - title: Designing Woman
+    year: '1957'
+  - title: The Bad and the Beautiful
+    year: '1952'
+signatureExperiences:
+  - name: The Polo Lounge
+    description: >-
+      The legendary restaurant and bar that remains the power-lunch capital of
+      the entertainment industry, though the power has shifted from studio bosses
+      to streaming executives. Frank Sinatra and the Rat Pack spent many drunken
+      nights here, Ava Gardner was a regular, and Elizabeth Taylor treated it as
+      a constant from childhood to old age. Its signature drink is the Polo
+      Lounge martini.
+    price: Cocktails around $25-30; mains from around $45
+  - name: The Bungalows
+    description: >-
+      The infamous garden bungalows used by screen goddesses Marilyn Monroe,
+      Elizabeth Taylor and Marlene Dietrich to conduct their much-gossiped-about
+      love affairs. Taylor and Burton's favourite was Bungalow 5; Marilyn used
+      Bungalow 7 so often it was renamed "Norma Jean" in her memory.
+    price: Bungalows from considerably more than $700 per night
+  - name: The Pool (formerly The Sand and Pool Club)
+    description: >-
+      A truly legendary pool dating back to 1938, when it was known as 'The Sand
+      and Pool Club' and surrounded by sand for a beachy vibe. Esther Williams
+      had a contract clause granting her a free pass to swim here most mornings;
+      Katharine Hepburn allegedly once jumped in fully clothed; the Beatles
+      hosted a raucous poolside party. There are now 11 private cabanas, each
+      named after an area of Los Angeles and draped in the hotel's signature pink
+      and white stripes.
+    price: Non-guest day pass currently around $150-200 per person, redeemable against food and drink
+    availability: Open year-round
+  - name: The Fountain Coffee Room
+    description: >-
+      The quirky, less formal option, with its vintage banana-leaf wallpaper,
+      1940s soda fountain and counter stools. The place for eggs benedict,
+      silver-dollar buttermilk pancakes, cold-pressed juice or a classic ice
+      cream milkshake.
+  - name: The Frank Sinatra Suite
+    description: >-
+      A suite inspired by the mid-century design Sinatra loved — all simplicity
+      and geometric patterns.
+website: https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel/
+phone: +1 310-276-2251
+openingHours: Open year-round
+priceRange: Rooms from around $700 per night; bungalows from considerably more
+howToBook: >-
+  Book direct at <a
+  href="https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel/"
+  target="_blank" rel="noopener">dorchestercollection.com</a> or by phone. Polo
+  Lounge reservations are recommended. The pool is open to non-guests via a day
+  pass booked through the hotel.
+nearestAirport: LAX — approx. 30–40 minutes by car
+transportNotes: >-
+  On Sunset Boulevard at the edge of Beverly Hills, a stone's throw from the
+  former Pickfair estate in the hills above. Valet parking available; a car or
+  taxi is the easiest way to arrive.
+bestTimeToVisit: Year-round.
+accessibilityNotes: Contact the hotel directly to confirm access requirements.
+tips: >-
+  If you can afford it, stay in one of the bungalows and head to the Polo Lounge
+  for lunch — reservations recommended. For a more affordable taste of the
+  hotel, pop into the Fountain Coffee Room for breakfast, or book a pool day pass
+  (around $150-200, redeemable against food and drink). Swimmers may be surprised
+  to hear music playing underwater.
+bookingUrl: ''
+nearbyVenues:
+  - name: Hotel Bel-Air
+    venueSlug: hotel-bel-air
+    venueType: Hotel
+  - name: Chateau Marmont
+    venueSlug: chateau-marmont
+    venueType: Hotel
+  - name: Hollywood Roosevelt
+    venueSlug: hollywood-roosevelt
+    venueType: Hotel
+relatedArticles:
+  - swimming-pools-of-classic-hollywood
+  - 26-old-hollywood-hotels
+sections:
+  - heading: The Pink Palace
+    copy: >-
+      The Beverly Hills Hotel has been the epicentre of Hollywood deal-making and
+      heartbreak since it opened on Sunset Boulevard in 1912, three years before
+      the first film studio arrived in town. Constructed a stone's throw from
+      Mary Pickford and Douglas Fairbanks' legendary Pickfair estate, the hotel
+      has a Hollywood pedigree like no other.
+
+      Its banana-leaf wallpaper is one of the most recognised interiors in the
+      world, and its bungalows have hosted more affairs, breakdowns, and
+      career-defining conversations than any other address in California.
+      Valentino, Swanson, Chaplin and Keaton were all pleasure-seeking regulars.
+      Howard Hughes lived here on and off for thirty years, sometimes renting
+      multiple bungalows at once and having roast beef sandwiches delivered at
+      3am.
+    callout: Constructed a stone's throw from Mary Pickford and Douglas Fairbanks' legendary Pickfair estate.
+  - heading: The Polo Lounge and the bungalows
+    copy: >-
+      The Polo Lounge remains the power-lunch capital of the entertainment
+      industry, though the power has shifted from studio bosses to streaming
+      executives. Frank Sinatra and the Rat Pack spent many drunken nights here;
+      Ava Gardner was a regular; and the Polo Lounge was a constant in Elizabeth
+      Taylor's life from childhood to old age — the hotel even immortalised her
+      with a signature cocktail, the "Violet Eyes."
+
+      The infamous bungalows were used by screen goddesses Marilyn Monroe,
+      Elizabeth Taylor and Marlene Dietrich to conduct their much-gossiped-about
+      love affairs. Taylor and Burton's favourite was Bungalow 5, while it was
+      lucky number 7 for Marilyn — this bungalow is now named "Norma Jean" in her
+      memory. Elizabeth Taylor honeymooned at the hotel six of her eight times, a
+      statistic that tells you everything you need to know about Elizabeth
+      Taylor.
+  - heading: A legendary pool
+    copy: >-
+      The pool dates back to 1938, when it was known to guests as 'The Sand and
+      Pool Club,' surrounded by sand to give it a beachy vibe. Esther Williams,
+      the great aquatic saviour of MGM in the late 1940s, had a clause written
+      into her studio contract that gave her a free pass to the pool, where she'd
+      swim most mornings before work. Katharine Hepburn allegedly once jumped in
+      fully clothed, while the Beatles hosted a raucous poolside party amongst
+      the luxury cabanas.
+
+      The pool has generated more than a few iconic images over the years. Faye
+      Dunaway's legendary poolside photograph — taken by her future husband Terry
+      O'Neill the morning after she won Best Actress for Network in 1977 — was
+      described by the photographer as "one of the most Hollywood pictures of all
+      time." Nowadays there are 11 private cabanas, each named after an area of
+      Los Angeles and draped in the hotel's signature pink and white stripes.
+    callout: Swimmers may be surprised to hear music playing underwater.

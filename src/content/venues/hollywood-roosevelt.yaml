@@ -1,0 +1,136 @@
+name: The Hollywood Roosevelt
+locationLine: 7000 Hollywood Boulevard, Los Angeles, CA 90028
+venueType: Hotel
+status: Open
+established: '1927'
+cityCountry: Los Angeles, USA
+priceIndicator: $$
+hollywoodRating: 5
+heroImage: /images/venues/hollywood-roosevelt/heroImage.jpg
+heroImageAlt: The Spanish Colonial Revival facade of The Hollywood Roosevelt on Hollywood Boulevard
+heroImageFocus: top
+excerpt: >-
+  The headquarters of early Hollywood glamour, opened in 1927 by Mary Pickford,
+  Douglas Fairbanks and Louis B. Mayer. It hosted the very first Academy Awards
+  in its Blossom Room, gave Marilyn Monroe a home while her career took off, and
+  keeps a David Hockney mural at the bottom of its pool.
+pullQuote: >-
+  Clark Gable and Carole Lombard conducted their affair in the penthouse — five
+  dollars a night.
+pullQuoteAttribution: From the Travel Old Hollywood hotels guide
+gallery: []
+whoCameHere:
+  - name: Mary Pickford
+  - name: Douglas Fairbanks
+  - name: Charlie Chaplin
+  - name: Gloria Swanson
+  - name: Greta Garbo
+  - name: Clara Bow
+  - name: Clark Gable
+  - name: Carole Lombard
+  - name: Marilyn Monroe
+  - name: Montgomery Clift
+  - name: Errol Flynn
+  - name: H.G. Wells
+asSeenIn: []
+signatureExperiences:
+  - name: The Tropicana Pool
+    description: >-
+      The pool opened in 1950 as part of a $1 million "Promenade" tropical resort
+      redesign, with a grand opening on 16 June at which airline hostesses
+      ceremonially poured water samples from every ocean in the world into it. It
+      still has the famous David Hockney mural painted on its bottom.
+  - name: The Marilyn Monroe Suite
+    description: >-
+      A suite with a wraparound balcony overlooking the Tropicana Pool, named for
+      the star who lived at the hotel for two years while her modelling career was
+      taking off. Exclusive to hotel guests.
+  - name: The Spare Room
+    description: >-
+      A cocktail lounge inside the hotel with a twist: two vintage bowling lanes
+      from the 1930s sit in the middle of the room. Order a classic cocktail, bowl
+      a frame, and contemplate the fact that Clark Gable and Carole Lombard were
+      conducting their affair upstairs while you roll.
+    price: Cocktails from around $18; bowling from $10 per person
+  - name: The Blossom Room
+    description: >-
+      The room that hosted the first ever Academy Awards ceremony on 16 May 1929
+      — a fifteen-minute affair, nothing like the four-hour endurance test the
+      Oscars have since become.
+website: https://www.thehollywoodroosevelt.com/
+phone: +1 323-856-1970
+openingHours: Open year-round
+priceRange: Rooms from around $250 per night (prices fluctuate by season and can climb above $400 at peak times)
+howToBook: >-
+  Book direct at <a href="https://www.thehollywoodroosevelt.com/"
+  target="_blank" rel="noopener">thehollywoodroosevelt.com</a> or by phone. The
+  Marilyn Monroe Suite is exclusive to hotel guests; the Spare Room cocktail bar
+  and bowling lanes are open to visitors.
+nearestAirport: LAX — approx. 30–40 minutes by car
+transportNotes: >-
+  In the heart of Hollywood on Hollywood Boulevard, opposite the TCL Chinese
+  Theatre and beside the Dolby Theatre. The Hollywood/Highland Metro B (Red) Line
+  station is a short walk away.
+bestTimeToVisit: >-
+  Year-round. Tuesdays and Thursdays tend to be the cheapest nights for rooms.
+accessibilityNotes: >-
+  Contact the hotel directly to confirm accessible rooms and step-free access to
+  the pool, bars and historic public rooms.
+tips: >-
+  A word of warning for light sleepers: the hotel runs poolside live music on
+  weekends and has hosted pool parties on Sundays through the summer months.
+  Marilyn Monroe is said to haunt the corridors, along with the ghost of 1950s
+  idol Montgomery Clift, with sightings of both regularly reported by guests.
+nearbyVenues:
+  - name: Chateau Marmont
+    venueSlug: chateau-marmont
+    venueType: Hotel
+  - name: The Culver Hotel
+    venueSlug: the-culver-hotel
+    venueType: Hotel
+  - name: Millennium Biltmore Hotel
+    venueSlug: millennium-biltmore
+    venueType: Hotel
+relatedArticles:
+  - swimming-pools-of-classic-hollywood
+  - 26-old-hollywood-hotels
+sections:
+  - heading: The headquarters of early Hollywood
+    copy: >-
+      This iconic hotel opened in 1927, financed by some of the biggest names in
+      the business: Mary Pickford, Douglas Fairbanks, Sid Grauman and Louis B.
+      Mayer. The guest list at the grand opening read like a roll-call of the era
+      — Chaplin, Swanson, Garbo, Clara Bow — and the Roosevelt quickly became the
+      headquarters of early Hollywood glamour.
+
+      Charlie Chaplin, H.G. Wells, Clark Gable and Carole Lombard were all
+      regulars. Errol Flynn was a frequent guest too, though one suspects the
+      Roosevelt's management preferred not to ask too many questions about what
+      Flynn got up to on the premises.
+    callout: >-
+      Clark Gable and Carole Lombard carried on their infamous affair in the
+      penthouse, which cost $5 a night.
+  - heading: The first Academy Awards
+    copy: >-
+      The very first Academy Awards ceremony was held in the hotel's Blossom Room
+      on 16 May 1929, and the Roosevelt has been trading on that distinction ever
+      since. It was a fifteen-minute ceremony — nothing like the four-hour
+      endurance test the Oscars have become.
+  - heading: Marilyn, the pool and a Hockney
+    copy: >-
+      Marilyn Monroe lived at the hotel for two years while she was a struggling
+      model, and did her first commercial photo shoot by the pool. She is said to
+      haunt the corridors to this day.
+
+      The Tropicana Pool itself opened in 1950 as part of a $1 million
+      "Promenade" tropical resort redesign. The grand opening on 16 June was an
+      exercise in amusing Hollywood absurdity: airline hostesses ceremonially
+      poured water samples from every ocean in the world into the pool. Today the
+      pool is a David Hockney painting come to life — literally, Hockney painted
+      the bottom of it — and you can stay in the Marilyn Monroe Suite, with its
+      wraparound balcony overlooking the water.
+  - heading: A martini and a frame
+    copy: >-
+      For a nightcap, the Spare Room cocktail bar has two vintage 1930s bowling
+      lanes if you fancy rolling a frame after your martini, in a room that looks
+      as though it was designed for William Powell and Myrna Loy.

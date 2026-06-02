@@ -1,0 +1,62 @@
+title: Havana
+country: Havana
+region: Cuba — Sinatra, Ava and the Hotel Nacional
+heroImage: /images/destinations/havana/heroImage.jpg
+heroImageAlt: The Hotel Nacional de Cuba on its hilltop overlooking the Straits of Florida
+excerpt: >-
+  From a mob summit at the Hotel Nacional to Frank and Ava's honeymoon mojitos
+  and Ava Gardner's daiquiris-for-breakfast by the pool, Havana gave Old
+  Hollywood some of its most extraordinary stories. Here's how to travel in
+  their footsteps.
+passportStamps:
+  - city: HAVANA
+    detail: Hotel Nacional de Cuba
+    date: '1946'
+  - city: HAVANA
+    detail: Frank & Ava's honeymoon
+    date: '1951'
+  - city: SAN FRANCISCO DE PAULA
+    detail: Hemingway's Finca Vigía
+  - city: HAVANA
+    detail: La Playita by night
+sections:
+  - heading: The Hotel Nacional de Cuba
+    image: /images/destinations/havana/sections/0/image.jpg
+    imageAlt: The swimming pool at the Hotel Nacional de Cuba
+    caption: The pool at the Hotel Nacional — once the property of the revolution, now lined with the faces of every star who ever swam there
+    copy: |-
+      No pool in classic Hollywood has had a more eventful life than the one at the Hotel Nacional de Cuba. Opened in December 1930, the hotel was designed by McKim, Mead & White — the same New York firm behind Penn Station and the original Madison Square Garden — and was built on a hilltop overlooking the Straits of Florida, allegedly financed in part with mob money. Within three years of opening, 400 army officers loyal to the deposed Cuban president barricaded themselves inside and were bombarded from land and sea by government troops. The hotel survived, bearing the pockmarked signs of the siege, and promptly got back to the business of being glamorous.
+
+      The pool attracted a guest list so absurd it reads like someone shuffled a deck of cards containing every famous person of the twentieth century: Gary Cooper, Errol Flynn, Fred Astaire, Rita Hayworth, Marlene Dietrich, Marlon Brando, Winston Churchill, Walt Disney, Nat King Cole, and Johnny Weissmuller, who reportedly impressed the staff by jumping from a second-floor window directly into the pool, which, for a man who played Tarzan for a living, was probably the minimum expected.
+
+      After the Revolution in 1959, Castro converted the hotel into a dormitory for 900 peasant women who had come to Havana to learn to sew. The pool that had hosted Weissmuller and the Rat Pack was now the property of the revolution. It has since returned to hotel use, and the hallways are lined with photographs of every famous guest who ever stayed, over 300 faces in the hotel's Hall of Fame, with rooms named after the biggest names, including the Ava Gardner room and the Frank Sinatra room.
+    callout: A Cuban national monument, honoured with UNESCO Memory of the World status, perched on a rocky outcrop overlooking the Malecón and the Bay of Havana.
+  - heading: Sinatra in Havana
+    copy: |-
+      Sinatra came to Havana twice, and both visits produced extraordinary stories. The first, in December 1946, was ostensibly a holiday but coincided rather conveniently with the Havana Conference, an infamous mob summit at the Hotel Nacional organised by Lucky Luciano and Meyer Lansky to carve up the casino business. Sinatra was the entertainment, though officially he was just there to enjoy the weather. The entire hotel had been booked by the dons for their families to spend Christmas in the city.
+
+      He returned in November 1951, newly married to Ava Gardner. The story goes that Sinatra kept her locked in their third-floor suite at the Nacional for most of the honeymoon, which is either deeply romantic or deeply Sinatra, depending on your perspective. They did eventually venture out, exploring the city, drinking mojitos, and visiting the red-light district of La Playita by night.
+    callout: A youthful Sinatra was photographed at Sloppy Joe's in Havana with the Fischetti brothers.
+  - heading: Ava and Frank's Honeymoon
+    copy: |-
+      Havana was one of the settings for Ava and Frank's honeymoon in 1951 (Miami was the other). They stayed at the Hotel Nacional, witness to endless celebrity trysts, political scandals, and excessive alcohol abuse during its long reign as Cuba's most famous hotel. They took a third-floor suite and spent a blissful few days exploring the city, drinking mojitos, and visiting the red-light district of La Playita by night. As honeymoons go, it was very Ava and Frank.
+
+      Ava returned to the Hotel Nacional during her divorce from Sinatra, using the pseudonym Miss Grey, to reminisce about the good times. There is something deeply romantic, and deeply sad, about returning alone to your honeymoon hotel. But Ava was never one for half measures. She was known to drink daiquiris for breakfast by the pool after nights out with Hemingway, which is the most Ava Gardner sentence ever written.
+  - heading: Hemingway's Cuba
+    copy: |-
+      Ava became good friends with Ernest Hemingway during her time in Spain, and the two regularly spent time together at his house in Cuba. Finca Vigía (Lookout Farm) in San Francisco de Paula, about 30 minutes' drive southeast of Havana, is now a museum.
+
+      You can view the interiors through the open windows and doors but cannot enter the house itself, which preserves Hemingway's furniture, library, and personal effects exactly as he left them. His boat, the Pilar, is displayed in the grounds, along with a restored swimming pool and a writing tower where he retreated from guests. Entry around $5 — visit on a sunny day for the best views through the windows.
+  - heading: Plan Your Visit
+    copy: |-
+      The Hotel Nacional is still very much open. The hotel runs free guided tours of the grounds and its old military fortifications (Monday to Friday, 10am and 4pm; Saturday, 10am), which take you past the antique cannons from the Santa Clara Battery, now a UNESCO World Heritage Site. The on-site Cabaret Parisien hosts nightly music and dance shows.
+
+      Don't miss the Film Corner snack bar, which features a gallery of old Hollywood star portraits — a gloriously low-key tribute to the pool's extraordinary past. Rooms start from around $150 per night, which makes this by far the most affordable of the great Hollywood hotels, and arguably the one with the best stories.
+featuredVenues:
+  - hotel-nacional-de-cuba
+relatedStars:
+  - frank-sinatra
+  - ava-gardner
+relatedFilmLocations: []
+relatedArticles:
+  - swimming-pools-of-classic-hollywood

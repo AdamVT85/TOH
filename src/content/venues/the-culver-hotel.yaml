@@ -1,0 +1,80 @@
+name: The Culver Hotel
+locationLine: 9400 Culver Boulevard, Culver City, CA 90232
+venueType: Hotel
+status: Open
+established: '1924'
+cityCountry: Los Angeles, USA
+priceIndicator: $$
+hollywoodRating: 4
+heroImage: /images/venues/the-culver-hotel/heroImage.jpg
+heroImageAlt: The flatiron exterior of the historic Culver Hotel in downtown Culver City
+heroImageFocus: top
+excerpt: >-
+  A grand 1924 landmark in the heart of Culver City with one of the best
+  backstage stories of any hotel in Los Angeles: the Munchkin actors from The
+  Wizard of Oz were housed here in 1938 while filming at the adjacent MGM lot,
+  and their off-duty antics have become one of Hollywood's most enduring myths.
+pullQuote: >-
+  Their legendary off-duty behaviour would have alarmed Dorothy.
+pullQuoteAttribution: Travel Old Hollywood
+gallery: []
+whoCameHere:
+  - name: The Munchkins from The Wizard of Oz
+  - name: Clark Gable
+  - name: Red Skelton
+asSeenIn: []
+signatureExperiences: []
+website: https://www.culverhotel.com/
+phone: +1 310-558-9400
+openingHours: Open year-round
+priceRange: Rooms from around $200 per night
+howToBook: >-
+  Book direct at <a href="https://www.culverhotel.com/" target="_blank"
+  rel="noopener">culverhotel.com</a> or by phone.
+nearestAirport: LAX — approx. 15–20 minutes by car
+transportNotes: >-
+  In the heart of downtown Culver City, a short walk from the Culver City
+  station on Metro's E (Expo) line.
+bestTimeToVisit: Year-round.
+accessibilityNotes: >-
+  The hotel publishes an accessibility page at culverhotel.com/accessibility;
+  contact the venue directly to confirm access requirements.
+tips: >-
+  The hotel sits a stone's throw from the Sony lot (formerly MGM), where
+  Gardner, Taylor, Garland, Kelly, and Gable all worked — easy to pair a stay
+  with the Sony Pictures Studio Tour.
+nearbyVenues:
+  - name: Hotel Bel-Air
+    venueSlug: hotel-bel-air
+    venueType: Hotel
+  - name: Millennium Biltmore Hotel
+    venueSlug: millennium-biltmore
+    venueType: Hotel
+relatedArticles:
+  - 26-old-hollywood-hotels
+sections:
+  - copy: >-
+      This gorgeous 1924 landmark in the heart of Culver City has one of the
+      best old Hollywood stories of any hotel in Los Angeles. Beautifully
+      restored and now operating as a boutique property, it stands a stone's
+      throw from the Sony lot — formerly MGM — where Ava Gardner, Elizabeth
+      Taylor, Judy Garland, Gene Kelly, and Clark Gable all worked.
+
+      Its proximity to the old MGM studio is no accident. When the cameras
+      needed somewhere to put up their cast and crew, the Culver was right next
+      door, and that closeness wired the hotel permanently into the story of the
+      movies.
+  - heading: The Munchkins of Oz
+    copy: >-
+      The hotel's most famous tale belongs to 1938, when the Munchkin actors
+      from The Wizard of Oz were housed here during filming at the adjacent MGM
+      lot. Their legendary off-duty behaviour — drinking, fighting, and general
+      mayhem that would have alarmed Dorothy — has been embellished over the
+      decades into one of Hollywood's most enduring backstage myths.
+
+      Whether the stories are true or exaggerated, the hotel's Oz connection is
+      genuine, and it remains the headline reason film fans make the
+      pilgrimage to Culver City.
+    callout: >-
+      Whether the stories are true or exaggerated, the hotel's Oz connection is
+      genuine.

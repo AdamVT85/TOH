@@ -1,0 +1,86 @@
+name: Hotel Bel-Air
+locationLine: 701 Stone Canyon Road, Los Angeles, CA 90077
+venueType: Hotel
+status: Open
+established: '1946'
+cityCountry: Los Angeles, USA
+priceIndicator: $$$
+hollywoodRating: 4
+heroImage: /images/venues/hotel-bel-air/heroImage.jpg
+heroImageAlt: The swimming pool and lush gardens of the Hotel Bel-Air in Stone Canyon, Los Angeles
+heroImageFocus: top
+excerpt: >-
+  Hidden away in twelve acres of gardens in Stone Canyon, the Hotel Bel-Air was
+  the hotel for stars who wanted privacy rather than publicity. Grace Kelly,
+  Cary Grant, and Gary Cooper were regulars, and Swan Lake — complete with
+  actual swans — remains one of the most peaceful spots in Los Angeles.
+pullQuote: The Bel-Air is for old Hollywood glamour of the quieter kind.
+pullQuoteAttribution: Travel Old Hollywood
+gallery: []
+whoCameHere:
+  - name: Grace Kelly
+  - name: Cary Grant
+    starGuideSlug: cary-grant
+  - name: Gary Cooper
+  - name: Greta Garbo
+  - name: Katharine Hepburn
+asSeenIn: []
+signatureExperiences:
+  - name: Swan Lake
+    description: >-
+      Complete with actual swans, Swan Lake is one of the most peaceful spots in
+      Los Angeles — which is saying something for a city that rarely sits still.
+  - name: The gardens
+    description: >-
+      Twelve acres of lush gardens in Stone Canyon, the setting that has given
+      the hotel its secluded, garden-party atmosphere since 1946.
+website: https://www.dorchestercollection.com/los-angeles/hotel-bel-air/
+phone: +1 310-472-1211
+openingHours: Open year-round
+priceRange: Rooms from around $600 per night
+howToBook: >-
+  Book direct at <a href="https://www.dorchestercollection.com/los-angeles/hotel-bel-air/"
+  target="_blank" rel="noopener">dorchestercollection.com</a> or by phone. The
+  Hotel Bel-Air is part of the Dorchester Collection.
+nearestAirport: LAX — approx. 30–40 minutes by car
+transportNotes: >-
+  Tucked into Stone Canyon in the hills of Bel-Air, west of central Los Angeles.
+  A car is the practical way to reach it; valet parking is available.
+bestTimeToVisit: Year-round.
+accessibilityNotes: Contact the hotel directly to confirm access requirements.
+tips: >-
+  Unlike the Beverly Hills Hotel (see and be seen) or the Chateau Marmont (see,
+  be seen, and regret it in the morning), the Bel-Air is for old Hollywood
+  glamour of the quieter kind. Come for the gardens and Swan Lake, and the
+  discretion that has always been the point.
+nearbyVenues:
+  - name: Beverly Hills Hotel
+    venueSlug: beverly-hills-hotel
+    venueType: Hotel
+  - name: Chateau Marmont
+    venueSlug: chateau-marmont
+    venueType: Hotel
+relatedArticles:
+  - 26-old-hollywood-hotels
+sections:
+  - copy: >-
+      Opened in 1946 and set in twelve acres of lush gardens in Stone Canyon,
+      the Hotel Bel-Air was the hotel of choice for stars who wanted privacy
+      rather than publicity — the very opposite of the Beverly Hills Hotel's
+      see-and-be-seen Polo Lounge. Grace Kelly, Cary Grant, and Gary Cooper were
+      regulars, and the hotel has maintained its secluded, garden-party
+      atmosphere ever since.
+
+      Swan Lake, complete with actual swans, is one of the most peaceful spots in
+      Los Angeles, which is saying something for a city that rarely sits still.
+  - heading: Discretion as a design principle
+    copy: >-
+      Where other hotels traded on being seen, the Bel-Air built its reputation
+      on the opposite. Hidden away behind the gardens of Stone Canyon, it offered
+      the quieter kind of old Hollywood glamour — the sort that did not need a
+      photographer to confirm it had happened.
+
+      Unlike the Beverly Hills Hotel (see and be seen) or the Chateau Marmont
+      (see, be seen, and regret it in the morning), the Bel-Air kept its
+      cachet by keeping its guests to itself.
+    callout: Discretion as a design principle.

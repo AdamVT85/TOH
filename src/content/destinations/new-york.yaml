@@ -1,0 +1,70 @@
+title: New York
+country: New York
+region: The Old Hollywood Guide
+heroImage: /images/destinations/new-york/heroImage.jpg
+heroImageAlt: The Midtown Manhattan skyline at night, seen across the Hudson River
+excerpt: >-
+  From Frank Sinatra's favourite steakhouses and jazz clubs to the Greenwich
+  Village streets where Archie Leach became Cary Grant, New York is where you
+  can still walk in the stars' footsteps — and where many of their haunts
+  survive, some virtually unchanged.
+passportStamps:
+  - city: MANHATTAN
+    detail: Midtown
+  - city: HOBOKEN
+    detail: Sinatra's birthplace
+    date: '1915'
+  - city: GREENWICH VILLAGE
+    detail: Cherry Lane Theatre
+    date: '1924'
+  - city: WEST 54TH ST
+    detail: The Warwick
+    date: '1926'
+sections:
+  - heading: Sinatra's Kind of Town
+    copy: |-
+      "New York, New York, it's a wonderful town!" So sang Francis Albert Sinatra in the 1949 musical On the Town. He was born in Hoboken, across the water from Manhattan, and maintained a close connection to the city throughout his life. More than anywhere else, New York is where you can still walk in Sinatra's footsteps — many of his favourite restaurants and bars survive, some virtually unchanged, and his old Hoboken neighbourhood is an easy ferry ride from Midtown.
+
+      Sinatra's two favourite restaurants in New York were Jilly's and Patsy's. He ate and drank at Jilly's at least three or four nights a week whenever he was in town; the place specialised in Cantonese food, closed in the 1980s, and was reopened as Russian Samovar on West 52nd Street, where the same wooden bar that Frank propped up still stands. Italian restaurant Patsy's on West 56th Street has been in the same family since the 1940s and still plays host to Sinatra's relatives whenever they are in town — Frank was so at home there he was known to help in the kitchen and answer the phones when the place got busy.
+    callout: His favourite dishes at Patsy's were Clams Posillipo, Chicken Piccata and Veal Cutlets — and a lemon pie called Pasticiotto, which he had with extra ice cream.
+  - heading: Frank's Watering Holes
+    copy: |-
+      Happily, many of Frank's favourite watering holes in New York are still open in some form or another today. P.J. Clarke's on Third Avenue is virtually unchanged since it opened in 1884; Sinatra's table was number 20, marked today with a photo of Ol' Blue Eyes. It is the kind of place where the burger is famous and the martini is cold and nobody has redecorated since Eisenhower, which is exactly as it should be.
+
+      The Beekman Tower on Mitchell Place was a spot Sinatra would visit after his shows, often putting on impromptu performances for fellow drinkers. The Art Deco building is now a Wyndham Trademark Collection hotel, but the rooftop bar Ophelia is still going and explicitly references Sinatra as a former regular. Birdland on West 44th Street was also a favourite, equally popular with his ex-wife Ava Gardner and alleged ex-lovers Marilyn Monroe and Marlene Dietrich; it remains one of the best jazz clubs in the city, with live music seven nights a week.
+
+      The former speakeasy 21 Club on West 52nd Street was another regular haunt, but it closed permanently during the pandemic in December 2020 after a 90-year run. The building is still there, its famous iron jockey statues still lining the entrance — worth a look if you're walking between P.J. Clarke's and Russian Samovar.
+  - heading: Becoming Cary Grant
+    image: /images/destinations/new-york/sections/1/image.jpg
+    imageAlt: The Cherry Lane Theatre on Commerce Street, Greenwich Village
+    caption: The Cherry Lane Theatre, where Cary Grant performed — New York's longest-running off-Broadway theatre
+    copy: |-
+      New York is where Archie Leach became Cary Grant. He arrived in 1920 as a teenage acrobat with the Bob Pender Troupe, and he stayed after the tour ended, scratching out a living on the vaudeville circuit and in small theatrical roles.
+
+      Grant's real theatrical start was in Greenwich Village, where he lived at 21 Commerce Street and 75½ Bedford Street — the latter the narrowest house in the Village, just 9.5 feet wide. He performed at the Cherry Lane Theatre on Commerce Street, which opened in 1924 and remains New York's longest-running off-Broadway theatre. All three buildings are still standing and are within a few minutes' walk of each other.
+
+      The Plaza Hotel on Fifth Avenue deserves a mention too, for one of the most memorable scenes in North by Northwest (1959): the Oak Bar, where Roger Thornhill (Grant) is mistaken for a spy and kidnapped. The bar is no longer operating, but the hotel itself is magnificent and visitable.
+  - heading: The Warwick — Hearst's New York Outpost
+    copy: |-
+      The Warwick Hotel is the essential Cary Grant hotel in New York. Built by William Randolph Hearst in 1926 as a place for his Hollywood friends to stay when visiting the city, it stands on West 54th Street, a few blocks from Central Park and the Museum of Modern Art. Grant lived here for twelve years while he was working in New York, occupying the Suite of the Stars on the 27th floor — now also known as the Cary Grant Suite — a 1,200-square-foot apartment with a four-poster king bed, whirlpool tub, sauna, and a large wrap-around terrace with sweeping views of Manhattan.
+
+      In a typically generous gesture, Grant lent the suite to his friend Roger Moore and Moore's wife Luisa while they were in New York filming Live and Let Die. On their first night in the apartment, Moore and his wife watched an old Randolph Scott western on television — which, given Grant's long history with Scott, must have amused everybody involved.
+
+      The hotel has hosted Elizabeth Taylor, Elvis Presley, James Dean and the Beatles during its century in business, and keeps suites named after Hearst, Marion Davies, Jane Russell and the Ziegfeld Follies. It is a building-sized love letter to old Hollywood.
+    callout: Standard rooms from around $300 per night; the Cary Grant Suite from considerably more. 65 West 54th Street, Midtown Manhattan.
+  - heading: Across the Water — Hoboken
+    copy: |-
+      Sinatra's old Hoboken neighbourhood is a ten-minute ferry ride from Midtown Manhattan and makes a satisfying half-day trip. The Hoboken Historical Museum has created a self-guided walking tour of Frank's old streets, taking in the houses he once lived in and the church where he was baptised and where he married his first wife, Nancy.
+
+      Combine the walk with lunch at Leo's Grandezvous, established in 1936 and one of Sinatra's preferred places to eat in the area — its founder, Leo DiTerlizzi, was a close friend of Frank's, and the restaurant is now a tribute of sorts, with framed photos and a jukebox stacked with Sinatra. Finish with a stop at Lepore's Chocolate Shop, where Frank picked up the chocolate-covered apricots he had shipped out to California, still open and still making them.
+  - heading: Where Frank Slept
+    copy: |-
+      Sinatra stayed in Cole Porter's favourite suite at the Waldorf Astoria, which has recently reopened after a decade-long, $2 billion renovation. In 1947, his FBI file reports an engagement with a prostitute in room 5H at 2.30am — presumably not part of the hotel's current marketing materials. Rooms from around $300 a night, considerably more for the suites where Frank and Cole held court.
+featuredVenues:
+  - the-warwick-new-york
+relatedStars:
+  - frank-sinatra
+  - cary-grant
+relatedFilmLocations: []
+relatedArticles:
+  - 26-old-hollywood-hotels

@@ -1,0 +1,62 @@
+title: Palm Springs
+country: Palm Springs
+region: The Desert Playground of the Stars
+heroImage: /images/destinations/palm-springs/heroImage.jpg
+heroImageAlt: A palm-lined Palm Springs street beneath the San Jacinto Mountains
+excerpt: >-
+  The desert city where Frank Sinatra put down roots for nearly fifty years,
+  where Cary Grant kept a guesthouse, and where the Rat Pack came to play.
+  Twin Palms, Melvyn's, the Purple Room and the modernist landmarks are all
+  still here to visit.
+passportStamps:
+  - city: MOVIE COLONY
+    detail: Sinatra's Twin Palms
+    date: '1947'
+  - city: PALM SPRINGS
+    detail: The Purple Room
+    date: '1960'
+  - city: RANCHO MIRAGE
+    detail: Frank Sinatra Drive
+  - city: OLD LAS PALMAS
+    detail: Cary Grant's guesthouse
+sections:
+  - heading: The Desert Home of Frank Sinatra
+    image: /images/destinations/palm-springs/sections/0/image.jpg
+    imageAlt: The San Jacinto Mountains rising above Palm Springs
+    caption: The San Jacinto Mountains above Palm Springs, the backdrop to Sinatra's desert years
+    copy: |-
+      When Frank Sinatra hit the big time, he chose the desert city of Palm Springs to put down roots, and it remained his home for nearly fifty years. This is where you get closest to the private Sinatra, away from the stage and the headlines.
+
+      It was also the cradle of "desert modernism," the clean, horizontal, glass-and-steel style of architecture now synonymous with the city — a look Sinatra helped invent almost by accident when he commissioned his first desert house here in 1947.
+  - heading: Twin Palms
+    copy: |-
+      In 1947, Sinatra commissioned architect E. Stewart Williams to design his desert home. The story goes that Frank walked into their first meeting wearing a sailor cap and eating an ice cream cone, and asked for a Georgian-style mansion. Williams talked him out of it, persuading him that a desert-modern design would suit him better. The result, Twin Palms, set the standard for mid-century Hollywood glamour: 4,500 square feet, four bedrooms, floor-to-ceiling glass, and a piano-shaped swimming pool off the living room. The piano shape, according to Williams, was accidental rather than a deliberate tribute to Frank's musicianship, but nobody has ever believed him.
+
+      Sinatra planted a flagpole between the property's two signature palm trees and had a Jack Daniel's banner made. When the flag went up, the neighbours knew cocktail hour had begun. Sales of Jack Daniel's reportedly doubled in 1955 after Sinatra began calling it "the nectar of the gods."
+
+      The master bathroom still has a crack in the sink basin from a champagne bottle hurled during one of Frank and Ava Gardner's fights. Twin Palms is in the Movie Colony neighbourhood, within walking distance of homes once owned by Cary Grant, Jack Benny, and other old Hollywood neighbours. It is now available as a vacation rental, the original recording studio still in place (though not connected for use), and the property is filled with Sinatra memorabilia. During Palm Springs Modernism Week, held annually in February, the Palm Springs Preservation Foundation runs popular public tours of the estate.
+    callout: |-
+      "It was the site of probably the most spectacular fight of our young married life, and, honey, don't think I don't know that's really saying something."
+      — Ava Gardner, on Twin Palms
+  - heading: Eat & Drink
+    copy: |-
+      Melvyn's Restaurant at the Ingleside Inn on West Ramon Road was one of the top places to dine in Palm Springs. Sinatra held his pre-wedding lunch here in 1976, before marrying his fourth wife Barbara. Little seems to have changed since then, including several of the waiters. Sinatra's corner table is still there, and you can still order pepper steak prepared tableside, just as he did.
+
+      Johnny Costa's Ristorante has been a favourite with locals for years and serves Sinatra's favourite dishes, the Steak Sinatra and Linguine Clams, which are still on the menu. Costa was the former sous chef at Patsy D'Amore's Villa Capri in Los Angeles, and Sinatra loved his cooking so much he effectively brought a piece of his favourite LA restaurant to the desert.
+
+      For Cary Grant fans, Copley's on Palm Canyon is the most delightful dining experience you can have. Located at 621 North Palm Canyon Drive, the restaurant is housed in Grant's former 1940s Palm Springs guesthouse, where he hosted visiting friends and family, many of them Hollywood royalty. Chef Andrew Copley, English-born and trained at the Savoy in London, serves elevated American cuisine with mountain views from the outdoor patio, and a fire pit perfect for a post-dinner cocktail under the desert stars. Dinner only, Tuesday to Sunday from 5pm; closed July and August.
+  - heading: The Purple Room
+    copy: |-
+      The Purple Room at Club Trinidad, built in 1960, is where Sinatra proposed to his fourth and final wife, Barbara. It still hosts cabaret stars and jazz and show tunes performers of whom Frank would have heartily approved. Check their schedule for upcoming shows.
+  - heading: Things to Do
+    copy: |-
+      The Palm Springs Historical Society offers a Movie Colony walking tour on Friday mornings, from late October through the season, that takes in Twin Palms and the surrounding celebrity homes. There is also a separate Rat Pack Playground bus tour on Tuesdays, covering the Vista Las Palmas neighbourhood where Dean Martin, Sammy Davis Jr., Debbie Reynolds, and Elvis all had homes.
+
+      You can drive along Frank Sinatra Drive in Rancho Mirage, which passes the Tamarisk Country Club and Sinatra's later compound, visible from the road but not open to the public. The compound is an extraordinary 2.5-acre spread with five guest houses, each named after one of his songs: "New York, New York," "High Hopes," "The Tender Trap," "Send In the Clowns," "Chicago," and "My Way." There's even a train caboose converted into a barbershop and sauna.
+featuredVenues:
+  - sinatras-twin-palms
+relatedStars:
+  - frank-sinatra
+relatedFilmLocations: []
+relatedArticles:
+  - swimming-pools-of-classic-hollywood

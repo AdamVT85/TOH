@@ -1,9 +1,11 @@
 title: Swimming Pools of Classic Hollywood
 subtitle: >-
-  Discover the most glamourous pools, from Italy to California, that your
-  favourite Hollywood stars took a plunge in...
+  Discover the most glamourous pools across the globe, that your favourite
+  Hollywood stars once took a plunge in... and now you could too!
 seriesLabel: 'Part of: The Golden Age of Travel'
-heroImageAlt: A vintage swimming pool surrounded by palm trees
+heroImage: /images/articles/swimming-pools-of-classic-hollywood/heroImage.jpg
+heroImageAlt: The Neptune Pool at Hearst Castle, framed by its Roman temple facade and marble colonnades
+heroImageFocus: center
 publishDate: 2025-06-15
 excerpt: >-
   From the Neptune Pool at Hearst Castle to the cabanas of the Beverly Hills
@@ -18,156 +20,213 @@ watchList:
     year: '1954'
   - title: That Touch of Mink
     year: '1962'
+  - title: This Time for Keeps
+    year: '1947'
   - title: It's A Wonderful Life
     year: '1946'
 sections:
   - heading: Beverly Hills Hotel Pool
-    image: >-
-      /images/articles/swimming-pools-of-classic-hollywood/sections/0/image.jpg
+    venueSlug: beverly-hills-hotel
+    image: /images/articles/swimming-pools-of-classic-hollywood/sections/0/image.jpg
     imageAlt: Beverly Hills Hotel Pool
     caption: The Sand and Pool Club, circa 1950
-    copy: >-
-      Esther Williams had a clause written into her MGM contract that gave her a
-      free pass to the Beverly Hills Hotel pool, where she'd swim most mornings.
-      Katharine Hepburn allegedly once jumped in fully clothed, while the
-      Beatles hosted a raucous poolside party amongst the luxury cabanas.
+    copy: |-
+      Esther Williams, the great aquatic saviour of MGM in the late 1940s, had a clause written into her studio contract that gave her a free pass to the Beverly Hills Hotel pool, where she'd swim most mornings before work. Katharine Hepburn allegedly once jumped in fully clothed, while the Beatles hosted a raucous poolside party amongst the luxury cabanas.
 
+      This truly legendary pool has featured in such classic 1950s films as Designing Woman, with Lauren Bacall and Gregory Peck, and soapy Hollywood melodrama The Bad and the Beautiful, with Kirk Douglas and Lana Turner.
 
-      The pool has featured in such classic 1950s women's movies as Designing
-      Woman, with Lauren Bacall and Gregory Peck, and soapy Hollywood melodrama
-      The Bad and the Beautiful, with Kirk Douglas and Lana Turner.
+      The Beverly Hills Hotel is an icon of vintage Hollywood glamour. Constructed a stone's throw from Mary Pickford and Douglas Fairbanks' legendary Pickfair estate, the hotel has a Hollywood pedigree like no other. The pool dates back to 1938, when it was known to guests as 'The Sand and Pool Club,' surrounded by sand to give it a beachy vibe.
 
+      The pool has generated more than a few iconic images over the years. Faye Dunaway's legendary poolside photograph — taken by her future husband Terry O'Neill the morning after she won Best Actress for Network in 1977 — was described by the photographer as "one of the most Hollywood pictures of all time."
 
-      The Beverly Hills Hotel is an icon of vintage Hollywood glamour.
-      Constructed in the shadow of Mary Pickford and Douglas Fairbank's
-      legendary Pickfair pad, the hotel has a Hollywood pedigree like no other.
-      The pool dates back to 1938, when it was known to guests as 'The Sand and
-      Pool Club;' and surrounded by sand to give it a beachy vibe.
+      Nowadays there are 11 private cabanas to choose from, each named after an area of Los Angeles and draped in the hotel's signature pink and white stripes. Cabana treats include plush bathrobes, a 46-inch widescreen TV, a mini fridge, unlimited sparkling or coconut water, and snacks like peanut butter cups and mojito popsicles. Swimmers may be surprised to hear music playing underwater.
 
-
-      Nowadays there are 11 private poolside cabanas to choose from, each named
-      after an area of Los Angeles. Cabana treats include plush bathrobes, a
-      46-inch widescreen TV, a mini fridge, a universal phone charging station
-      unlimited sparkling or coconut water, snacks like peanut butter cups and
-      mojito popsicles, organic sunscreen and Evian misters. Swimmers may be
-      surprised to hear music playing underwater.
+      Plan your dip: The pool is open to non-guests via a day pass (currently around $150-200 per person, redeemable against food and drink). The hotel is open year-round. Book via the Beverly Hills Hotel website.
     callout: >-
       Faye Dunaway's iconic poolside photograph... was described by the
       photographer as "one of the most Hollywood pictures of all time."
   - heading: Roosevelt Hotel Pool
-    image: >-
-      /images/articles/swimming-pools-of-classic-hollywood/sections/1/image.png
+    venueSlug: hollywood-roosevelt
+    image: /images/articles/swimming-pools-of-classic-hollywood/sections/1/image.png
     imageAlt: Roosevelt Hotel Pool
     caption: Tropicana Pool, Los Angeles
-    copy: >-
-      Marilyn Monroe did her first commercial photo shoot by the Tropicana Pool
-      at the Roosevelt Hotel, located at 7000 Hollywood Boulevard in Los
-      Angeles. She lived at the hotel for two years when she was a struggling
-      model.
+    copy: |-
+      Marilyn Monroe did her first commercial photo shoot by the Tropicana Pool at the Roosevelt Hotel, located at 7000 Hollywood Boulevard in Los Angeles. She lived at the hotel for two years when she was a struggling model.
 
+      Like the Beverly Hills Hotel, the Roosevelt has a strong classic Hollywood pedigree; the original owners were Douglas Fairbanks, Mary Pickford, Louis B Meyer and Sid Grauman, and it was the venue for the first ever Academy Award ceremony in 1929. Charlie Chaplin, H.G. Wells, Clark Gable and Carole Lombard were all regulars. Errol Flynn was a frequent guest, though one suspects the Roosevelt's management preferred not to ask too many questions about what Flynn got up to on the premises.
 
-      Like the Beverly Hills Hotel, the Roosevelt has a strong classic Hollywood
-      pedigree; the original owners were Douglas Fairbanks, Mary Pickford and
-      Sid Grauman, and it was the venue for the first ever Academy Award
-      ceremony in 1929.
+      The Tropicana Pool itself opened in 1950 as part of a $1 million "Promenade" tropical resort redesign. The grand opening on June 16th was an exercise in amusing Hollywood absurdity: airline hostesses ceremonially poured water samples from every ocean in the world into the pool.
 
-
-      Nowadays you can stay in the luxurious Marilyn Monroe suite, with a wrap
-      around balcony overlooking the pool, and sunbathe on a daybed beside the
-      pool (exclusive to hotel guests), which now has a $1 million David Hockney
-      mural at the bottom.
+      Plan your dip: Nowadays you can stay in the luxurious Marilyn Monroe suite, with a wraparound balcony overlooking the pool (exclusive to hotel guests), which still has the famous David Hockney mural painted on the bottom. Rooms start from around $230 per night, though prices fluctuate by season and can climb above $400 at peak times. Tuesdays and Thursdays tend to be the cheapest nights. A word of warning for light sleepers: the hotel runs poolside live music on weekends and hosted pool parties on Sundays through the summer months.
   - heading: Hotel Splendido
+    venueSlug: hotel-splendido
     imageAlt: Hotel Splendido pool
     caption: Italian Riviera Elegance
-    copy: >-
-      A heated saltwater pool surrounded by lush gardens and sensational views
-      of the enchanting Italian Riviera, the pool at the Splendido in magical
-      Portofino was a magnet for celebrities in the 1950s and 60s.
+    copy: |-
+      A heated saltwater pool surrounded by lush gardens and sensational views of the Italian Riviera, the pool at the Splendido in Portofino was a magnet for celebrities in the 1950s and 60s. With its bright orange umbrellas and that terracotta-and-azure colour palette, it has such an iconic old Hollywood glamour look that you will half expect to see Bogart slouched in a deckchair with a cigarette while Bacall pretends not to notice him from behind enormous sunglasses.
 
+      The Splendido rose from the ashes of a former 16th century monastery to become one of the world's most celebrated hotels, playing host to Hollywood stars like Clark Gable, Humphrey Bogart, Lauren Bacall, Ava Gardner, Elizabeth Taylor and Richard Burton. Charlie Chaplin was a regular. Grace Kelly adored the place. Maria Callas came here to be dramatic in more beautiful surroundings than La Scala could offer. Frank Sinatra liked Portofino so much there's a lookout point on Mount Portofino named after him, which feels about right for a man who expected the landscape itself to pay tribute.
 
-      The Splendido rose from the ashes of a former 16th century monastery, to
-      become one of the world's most celebrated hotels, playing host to
-      Hollywood stars like Clark Gable, Humphrey Bogart, Lauren Bacall, Ava
-      Gardner, Elizabeth Taylor and Richard Burton.
+      Bogie, Bacall and Ava Gardner stayed here during filming for The Barefoot Contessa (a whimsical, over the top drama I adore), while Taylor and Burton used the hotel as an escape from the paparazzi during the height of their much-publicised affair and returned many times after that. It's rumoured that Burton proposed to Elizabeth on the wisteria-clad terrace. And if you're going to propose anywhere, a wisteria-clad terrace overlooking Portofino harbour is a fairly solid choice.
 
+      The hotel was renovated in 2025 but has kept its character firmly intact. La Terrazza, the main restaurant, now serves a spaghetti dish called "Homage to Elizabeth Taylor." The sister property, Splendido Mare, down by the harbour, even has a suite named after Ava Gardner.
 
-      Bogie, Bacall and Ava Gardner stayed her during filming for The Barefoot
-      Contessa, while Taylor and Burton used the hotel as an escape from the
-      paparazzi during the height of their much-publicized affair and returned
-      many times after that. It's rumoured that Burton proposed to Elizabeth on
-      the wisteria-clad terrace.
+      Plan your dip: This is not a budget swim. Rooms at the ultra-luxury Splendido, A Belmond Hotel, Portofino, now start above $2,000 per night in high season, breakfast included. The hotel is seasonal, open from May to early November, and you'll want to book well in advance. If the Splendido is beyond reach, its harbourside sister hotel Splendido Mare offers rooms from around $500 per night and shares some of the same Belmond polish, albeit without the hilltop pool. One thing to note: Portofino has introduced a selfie ban in certain areas, so you may need to admire the view with your actual eyes, like some kind of 1950s film star.
+  - heading: Sinatra's Piano Pool
+    venueSlug: sinatras-twin-palms
+    imageAlt: Frank Sinatra's piano-shaped pool at Twin Palms, Palm Springs
+    caption: The accidental piano-shaped pool at Twin Palms, Palm Springs
+    copy: |-
+      In 1947, Frank Sinatra walked into the offices of architect E. Stewart Williams in Palm Springs wearing a white sailor cap and eating an ice cream cone, and asked him to build a Georgian-style house. Williams, to his eternal credit, refused. He showed Sinatra two drawings — the Georgian one and a single-storey modernist design — and Frank, who knew a good thing when he saw one even if he hadn't known he wanted it, chose the modern house.
+
+      The result was Twin Palms, one of the founding landmarks of "desert modernism," that distinctively clean, horizontal, glass-and-steel style of architecture that's now synonymous with Palm Springs. Sinatra demanded the house be finished in time for a Christmas party he was planning. It was completed, just about, at a cost of $150,000. The famous piano-shaped pool, wonderfully, was entirely accidental — nobody set out to design it that way, but once you see it from above, it's unmistakable.
+
+      Sinatra lived at Twin Palms from 1947 to 1954. Before selling the house, he rented it to Moss Hart, so that Hart and Judy Garland could work on rewriting A Star is Born — which means this pool has arguably the strongest pedigree of any private pool in Hollywood history. The property still contains Sinatra's original recording studio, preserved as a relic of musical history but not available for use, which is probably for the best.
+
+      Plan your dip: Twin Palms is available to rent for private vacations and events. Prices currently run from $3,000 to $4,000 per night depending on the season, with a three-night minimum and space for up to eight guests across four bedrooms. It's located in the Movie Colony neighbourhood, within walking distance of homes once owned by Cary Grant, Jack Benny, and other old Hollywood neighbours. Bringing the dog is fine. Using the recording studio is not.
+  - heading: Fairmont Miramar Hotel
+    venueSlug: fairmont-miramar
+    imageAlt: The pool at the Fairmont Miramar Hotel, Santa Monica
+    caption: Bluff-top glamour above the Pacific, Santa Monica
+    copy: |-
+      The pool at the Fairmont Miramar Hotel & Bungalows in Santa Monica has been attracting Hollywood's finest since 1932, when it was added to the property after the original mansion on the site was demolished during the Great Depression. Perched on five acres atop the bluffs overlooking the Pacific, the heated outdoor pool is surrounded by palm trees, private cabanas, and the kind of attentive poolside food-and-drink service that makes standing up feel like an unreasonable request.
+
+      Greta Garbo lived at the hotel for more than four years and was a regular at the pool, though knowing Garbo she almost certainly wanted to be left alone while using it (an obvious and not entirely factual joke, I know). Jean Harlow was a fan, as were Marilyn Monroe and James Stewart. The hotel's nightclub was ferociously popular with the Hollywood crowd during Prohibition, hosting the likes of Gloria Swanson, Humphrey Bogart, Cary Grant and the Kennedys — and in 1962, the pool and grounds doubled for the romantic West Indian resort that Cary Grant takes Doris Day to in That Touch of Mink.
+
+      During the Second World War, the Army commandeered the entire hotel to house returning overseas troops, which means for a brief period this was almost certainly the most glamorous barracks pool in military history.
+
+      Fun fact: Britney Spears enjoyed her bachelorette party here, the night before she married Kevin Federline.
+
+      Plan your dip: The pool is open to hotel guests from 9am until sundown, with poolside food and drinks served daily. From Memorial Day to Labor Day, the hotel screens films by the pool every weekend at sunset — Poolside Cinema, they call it — which for a pool on this particular list feels almost too on-brand. You don't actually need to be staying at the hotel to swim here either; day passes are available through ResortPass, which gives you access to the heated pool, hot tub, and chaise lounges. The pool at the Miramar is very much a locals' favourite, not just a tourist attraction.
+  - heading: Hearst Castle Pool
+    venueSlug: hearst-castle
+    imageAlt: Hearst Castle Neptune Pool
+    caption: The Grand Liquid Ballroom, San Simeon
+    copy: |-
+      The architect Charles Moore, often described as the father of post-modernism, once described the pools at William Randolph Hearst's Castle as a "grand liquid ballroom" for Hollywood Olympians. That's putting it mildly. The Neptune Pool at San Simeon is 104 feet long, 58 feet wide, holds 345,000 gallons of spring water piped from the Santa Lucia Mountains, and is lined with Vermont marble. Hearst had it built, torn down, and rebuilt three times between 1924 and 1936, each version bigger than the last, because apparently a merely enormous pool wasn't quite enough. The centrepiece is the facade of an actual Ancient Roman temple that Hearst purchased in Europe and had shipped across the Atlantic, which is the kind of decorating decision only available to people with more money than any reasonable person should have.
+
+      Designed by Julia Morgan, one of the most prolific female architects in American history, the pools were inspired by Italian villas like Tivoli and the Villa Borghese in Rome. Art Deco sculptural groups of Venus, cupids and mermaids surround the water, and the whole ensemble is framed by colonnaded pavilions with 17th-century Italian bas-reliefs on the sides. It is, by some distance, the most absurdly beautiful swimming pool ever built.
+
+      Douglas Fairbanks Jr. loved to play water polo here. 1920s Olympic swimming gold medalist and Tarzan star Johnny Weissmuller worked out in the pool. David Niven was known to have had water fights with Hearst's sons. Howard Hughes, Joan Crawford, Charlie Chaplin and Cary Grant all took a dip. Hearst himself swam here regularly with his beloved dachshund Helen, which is a detail so endearing it almost makes you forget the man was a megalomaniac press baron. Stanley Kubrick used the pool as the entrance to Crassus' villa in Spartacus, and decades later Lady Gaga shot her "G.U.Y." video here — they specifically refilled the pool for the shoot after it had been drained during a California drought.
+
+      We've written a full deep dive into the history of Hearst Castle, its legendary parties, and the extraordinary guests who visited — read the complete Hearst Castle guide here.
+
+      Plan your dip: In 2014, the pool was drained after it emerged that cracks were leaking around 5,000 gallons of water per day. A $10 million renovation followed, and the pool reopened in 2018. You can't just turn up and swim — even staff were reportedly only allowed in the water for two hours, once a year — but the Foundation at Hearst Castle runs a handful of exclusive evening swim events each year (2026 dates include August 29th and September 12th). You'll need Foundation membership ($500 per year) plus a $1,000 swim reservation, but for that you get a scenic ride up to the Enchanted Hill, use of the historic dressing rooms, catering, wine, a branded cabana towel, and the chance to swim in the same water as Chaplin, Crawford, and a dachshund called Helen. Only 50 guests per event. Tickets are 95% tax-deductible.
+  - heading: Berkeley City Club Pool
+    venueSlug: berkeley-city-club
+    imageAlt: The indoor pool at the Berkeley City Club, "The Little Castle"
+    caption: Julia Morgan's "Little Castle," Berkeley
+    copy: |-
+      If swimming in Julia Morgan's Hearst Castle masterpiece requires a $500 foundation membership and a $1,000 reservation for a single evening, her other great pool is considerably more accessible. The Berkeley City Club — known locally as "The Little Castle" for its unmistakable resemblance to its San Simeon cousin — has an indoor pool that's open to hotel guests year-round, and rooms start at a fraction of what you'd spend on a single night's swim at the Neptune Pool.
+
+      Set beneath the original 1920s vaulted ceiling, the pool occupies the entire east wing of the building and features boldly painted ceramic tiles, Moorish storybook arches, and triplets of windows framed by classical columns. The original tilework survives intact, and the whole space is bathed in the kind of golden light that most pools could only dream of. It looks like something from a fever dream in which a Venetian palazzo and a Wes Anderson film set had a very beautiful child. Non-swimmers can admire it from an observation deck above, which is a thoughtful touch for anyone who prefers architecture to chlorine.
+
+      The building itself was commissioned in 1927 by a group of Berkeley professional women who wanted a clubhouse of their own, funded it entirely themselves, and had Morgan build the whole thing in eleven months. When it opened in 1930 it had over 4,000 members, all women; Amelia Earhart was among the guest speakers. It blends Moorish, Gothic, and Romanesque styles across six storeys and is both a California Historical Landmark and on the National Register of Historic Places.
+
+      Plan your dip: The Berkeley City Club operates as a hotel with 38 rooms, so you can stay the night and have the pool to yourself in the morning. Julia's Restaurant serves excellent French-Californian food on the second floor, and Morgan's Bar & Lounge does a cocktail called An Architect in Paris, in honour of Morgan's time at the Ecole des Beaux-Arts. Two Julia Morgan pools on one list, and this is the one you can actually swim in without remortgaging. The club celebrates its centennial in 2030.
+  - heading: Eden Roc Hotel Pool
+    venueSlug: hotel-du-cap-eden-roc
+    imageAlt: Eden Roc Hotel Pool
+    caption: Chiselled from the Riviera Rocks
+    copy: |-
+      On the sparkling shore of the French Riviera, between Marseilles and the Italian border, stands the Eden Roc hotel and its saltwater pool chiselled directly out of the clifftop rock.
+
+      The pool's origins are more romantic than you might expect. When the Grand Hôtel du Cap opened in 1914, the First World War transformed it almost immediately into a convalescence centre for the American Red Cross. It was the nurses — seeking relief from the heat in the sea below — who inspired the creation of a saltwater pool carved into the rock, offering a safe and elegant retreat from the Mediterranean. That pool, filled with purified seawater drawn straight from the sea below, has been drawing people in ever since.
+
+      A galaxy of classic Hollywood stars have made the pilgrimage: Charlie Chaplin, Fred Astaire, Marlene Dietrich, Cary Grant, Frank Sinatra, Kirk Douglas, Taylor and Burton, and the Kennedys, to name a comfortable fraction. Rita Hayworth and Ali Khan went on a date here. Annabella and her husband, the American leading man Tyrone Power, were regular guests who spent many carefree days by the pool. F. Scott Fitzgerald used the hotel for inspiration in his final novel, Tender is the Night — though the real credit belongs to Gerald and Sara Murphy, the glamorous American expats who once rented the entire hotel for a summer in the 1920s and brought half of the Lost Generation with them.
+
+      The Eden Roc remains the hotel of choice for stars attending the Cannes Film Festival, and every May it hosts the amfAR Cinema Against AIDS charity auction, one of the most star-studded evenings on the Riviera calendar. The hotel didn't accept credit cards until 2006 and didn't install televisions until 2012, which tells you everything you need to know about its attitude toward modernity.
+
+      Plan your dip: The pool is open to hotel guests only, from mid-April to mid-October, 8am to 7pm. Dry off at the pool bar and order an Eden-Roc Splash, a Riviera classic from 1934, made with cognac, raspberry, lemon and champagne. Rooms start from around €1,000 per night in the quieter months and climb steeply from there; during Cannes, good luck.
   - heading: Chateau Marmont
     venueSlug: chateau-marmont
     imageAlt: Chateau Marmont pool
     caption: Refuge Above Sunset Strip
-    copy: >-
-      The castle-like Chateau Marmont, perched above Sunset Strip like a gothic
-      folly that somehow wound up in California, has been a refuge for
-      Hollywood's most complicated souls since it opened in 1929. Greta Garbo,
-      who else, was an early devotee, drawn by the promise of absolute
-      discretion.
+    copy: |-
+      The castle-like Chateau Marmont, perched above Sunset Strip like a gothic folly that somehow wound up in California, has been a refuge for Hollywood's most complicated souls since it opened in 1929. The design was inspired by the Château d'Amboise in the Loire Valley — Leonardo da Vinci's final home — which is either a wildly pretentious reference point for an apartment building on Sunset Boulevard or an entirely appropriate one, depending on how you feel about Los Angeles.
 
+      Greta Garbo, who else, was an early devotee, drawn by the promise of absolute discretion. Billy Wilder and Sidney Poitier both called it home for stretches, and the hotel's famous indifference to its guests' business made it a sanctuary for gay Hollywood at a time when that mattered enormously. It was here, at the swimming pool, that closeted actors Anthony Perkins and Tab Hunter first met — the beginning of a two-year affair that both men kept fiercely private for decades, and that Hunter later described with characteristic frankness in his memoir.
 
-      Howard Hughes, who occupied a penthouse suite for four years, allegedly
-      used the height advantage to spy on girls sunbathing by the pool with a
-      pair of binoculars — which, for Hughes, was probably the tamest thing he
-      got up to at the Chateau.
+      Howard Hughes, who occupied a penthouse suite for four years, allegedly used the height advantage to spy on girls sunbathing by the pool with a pair of binoculars — which, for Hughes, was probably the tamest thing he got up to at the Chateau. According to Scotty Bowers' colourful and much-debated Hollywood memoir Full Service, Roddy McDowall was among the pool's more enthusiastic regulars in his own particular fashion.
 
+      The pool itself is small by Hollywood standards — a simple heated rectangle, surrounded by lush garden and the kind of purposeful shade that suggests its guests are not, on the whole, here for the tan. The cottages are grouped around a landscaped courtyard adjacent to the pool, accessible through a private street entrance, and at least one bungalow, designed by mid-century architect Craig Ellwood, has its own direct pool access.
 
-      The pool itself is small by Hollywood standards — a simple rectangle,
-      surrounded by lush garden and the kind of purposeful shade that suggests
-      its guests are not, on the whole, here for the tan. Rooms start from
-      around $400 per night, and the hotel's famous rule — "don't embarrass
-      yourself or the hotel" — has been cheerfully broken by almost everyone
-      who's ever stayed here.
-  - heading: Hearst Castle Pool
-    imageAlt: Hearst Castle Neptune Pool
-    caption: The Grand Liquid Ballroom
-    copy: >-
-      The architect Charles Moore, who is often described as the father of
-      post-modernism, once described the pools at William Randolph Hearst's
-      Castle as a "grand liquid ballroom" for Hollywood Olympians.
+      Plan your dip: The pool is exclusively for hotel guests, and the Chateau is not the kind of place that offers day passes. Rooms start from around $700 per night, with cottages and bungalows climbing significantly from there. The hotel's famous rule — reportedly coined by Columbia Pictures boss Harry Cohn — is "don't embarrass yourself or the hotel." It has been cheerfully broken by almost everyone who's ever stayed here.
+  - heading: Four Seasons Hotel at the Surf Club
+    venueSlug: four-seasons-surf-club
+    imageAlt: The Surf Club pool, Miami Beach
+    caption: Proper impropriety in Miami Beach
+    copy: |-
+      The Mediterranean-revival style Surf Club opened in Miami Beach on New Year's Eve 1930, in the final years of Prohibition. It was the brainchild of tire tycoon Harvey Firestone, who hatched the idea on his yacht with a group of industrialist friends who wanted somewhere to hide. They hired Russell Pancoast, a pioneering Miami architect, to design it, and appointed Alfred Barton, a former set designer for Cecil B. DeMille, to run the place. Barton's Hollywood eye for spectacle defined the club for the next four decades. The galas he staged were legendary: Broadway and Hollywood set designers were brought in to create themed evenings that involved, at various points, a Ferris wheel on the sand, kayaking in the pool at night, a parade of elephants up the club's grand entranceway, 300 tables carved entirely from ice, and a full recreation of Queen Elizabeth II's coronation complete with Beefeaters. The Surf Club did not believe in doing things by halves.
 
+      During Prohibition, liquor-laden boats from Bimini and Cuba would pull up on the beach and unload cases directly to members' cabanas, many of which were decorated as lavishly as their owners' homes. Winston Churchill painted seascapes in his. Gary Cooper, Noel Coward, Douglas Fairbanks Jr., Elizabeth Taylor, Frank Sinatra, the Rat Pack, Cassius Clay, the Duke and Duchess of Windsor, and Douglas MacArthur were all regulars. The club's reputation for discretion and "proper impropriety" was so prized that in 1935, thirty-five of its members literally founded the town of Surfside to prevent Miami Beach from annexing the land around it. When your pool club incorporates an entire town to protect its privacy, you know the membership takes its leisure seriously.
 
-      Designed by a prolific female architect, Julia Morgan, the stunning pools
-      were inspired by Italian villas, such as Tivoli and the Villa Borghese in
-      Rome.
+      Plan your dip: The Four Seasons took over in 2017, adding three glass-fronted towers designed by Richard Meier to the original clubhouse. There are now two pools — one adults-only, one for families — plus 40 modern cabanas with air conditioning and private showers, and 900 feet of private white-sand beach. History buffs will love the treasure trove of archival photos on Peacock Alley's walls, featuring original black-and-white images uncovered in the hotel basement during construction, displayed as part of an installation by artist Michele Oka Doner. The dining is exceptional: Thomas Keller chose the Surf Club for his Florida debut, and Le Sirenuse — the only place stateside where you can taste the Sersale family's Southern Italian cooking from their legendary Positano restaurant — occupies the former ballroom. Rooms start from around $1,000 per night in the quieter summer months and climb well beyond $2,000 in season. The pools are exclusive to hotel guests — no day passes, in keeping with the Surf Club's original members-only spirit. If you can't stretch to a room, a dinner reservation at Le Sirenuse or the Surf Club Restaurant by Thomas Keller will at least get you through the door and past Peacock Alley.
+  - heading: Esther Williams Pool at the Grand Hotel on Mackinac Island
+    venueSlug: grand-hotel-mackinac-island
+    imageAlt: The serpentine Esther Williams Pool at the Grand Hotel, Mackinac Island
+    caption: '"Paul Bunyan''s Footprint," Mackinac Island'
+    copy: |-
+      On a car-free island in the Straits of Mackinac, reachable only by ferry and served exclusively by horse-drawn carriages and bicycles, sits the world's largest wooden hotel and one of the most wonderfully eccentric pools on this list.
 
+      The Grand Hotel's pool was originally built in the 1920s and was known, brilliantly, as "Paul Bunyan's Footprint" — because an identical pool had been built in Traverse City, and the local legend held that when Bunyan walked north he left one footprint in each town. It was renamed after Esther Williams, the champion swimmer-turned-Hollywood actress, whose 1947 film This Time for Keeps was shot partly on location here. The film — a romantic comedy co-starring Jimmy Durante and Xavier Cugat's band, which is a casting combination that could only have happened in 1940s Hollywood — was one of Williams' string of MGM "aquamusicals" and put the Grand Hotel back on the road to profitability in the lean years after the war. After the film's release, the hotel enjoyed its best-ever occupancy.
 
-      Howard Hughes, Joan Crawford, Charlie Chaplin and Cary Grant have all
-      taken a dip in this legendary paradise in San Simeon. Hearst himself was
-      known to swim in the pool with his beloved dachshund Helen.
+      Williams wore specially designed lumberjack-pattern swimsuits for the film, which, in a decision that speaks volumes about the priorities of a wardrobe department over a swimming department, were made of flannel. She later wrote in her autobiography that she could barely keep her head above water in the heavy fabric and eventually had to shed the suit in the pool. The hotel named a room in her honour, and she used it for the rest of her life — she died in 2013.
 
+      The pool is 220 feet long, serpentine-shaped, and received a $10 million renovation in 2021 for its centennial. It's now joined by a heated adults-only infinity pool with views across the Straits to Michigan's Upper Peninsula. Film fans will also know the Grand Hotel as the setting for Somewhere in Time, the 1980 Christopher Reeve and Jane Seymour romance that has its own devoted following and an annual fan weekend at the hotel.
 
-      To raise money for the upkeep of Hearst Castle, the castle association
-      holds regular pool open days that offer movie fans the chance to swim in
-      exchange for a generous donation.
-  - heading: Eden Roc Hotel Pool
-    imageAlt: Eden Roc Hotel Pool
-    caption: Chiselled from the Riviera Rocks
-    copy: >-
-      On the sparkling shore of the French Riviera stands the Eden Roc hotel and
-      its saltwater pool that's been chiselled out of the rocks. A galaxy of
-      classic Hollywood stars have made the pilgrimage, including Charlie
-      Chaplin, Fred Astaire, Marlene Dietrich, Cary Grant, Frank Sinatra and the
-      Kennedys.
+      Plan your dip: The pool is for hotel guests only and is open seasonally — the Grand Hotel's 2026 season is its 140th. The main pool is kept at a very pleasant 83°F, the adults-only infinity pool at 92°F. There are cabanas, a pool bar, a water slide, and a zero-depth beach entry area for families. Rooms start from around $450 per night, though a 19.5% resort fee applies on top. A dinner jacket is required in the Main Dining Room after 6pm, which is the kind of rule that feels entirely appropriate at a hotel where the nearest car is on the mainland. Non-guests can walk the hotel's famous 660-foot porch — the longest in the world — for a $12 fee, which gives you the views if not the swim.
+  - heading: Hotel Nacional de Cuba, Havana
+    venueSlug: hotel-nacional-de-cuba
+    imageAlt: The palm-fringed pools at the Hotel Nacional de Cuba, Havana
+    caption: The most eventful pool on the list, Havana
+    copy: |-
+      No pool on this list has had a more eventful life than the one at the Hotel Nacional de Cuba. Opened in December 1930, the hotel was designed by McKim, Mead & White — the same New York firm behind Penn Station and the original Madison Square Garden — and was built on a hilltop overlooking the Straits of Florida, allegedly financed in part with mob money. Within three years of opening, 400 army officers loyal to the deposed Cuban president barricaded themselves inside and were bombarded from land and sea by government troops. The hotel survived, bearing the pockmarked signs of the siege, and promptly got back to the business of being glamorous.
 
+      The pool attracted a guest list so absurd it reads like someone shuffled a deck of cards containing every famous person of the twentieth century: Gary Cooper, Errol Flynn, Fred Astaire, Rita Hayworth, Marlene Dietrich, Marlon Brando, Winston Churchill, Walt Disney, Nat King Cole, and Johnny Weissmuller, who reportedly impressed the staff by jumping from a second-floor window directly into the pool, which, for a man who played Tarzan for a living, was probably the minimum expected.
 
-      F. Scott Fitzgerald used the hotel for inspiration in his final novel,
-      Tender is the Night. The Eden Roc is also the hotel of choice for big
-      stars when in town for the Cannes Film Festival.
+      In December 1946, the hotel hosted the Havana Conference, an infamous mob summit organised by Lucky Luciano and Meyer Lansky to carve up the casino business. Frank Sinatra was the entertainment, though officially he was just there on holiday. Five years later, Sinatra returned on honeymoon with Ava Gardner, and the story goes that he kept her locked in his room at the Nacional for the duration, which is either deeply romantic or deeply Sinatra, depending on your perspective. Gardner returned without him in later years and was known to drink daiquiris for breakfast by the pool after nights out with Hemingway, which is the most Ava Gardner sentence ever written.
 
+      After the Revolution in 1959, Castro converted the hotel into a dormitory for 900 peasant women who had come to Havana to learn to sew. The pool that had hosted Weissmuller and the Rat Pack was now the property of the revolution. It has since returned to hotel use, and the hallways are lined with photographs of every famous guest who ever stayed, over 300 faces in the hotel's Hall of Fame, with rooms named after the biggest names, including the Ava Gardner room and the Frank Sinatra room.
 
-      The pool is open to hotel guests only, from mid-April to mid-October, 8am
-      to 7pm. Afterwards, dry off at the pool bar and order an Eden-Roc Splash —
-      a Riviera classic from 1934, made with cognac, raspberry, lemon and
-      champagne. Rooms start from approximately £800 per night in low season.
+      Plan your dip: The Nacional has two outdoor pools surrounded by palm trees, with a poolside restaurant for lunch and a drinks service throughout the day. The hotel also runs free guided tours of the grounds and its old military fortifications (Monday to Friday, 10am and 4pm; Saturday, 10am), which take you past the antique cannons from the Santa Clara Battery, now a UNESCO World Heritage Site. The on-site Cabaret Parisien hosts nightly music and dance shows. Rooms start from around $150 per night, which makes this by far the most affordable pool on this list, and arguably the one with the best stories. Don't miss the Film Corner snack bar, which features a gallery of old Hollywood star portraits, a gloriously low-key tribute to the pool's extraordinary past.
+  - heading: 'BONUS: Beverly Hills High School Pool'
+    imageAlt: The "Swim Gym" retractable basketball court over a pool at Beverly Hills High School
+    caption: The "Swim Gym," Beverly Hills High School
+    copy: |-
+      You can't swim in this one unless you're a student, but it deserves a place on this list because most people who've watched the scene assume the pool isn't real. It is.
+
+      The Swim Gym at Beverly Hills High School was built in 1939 as a WPA project — funded by Roosevelt's New Deal, which is a magnificent use of federal emergency spending. Designed by Stiles O. Clements, who also designed the El Capitan Theatre on Hollywood Boulevard, the gym features a regulation basketball court sitting five feet above a 25-yard swimming pool. Turn a key and the hardwood floor splits down the centre line, each half retracting on steel I-beams underneath the concrete bleachers to reveal the water below.
+
+      Frank Capra filmed the famous dance scene from It's a Wonderful Life here in 1946. George Bailey and Mary Hatch are doing the Charleston, the crowd is egging them on, and neither of them notices the floor opening beneath their feet until they plunge straight in — followed by half the partygoers diving in after them. Capra built the entire town of Bedford Falls on a back lot in Culver City, but for this he needed something no set designer could fake. The Swim Gym was the only pool in America hidden under a retractable basketball court, and nearly eighty years later, it still is.
+
+      It also appeared in Clueless, for anyone whose classic Hollywood tastes extend to 1995. Multiple BHHS alumni have told stories of playing basketball as freshmen with no idea they were bouncing a ball five feet above a swimming pool — which is more or less the same experience George Bailey had.
 destinationTags:
-  - California
-  - Italy
-  - Florida
-  - France
-  - Michigan
-relatedStars: []
-relatedVenues: []
-relatedArticles: []
+  - Los Angeles
+  - Palm Springs
+  - Italian Riviera
+  - French Riviera
+  - Miami
+  - Havana
+relatedStars:
+  - frank-sinatra
+  - ava-gardner
+  - elizabeth-taylor
+  - cary-grant
+relatedVenues:
+  - beverly-hills-hotel
+  - hollywood-roosevelt
+  - hotel-splendido
+  - sinatras-twin-palms
+  - fairmont-miramar
+  - hearst-castle
+  - berkeley-city-club
+  - hotel-du-cap-eden-roc
+  - chateau-marmont
+  - four-seasons-surf-club
+  - grand-hotel-mackinac-island
+  - hotel-nacional-de-cuba
+relatedArticles:
+  - the-classic-hollywood-history-of-hearst-castle
+  - 26-old-hollywood-hotels
+  - becoming-carmen

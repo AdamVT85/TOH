@@ -16,6 +16,25 @@ const { slug } = Astro.props;
 const reader = createReader(process.cwd(), keystaticConfig);
 const venue = await reader.collections.venues.read(slug);
 if (!venue) return Astro.redirect('/404');
+
+// Resolve related article slugs to their titles/excerpts for linking.
+const relatedArticles = (
+  await Promise.all(
+    (venue.relatedArticles || [])
+      .filter((s): s is string => !!s)
+      .map(async (articleSlug) => {
+        const article = await reader.collections.articles.read(articleSlug);
+        return article
+          ? {
+              slug: articleSlug,
+              title: article.title,
+              excerpt: article.excerpt,
+              heroImage: article.heroImage || undefined,
+            }
+          : null;
+      })
+  )
+).filter((a): a is NonNullable<typeof a> => a !== null);
 ---
 
 <VenueLayout
@@ -24,6 +43,7 @@ if (!venue) return Astro.redirect('/404');
   venueType={venue.venueType}
   heroImage={venue.heroImage || undefined}
   heroImageAlt={venue.heroImageAlt}
+  heroImageFocus={venue.heroImageFocus}
   established={venue.established}
   cityCountry={venue.cityCountry}
   priceIndicator={venue.priceIndicator}
@@ -45,6 +65,9 @@ if (!venue) return Astro.redirect('/404');
   dressCode={venue.dressCode}
   bestTimeToVisit={venue.bestTimeToVisit}
   tips={venue.tips}
+  howToBook={venue.howToBook}
+  accessibilityNotes={venue.accessibilityNotes}
+  relatedArticles={relatedArticles}
   bookingUrl={venue.bookingUrl || undefined}
   bookingCtaText={venue.bookingCtaText}
   whatsThereNow={venue.whatsThereNow}

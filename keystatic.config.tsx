@@ -1,5 +1,25 @@
 import { config, fields, collection, singleton } from '@keystatic/core';
 
+// Reusable focal-point selector, applied via CSS object-position in the layouts.
+// Lets editors choose which part of an image to keep when it is cropped to fit.
+const focalPoint = (defaultValue: 'center' | 'top' = 'center') =>
+  fields.select({
+    label: 'Focal Point',
+    description: 'Which part of the image to keep when it is cropped to fit the layout.',
+    options: [
+      { label: 'Center', value: 'center' },
+      { label: 'Top', value: 'top' },
+      { label: 'Bottom', value: 'bottom' },
+      { label: 'Left', value: 'left' },
+      { label: 'Right', value: 'right' },
+      { label: 'Top Left', value: 'left top' },
+      { label: 'Top Right', value: 'right top' },
+      { label: 'Bottom Left', value: 'left bottom' },
+      { label: 'Bottom Right', value: 'right bottom' },
+    ],
+    defaultValue,
+  });
+
 export default config({
   storage: process.env.NODE_ENV === 'production'
     ? { kind: 'github', repo: 'AdamVT85/TOH' }
@@ -23,6 +43,7 @@ export default config({
           publicPath: '/images/articles/',
         }),
         heroImageAlt: fields.text({ label: 'Hero Image Alt Text' }),
+        heroImageFocus: focalPoint('top'),
         publishDate: fields.date({ label: 'Publish Date' }),
         updatedDate: fields.date({ label: 'Last Updated' }),
         excerpt: fields.text({
@@ -59,6 +80,7 @@ export default config({
               publicPath: '/images/articles/',
             }),
             imageAlt: fields.text({ label: 'Image Alt Text' }),
+            imageFocus: focalPoint('center'),
             caption: fields.text({ label: 'Image Caption' }),
             copy: fields.text({
               label: 'Body Copy',
@@ -112,6 +134,7 @@ export default config({
           directory: 'public/images/stars',
           publicPath: '/images/stars/',
         }),
+        portraitFocus: focalPoint('top'),
         heroImage: fields.image({
           label: 'Hero Background Image',
           directory: 'public/images/stars',
@@ -168,6 +191,73 @@ export default config({
           {
             label: 'Guide Sections',
             itemLabel: (props) => props.fields.heading.value || 'New Section',
+          }
+        ),
+        regions: fields.array(
+          fields.object({
+            region: fields.text({ label: 'Region / City' }),
+            intro: fields.text({ label: 'Region Intro', multiline: true }),
+            image: fields.image({
+              label: 'Region Image (optional)',
+              directory: 'public/images/stars',
+              publicPath: '/images/stars/',
+            }),
+            imageAlt: fields.text({ label: 'Image Alt Text' }),
+            imageFocus: focalPoint('center'),
+            caption: fields.text({ label: 'Image Caption' }),
+            places: fields.array(
+              fields.object({
+                name: fields.text({ label: 'Place Name' }),
+                category: fields.select({
+                  label: 'Category',
+                  options: [
+                    { label: 'Eat', value: 'Eat' },
+                    { label: 'Drink', value: 'Drink' },
+                    { label: 'Sleep', value: 'Sleep' },
+                    { label: 'Do', value: 'Do' },
+                    { label: 'See', value: 'See' },
+                  ],
+                  defaultValue: 'Do',
+                }),
+                venueSlug: fields.text({
+                  label: 'Venue Page Slug (optional)',
+                  description: 'If this place has a Venue page, enter its slug to link it.',
+                }),
+                description: fields.text({ label: 'Description', multiline: true }),
+                detail: fields.text({
+                  label: 'Practical Detail (address / price)',
+                  multiline: true,
+                }),
+                status: fields.select({
+                  label: 'Status',
+                  options: [
+                    { label: 'Open', value: 'Open' },
+                    { label: 'Closed', value: 'Closed' },
+                    { label: 'Demolished', value: 'Demolished' },
+                    { label: 'Relocated / Renamed', value: 'Relocated' },
+                  ],
+                  defaultValue: 'Open',
+                }),
+              }),
+              {
+                label: 'Places',
+                itemLabel: (props) => props.fields.name.value,
+              }
+            ),
+          }),
+          {
+            label: 'Travel Regions',
+            itemLabel: (props) => props.fields.region.value || 'New Region',
+          }
+        ),
+        lifestyle: fields.array(
+          fields.object({
+            label: fields.text({ label: 'Label (e.g. Drink like Frank)' }),
+            text: fields.text({ label: 'Text', multiline: true }),
+          }),
+          {
+            label: 'Live Like… Lifestyle Notes',
+            itemLabel: (props) => props.fields.label.value,
           }
         ),
       },
@@ -230,6 +320,7 @@ export default config({
           publicPath: '/images/venues/',
         }),
         heroImageAlt: fields.text({ label: 'Hero Image Alt Text' }),
+        heroImageFocus: focalPoint('top'),
         excerpt: fields.text({ label: 'Excerpt / Meta Description', multiline: true }),
         pullQuote: fields.text({
           label: 'Pull Quote (optional)',
@@ -339,6 +430,7 @@ export default config({
               publicPath: '/images/venues/',
             }),
             imageAlt: fields.text({ label: 'Image Alt Text' }),
+            imageFocus: focalPoint('center'),
             caption: fields.text({ label: 'Image Caption' }),
             copy: fields.text({
               label: 'Body Copy',
