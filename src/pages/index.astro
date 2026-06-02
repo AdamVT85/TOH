@@ -57,6 +57,28 @@ const featuredStars = (
 ).filter((s): s is NonNullable<typeof s> => s !== null && !!s.portraitImage);
 
 const lastNameUpper = (name: string) => name.trim().split(/\s+/).pop()?.toUpperCase() ?? '';
+
+// Departures board: curated airline-style flavour keyed to real destination guides.
+type DepStatus = 'BOARDING' | 'ON TIME' | 'DELAYED';
+const departureFlavor: Record<string, { code: string; city: string; country: string; via: string; stars: string; flight: string; status: DepStatus }> = {
+  'los-angeles':     { code: 'LAX', city: 'HOLLYWOOD',    country: 'USA',     via: 'Sunset Blvd',          stars: 'Garbo · Gable · Monroe', flight: 'TOH 1929', status: 'BOARDING' },
+  'french-riviera':  { code: 'NCE', city: 'CÔTE D’AZUR',  country: 'FRANCE',  via: 'Cannes · Monaco',      stars: 'Kelly · Grant',          flight: 'TOH 1955', status: 'ON TIME' },
+  'spain':           { code: 'MAD', city: 'MADRID',       country: 'SPAIN',   via: 'Seville · Costa Brava', stars: 'Gardner · Hayworth',     flight: 'TOH 1951', status: 'ON TIME' },
+  'london':          { code: 'LHR', city: 'LONDON',       country: 'ENGLAND', via: 'Mayfair',              stars: 'Taylor · Gardner',       flight: 'TOH 1956', status: 'BOARDING' },
+  'paris':           { code: 'CDG', city: 'PARIS',        country: 'FRANCE',  via: 'Place Vendôme',        stars: 'Gardner · Dietrich',     flight: 'TOH 1957', status: 'ON TIME' },
+  'rome':            { code: 'FCO', city: 'ROME',         country: 'ITALY',   via: 'Via Veneto',           stars: 'Taylor · Gardner',       flight: 'TOH 1953', status: 'ON TIME' },
+  'italian-riviera': { code: 'GOA', city: 'PORTOFINO',    country: 'ITALY',   via: 'Ligurian Coast',       stars: 'Taylor · Burton',        flight: 'TOH 1954', status: 'ON TIME' },
+  'havana':          { code: 'HAV', city: 'HAVANA',       country: 'CUBA',    via: 'Hotel Nacional',       stars: 'Sinatra · Gardner',      flight: 'TOH 1946', status: 'DELAYED' },
+  'las-vegas':       { code: 'LAS', city: 'LAS VEGAS',    country: 'USA',     via: 'The Strip',            stars: 'The Rat Pack',           flight: 'TOH 1960', status: 'BOARDING' },
+  'new-york':        { code: 'JFK', city: 'NEW YORK',     country: 'USA',     via: 'Manhattan',            stars: 'Sinatra · Grant',        flight: 'TOH 1949', status: 'ON TIME' },
+  'miami':           { code: 'MIA', city: 'MIAMI',        country: 'USA',     via: 'Fontainebleau',        stars: 'Sinatra · Bacall',       flight: 'TOH 1960', status: 'ON TIME' },
+  'palm-springs':    { code: 'PSP', city: 'PALM SPRINGS', country: 'USA',     via: 'Movie Colony',         stars: 'Sinatra · Martin',       flight: 'TOH 1947', status: 'ON TIME' },
+};
+const allDestinations = await reader.collections.destinations.all();
+const destSlugSet = new Set(allDestinations.map((d) => d.slug));
+const departures = Object.entries(departureFlavor)
+  .filter(([slug]) => destSlugSet.has(slug))
+  .map(([slug, f]) => ({ ...f, href: `/destinations/${slug}` }));
 ---
 
 <BaseLayout title="Travel Old Hollywood" description="Travel in the footsteps of the stars. A curated guide to the hotels, restaurants, and destinations of classic Hollywood.">
@@ -179,7 +201,7 @@ const lastNameUpper = (name: string) => name.trim().split(/\s+/).pop()?.toUpperC
 
         <!-- Departures Board -->
         <div class="relative z-20 w-[105%] -ml-[2.5%] my-16">
-          <DeparturesBoard />
+          <DeparturesBoard departures={departures} />
         </div>
 
         <!-- Travel by Star -->
