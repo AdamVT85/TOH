@@ -1,38 +1,51 @@
+heroImage: /images/heroImage.jpg
 featuredDestinations:
   - titleTop: Stay at the
     titleBottom: Chateau Marmont
     image: /images/featuredDestinations/0/image.jpg
-    text: The Sunset Strip hideaway where Old Hollywood misbehaved in private, from Garbo to Gable.
+    text: >-
+      The Sunset Strip hideaway where Old Hollywood misbehaved in private, from
+      Garbo to Gable.
     linkUrl: /venues/chateau-marmont
     ctaText: Read More
   - titleTop: Stay at the
     titleBottom: Beverly Hills Hotel
-    image: /images/venues/beverly-hills-hotel/heroImage.jpg
-    text: The Pink Palace on Sunset — striped cabanas, the Polo Lounge, and a century of star-studded scandal.
+    image: /images/featuredDestinations/1/image.jpg
+    text: >-
+      The Pink Palace on Sunset — striped cabanas, the Polo Lounge, and a
+      century of star-studded scandal.
     linkUrl: /venues/beverly-hills-hotel
     ctaText: Read More
   - titleTop: Escape to the
     titleBottom: Hotel Splendido
-    image: /images/venues/hotel-splendido/heroImage.jpg
-    text: Portofino's hillside retreat above the harbour, beloved of Bogart, Bacall, Burton and Taylor.
+    image: /images/featuredDestinations/2/image.jpg
+    text: >-
+      Portofino's hillside retreat above the harbour, beloved of Bogart, Bacall,
+      Burton and Taylor.
     linkUrl: /venues/hotel-splendido
     ctaText: Read More
   - titleTop: Swim at the
     titleBottom: Hôtel du Cap-Eden-Roc
-    image: /images/venues/hotel-du-cap-eden-roc/heroImage.jpg
-    text: A saltwater pool carved into the Cap d'Antibes rock — the Riviera's most mythologised address since 1914.
+    image: /images/featuredDestinations/3/image.jpg
+    text: >-
+      A saltwater pool carved into the Cap d'Antibes rock — the Riviera's most
+      mythologised address since 1914.
     linkUrl: /venues/hotel-du-cap-eden-roc
     ctaText: Read More
   - titleTop: Stay at the
     titleBottom: The Savoy
-    image: /images/venues/the-savoy-london/heroImage.jpg
-    text: London's grande dame on the Strand, home to the world's oldest cocktail bar and a century of Hollywood guests.
+    image: /images/featuredDestinations/4/image.jpg
+    text: >-
+      London's grande dame on the Strand, home to the world's oldest cocktail
+      bar and a century of Hollywood guests.
     linkUrl: /venues/the-savoy-london
     ctaText: Read More
   - titleTop: Swim at
     titleBottom: Hearst Castle
-    image: /images/venues/hearst-castle/heroImage.jpg
-    text: Take a dip in the marble Neptune Pool at William Randolph Hearst's hilltop palace above San Simeon.
+    image: /images/featuredDestinations/5/image.jpg
+    text: >-
+      Take a dip in the marble Neptune Pool at William Randolph Hearst's hilltop
+      palace above San Simeon.
     linkUrl: /venues/hearst-castle
     ctaText: Read More
 featuredStars:
