@@ -2,23 +2,13 @@ name: Frank Sinatra
 nickname: Ol' Blue Eyes
 birthYear: 1915
 deathYear: 1998
-portraitImage: /images/stars/frank-sinatra/portrait.jpg
-portraitFocus: top
+portraitImage: /images/stars/frank-sinatra/portraitImage.jpg
+portraitFocus: left
 excerpt: >-
   Travel in the footsteps of the Chairman of the Board. From the steakhouses of
-  New York to the Las Vegas booth still marked with his brass plaque, this is the
-  ultimate guide to the bars, restaurants and hotels where Frank Sinatra ate,
-  drank and held court, many of them still open today.
-keyDestinations:
-  - New York
-  - Atlantic City
-  - Chicago
-  - Las Vegas
-  - Los Angeles
-  - Palm Springs
-  - Miami
-  - Havana
-  - Monaco
+  New York to the Las Vegas booth still marked with his brass plaque, this is
+  the ultimate guide to the bars, restaurants and hotels where Frank Sinatra
+  ate, drank and held court, many of them still open today.
 keyFilms:
   - title: On the Town
     year: '1949'
@@ -30,657 +20,20 @@ keyFilms:
     year: '1957'
   - title: A Hole in the Head
     year: '1959'
-  - title: "Ocean's Eleven"
+  - title: Ocean's Eleven
     year: '1960'
   - title: None but the Brave
     year: '1965'
-sections:
-  - heading: The King of Cool
-    copy: |-
-      Frank Sinatra has been one of the unsung heroes of travel marketing for the best part of a century. If he patronised your establishment, it would be forever sprinkled with showbiz stardust. Hotels, restaurants and bars around the world sell their wares on a Sinatra connection, and with good reason: he was the 20th century's undisputed King of Cool.
-
-      Sinatra and his Rat Pack immortalised Las Vegas in song and on film. He sang about New York and Chicago being his kind of towns, and his movies took fans all over the world, from Hawaii to Havana, Miami to Monaco. Remarkably, many of the bars, restaurants and hotels where Sinatra ate, drank and held court are still open today, some virtually unchanged since he last walked through the door.
-
-      If you're looking for a holiday or a night out with a hint of retro cool, ask yourself: where would Frank Sinatra go?
-regions:
-  - region: New York & New Jersey
-    intro: >-
-      "New York, New York, it's a wonderful town!" So sang Francis Albert Sinatra
-      in the 1949 musical On the Town. He was born in Hoboken, across the water
-      from Manhattan, and maintained a close connection to the city throughout
-      his life. More than anywhere else, New York is where you can still walk in
-      Sinatra's footsteps.
-    places:
-      - name: Patsy's
-        category: Eat
-        status: Open
-        description: >-
-          The Italian restaurant on West 56th Street has been in the same family
-          since the 1940s and still hosts Sinatra's relatives. It was a home from
-          home for Frank, who was known to help in the kitchen and answer the
-          phones when they were busy. His favourite dishes were Clams Posillipo,
-          Chicken Piccata and Veal Cutlets.
-        detail: West 56th Street, New York. Mains $35–$50. Book online.
-      - name: Russian Samovar (formerly Jilly's)
-        category: Drink
-        status: Relocated
-        description: >-
-          Sinatra ate and drank at Jilly's three or four nights a week whenever he
-          was in town. Jilly's closed in the 1980s but reopened as Russian Samovar
-          on West 52nd Street — the interior is much the same, even the wooden bar
-          Frank propped up, with regular jazz and piano nights that often include
-          his music.
-        detail: West 52nd Street, New York. Successor to Sinatra's Jilly's.
-      - name: P.J. Clarke's
-        category: Drink
-        status: Open
-        description: >-
-          Virtually unchanged since it opened in 1884. Sinatra's table was number
-          20, marked today with a photo of Ol' Blue Eyes. The burger is famous,
-          the martini is cold, and nobody has redecorated since Eisenhower, which
-          is exactly as it should be.
-        detail: Third Avenue, New York.
-      - name: Birdland
-        category: Drink
-        status: Open
-        description: >-
-          The Harlem jazz bar on West 44th Street was a favourite of Frank's, and
-          equally popular with his ex-wife Ava Gardner. It is still one of the best
-          jazz clubs in New York, with live music seven nights a week.
-        detail: West 44th Street, New York. Cover charge $20–$40.
-      - name: 21 Club
-        category: Drink
-        status: Closed
-        description: >-
-          The former speakeasy on West 52nd Street was another regular haunt, but
-          it closed permanently in December 2020 after a 90-year run. The building
-          still stands and its famous iron jockey statues still line the entrance,
-          worth a look if you're walking between P.J. Clarke's and Russian Samovar.
-        detail: West 52nd Street, New York. Closed 2020.
-      - name: Waldorf Astoria
-        category: Sleep
-        status: Open
-        description: >-
-          Sinatra stayed in Cole Porter's favourite suite at the Waldorf Astoria,
-          which has recently reopened after a decade-long, $2 billion renovation.
-        detail: Park Avenue, New York. Rooms from around $300/night.
-      - name: Hoboken Walking Tour
-        category: Do
-        status: Open
-        description: >-
-          The Hoboken Historical Museum has created a self-guided walking tour of
-          Frank's old neighbourhood, including the houses he lived in and the
-          church where he was baptised and married his first wife Nancy. Hoboken
-          is a 10-minute ferry ride from Midtown Manhattan.
-        detail: Hoboken, New Jersey. Combine with lunch at Leo's Grandezvous.
-  - region: Atlantic City
-    intro: >-
-      Sinatra's Atlantic City story begins not at the glitzy casinos but at the
-      500 Club, a supper club run by racketeer Paul "Skinny" D'Amato, who taught
-      the young Frank how to hold a cigarette, tip big, and be cool. When Sinatra
-      returned in the mid-1950s as a newly minted Oscar winner, the marquee
-      simply read: "He's Back."
-    places:
-      - name: The 500 Club
-        category: See
-        status: Demolished
-        description: >-
-          Known to regulars as "the Five," this was where Sinatra performed when
-          his career hit a lull in the late 1940s, doing all four shows and
-          waiving his fee as a favour to owner Skinny D'Amato. D'Amato also paired
-          Dean Martin and Jerry Lewis for the first time on his stage. It burned
-          down in an electrical fire in 1973 and was never rebuilt; a car park now
-          occupies the site, with a historical marker honouring D'Amato nearby.
-        detail: >-
-          Site near Atlantic Avenue and 500 Club Lane, Atlantic City. Demolished
-          1973.
-      - name: The Claridge
-        category: Sleep
-        status: Open
-        description: >-
-          The Rat Pack performed regularly here, and a two-week party Sinatra
-          hosted at the hotel was later cited by the FBI as evidence of his mob
-          ties. Still open as an independent hotel, now connected to Bally's
-          casino next door. Faded but atmospheric, with a rooftop bar, The VÜE, on
-          the 23rd floor offering panoramic views of the boardwalk.
-        detail: >-
-          South Indiana Avenue, Atlantic City. Rooms from around $65/night, one of
-          the most affordable Sinatra sleeps on this list.
-  - region: Chicago
-    intro: >-
-      "Chicago is my kind of town," sang Frank, and with good reason. He started
-      his career performing at the city's glamorous Empire Room at the Palmer
-      House Hotel, and returned throughout his life.
-    places:
-      - name: Green Mill
-        category: Drink
-        status: Open
-        description: >-
-          Sinatra's favourite bar, an Art Deco jazz club on North Broadway in
-          Uptown that has been open since 1907 and looks like it hasn't
-          redecorated since Al Capone drank in the corner booth — because it
-          hasn't. Part of The Joker Is Wild (1957) was filmed here. Live jazz
-          seven nights a week, no reservations, no food, cash only. If you only
-          visit one Sinatra venue in Chicago, make it this one.
-        detail: >-
-          North Broadway, Chicago. Cash only. Closes at the precise time of
-          1:11am on weeknights.
-      - name: Gene & Georgetti
-        category: Eat
-        status: Open
-        description: >-
-          Sinatra's favourite restaurant, an Italian steakhouse founded in 1941
-          that still feels like walking into a 1950s power lunch. The kind of
-          place where the steaks are enormous, the martinis are cold, and nobody
-          has heard of a menu without red meat on it.
-        detail: North Franklin Street, Chicago. Steaks from around $50.
-      - name: Twin Anchors
-        category: Eat
-        status: Open
-        description: >-
-          A neighbourhood institution in Old Town, famous for its baby back ribs
-          since 1932. No-frills, no pretension, just very good ribs and a long
-          history of famous regulars, Sinatra among them.
-        detail: North Sedgwick Street, Chicago. Ribs from around $25.
-  - region: Las Vegas
-    intro: >-
-      Las Vegas was Sinatra's town. Before Sinatra and the Rat Pack, Vegas was a
-      dusty desert gambling stop. After them, it was the entertainment capital of
-      the world.
-    places:
-      - name: The Sands
-        category: See
-        status: Demolished
-        description: >-
-          Sinatra's legendary Vegas career started here, where he and the Rat Pack
-          staged a five-week residency in the Copa Room that became the most
-          talked-about engagement in entertainment history. After Howard Hughes
-          suspended his credit line, a furious Sinatra allegedly drove a golf cart
-          through one of the plate-glass windows. The Sands was demolished in 1996
-          to make way for The Venetian.
-        detail: Site now The Venetian, Las Vegas Boulevard.
-      - name: Golden Steer Steakhouse
-        category: Eat
-        status: Open
-        description: >-
-          The oldest continually operating steakhouse in Las Vegas, open since
-          1958, and the single most essential Sinatra dining experience in the
-          city. His booth, number 22, marked with a brass plaque, can be reserved.
-          Tuxedoed servers, tableside Caesar salad, red leather booths, and Sinatra
-          on the speakers.
-        detail: West Sahara Avenue. Steaks from around $55. Open daily from 4:30pm.
-      - name: Cleopatra's Barge, Caesars Palace
-        category: Drink
-        status: Open
-        description: >-
-          A gold-trimmed replica Egyptian ship sitting inside the Caesars casino,
-          it became Sinatra's after-hours haunt; he was known to wander over and
-          give impromptu performances between the scheduled acts. It still exists
-          and still hosts live music.
-        detail: Caesars Palace, Las Vegas Strip.
-      - name: Piero's Italian Cuisine
-        category: Eat
-        status: Open
-        description: >-
-          Opened in 1982 and became a firm favourite with the Rat Pack in their
-          twilight years. It's also where Martin Scorsese filmed scenes for
-          Casino. Still open, still excellent, and still the kind of place where
-          you half-expect someone in a very expensive suit to tell you to keep
-          your voice down.
-        detail: Convention Center Drive, Las Vegas.
-      - name: Atomic Liquors
-        category: Drink
-        status: Open
-        description: >-
-          An off-Strip dive bar on Fremont Street that Sinatra frequented precisely
-          because it was working-class and anonymous, a place where he could drink
-          without being Frank Sinatra for an hour. Recently restored but still
-          no-frills.
-        detail: Fremont Street, Las Vegas. No dress code.
-      - name: Caesars Palace
-        category: Sleep
-        status: Open
-        description: >-
-          Where Sinatra headlined at the Circus Maximus throughout the 1970s and
-          80s after his dramatic exit from the Sands. When his gaming licence was
-          restored in 1981, Caesars hired him as an entertainment consultant. The
-          man didn't just stay here, he practically lived here.
-        detail: Las Vegas Strip. Rooms from around $100/night midweek; resort fee applies.
-  - region: Los Angeles
-    intro: >-
-      Sinatra's Los Angeles wasn't the city of freeways and juice bars that it's
-      become. It was a city of dimly lit Italian restaurants, hotel bars where
-      nobody bothered you, and booths at the back of rooms where deals were done
-      over steaks and martinis. Remarkably, many of the places he frequented are
-      still open.
-    places:
-      - name: Musso & Frank
-        category: Eat
-        status: Open
-        description: >-
-          Everyone who is anyone in Hollywood has eaten at Musso & Frank, and
-          Sinatra was no different. His booth was number 224, chosen for its high
-          walls that made it nearly impossible to see who was inside. Open since
-          1919, the red-jacketed waiters still glide across the floor like it's
-          1955, and the martini is routinely described as one of the best in the
-          world.
-        detail: >-
-          Hollywood Boulevard, Los Angeles. Steaks from around $62. Open Tuesday
-          to Sunday.
-      - name: La Dolce Vita
-        category: Eat
-        status: Open
-        description: >-
-          Sinatra didn't just eat here, he funded the restaurant. You can still
-          request his personal booth. The old-world Italian-American cooking is
-          rich, the ambiance gorgeous, and it feels exactly like the kind of place
-          where Frank would hold court over a plate of veal.
-        detail: Beverly Hills. Open Tuesday to Sunday for dinner.
-      - name: Formosa Cafe
-        category: Drink
-        status: Open
-        description: >-
-          Frank was a regular here, often seen drinking his troubles away during
-          his explosive marriage to Ava Gardner. The Formosa closed briefly but
-          has been beautifully restored; stepping inside genuinely feels like
-          walking into Old Hollywood, the ceilings lined with photos of the stars
-          who drank here and the original railroad car section still intact.
-        detail: Santa Monica Boulevard, Los Angeles. Open daily from noon.
-      - name: Beverly Hills Hotel
-        category: Sleep
-        status: Open
-        venueSlug: beverly-hills-hotel
-        description: >-
-          The hotel has a Frank Sinatra Suite, inspired by the mid-century design
-          he loved. He and the Rat Pack spent many drunken nights at the hotel's
-          legendary Polo Lounge, still the power-lunch spot of choice for
-          Hollywood's upper echelons.
-        detail: Beverly Hills. Rooms from around $700/night; the suite costs more.
-      - name: Sunset Tower Hotel
-        category: Sleep
-        status: Open
-        description: >-
-          During his early years in LA, Sinatra lived here alongside other
-          celebrities including John Wayne and Howard Hughes. It has been
-          beautifully maintained and remains one of the most atmospheric hotels in
-          West Hollywood.
-        detail: West Hollywood. Rooms from around $400/night.
-      - name: Grammy Museum
-        category: Do
-        status: Open
-        description: >-
-          Visit the Sinatra: An American Icon exhibition downtown, which includes
-          serious memorabilia such as his iconic black fedora. Capitol Records on
-          Vine Street, where Sinatra recorded most of his music in Studio A, and
-          his star on the Hollywood Walk of Fame at 1600 Vine Street are both
-          nearby.
-        detail: >-
-          Downtown Los Angeles. Check the museum's website for current exhibition
-          schedules.
-  - region: Palm Springs
-    intro: >-
-      When Frank hit the big time, he chose the desert city of Palm Springs to put
-      down roots, and it remained his home for nearly fifty years. This is where
-      you get closest to the private Sinatra, away from the stage and the
-      headlines.
-    places:
-      - name: Twin Palms
-        category: Do
-        status: Open
-        venueSlug: sinatras-twin-palms
-        description: >-
-          In 1947 Sinatra commissioned architect E. Stewart Williams to design his
-          desert home. The result set the standard for mid-century glamour:
-          floor-to-ceiling glass and a piano-shaped pool off the living room. He
-          flew a Jack Daniel's banner between the two palms to signal cocktail
-          hour. Now a vacation rental through Natural Retreats, with group tours
-          available and public tours during Modernism Week.
-        detail: Movie Colony, Palm Springs. Rental from around $2,600/night.
-      - name: Melvyn's at the Ingleside Inn
-        category: Eat
-        status: Open
-        description: >-
-          One of the top places to dine in Palm Springs. Sinatra held his
-          pre-wedding lunch here in 1976, before marrying his fourth wife Barbara.
-          His corner table is still there, and you can still order pepper steak
-          prepared tableside, just as he did.
-        detail: West Ramon Road, Palm Springs.
-      - name: Johnny Costa's Ristorante
-        category: Eat
-        status: Open
-        description: >-
-          Serves Sinatra's favourite dishes, the Steak Sinatra and Linguine Clams,
-          still on the menu. Costa was the former sous chef at Patsy D'Amore's
-          Villa Capri in Los Angeles, and Sinatra loved his cooking so much he
-          effectively brought a piece of his favourite LA restaurant to the desert.
-        detail: Palm Springs.
-      - name: The Purple Room at Club Trinidad
-        category: See
-        status: Open
-        description: >-
-          Built in 1960, this is where Sinatra proposed to his fourth and final
-          wife, Barbara. It still hosts cabaret stars and jazz of the kind Frank
-          would have heartily approved.
-        detail: Palm Springs. Check the schedule for upcoming shows.
-  - region: Lake Tahoe
-    intro: >-
-      Sinatra co-owned the Cal-Neva Lodge at Crystal Bay on the California–Nevada
-      state line, a property steeped in Rat Pack lore and mob connections that
-      eventually cost him his Nevada gaming licence.
-    places:
-      - name: Cal-Neva Lodge
-        category: See
-        status: Closed
-        description: >-
-          Sinatra's lodge at Crystal Bay straddled the California–Nevada state
-          line. Marilyn Monroe spent one of her last weekends alive there. It
-          later burned down and has been through various redevelopment attempts;
-          as of 2026 the site is under development with no confirmed reopening
-          date, but the Crystal Bay shoreline is worth a visit in its own right.
-        detail: Crystal Bay, Lake Tahoe. Under development.
-  - region: Miami
-    intro: >-
-      Miami, and the iconic Fontainebleau Hotel, featured prominently in Sinatra's
-      life. The Rat Pack performed here regularly, he shot three movies in the
-      city, and it's where he allegedly first met crime boss Sam Giancana in 1958,
-      at least that's what he told the FBI.
-    places:
-      - name: Fontainebleau Hotel
-        category: Sleep
-        status: Open
-        description: >-
-          The Rat Pack performed here regularly, and Sinatra shot three movies in
-          the city: A Hole in the Head, Tony Rome, and Lady in Cement. In March
-          1960 he videotaped his ABC special Welcome Home Elvis here, welcoming
-          back Elvis Presley from military service to an audience of 50 million,
-          the highest-rated television appearance of his entire career. Still very
-          much open, spanning 20 acres of oceanfront with eleven pools, nine
-          restaurants and a spa.
-        detail: >-
-          Miami Beach. Rooms from around $180/night in summer, above $400 in
-          season.
-      - name: Cardozo Hotel
-        category: Sleep
-        status: Open
-        description: >-
-          An Art Deco gem on Ocean Drive that featured in A Hole in the Head
-          (1959), still open and one of the prettiest buildings on South Beach.
-        detail: Ocean Drive, South Beach, Miami. Rooms from around $200/night.
-  - region: Hawaii
-    intro: >-
-      Sinatra visited Hawaii many times for holidays, performances and filming.
-      From Here to Eternity (1954), in which he won the Best Supporting Actor
-      Oscar, was filmed here, as was None but the Brave (1965). In 1964, while
-      filming the latter, Sinatra had a near-death experience when he was struck
-      by a freak wave at Wailua Bay on Kauai and had to be rescued.
-    places:
-      - name: The Royal Hawaiian Hotel
-        category: Sleep
-        status: Open
-        description: >-
-          A grand dame pink palace on Waikiki Beach that has been attracting
-          discerning travellers since the 1920s, Sinatra among them. The hotel's
-          signature colour and beachfront location make it one of the most
-          recognisable hotels in the Pacific.
-        detail: Waikiki Beach, Honolulu. Rooms from around $400/night.
-      - name: The Kahala Hotel
-        category: Sleep
-        status: Open
-        description: >-
-          Sinatra was also known to stay at this elegant, quieter and more
-          exclusive property on the east side of Diamond Head, which remains one of
-          Honolulu's most prestigious addresses.
-        detail: East of Diamond Head, Honolulu. Rooms from around $500/night.
-  - region: Dominican Republic
-    intro: >-
-      Altos de Chavon is a place like no other: a replica 16th-century
-      Mediterranean village perched above the Chavon River in La Romana, built
-      entirely by hand by Dominican artisans under Italian master designer Roberto
-      Coppa.
-    places:
-      - name: Altos de Chavon Amphitheatre
-        category: See
-        status: Open
-        description: >-
-          The centrepiece is a 5,000-seat Greek-style open-air amphitheatre,
-          inaugurated on 20 August 1982 with the Concert for the Americas,
-          featuring Sinatra alongside Buddy Rich, Heart and Carlos Santana, and
-          televised live by HBO. It remains one of the most atmospheric concert
-          venues in the Caribbean and still hosts major international acts.
-        detail: >-
-          Part of the Casa de Campo resort, La Romana. Entrance for non-guests $50
-          per adult ($25 children). A popular day trip from Punta Cana or La
-          Romana.
-  - region: Havana
-    intro: >-
-      Sinatra came to Havana twice, and both visits produced extraordinary
-      stories.
-    places:
-      - name: Hotel Nacional de Cuba
-        category: Sleep
-        status: Open
-        venueSlug: hotel-nacional-de-cuba
-        description: >-
-          Sinatra's first visit in December 1946 coincided with the Havana
-          Conference, an infamous mob summit at the Nacional organised by Lucky
-          Luciano and Meyer Lansky; officially, Frank was just there for the
-          weather. He returned in 1951 on honeymoon with Ava Gardner. The hotel is
-          still open, a Cuban national monument, its hallways lined with
-          photographs of every famous guest, with free guided tours and a nightly
-          cabaret.
-        detail: Havana, Cuba. Rooms from around $150/night.
-  - region: France & Monaco
-    intro: >-
-      It is well known that Sinatra hated fancy restaurants, preferring mom-and-pop
-      diners and little Italian steakhouses, but he made an exception for the
-      Riviera. He visited his old friend Grace Kelly in the South of France for her
-      annual Red Cross Ball, and stayed at the grandest hotel in Monaco.
-    places:
-      - name: Tour d'Argent
-        category: Eat
-        status: Open
-        description: >-
-          Sinatra enjoyed several romantic dates with Ava Gardner at this historic
-          gem on the Quai de la Tournelle in the 1950s, when it held three Michelin
-          stars. In her later years Gardner was known to visit alone and reminisce
-          with the waiting staff. It recently reopened after a major renovation and
-          remains one of the oldest restaurants in Paris, with views across the
-          Seine to Notre-Dame and a legendary numbered duck dish.
-        detail: Quai de la Tournelle, Paris.
-      - name: Hôtel de Paris
-        category: Sleep
-        status: Open
-        venueSlug: hotel-de-paris-monte-carlo
-        description: >-
-          When Sinatra was in town for Grace Kelly's annual Red Cross Ball, he
-          stayed here, one of the grandest hotels on the Riviera and still a
-          suitably lavish place to lay your head. In 1958 he performed at a
-          fundraiser at the nearby Sporting Club in Monaco, introduced by Noel
-          Coward and playing with the Quincy Jones Orchestra for the first time.
-        detail: Monte Carlo, Monaco. Rooms from around €500/night.
-  - region: Spain
-    intro: >-
-      Spain runs all the way through Sinatra's story with Ava Gardner, who made it
-      her home. He came to visit her on film sets, drank in her favourite Madrid
-      bars, and stayed with her in hotels along the Costa del Sol and beyond.
-    places:
-      - name: Hotel Pez Espada
-        category: Sleep
-        status: Open
-        description: >-
-          The hotel that set off the tourism explosion on the Costa del Sol in the
-          mid-1960s; when it opened in 1959 it was the only five-star hotel in the
-          area. Sinatra got into a fight in the hotel bar and had to pay a fine,
-          which is about as concise a summary of his personality as you'll find.
-          Now run by the MedPlaya group and renovated with a nod to its 1960s
-          heritage.
-        detail: >-
-          Torremolinos. Rooms from around €60/night, comfortably the cheapest
-          Sinatra hotel in this entire guide.
-      - name: InterContinental Madrid
-        category: Sleep
-        status: Open
-        description: >-
-          Formerly the Castellana Hilton, where Sinatra took up residence in April
-          1956 during outdoor shooting for The Pride and the Passion (co-starring
-          Cary Grant). He stayed here several times with Ava Gardner too. Still a
-          fine hotel in a prime location.
-        detail: Paseo de la Castellana, Madrid. Rooms from around €200/night.
-      - name: Chicote Cocktail Bar
-        category: Drink
-        status: Open
-        description: >-
-          One of Ava Gardner's favourite drinking places in Madrid, and she
-          brought Sinatra here several times. The bar earned a place in Ernest
-          Hemingway's short story The Denunciation, and remains one of the best
-          cocktail bars in the city, barely changed since the 1930s.
-        detail: Gran Via, Madrid. Cocktails from around €12.
-      - name: Hotel Diana
-        category: Sleep
-        status: Open
-        venueSlug: hotel-diana-tossa-de-mar
-        description: >-
-          Sinatra came to visit Ava on the set of Pandora and the Flying Dutchman
-          (1951) in Tossa del Mar, and they stayed together at Hotel Diana, still
-          a delightfully romantic boutique hotel by the beach.
-        detail: Tossa del Mar. Rooms from around €100/night in season.
-  - region: United Kingdom
-    intro: >-
-      Sinatra performed on stage in London many times throughout his career,
-      including at the iconic London Palladium with wife Ava Gardner watching from
-      the front row.
-    places:
-      - name: The Savoy
-        category: Sleep
-        status: Open
-        venueSlug: the-savoy-london
-        description: >-
-          Sinatra's hotel of choice in the English capital, on the Strand, which
-          remains one of the finest hotels in London and is worth a visit even if
-          you only come for a drink at the American Bar, widely considered one of
-          the best cocktail bars in the world. It was here that Mia Farrow later
-          revealed she and Frank had been watching The Saint in bed.
-        detail: >-
-          The Strand, London. Rooms from around £500/night; a martini at the
-          American Bar is considerably cheaper.
-      - name: Annabel's
-        category: Drink
-        status: Open
-        description: >-
-          Sinatra often lunched with Roger Moore at this exclusive club in Berkeley
-          Square. On one such occasion the two men took out Sinatra's new wife, Mia
-          Farrow, the kind of lunch you wish you could have been a fly on the wall
-          at.
-        detail: Berkeley Square, London. Members' club.
-  - region: Italy
-    intro: >-
-      Despite being the most famous Italian-American of his generation, Sinatra
-      didn't actually visit Italy until the early 1950s, when he and Ava Gardner
-      arrived at Villa d'Este on Lake Como, needing somewhere discreet to escape
-      the brewing scandal.
-    places:
-      - name: Villa d'Este
-        category: Sleep
-        status: Open
-        description: >-
-          A 16th-century cardinal's residence turned luxury hotel on the shores of
-          Lake Como. The staff offered the couple artichoke risotto at the formal
-          Verandah Restaurant, and from then on, whenever Sinatra returned, his
-          first stop was the Verandah and his first bite the artichoke risotto.
-          Still magnificent, with 25 acres of parkland and a famous floating pool
-          on the lake.
-        detail: >-
-          Lake Como. Rooms from around €500/night. Formal attire required at the
-          Verandah.
-      - name: Hotel Splendido
-        category: Sleep
-        status: Open
-        venueSlug: hotel-splendido
-        description: >-
-          Sinatra holidayed regularly in Portofino, staying at this former
-          Benedictine monastery (now Belmond) perched on the hillside above the
-          harbour. There's a lookout point on Mount Portofino named after him,
-          which gives you some idea of how often he visited. Its sister property,
-          Splendido Mare, has an Ava Gardner Suite.
-        detail: >-
-          Portofino. Rooms from around $2,000/night in season. Seasonal, open May
-          to November.
-  - region: Cairo
-    intro: >-
-      In September 1979, Sinatra stayed at the opulent Mena House Hotel in Cairo,
-      where he performed a charity concert in the shadow of the Pyramids.
-    places:
-      - name: Mena House Hotel
-        category: Sleep
-        status: Open
-        description: >-
-          Now a Marriott property, it retains its historic grandeur, with many
-          rooms and suites offering direct views of the Pyramids from their
-          balconies or terraces. It remains one of the most extraordinary hotel
-          locations in the world, the kind of place where you can eat breakfast
-          while staring at a 4,500-year-old wonder.
-        detail: Cairo, Egypt. Rooms from around $115/night.
-  - region: Kenya
-    intro: >-
-      Fairmont Mount Kenya Safari Club in Nanyuki has been a magnet for royalty,
-      millionaires and stars since its opening in 1959. It was founded by actor
-      William Holden, and hosted the Rat Pack among many other illustrious guests.
-    places:
-      - name: Mount Kenya Safari Club
-        category: Sleep
-        status: Open
-        venueSlug: mount-kenya-safari-club
-        description: >-
-          A glance at the sponsor wall still shows the names "Mr/Mrs Frank Sinatra"
-          among the donors. The Trophy Lounge is filled with starry images of past
-          visitors, including Grace Kelly, Ava Gardner, John Wayne and Marlon
-          Brando. The Fairmont group refurbished the entire property while
-          maintaining its historical polish. It sits on 120 acres in the foothills
-          of Mount Kenya, straddling the equator.
-        detail: >-
-          Nanyuki, Kenya. Rooms from around $250/night, including the distinction
-          of sleeping where the Rat Pack slept on safari.
-  - region: Australia
-    intro: >-
-      There are no Sinatra venues to visit in Australia, but the story of his 1974
-      tour is too entertaining to leave out of any Sinatra travel guide.
-    places:
-      - name: Festival Hall
-        category: See
-        status: Demolished
-        description: >-
-          Sinatra arrived in Melbourne in July 1974 and, irritated by reporters,
-          launched into a tirade from the stage of Festival Hall, calling the press
-          "parasites." The unions retaliated: the Transport Workers' Union refused
-          to refuel his jet, and Bob Hawke, future Prime Minister, warned he
-          wouldn't be allowed to leave "unless you can walk on water." A compromise
-          was reached and Frank caught his plane. "I made one mistake," he said
-          afterwards. "I got off the plane." Festival Hall was demolished in 2020.
-        detail: Melbourne. Demolished 2020.
-lifestyle:
-  - label: Drink like Frank
-    text: >-
-      His method was precise: three ice cubes, two fingers of Jack Daniel's, one
-      splash of water. He called it "the nectar of the gods" in 1955, a remark
-      that reportedly doubled sales of what had until then been a small regional
-      brand. When he wasn't drinking whiskey, he drank Bolla Soave wine.
-  - label: Smell like Frank
-    text: >-
-      His cologne of choice was Creed Bois du Portugal, a woody, refined scent
-      still available today. His fourth wife Barbara said that when she first met
-      him, he smelled of "lavender, Camels, and Jack Daniel's."
-  - label: Dress like Frank
-    text: >-
-      The lapels were always 2¼ inches wide. The suit was dark, the shirt white,
-      the tie slim, and the hat a black fedora tilted at exactly the angle that
-      said "I could not care less what you think of me" — which was, of course,
-      the precise opposite of the truth.
-  - label: Eat like Frank
-    text: >-
-      His tastes were simple Italian-American: Clams Posillipo, Veal Milanese,
-      Spaghetti and Clams, Chicken Piccata. His hamburger recipe, submitted to
-      Dinah Shore's 1967 celebrity cookbook, concludes: "Pour chilled bourbon in
-      chilled shot glass and serve meat and bourbon on a TV tray. Call Deano."
+keyDestinations:
+  - New York
+  - Atlantic City
+  - Chicago
+  - Las Vegas
+  - Los Angeles
+  - Palm Springs
+  - Miami
+  - Havana
+  - Monaco
 relatedStars:
   - ava-gardner
   - cary-grant
@@ -696,3 +49,693 @@ relatedVenues:
 relatedArticles:
   - swimming-pools-of-classic-hollywood
   - classic-movies-that-will-inspire-you-to-travel
+sections:
+  - heading: The King of Cool
+    copy: >-
+      Frank Sinatra has been one of the unsung heroes of travel marketing for
+      the best part of a century. If he patronised your establishment, it would
+      be forever sprinkled with showbiz stardust. Hotels, restaurants and bars
+      around the world sell their wares on a Sinatra connection, and with good
+      reason: he was the 20th century's undisputed King of Cool.
+
+
+      Sinatra and his Rat Pack immortalised Las Vegas in song and on film. He
+      sang about New York and Chicago being his kind of towns, and his movies
+      took fans all over the world, from Hawaii to Havana, Miami to Monaco.
+      Remarkably, many of the bars, restaurants and hotels where Sinatra ate,
+      drank and held court are still open today, some virtually unchanged since
+      he last walked through the door.
+
+
+      If you're looking for a holiday or a night out with a hint of retro cool,
+      ask yourself: where would Frank Sinatra go?
+regions:
+  - region: New York & New Jersey
+    intro: >-
+      "New York, New York, it's a wonderful town!" So sang Francis Albert
+      Sinatra in the 1949 musical On the Town. He was born in Hoboken, across
+      the water from Manhattan, and maintained a close connection to the city
+      throughout his life. More than anywhere else, New York is where you can
+      still walk in Sinatra's footsteps.
+    imageFocus: center
+    places:
+      - name: Patsy's
+        category: Eat
+        description: >-
+          The Italian restaurant on West 56th Street has been in the same family
+          since the 1940s and still hosts Sinatra's relatives. It was a home
+          from home for Frank, who was known to help in the kitchen and answer
+          the phones when they were busy. His favourite dishes were Clams
+          Posillipo, Chicken Piccata and Veal Cutlets.
+        detail: West 56th Street, New York. Mains $35–$50. Book online.
+        status: Open
+      - name: Russian Samovar (formerly Jilly's)
+        category: Drink
+        description: >-
+          Sinatra ate and drank at Jilly's three or four nights a week whenever
+          he was in town. Jilly's closed in the 1980s but reopened as Russian
+          Samovar on West 52nd Street — the interior is much the same, even the
+          wooden bar Frank propped up, with regular jazz and piano nights that
+          often include his music.
+        detail: West 52nd Street, New York. Successor to Sinatra's Jilly's.
+        status: Relocated
+      - name: P.J. Clarke's
+        category: Drink
+        description: >-
+          Virtually unchanged since it opened in 1884. Sinatra's table was
+          number 20, marked today with a photo of Ol' Blue Eyes. The burger is
+          famous, the martini is cold, and nobody has redecorated since
+          Eisenhower, which is exactly as it should be.
+        detail: Third Avenue, New York.
+        status: Open
+      - name: Birdland
+        category: Drink
+        description: >-
+          The Harlem jazz bar on West 44th Street was a favourite of Frank's,
+          and equally popular with his ex-wife Ava Gardner. It is still one of
+          the best jazz clubs in New York, with live music seven nights a week.
+        detail: West 44th Street, New York. Cover charge $20–$40.
+        status: Open
+      - name: 21 Club
+        category: Drink
+        description: >-
+          The former speakeasy on West 52nd Street was another regular haunt,
+          but it closed permanently in December 2020 after a 90-year run. The
+          building still stands and its famous iron jockey statues still line
+          the entrance, worth a look if you're walking between P.J. Clarke's and
+          Russian Samovar.
+        detail: West 52nd Street, New York. Closed 2020.
+        status: Closed
+      - name: Waldorf Astoria
+        category: Sleep
+        description: >-
+          Sinatra stayed in Cole Porter's favourite suite at the Waldorf
+          Astoria, which has recently reopened after a decade-long, $2 billion
+          renovation.
+        detail: Park Avenue, New York. Rooms from around $300/night.
+        status: Open
+      - name: Hoboken Walking Tour
+        category: Do
+        description: >-
+          The Hoboken Historical Museum has created a self-guided walking tour
+          of Frank's old neighbourhood, including the houses he lived in and the
+          church where he was baptised and married his first wife Nancy. Hoboken
+          is a 10-minute ferry ride from Midtown Manhattan.
+        detail: Hoboken, New Jersey. Combine with lunch at Leo's Grandezvous.
+        status: Open
+  - region: Atlantic City
+    intro: >-
+      Sinatra's Atlantic City story begins not at the glitzy casinos but at the
+      500 Club, a supper club run by racketeer Paul "Skinny" D'Amato, who taught
+      the young Frank how to hold a cigarette, tip big, and be cool. When
+      Sinatra returned in the mid-1950s as a newly minted Oscar winner, the
+      marquee simply read: "He's Back."
+    imageFocus: center
+    places:
+      - name: The 500 Club
+        category: See
+        description: >-
+          Known to regulars as "the Five," this was where Sinatra performed when
+          his career hit a lull in the late 1940s, doing all four shows and
+          waiving his fee as a favour to owner Skinny D'Amato. D'Amato also
+          paired Dean Martin and Jerry Lewis for the first time on his stage. It
+          burned down in an electrical fire in 1973 and was never rebuilt; a car
+          park now occupies the site, with a historical marker honouring D'Amato
+          nearby.
+        detail: >-
+          Site near Atlantic Avenue and 500 Club Lane, Atlantic City. Demolished
+          1973.
+        status: Demolished
+      - name: The Claridge
+        category: Sleep
+        description: >-
+          The Rat Pack performed regularly here, and a two-week party Sinatra
+          hosted at the hotel was later cited by the FBI as evidence of his mob
+          ties. Still open as an independent hotel, now connected to Bally's
+          casino next door. Faded but atmospheric, with a rooftop bar, The VÜE,
+          on the 23rd floor offering panoramic views of the boardwalk.
+        detail: >-
+          South Indiana Avenue, Atlantic City. Rooms from around $65/night, one
+          of the most affordable Sinatra sleeps on this list.
+        status: Open
+  - region: Chicago
+    intro: >-
+      "Chicago is my kind of town," sang Frank, and with good reason. He started
+      his career performing at the city's glamorous Empire Room at the Palmer
+      House Hotel, and returned throughout his life.
+    imageFocus: center
+    places:
+      - name: Green Mill
+        category: Drink
+        description: >-
+          Sinatra's favourite bar, an Art Deco jazz club on North Broadway in
+          Uptown that has been open since 1907 and looks like it hasn't
+          redecorated since Al Capone drank in the corner booth — because it
+          hasn't. Part of The Joker Is Wild (1957) was filmed here. Live jazz
+          seven nights a week, no reservations, no food, cash only. If you only
+          visit one Sinatra venue in Chicago, make it this one.
+        detail: >-
+          North Broadway, Chicago. Cash only. Closes at the precise time of
+          1:11am on weeknights.
+        status: Open
+      - name: Gene & Georgetti
+        category: Eat
+        description: >-
+          Sinatra's favourite restaurant, an Italian steakhouse founded in 1941
+          that still feels like walking into a 1950s power lunch. The kind of
+          place where the steaks are enormous, the martinis are cold, and nobody
+          has heard of a menu without red meat on it.
+        detail: North Franklin Street, Chicago. Steaks from around $50.
+        status: Open
+      - name: Twin Anchors
+        category: Eat
+        description: >-
+          A neighbourhood institution in Old Town, famous for its baby back ribs
+          since 1932. No-frills, no pretension, just very good ribs and a long
+          history of famous regulars, Sinatra among them.
+        detail: North Sedgwick Street, Chicago. Ribs from around $25.
+        status: Open
+  - region: Las Vegas
+    intro: >-
+      Las Vegas was Sinatra's town. Before Sinatra and the Rat Pack, Vegas was a
+      dusty desert gambling stop. After them, it was the entertainment capital
+      of the world.
+    imageFocus: center
+    places:
+      - name: The Sands
+        category: See
+        description: >-
+          Sinatra's legendary Vegas career started here, where he and the Rat
+          Pack staged a five-week residency in the Copa Room that became the
+          most talked-about engagement in entertainment history. After Howard
+          Hughes suspended his credit line, a furious Sinatra allegedly drove a
+          golf cart through one of the plate-glass windows. The Sands was
+          demolished in 1996 to make way for The Venetian.
+        detail: Site now The Venetian, Las Vegas Boulevard.
+        status: Demolished
+      - name: Golden Steer Steakhouse
+        category: Eat
+        description: >-
+          The oldest continually operating steakhouse in Las Vegas, open since
+          1958, and the single most essential Sinatra dining experience in the
+          city. His booth, number 22, marked with a brass plaque, can be
+          reserved. Tuxedoed servers, tableside Caesar salad, red leather
+          booths, and Sinatra on the speakers.
+        detail: West Sahara Avenue. Steaks from around $55. Open daily from 4:30pm.
+        status: Open
+      - name: Cleopatra's Barge, Caesars Palace
+        category: Drink
+        description: >-
+          A gold-trimmed replica Egyptian ship sitting inside the Caesars
+          casino, it became Sinatra's after-hours haunt; he was known to wander
+          over and give impromptu performances between the scheduled acts. It
+          still exists and still hosts live music.
+        detail: Caesars Palace, Las Vegas Strip.
+        status: Open
+      - name: Piero's Italian Cuisine
+        category: Eat
+        description: >-
+          Opened in 1982 and became a firm favourite with the Rat Pack in their
+          twilight years. It's also where Martin Scorsese filmed scenes for
+          Casino. Still open, still excellent, and still the kind of place where
+          you half-expect someone in a very expensive suit to tell you to keep
+          your voice down.
+        detail: Convention Center Drive, Las Vegas.
+        status: Open
+      - name: Atomic Liquors
+        category: Drink
+        description: >-
+          An off-Strip dive bar on Fremont Street that Sinatra frequented
+          precisely because it was working-class and anonymous, a place where he
+          could drink without being Frank Sinatra for an hour. Recently restored
+          but still no-frills.
+        detail: Fremont Street, Las Vegas. No dress code.
+        status: Open
+      - name: Caesars Palace
+        category: Sleep
+        description: >-
+          Where Sinatra headlined at the Circus Maximus throughout the 1970s and
+          80s after his dramatic exit from the Sands. When his gaming licence
+          was restored in 1981, Caesars hired him as an entertainment
+          consultant. The man didn't just stay here, he practically lived here.
+        detail: >-
+          Las Vegas Strip. Rooms from around $100/night midweek; resort fee
+          applies.
+        status: Open
+  - region: Los Angeles
+    intro: >-
+      Sinatra's Los Angeles wasn't the city of freeways and juice bars that it's
+      become. It was a city of dimly lit Italian restaurants, hotel bars where
+      nobody bothered you, and booths at the back of rooms where deals were done
+      over steaks and martinis. Remarkably, many of the places he frequented are
+      still open.
+    imageFocus: center
+    places:
+      - name: Musso & Frank
+        category: Eat
+        description: >-
+          Everyone who is anyone in Hollywood has eaten at Musso & Frank, and
+          Sinatra was no different. His booth was number 224, chosen for its
+          high walls that made it nearly impossible to see who was inside. Open
+          since 1919, the red-jacketed waiters still glide across the floor like
+          it's 1955, and the martini is routinely described as one of the best
+          in the world.
+        detail: >-
+          Hollywood Boulevard, Los Angeles. Steaks from around $62. Open Tuesday
+          to Sunday.
+        status: Open
+      - name: La Dolce Vita
+        category: Eat
+        description: >-
+          Sinatra didn't just eat here, he funded the restaurant. You can still
+          request his personal booth. The old-world Italian-American cooking is
+          rich, the ambiance gorgeous, and it feels exactly like the kind of
+          place where Frank would hold court over a plate of veal.
+        detail: Beverly Hills. Open Tuesday to Sunday for dinner.
+        status: Open
+      - name: Formosa Cafe
+        category: Drink
+        description: >-
+          Frank was a regular here, often seen drinking his troubles away during
+          his explosive marriage to Ava Gardner. The Formosa closed briefly but
+          has been beautifully restored; stepping inside genuinely feels like
+          walking into Old Hollywood, the ceilings lined with photos of the
+          stars who drank here and the original railroad car section still
+          intact.
+        detail: Santa Monica Boulevard, Los Angeles. Open daily from noon.
+        status: Open
+      - name: Beverly Hills Hotel
+        category: Sleep
+        venueSlug: beverly-hills-hotel
+        description: >-
+          The hotel has a Frank Sinatra Suite, inspired by the mid-century
+          design he loved. He and the Rat Pack spent many drunken nights at the
+          hotel's legendary Polo Lounge, still the power-lunch spot of choice
+          for Hollywood's upper echelons.
+        detail: Beverly Hills. Rooms from around $700/night; the suite costs more.
+        status: Open
+      - name: Sunset Tower Hotel
+        category: Sleep
+        description: >-
+          During his early years in LA, Sinatra lived here alongside other
+          celebrities including John Wayne and Howard Hughes. It has been
+          beautifully maintained and remains one of the most atmospheric hotels
+          in West Hollywood.
+        detail: West Hollywood. Rooms from around $400/night.
+        status: Open
+      - name: Grammy Museum
+        category: Do
+        description: >-
+          Visit the Sinatra: An American Icon exhibition downtown, which
+          includes serious memorabilia such as his iconic black fedora. Capitol
+          Records on Vine Street, where Sinatra recorded most of his music in
+          Studio A, and his star on the Hollywood Walk of Fame at 1600 Vine
+          Street are both nearby.
+        detail: >-
+          Downtown Los Angeles. Check the museum's website for current
+          exhibition schedules.
+        status: Open
+  - region: Palm Springs
+    intro: >-
+      When Frank hit the big time, he chose the desert city of Palm Springs to
+      put down roots, and it remained his home for nearly fifty years. This is
+      where you get closest to the private Sinatra, away from the stage and the
+      headlines.
+    imageFocus: center
+    places:
+      - name: Twin Palms
+        category: Do
+        venueSlug: sinatras-twin-palms
+        description: >-
+          In 1947 Sinatra commissioned architect E. Stewart Williams to design
+          his desert home. The result set the standard for mid-century glamour:
+          floor-to-ceiling glass and a piano-shaped pool off the living room. He
+          flew a Jack Daniel's banner between the two palms to signal cocktail
+          hour. Now a vacation rental through Natural Retreats, with group tours
+          available and public tours during Modernism Week.
+        detail: Movie Colony, Palm Springs. Rental from around $2,600/night.
+        status: Open
+      - name: Melvyn's at the Ingleside Inn
+        category: Eat
+        description: >-
+          One of the top places to dine in Palm Springs. Sinatra held his
+          pre-wedding lunch here in 1976, before marrying his fourth wife
+          Barbara. His corner table is still there, and you can still order
+          pepper steak prepared tableside, just as he did.
+        detail: West Ramon Road, Palm Springs.
+        status: Open
+      - name: Johnny Costa's Ristorante
+        category: Eat
+        description: >-
+          Serves Sinatra's favourite dishes, the Steak Sinatra and Linguine
+          Clams, still on the menu. Costa was the former sous chef at Patsy
+          D'Amore's Villa Capri in Los Angeles, and Sinatra loved his cooking so
+          much he effectively brought a piece of his favourite LA restaurant to
+          the desert.
+        detail: Palm Springs.
+        status: Open
+      - name: The Purple Room at Club Trinidad
+        category: See
+        description: >-
+          Built in 1960, this is where Sinatra proposed to his fourth and final
+          wife, Barbara. It still hosts cabaret stars and jazz of the kind Frank
+          would have heartily approved.
+        detail: Palm Springs. Check the schedule for upcoming shows.
+        status: Open
+  - region: Lake Tahoe
+    intro: >-
+      Sinatra co-owned the Cal-Neva Lodge at Crystal Bay on the
+      California–Nevada state line, a property steeped in Rat Pack lore and mob
+      connections that eventually cost him his Nevada gaming licence.
+    imageFocus: center
+    places:
+      - name: Cal-Neva Lodge
+        category: See
+        description: >-
+          Sinatra's lodge at Crystal Bay straddled the California–Nevada state
+          line. Marilyn Monroe spent one of her last weekends alive there. It
+          later burned down and has been through various redevelopment attempts;
+          as of 2026 the site is under development with no confirmed reopening
+          date, but the Crystal Bay shoreline is worth a visit in its own right.
+        detail: Crystal Bay, Lake Tahoe. Under development.
+        status: Closed
+  - region: Miami
+    intro: >-
+      Miami, and the iconic Fontainebleau Hotel, featured prominently in
+      Sinatra's life. The Rat Pack performed here regularly, he shot three
+      movies in the city, and it's where he allegedly first met crime boss Sam
+      Giancana in 1958, at least that's what he told the FBI.
+    imageFocus: center
+    places:
+      - name: Fontainebleau Hotel
+        category: Sleep
+        description: >-
+          The Rat Pack performed here regularly, and Sinatra shot three movies
+          in the city: A Hole in the Head, Tony Rome, and Lady in Cement. In
+          March 1960 he videotaped his ABC special Welcome Home Elvis here,
+          welcoming back Elvis Presley from military service to an audience of
+          50 million, the highest-rated television appearance of his entire
+          career. Still very much open, spanning 20 acres of oceanfront with
+          eleven pools, nine restaurants and a spa.
+        detail: >-
+          Miami Beach. Rooms from around $180/night in summer, above $400 in
+          season.
+        status: Open
+      - name: Cardozo Hotel
+        category: Sleep
+        description: >-
+          An Art Deco gem on Ocean Drive that featured in A Hole in the Head
+          (1959), still open and one of the prettiest buildings on South Beach.
+        detail: Ocean Drive, South Beach, Miami. Rooms from around $200/night.
+        status: Open
+  - region: Hawaii
+    intro: >-
+      Sinatra visited Hawaii many times for holidays, performances and filming.
+      From Here to Eternity (1954), in which he won the Best Supporting Actor
+      Oscar, was filmed here, as was None but the Brave (1965). In 1964, while
+      filming the latter, Sinatra had a near-death experience when he was struck
+      by a freak wave at Wailua Bay on Kauai and had to be rescued.
+    imageFocus: center
+    places:
+      - name: The Royal Hawaiian Hotel
+        category: Sleep
+        description: >-
+          A grand dame pink palace on Waikiki Beach that has been attracting
+          discerning travellers since the 1920s, Sinatra among them. The hotel's
+          signature colour and beachfront location make it one of the most
+          recognisable hotels in the Pacific.
+        detail: Waikiki Beach, Honolulu. Rooms from around $400/night.
+        status: Open
+      - name: The Kahala Hotel
+        category: Sleep
+        description: >-
+          Sinatra was also known to stay at this elegant, quieter and more
+          exclusive property on the east side of Diamond Head, which remains one
+          of Honolulu's most prestigious addresses.
+        detail: East of Diamond Head, Honolulu. Rooms from around $500/night.
+        status: Open
+  - region: Dominican Republic
+    intro: >-
+      Altos de Chavon is a place like no other: a replica 16th-century
+      Mediterranean village perched above the Chavon River in La Romana, built
+      entirely by hand by Dominican artisans under Italian master designer
+      Roberto Coppa.
+    imageFocus: center
+    places:
+      - name: Altos de Chavon Amphitheatre
+        category: See
+        description: >-
+          The centrepiece is a 5,000-seat Greek-style open-air amphitheatre,
+          inaugurated on 20 August 1982 with the Concert for the Americas,
+          featuring Sinatra alongside Buddy Rich, Heart and Carlos Santana, and
+          televised live by HBO. It remains one of the most atmospheric concert
+          venues in the Caribbean and still hosts major international acts.
+        detail: >-
+          Part of the Casa de Campo resort, La Romana. Entrance for non-guests
+          $50 per adult ($25 children). A popular day trip from Punta Cana or La
+          Romana.
+        status: Open
+  - region: Havana
+    intro: >-
+      Sinatra came to Havana twice, and both visits produced extraordinary
+      stories.
+    imageFocus: center
+    places:
+      - name: Hotel Nacional de Cuba
+        category: Sleep
+        venueSlug: hotel-nacional-de-cuba
+        description: >-
+          Sinatra's first visit in December 1946 coincided with the Havana
+          Conference, an infamous mob summit at the Nacional organised by Lucky
+          Luciano and Meyer Lansky; officially, Frank was just there for the
+          weather. He returned in 1951 on honeymoon with Ava Gardner. The hotel
+          is still open, a Cuban national monument, its hallways lined with
+          photographs of every famous guest, with free guided tours and a
+          nightly cabaret.
+        detail: Havana, Cuba. Rooms from around $150/night.
+        status: Open
+  - region: France & Monaco
+    intro: >-
+      It is well known that Sinatra hated fancy restaurants, preferring
+      mom-and-pop diners and little Italian steakhouses, but he made an
+      exception for the Riviera. He visited his old friend Grace Kelly in the
+      South of France for her annual Red Cross Ball, and stayed at the grandest
+      hotel in Monaco.
+    imageFocus: center
+    places:
+      - name: Tour d'Argent
+        category: Eat
+        description: >-
+          Sinatra enjoyed several romantic dates with Ava Gardner at this
+          historic gem on the Quai de la Tournelle in the 1950s, when it held
+          three Michelin stars. In her later years Gardner was known to visit
+          alone and reminisce with the waiting staff. It recently reopened after
+          a major renovation and remains one of the oldest restaurants in Paris,
+          with views across the Seine to Notre-Dame and a legendary numbered
+          duck dish.
+        detail: Quai de la Tournelle, Paris.
+        status: Open
+      - name: Hôtel de Paris
+        category: Sleep
+        venueSlug: hotel-de-paris-monte-carlo
+        description: >-
+          When Sinatra was in town for Grace Kelly's annual Red Cross Ball, he
+          stayed here, one of the grandest hotels on the Riviera and still a
+          suitably lavish place to lay your head. In 1958 he performed at a
+          fundraiser at the nearby Sporting Club in Monaco, introduced by Noel
+          Coward and playing with the Quincy Jones Orchestra for the first time.
+        detail: Monte Carlo, Monaco. Rooms from around €500/night.
+        status: Open
+  - region: Spain
+    intro: >-
+      Spain runs all the way through Sinatra's story with Ava Gardner, who made
+      it her home. He came to visit her on film sets, drank in her favourite
+      Madrid bars, and stayed with her in hotels along the Costa del Sol and
+      beyond.
+    imageFocus: center
+    places:
+      - name: Hotel Pez Espada
+        category: Sleep
+        description: >-
+          The hotel that set off the tourism explosion on the Costa del Sol in
+          the mid-1960s; when it opened in 1959 it was the only five-star hotel
+          in the area. Sinatra got into a fight in the hotel bar and had to pay
+          a fine, which is about as concise a summary of his personality as
+          you'll find. Now run by the MedPlaya group and renovated with a nod to
+          its 1960s heritage.
+        detail: >-
+          Torremolinos. Rooms from around €60/night, comfortably the cheapest
+          Sinatra hotel in this entire guide.
+        status: Open
+      - name: InterContinental Madrid
+        category: Sleep
+        description: >-
+          Formerly the Castellana Hilton, where Sinatra took up residence in
+          April 1956 during outdoor shooting for The Pride and the Passion
+          (co-starring Cary Grant). He stayed here several times with Ava
+          Gardner too. Still a fine hotel in a prime location.
+        detail: Paseo de la Castellana, Madrid. Rooms from around €200/night.
+        status: Open
+      - name: Chicote Cocktail Bar
+        category: Drink
+        description: >-
+          One of Ava Gardner's favourite drinking places in Madrid, and she
+          brought Sinatra here several times. The bar earned a place in Ernest
+          Hemingway's short story The Denunciation, and remains one of the best
+          cocktail bars in the city, barely changed since the 1930s.
+        detail: Gran Via, Madrid. Cocktails from around €12.
+        status: Open
+      - name: Hotel Diana
+        category: Sleep
+        venueSlug: hotel-diana-tossa-de-mar
+        description: >-
+          Sinatra came to visit Ava on the set of Pandora and the Flying
+          Dutchman (1951) in Tossa del Mar, and they stayed together at Hotel
+          Diana, still a delightfully romantic boutique hotel by the beach.
+        detail: Tossa del Mar. Rooms from around €100/night in season.
+        status: Open
+  - region: United Kingdom
+    intro: >-
+      Sinatra performed on stage in London many times throughout his career,
+      including at the iconic London Palladium with wife Ava Gardner watching
+      from the front row.
+    imageFocus: center
+    places:
+      - name: The Savoy
+        category: Sleep
+        venueSlug: the-savoy-london
+        description: >-
+          Sinatra's hotel of choice in the English capital, on the Strand, which
+          remains one of the finest hotels in London and is worth a visit even
+          if you only come for a drink at the American Bar, widely considered
+          one of the best cocktail bars in the world. It was here that Mia
+          Farrow later revealed she and Frank had been watching The Saint in
+          bed.
+        detail: >-
+          The Strand, London. Rooms from around £500/night; a martini at the
+          American Bar is considerably cheaper.
+        status: Open
+      - name: Annabel's
+        category: Drink
+        description: >-
+          Sinatra often lunched with Roger Moore at this exclusive club in
+          Berkeley Square. On one such occasion the two men took out Sinatra's
+          new wife, Mia Farrow, the kind of lunch you wish you could have been a
+          fly on the wall at.
+        detail: Berkeley Square, London. Members' club.
+        status: Open
+  - region: Italy
+    intro: >-
+      Despite being the most famous Italian-American of his generation, Sinatra
+      didn't actually visit Italy until the early 1950s, when he and Ava Gardner
+      arrived at Villa d'Este on Lake Como, needing somewhere discreet to escape
+      the brewing scandal.
+    imageFocus: center
+    places:
+      - name: Villa d'Este
+        category: Sleep
+        description: >-
+          A 16th-century cardinal's residence turned luxury hotel on the shores
+          of Lake Como. The staff offered the couple artichoke risotto at the
+          formal Verandah Restaurant, and from then on, whenever Sinatra
+          returned, his first stop was the Verandah and his first bite the
+          artichoke risotto. Still magnificent, with 25 acres of parkland and a
+          famous floating pool on the lake.
+        detail: >-
+          Lake Como. Rooms from around €500/night. Formal attire required at the
+          Verandah.
+        status: Open
+      - name: Hotel Splendido
+        category: Sleep
+        venueSlug: hotel-splendido
+        description: >-
+          Sinatra holidayed regularly in Portofino, staying at this former
+          Benedictine monastery (now Belmond) perched on the hillside above the
+          harbour. There's a lookout point on Mount Portofino named after him,
+          which gives you some idea of how often he visited. Its sister
+          property, Splendido Mare, has an Ava Gardner Suite.
+        detail: >-
+          Portofino. Rooms from around $2,000/night in season. Seasonal, open
+          May to November.
+        status: Open
+  - region: Cairo
+    intro: >-
+      In September 1979, Sinatra stayed at the opulent Mena House Hotel in
+      Cairo, where he performed a charity concert in the shadow of the Pyramids.
+    imageFocus: center
+    places:
+      - name: Mena House Hotel
+        category: Sleep
+        description: >-
+          Now a Marriott property, it retains its historic grandeur, with many
+          rooms and suites offering direct views of the Pyramids from their
+          balconies or terraces. It remains one of the most extraordinary hotel
+          locations in the world, the kind of place where you can eat breakfast
+          while staring at a 4,500-year-old wonder.
+        detail: Cairo, Egypt. Rooms from around $115/night.
+        status: Open
+  - region: Kenya
+    intro: >-
+      Fairmont Mount Kenya Safari Club in Nanyuki has been a magnet for royalty,
+      millionaires and stars since its opening in 1959. It was founded by actor
+      William Holden, and hosted the Rat Pack among many other illustrious
+      guests.
+    imageFocus: center
+    places:
+      - name: Mount Kenya Safari Club
+        category: Sleep
+        venueSlug: mount-kenya-safari-club
+        description: >-
+          A glance at the sponsor wall still shows the names "Mr/Mrs Frank
+          Sinatra" among the donors. The Trophy Lounge is filled with starry
+          images of past visitors, including Grace Kelly, Ava Gardner, John
+          Wayne and Marlon Brando. The Fairmont group refurbished the entire
+          property while maintaining its historical polish. It sits on 120 acres
+          in the foothills of Mount Kenya, straddling the equator.
+        detail: >-
+          Nanyuki, Kenya. Rooms from around $250/night, including the
+          distinction of sleeping where the Rat Pack slept on safari.
+        status: Open
+  - region: Australia
+    intro: >-
+      There are no Sinatra venues to visit in Australia, but the story of his
+      1974 tour is too entertaining to leave out of any Sinatra travel guide.
+    imageFocus: center
+    places:
+      - name: Festival Hall
+        category: See
+        description: >-
+          Sinatra arrived in Melbourne in July 1974 and, irritated by reporters,
+          launched into a tirade from the stage of Festival Hall, calling the
+          press "parasites." The unions retaliated: the Transport Workers' Union
+          refused to refuel his jet, and Bob Hawke, future Prime Minister,
+          warned he wouldn't be allowed to leave "unless you can walk on water."
+          A compromise was reached and Frank caught his plane. "I made one
+          mistake," he said afterwards. "I got off the plane." Festival Hall was
+          demolished in 2020.
+        detail: Melbourne. Demolished 2020.
+        status: Demolished
+lifestyle:
+  - label: Drink like Frank
+    text: >-
+      His method was precise: three ice cubes, two fingers of Jack Daniel's, one
+      splash of water. He called it "the nectar of the gods" in 1955, a remark
+      that reportedly doubled sales of what had until then been a small regional
+      brand. When he wasn't drinking whiskey, he drank Bolla Soave wine.
+  - label: Smell like Frank
+    text: >-
+      His cologne of choice was Creed Bois du Portugal, a woody, refined scent
+      still available today. His fourth wife Barbara said that when she first
+      met him, he smelled of "lavender, Camels, and Jack Daniel's."
+  - label: Dress like Frank
+    text: >-
+      The lapels were always 2¼ inches wide. The suit was dark, the shirt white,
+      the tie slim, and the hat a black fedora tilted at exactly the angle that
+      said "I could not care less what you think of me" — which was, of course,
+      the precise opposite of the truth.
+  - label: Eat like Frank
+    text: >-
+      His tastes were simple Italian-American: Clams Posillipo, Veal Milanese,
+      Spaghetti and Clams, Chicken Piccata. His hamburger recipe, submitted to
+      Dinah Shore's 1967 celebrity cookbook, concludes: "Pour chilled bourbon in
+      chilled shot glass and serve meat and bourbon on a TV tray. Call Deano."
