@@ -19,6 +19,7 @@ interface Props {
   deathYear?: number;
   portraitImage?: string;
   portraitFocus?: string;
+  portraitCredit?: string;
   heroImage?: string;
   excerpt?: string;
   keyFilms?: { title: string; year?: string }[];
@@ -58,6 +59,9 @@ const sections = props.sections || [];
             <img src={props.portraitImage} alt={props.name} class="w-full h-full object-cover filter grayscale contrast-125 group-hover:sepia-[.4] transition-all duration-700" style={`object-position: ${props.portraitFocus || 'top'}`} />
           )}
           <div class="absolute inset-0 bg-gradient-to-t from-[#1a2b4c]/80 to-transparent md:hidden"></div>
+          {props.portraitCredit && (
+            <span class="absolute bottom-2 right-3 z-10 font-typewriter text-[10px] text-[#fceeb5]/60">Photo: {props.portraitCredit}</span>
+          )}
         </div>
 
         <!-- Name Right -->

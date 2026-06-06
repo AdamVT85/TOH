@@ -18,6 +18,7 @@ interface Props {
   region?: string;
   heroImage?: string;
   heroImageAlt?: string;
+  heroImageCredit?: string;
   excerpt?: string;
   passportStamps?: { city: string; detail?: string; date?: string }[];
   sections?: Section[];
@@ -50,6 +51,9 @@ const stampPositions = [
           <img src={props.heroImage} alt={props.heroImageAlt || props.title} class="w-full h-full object-cover filter contrast-125 sepia-[.3]" />
         )}
         <div class="absolute inset-0 bg-gradient-to-t from-[#1a2b4c] via-[#1a2b4c]/40 to-transparent opacity-90"></div>
+        {props.heroImageCredit && (
+          <span class="absolute bottom-2 right-3 z-20 font-typewriter text-[10px] text-[#fceeb5]/60">Photo: {props.heroImageCredit}</span>
+        )}
 
         <!-- Passport Stamps -->
         {(props.passportStamps || []).map((stamp, i) => {

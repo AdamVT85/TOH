@@ -21,6 +21,7 @@ interface Props {
   heroImage?: string;
   heroImageAlt?: string;
   heroImageFocus?: string;
+  heroImageCredit?: string;
   publishDate?: string;
   excerpt?: string;
   watchList?: { title: string; year: string; image?: string }[];
@@ -35,6 +36,7 @@ const {
   heroImage,
   heroImageAlt,
   heroImageFocus,
+  heroImageCredit,
   publishDate,
   excerpt,
   watchList = [],
@@ -60,6 +62,9 @@ const {
           />
         )}
         <div class="absolute inset-0 bg-gradient-to-t from-[#1a2b4c] via-[#1a2b4c]/40 to-transparent opacity-90"></div>
+        {heroImageCredit && (
+          <span class="absolute bottom-2 right-3 z-20 font-typewriter text-[10px] text-[#fceeb5]/60">Photo: {heroImageCredit}</span>
+        )}
 
         {seriesLabel && (
           <div class="absolute top-8 right-8 bg-[#c13a3a] text-[#fceeb5] font-oswald uppercase tracking-[0.2em] px-4 py-2 text-xs md:text-sm border-2 border-[#fceeb5] shadow-[4px_4px_0px_rgba(0,0,0,0.5)] transform rotate-2 z-20">

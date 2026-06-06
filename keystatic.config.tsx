@@ -44,6 +44,7 @@ export default config({
         }),
         heroImageAlt: fields.text({ label: 'Hero Image Alt Text' }),
         heroImageFocus: focalPoint('top'),
+        heroImageCredit: fields.text({ label: 'Hero Image Credit', description: 'Photographer / source + licence (required for CC images).' }),
         publishDate: fields.date({ label: 'Publish Date' }),
         updatedDate: fields.date({ label: 'Last Updated' }),
         excerpt: fields.text({
@@ -135,6 +136,7 @@ export default config({
           publicPath: '/images/stars/',
         }),
         portraitFocus: focalPoint('top'),
+        portraitCredit: fields.text({ label: 'Portrait Image Credit', description: 'Photographer / source + licence (required for CC images).' }),
         heroImage: fields.image({
           label: 'Hero Background Image',
           directory: 'public/images/stars',
@@ -321,6 +323,7 @@ export default config({
         }),
         heroImageAlt: fields.text({ label: 'Hero Image Alt Text' }),
         heroImageFocus: focalPoint('top'),
+        heroImageCredit: fields.text({ label: 'Hero Image Credit', description: 'Photographer / source + licence (required for CC images).' }),
         excerpt: fields.text({ label: 'Excerpt / Meta Description', multiline: true }),
         pullQuote: fields.text({
           label: 'Pull Quote (optional)',
@@ -579,6 +582,7 @@ export default config({
           publicPath: '/images/destinations/',
         }),
         heroImageAlt: fields.text({ label: 'Hero Image Alt Text' }),
+        heroImageCredit: fields.text({ label: 'Hero Image Credit', description: 'Photographer / source + licence (required for CC images).' }),
         excerpt: fields.text({ label: 'Excerpt / Meta Description', multiline: true }),
         publishDate: fields.date({ label: 'Publish Date' }),
         updatedDate: fields.date({ label: 'Last Updated' }),

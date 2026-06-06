@@ -10,6 +10,7 @@ interface Props {
   heroImage?: string;
   heroImageAlt?: string;
   heroImageFocus?: string;
+  heroImageCredit?: string;
   established?: string;
   cityCountry?: string;
   priceIndicator?: string;
@@ -64,6 +65,9 @@ const sections = props.sections || [];
           />
         )}
         <div class="absolute inset-0 bg-gradient-to-t from-[#1a2b4c] via-[#1a2b4c]/40 to-transparent"></div>
+        {props.heroImageCredit && (
+          <span class="absolute bottom-2 right-3 z-40 font-typewriter text-[10px] text-[#fceeb5]/60">Photo: {props.heroImageCredit}</span>
+        )}
       </div>
 
       <div class="absolute top-6 left-6 z-50">
