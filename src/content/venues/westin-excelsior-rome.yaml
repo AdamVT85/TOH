@@ -20,6 +20,8 @@ pullQuote: The "magnificent white palace on Via Veneto" was ground zero for the 
 pullQuoteAttribution: Travel Old Hollywood
 gallery: []
 whoCameHere:
+  - name: Joan Crawford
+    starGuideSlug: joan-crawford
   - name: Ava Gardner
     starGuideSlug: ava-gardner
   - name: Frank Sinatra

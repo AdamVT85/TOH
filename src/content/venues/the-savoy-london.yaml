@@ -22,6 +22,8 @@ pullQuote: >-
 pullQuoteAttribution: The Old Hollywood Guide to London
 gallery: []
 whoCameHere:
+  - name: Joan Crawford
+    starGuideSlug: joan-crawford
   - name: Ava Gardner
     starGuideSlug: ava-gardner
   - name: Frank Sinatra

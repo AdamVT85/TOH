@@ -22,6 +22,8 @@ pullQuote: >-
 pullQuoteAttribution: Travel Old Hollywood
 gallery: []
 whoCameHere:
+  - name: Joan Crawford
+    starGuideSlug: joan-crawford
   - name: Elizabeth Taylor
     starGuideSlug: elizabeth-taylor
   - name: Frank Sinatra

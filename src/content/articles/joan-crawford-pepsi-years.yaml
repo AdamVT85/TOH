@@ -232,6 +232,7 @@ sections:
       travel, as she did, like a star of the first magnitude. Pack accordingly.
       The case of Pepsi is optional. 
 destinationTags: []
-relatedStars: []
+relatedStars:
+  - joan-crawford
 relatedVenues: []
 relatedArticles: []

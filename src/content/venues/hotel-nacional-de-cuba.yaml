@@ -22,6 +22,8 @@ pullQuote: >-
 pullQuoteAttribution: Swimming Pools of Classic Hollywood
 gallery: []
 whoCameHere:
+  - name: Joan Crawford
+    starGuideSlug: joan-crawford
   - name: Frank Sinatra
     starGuideSlug: frank-sinatra
   - name: Ava Gardner

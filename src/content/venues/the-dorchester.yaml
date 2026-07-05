@@ -19,6 +19,8 @@ pullQuote: The ninety-year-old Dorchester Hotel on Park Lane was, without questi
 pullQuoteAttribution: The Ultimate Elizabeth Taylor Travel Guide
 gallery: []
 whoCameHere:
+  - name: Joan Crawford
+    starGuideSlug: joan-crawford
   - name: Elizabeth Taylor
     starGuideSlug: elizabeth-taylor
   - name: Richard Burton
