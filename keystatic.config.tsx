@@ -218,6 +218,10 @@ export default config({
             itemLabel: (props) => props.fields.heading.value || 'New Section',
           }
         ),
+        trailSubtitle: fields.text({
+          label: 'Trail Subtitle',
+          description: 'The line under "The Trail" heading, e.g. "Where to walk in her footsteps". Leave blank for "Where to walk in their footsteps".',
+        }),
         regions: fields.array(
           fields.object({
             region: fields.text({ label: 'Region / City' }),
