@@ -5,6 +5,7 @@ import StarRating from '../components/StarRating.astro';
 import AffiliateDisclosure from '../components/AffiliateDisclosure.astro';
 import { goUrl, hasAffiliateLink } from '../lib/affiliates.js';
 import RichText from '../components/RichText.astro';
+import { hasRichText } from '../lib/richtext.js';
 
 type RichValue = { node: any } | null;
 
@@ -169,7 +170,7 @@ const bookHref = affiliateActive && props.slug ? goUrl(props.slug, `/venues/${pr
 
                 <RichText content={section.copy} />
 
-                {section.callout && (
+                {hasRichText(section.callout) && (
                   <blockquote class="my-10 border-l-4 border-[#c13a3a] pl-6 py-4 bg-[#f4e4bc]/50 italic font-serif text-2xl text-[#8b5a2b] relative shadow-sm flow-root">
                     <span class="absolute -top-6 -left-4 font-anton text-8xl text-[#c13a3a] opacity-20">"</span>
                     <RichText content={section.callout} class="[&_p:last-child]:mb-0" />
@@ -231,7 +232,7 @@ const bookHref = affiliateActive && props.slug ? goUrl(props.slug, `/venues/${pr
         )}
 
         <!-- What's There Now (closed venues) -->
-        {isClosed && props.whatsThereNow && (
+        {isClosed && hasRichText(props.whatsThereNow) && (
           <section class="mb-16 bg-[#1a2b4c]/5 border-l-4 border-[#1a2b4c] p-6 md:p-8">
             <h2 class="font-serif text-3xl text-[#1a2b4c] mb-4">What's There Now?</h2>
             <RichText content={props.whatsThereNow} class="font-sans text-[#2b3a55] [&_p:last-child]:mb-0" />
@@ -317,11 +318,11 @@ const bookHref = affiliateActive && props.slug ? goUrl(props.slug, `/venues/${pr
               )}
             </div>
 
-            {(props.dressCode || props.bestTimeToVisit || props.tips || props.howToBook || props.accessibilityNotes) && (
+            {(props.dressCode || props.bestTimeToVisit || hasRichText(props.tips) || hasRichText(props.howToBook) || props.accessibilityNotes) && (
               <div class="space-y-2 mb-8">
                 <h4 class="font-oswald text-xs tracking-widest uppercase text-[#8b5a2b] mb-2">Good to Know</h4>
                 <ul class="space-y-2 font-sans text-sm text-[#2b3a55]">
-                  {props.howToBook && (
+                  {hasRichText(props.howToBook) && (
                     <li class="[&_a]:text-[#c13a3a] [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-[#1a2b4c] [&_a]:transition-colors">
                       <strong>How to Book:</strong> <RichText inline content={props.howToBook} />
                     </li>
@@ -329,7 +330,7 @@ const bookHref = affiliateActive && props.slug ? goUrl(props.slug, `/venues/${pr
                   {props.dressCode && <li><strong>Dress Code:</strong> {props.dressCode}</li>}
                   {props.bestTimeToVisit && <li><strong>Best Time:</strong> {props.bestTimeToVisit}</li>}
                   {props.accessibilityNotes && <li><strong>Accessibility:</strong> {props.accessibilityNotes}</li>}
-                  {props.tips && <li><strong>Tip:</strong> <RichText inline content={props.tips} /></li>}
+                  {hasRichText(props.tips) && <li><strong>Tip:</strong> <RichText inline content={props.tips} /></li>}
                 </ul>
               </div>
             )}
