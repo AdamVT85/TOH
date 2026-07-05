@@ -1,12 +1,12 @@
 title: Joan Crawford's Pepsi Years
 subtitle: >-
-  From a girl who couldn't afford the bus fare to Pepsi's globe-trotting First
+  From a girl who couldn't afford the bus fare, to Pepsi's globe-trotting First
   Lady. Twenty years, 100,000 miles, and fifteen suitcases (at least)
 heroImage: /images/articles/joan-crawford-pepsi-years/heroImage.png
 heroImageAlt: >-
   Joan Crawford in a 1939 studio publicity portrait, classic Old Hollywood
   glamour headshot
-heroImageFocus: top
+heroImageFocus: center
 heroImageCredit: Public domain via Wikimedia Commons
 publishDate: 2026-07-05
 updatedDate: 2026-07-05
@@ -27,17 +27,6 @@ watchList:
     year: '1932'
     image: /images/articles/joan-crawford-pepsi-years/watchList/3/image.jpg
 sections:
-  - imageFocus: center
-    copy: >-
-      In the poverty-stricken early days she could not afford the fare. Then she
-      married the president of Pepsi-Cola and spent twenty years crossing the
-      globe on the company's dime, from Baghdad and the Belgian Congo to Kenya
-      and Cape Town. Fifteen suitcases in tow (at least), a Pinkerton guard at
-      the door, a case of Pepsi chilling in the suite. The girl who once
-      couldn't scrape together a bus fare now travelled like the crowned head of
-      a small and extremely glamorous nation. Here
-
-      is where Joan went, and how you can follow her.
   - imageFocus: center
     copy: >-
       Darling, Joan. Few actresses ever worked harder to become a star, and then
@@ -77,7 +66,7 @@ sections:
       levels," Steele told Time in 1957, "Crawford is fabulous." Here is where
       Joan went, and how you can follow her.
   - heading: Elope at the Flamingo, Las Vegas
-    image: /images/articles/joan-crawford-pepsi-years/sections/2/image.jpg
+    image: /images/articles/joan-crawford-pepsi-years/sections/1/image.jpg
     imageAlt: Vintage linen postcard of the Flamingo hotel on the Las Vegas Strip, 1950s
     imageFocus: center
     caption: >-
@@ -91,7 +80,7 @@ sections:
       Strip, and a room there remains the most Joan Crawford way to begin a Las
       Vegas weekend.
   - heading: Honeymoon in Rome, dine in Paris
-    image: /images/articles/joan-crawford-pepsi-years/sections/3/image.jpg
+    image: /images/articles/joan-crawford-pepsi-years/sections/2/image.jpg
     imageFocus: center
     caption: >-
       By Ricardalovesmonuments - Own work, CC BY-SA 4.0,
@@ -109,7 +98,7 @@ sections:
       addresses in the city, and still crowned by a rooftop restaurant with one
       of the finest views in Rome.
   - heading: Go on safari like a movie queen
-    image: /images/articles/joan-crawford-pepsi-years/sections/4/image.jpeg
+    image: /images/articles/joan-crawford-pepsi-years/sections/3/image.jpeg
     imageAlt: Treetops lodge raised among the trees of Kenya's Aberdare forest
     imageFocus: center
     caption: >-
@@ -134,7 +123,7 @@ sections:
       "Way out there in the wilderness, it's one of the
       most luxurious places in the world."
   - heading: Take afternoon tea at the Pink Lady, Cape Town
-    image: /images/articles/joan-crawford-pepsi-years/sections/5/image.jpg
+    image: /images/articles/joan-crawford-pepsi-years/sections/4/image.jpg
     imageAlt: Grand entrance to the pink-painted Mount Nelson Hotel in Cape Town
     imageFocus: center
     caption: >-
@@ -147,7 +136,7 @@ sections:
       served under the palms, is an institution in its own right, and the most
       gracious way imaginable to spend a Cape Town afternoon exactly as she did.
   - heading: Check into the grand hotels of the American tour
-    image: /images/articles/joan-crawford-pepsi-years/sections/6/image.jpg
+    image: /images/articles/joan-crawford-pepsi-years/sections/5/image.jpg
     imageAlt: The Fairmont Hotel exterior atop Nob Hill, San Francisco
     imageFocus: center
     caption: >-
@@ -167,7 +156,7 @@ sections:
       beautifully restored in 2009. Any one of them will put you in a suite
       worthy of Joan's rider.
   - heading: Time an Italian summer around the Giro
-    image: /images/articles/joan-crawford-pepsi-years/sections/7/image.jpeg
+    image: /images/articles/joan-crawford-pepsi-years/sections/6/image.jpeg
     imageAlt: The neoclassical facade of the Hotel Principe di Savoia in Milan
     imageFocus: center
     caption: >-
@@ -185,7 +174,7 @@ sections:
 
       approved of.
   - heading: Where you can't follow her
-    image: /images/articles/joan-crawford-pepsi-years/sections/8/image.jpg
+    image: /images/articles/joan-crawford-pepsi-years/sections/7/image.jpg
     imageAlt: View of the Beirut coastline from the American College, 1940s
     imageFocus: center
     caption: >-
