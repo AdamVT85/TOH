@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const lastUpdated = '9 June 2026';
+---
+
+<BaseLayout
+  title="Affiliate Disclosure"
+  description="How Travel Old Hollywood is funded: our use of affiliate links, our editorial independence, and what it means for you."
+>
+  <div class="min-h-screen bg-[#fdfbf2] text-[#1a2b4c] p-4 md:p-12 font-sans" style="background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png')">
+    <div class="max-w-3xl mx-auto border-[12px] border-double border-[#1a2b4c] p-6 md:p-16 bg-[#fdfbf2] shadow-2xl relative">
+
+      <Header backLink="/" backLabel="Return to Lobby" variant="light" />
+
+      <div class="text-center mb-12 mt-8">
+        <p class="font-oswald uppercase tracking-[0.3em] text-sm mb-4 text-[#8b5a2b]">The Honest Print</p>
+        <h1 class="font-anton text-4xl md:text-6xl tracking-wide uppercase mb-4 text-[#1a2b4c]">Affiliate Disclosure</h1>
+        <div class="flex items-center justify-center gap-4">
+          <div class="h-px w-12 bg-[#1a2b4c]"></div>
+          <span class="font-typewriter text-sm text-[#8b5a2b]">Last updated: {lastUpdated}</span>
+          <div class="h-px w-12 bg-[#1a2b4c]"></div>
+        </div>
+      </div>
+
+      <!-- The short version -->
+      <div class="bg-[#f4e4bc] border-2 border-[#d4b872] p-6 md:p-8 mb-10 shadow-[6px_6px_0px_rgba(26,43,76,0.15)]">
+        <p class="font-serif text-xl md:text-2xl text-[#1a2b4c] leading-snug">
+          Travel Old Hollywood is reader-supported. Some of our links are affiliate links — if you book a stay,
+          reserve an experience, or buy something through them, we may earn a small commission.
+          <strong>It costs you nothing extra, and it never changes what we choose to feature or what we say about it.</strong>
+        </p>
+      </div>
+
+      <div class="space-y-8 font-sans text-base md:text-lg leading-relaxed text-[#2b3a55] [&_h2]:font-serif [&_h2]:text-2xl [&_h2]:md:text-3xl [&_h2]:text-[#1a2b4c] [&_h2]:mt-2 [&_h2]:mb-3 [&_a]:text-[#c13a3a] [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-[#1a2b4c]">
+
+        <section>
+          <h2>What an affiliate link is</h2>
+          <p>
+            An affiliate link is a special link to a partner — a hotel-booking platform, an experience or
+            tour provider, a car-hire site, or a retailer. If you click through and go on to book or buy,
+            the partner pays us a small commission for the referral. The price you pay is exactly the same
+            as it would be if you went there directly.
+          </p>
+        </section>
+
+        <section>
+          <h2>Our promise</h2>
+          <p>
+            We write about the hotels, restaurants, landmarks and destinations of classic Hollywood because
+            they are part of the story — not because they pay us. Commission never decides what we cover or
+            shapes our opinion of it, we don't accept payment in exchange for favourable write-ups, and we
+            link to plenty of places that earn us nothing at all (and always will, where they're worth your time).
+          </p>
+        </section>
+
+        <section>
+          <h2>How we label affiliate links</h2>
+          <p>
+            Where a page contains affiliate links, we tell you clearly and upfront — with an
+            <span class="inline-flex items-center font-oswald text-[11px] tracking-widest uppercase border border-[#8b5a2b] text-[#8b5a2b] px-1.5 py-0.5 leading-none mx-1 align-middle">Ad</span>
+            marker and a short note placed near the link itself, not buried at the bottom of the page. This follows
+            the UK Advertising Standards Authority's CAP Code and the US Federal Trade Commission's endorsement
+            guidance, so you always know when a link can earn us a commission before you click it.
+          </p>
+        </section>
+
+        <section>
+          <h2>Who we partner with</h2>
+          <p>
+            Our partners include travel-booking platforms and networks such as Booking.com (via Travelpayouts),
+            experience providers like GetYourGuide and Viator, car-hire and travel-service providers such as
+            DiscoverCars and Airalo, retail programmes including Amazon Associates, and affiliate networks such as
+            Awin. This list grows and changes over time. Each partner has its own privacy practices governing any
+            data collected when you click through — see our <a href="/privacy">Privacy Policy</a> for more.
+          </p>
+        </section>
+
+        <section>
+          <h2>Questions</h2>
+          <p>
+            If anything here is unclear, or you'd like to know whether a particular link is an affiliate link,
+            email us at <a href="mailto:adam@vintagetravel.co.uk">adam@vintagetravel.co.uk</a>. We're happy to explain.
+          </p>
+        </section>
+
+      </div>
+
+    </div>
+  </div>
+  <Footer />
+</BaseLayout>

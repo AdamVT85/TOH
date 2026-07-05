@@ -1,0 +1,124 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const lastUpdated = '9 June 2026';
+---
+
+<BaseLayout
+  title="Privacy Policy"
+  description="How Travel Old Hollywood handles your data: analytics, affiliate links, third parties, and your rights under UK data-protection law."
+>
+  <div class="min-h-screen bg-[#fdfbf2] text-[#1a2b4c] p-4 md:p-12 font-sans" style="background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png')">
+    <div class="max-w-3xl mx-auto border-[12px] border-double border-[#1a2b4c] p-6 md:p-16 bg-[#fdfbf2] shadow-2xl relative">
+
+      <Header backLink="/" backLabel="Return to Lobby" variant="light" />
+
+      <div class="text-center mb-12 mt-8">
+        <p class="font-oswald uppercase tracking-[0.3em] text-sm mb-4 text-[#8b5a2b]">The Small Print</p>
+        <h1 class="font-anton text-4xl md:text-6xl tracking-wide uppercase mb-4 text-[#1a2b4c]">Privacy Policy</h1>
+        <div class="flex items-center justify-center gap-4">
+          <div class="h-px w-12 bg-[#1a2b4c]"></div>
+          <span class="font-typewriter text-sm text-[#8b5a2b]">Last updated: {lastUpdated}</span>
+          <div class="h-px w-12 bg-[#1a2b4c]"></div>
+        </div>
+      </div>
+
+      <div class="space-y-8 font-sans text-base md:text-lg leading-relaxed text-[#2b3a55] [&_h2]:font-serif [&_h2]:text-2xl [&_h2]:md:text-3xl [&_h2]:text-[#1a2b4c] [&_h2]:mt-2 [&_h2]:mb-3 [&_a]:text-[#c13a3a] [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-[#1a2b4c] [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_li]:marker:text-[#d4b872]">
+
+        <section>
+          <p>
+            Travel Old Hollywood ("we", "us") is a travel publication at traveloldhollywood.com, operated as
+            a sole trader in the United Kingdom and the data controller responsible for this site. This policy
+            explains what information is collected when you visit, how it is used, and the rights you have. We
+            aim to collect as little as possible. You can reach us any time at
+            <a href="mailto:adam@vintagetravel.co.uk">adam@vintagetravel.co.uk</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2>The short version</h2>
+          <p>
+            We don't ask you to create an account, we don't run a newsletter or collect your details through
+            forms, and we don't sell your data to anyone. We use privacy-friendly, aggregate analytics to see
+            how the site performs, and some of our outbound links are affiliate links that set their own
+            cookies if you click them.
+          </p>
+        </section>
+
+        <section>
+          <h2>Information we collect</h2>
+          <ul>
+            <li>
+              <strong>Aggregate analytics.</strong> We use Vercel Web Analytics and Vercel Speed Insights to
+              understand, in aggregate, how the site is used and how quickly pages load. These are designed to
+              be privacy-friendly: they do not use cookies to track visitors and do not build an advertising
+              profile of you.
+            </li>
+            <li>
+              <strong>Affiliate-link data.</strong> When you click an affiliate link, the partner you're sent
+              to (for example a hotel-booking platform or retailer) may set cookies or use similar technology
+              to credit us if you go on to book or buy. That data is collected and controlled by them, under
+              their own privacy policies — see "Third parties" below. Our <a href="/affiliate-disclosure">Affiliate Disclosure</a>
+              explains the commercial side.
+            </li>
+            <li>
+              <strong>Standard server logs.</strong> Like virtually all websites, our hosting provider
+              automatically records technical information such as IP address, browser type and the pages
+              requested, for security and to keep the service running.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Cookies</h2>
+          <p>
+            We do not set our own marketing or tracking cookies. Our analytics are cookieless. The main cookies
+            you may encounter come from third-party affiliate partners, and only if you click one of their
+            links. You can block or delete cookies in your browser settings at any time without affecting your
+            ability to read the site.
+          </p>
+        </section>
+
+        <section>
+          <h2>Third parties</h2>
+          <p>We rely on a small number of trusted providers:</p>
+          <ul>
+            <li><strong>Vercel</strong> — website hosting and the aggregate analytics described above.</li>
+            <li><strong>Affiliate partners and networks</strong> — such as Booking.com, Travelpayouts, GetYourGuide, Viator, DiscoverCars, Airalo, Amazon Associates and Awin — which may receive click and transaction data when you follow one of their links. Each operates under its own privacy policy.</li>
+          </ul>
+          <p>Some of these providers are based outside the UK, including in the United States, so your data may be transferred and processed internationally under appropriate safeguards.</p>
+        </section>
+
+        <section>
+          <h2>Your rights</h2>
+          <p>
+            Under the UK GDPR and the Data Protection Act 2018 you have the right to access, correct, or ask us
+            to delete personal data we hold about you, and to object to or restrict certain processing. As we
+            don't operate accounts or collect contact details directly, we typically hold no personal data that
+            identifies you. To make a request, email <a href="mailto:adam@vintagetravel.co.uk">adam@vintagetravel.co.uk</a>.
+            If you're unhappy with how we've handled your data, you can complain to the UK Information
+            Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2>Children</h2>
+          <p>This site is intended for a general adult audience and is not directed at children under 13.</p>
+        </section>
+
+        <section>
+          <h2>Changes to this policy</h2>
+          <p>
+            We may update this policy as the site evolves or our partners change. When we do, we'll revise the
+            "last updated" date above. Material changes will be made clear on this page.
+          </p>
+        </section>
+
+      </div>
+
+    </div>
+  </div>
+  <Footer />
+</BaseLayout>

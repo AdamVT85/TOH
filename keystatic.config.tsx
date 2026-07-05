@@ -1,4 +1,5 @@
 import { config, fields, collection, singleton } from '@keystatic/core';
+import { block } from '@keystatic/core/content-components';
 
 // Reusable focal-point selector, applied via CSS object-position in the layouts.
 // Lets editors choose which part of an image to keep when it is cropped to fit.
@@ -19,6 +20,30 @@ const focalPoint = (defaultValue: 'center' | 'top' = 'center') =>
     ],
     defaultValue,
   });
+
+// Block components editors can insert inside Body Copy fields.
+// Rendered on the site by src/components/RichText.astro.
+const contentComponents = {
+  videoEmbed: block({
+    label: 'Video Embed',
+    schema: {
+      url: fields.url({
+        label: 'Player URL',
+        description: 'Embed/player URL, e.g. https://www.youtube.com/embed/… or https://player.vimeo.com/video/…',
+      }),
+      title: fields.text({ label: 'Title (for accessibility)' }),
+      caption: fields.text({ label: 'Caption (optional)' }),
+      aspect: fields.select({
+        label: 'Aspect Ratio',
+        options: [
+          { label: '16:9 (widescreen)', value: '56.25%' },
+          { label: '4:3 (classic)', value: '75%' },
+        ],
+        defaultValue: '56.25%',
+      }),
+    },
+  }),
+};
 
 export default config({
   storage: process.env.NODE_ENV === 'production'
@@ -83,14 +108,13 @@ export default config({
             imageAlt: fields.text({ label: 'Image Alt Text' }),
             imageFocus: focalPoint('center'),
             caption: fields.text({ label: 'Image Caption' }),
-            copy: fields.text({
+            copy: fields.markdoc.inline({
               label: 'Body Copy',
-              multiline: true,
-              description: 'Main text for this section. Separate paragraphs with blank lines.',
+              description: 'Main text for this section.',
+              components: contentComponents,
             }),
-            callout: fields.text({
+            callout: fields.markdoc.inline({
               label: 'Pull Quote / Callout (optional)',
-              multiline: true,
               description: 'An optional highlighted quote or callout for this section.',
             }),
           }),
@@ -180,14 +204,13 @@ export default config({
             }),
             imageAlt: fields.text({ label: 'Image Alt Text' }),
             caption: fields.text({ label: 'Image Caption' }),
-            copy: fields.text({
+            copy: fields.markdoc.inline({
               label: 'Body Copy',
-              multiline: true,
-              description: 'Main text for this section. Separate paragraphs with blank lines.',
+              description: 'Main text for this section.',
+              components: contentComponents,
             }),
-            callout: fields.text({
+            callout: fields.markdoc.inline({
               label: 'Pull Quote / Callout (optional)',
-              multiline: true,
             }),
           }),
           {
@@ -198,7 +221,7 @@ export default config({
         regions: fields.array(
           fields.object({
             region: fields.text({ label: 'Region / City' }),
-            intro: fields.text({ label: 'Region Intro', multiline: true }),
+            intro: fields.markdoc.inline({ label: 'Region Intro' }),
             image: fields.image({
               label: 'Region Image (optional)',
               directory: 'public/images/stars',
@@ -225,7 +248,7 @@ export default config({
                   label: 'Venue Page Slug (optional)',
                   description: 'If this place has a Venue page, enter its slug to link it.',
                 }),
-                description: fields.text({ label: 'Description', multiline: true }),
+                description: fields.markdoc.inline({ label: 'Description' }),
                 detail: fields.text({
                   label: 'Practical Detail (address / price)',
                   multiline: true,
@@ -255,7 +278,7 @@ export default config({
         lifestyle: fields.array(
           fields.object({
             label: fields.text({ label: 'Label (e.g. Drink like Frank)' }),
-            text: fields.text({ label: 'Text', multiline: true }),
+            text: fields.markdoc.inline({ label: 'Text' }),
           }),
           {
             label: 'Live Like… Lifestyle Notes',
@@ -325,9 +348,8 @@ export default config({
         heroImageFocus: focalPoint('top'),
         heroImageCredit: fields.text({ label: 'Hero Image Credit', description: 'Photographer / source + licence (required for CC images).' }),
         excerpt: fields.text({ label: 'Excerpt / Meta Description', multiline: true }),
-        pullQuote: fields.text({
+        pullQuote: fields.markdoc.inline({
           label: 'Pull Quote (optional)',
-          multiline: true,
         }),
         pullQuoteAttribution: fields.text({ label: 'Quote Attribution' }),
         gallery: fields.array(
@@ -372,7 +394,7 @@ export default config({
         signatureExperiences: fields.array(
           fields.object({
             name: fields.text({ label: 'Experience Name' }),
-            description: fields.text({ label: 'Description', multiline: true }),
+            description: fields.markdoc.inline({ label: 'Description' }),
             price: fields.text({ label: 'Price (optional)' }),
             availability: fields.text({ label: 'Availability Note (optional)' }),
             image: fields.image({
@@ -390,16 +412,16 @@ export default config({
         phone: fields.text({ label: 'Phone Number' }),
         openingHours: fields.text({ label: 'Opening Hours', multiline: true }),
         priceRange: fields.text({ label: 'Price Range Detail' }),
-        howToBook: fields.text({ label: 'How to Book' }),
+        howToBook: fields.markdoc.inline({ label: 'How to Book' }),
         nearestAirport: fields.text({ label: 'Nearest Airport' }),
-        transportNotes: fields.text({ label: 'Transport Notes', multiline: true }),
+        transportNotes: fields.markdoc.inline({ label: 'Transport Notes' }),
         dressCode: fields.text({ label: 'Dress Code' }),
         bestTimeToVisit: fields.text({ label: 'Best Time to Visit' }),
         accessibilityNotes: fields.text({ label: 'Accessibility Notes' }),
-        tips: fields.text({ label: 'Tips', multiline: true }),
+        tips: fields.markdoc.inline({ label: 'Tips' }),
         bookingUrl: fields.url({ label: 'Booking/Affiliate URL' }),
         bookingCtaText: fields.text({ label: 'Booking CTA Text' }),
-        whatsThereNow: fields.text({ label: "What's There Now (for closed venues)", multiline: true }),
+        whatsThereNow: fields.markdoc.inline({ label: "What's There Now (for closed venues)" }),
         visitInsteadName: fields.text({ label: 'Visit Instead: Venue Name' }),
         visitInsteadSlug: fields.text({ label: 'Visit Instead: Venue Slug' }),
         visitInsteadDescription: fields.text({ label: 'Visit Instead: Description' }),
@@ -435,14 +457,13 @@ export default config({
             imageAlt: fields.text({ label: 'Image Alt Text' }),
             imageFocus: focalPoint('center'),
             caption: fields.text({ label: 'Image Caption' }),
-            copy: fields.text({
+            copy: fields.markdoc.inline({
               label: 'Body Copy',
-              multiline: true,
-              description: 'Main text for this section. Separate paragraphs with blank lines.',
+              description: 'Main text for this section.',
+              components: contentComponents,
             }),
-            callout: fields.text({
+            callout: fields.markdoc.inline({
               label: 'Pull Quote / Callout (optional)',
-              multiline: true,
             }),
           }),
           {
@@ -495,7 +516,7 @@ export default config({
               ],
               defaultValue: 'Landmark',
             }),
-            filmContext: fields.text({ label: 'Film Context', multiline: true }),
+            filmContext: fields.markdoc.inline({ label: 'Film Context' }),
             image: fields.image({
               label: 'Location Photo',
               directory: 'public/images/film-locations',
@@ -506,7 +527,7 @@ export default config({
             address: fields.text({ label: 'Address' }),
             openingHours: fields.text({ label: 'Opening Hours (if applicable)' }),
             cost: fields.text({ label: 'Cost (if applicable)' }),
-            tips: fields.text({ label: 'Tips', multiline: true }),
+            tips: fields.markdoc.inline({ label: 'Tips' }),
             venueSlug: fields.text({ label: 'Venue Page Slug (optional)' }),
           }),
           {
@@ -516,7 +537,7 @@ export default config({
         ),
         itinerary: fields.object(
           {
-            routeDescription: fields.text({ label: 'Route Description', multiline: true }),
+            routeDescription: fields.markdoc.inline({ label: 'Route Description' }),
             travelMode: fields.select({
               label: 'Travel Mode',
               options: [
@@ -623,14 +644,13 @@ export default config({
             }),
             imageAlt: fields.text({ label: 'Image Alt Text' }),
             caption: fields.text({ label: 'Image Caption' }),
-            copy: fields.text({
+            copy: fields.markdoc.inline({
               label: 'Body Copy',
-              multiline: true,
-              description: 'Main text for this section. Separate paragraphs with blank lines.',
+              description: 'Main text for this section.',
+              components: contentComponents,
             }),
-            callout: fields.text({
+            callout: fields.markdoc.inline({
               label: 'Pull Quote / Callout (optional)',
-              multiline: true,
             }),
           }),
           {

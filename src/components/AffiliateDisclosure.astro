@@ -1,0 +1,49 @@
+---
+/**
+ * Affiliate / advertising disclosure — ASA (CAP Code Rule 2.1) + FTC compliant.
+ *
+ * UK ASA: affiliate links must be obviously identifiable as advertising AT THE POINT
+ * they are encountered — a bottom-of-page disclaimer is NOT sufficient. So this is
+ * designed to sit ABOVE THE FOLD on monetised pages (mode="banner") and/or directly
+ * beside an affiliate link or CTA (mode="inline"). Both carry an "Ad" identifier.
+ * FTC: wording avoids the inadequate bare "affiliate link"; states the commission plainly.
+ *
+ * Usage:
+ *   <AffiliateDisclosure />                      // banner, top of a monetised page
+ *   <AffiliateDisclosure mode="inline" />        // small label next to a booking CTA/link
+ */
+interface Props {
+  mode?: 'banner' | 'inline';
+  class?: string;
+}
+const { mode = 'banner', class: className = '' } = Astro.props;
+---
+
+{mode === 'banner' ? (
+  <aside
+    role="note"
+    aria-label="Advertising disclosure"
+    class:list={['not-prose bg-[#f4e4bc] border-y-2 border-[#d4b872] text-[#1a2b4c]', className]}
+  >
+    <div class="max-w-6xl mx-auto px-4 md:px-8 py-3 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+      <span class="shrink-0 inline-flex items-center gap-2 font-oswald text-[10px] md:text-xs tracking-[0.2em] uppercase text-[#8b5a2b]">
+        <span class="border border-[#8b5a2b] px-1.5 py-0.5 leading-none">Ad</span>
+        Advertising&nbsp;Disclosure
+      </span>
+      <p class="font-sans text-xs md:text-sm leading-relaxed text-[#2b3a55]">
+        Some links on this page are affiliate links. If you book or buy through them, Travel Old Hollywood may earn a small commission — at no extra cost to you, and it never changes which places we feature or what we say about them.{' '}
+        <a href="/affiliate-disclosure" class="text-[#c13a3a] underline underline-offset-2 hover:text-[#1a2b4c] transition-colors whitespace-nowrap">How we make money →</a>
+      </p>
+    </div>
+  </aside>
+) : (
+  <span
+    role="note"
+    aria-label="Advertising disclosure"
+    class:list={['not-prose inline-flex flex-wrap items-baseline gap-x-1.5 gap-y-1 font-sans text-[11px] leading-snug text-[#8b5a2b]', className]}
+  >
+    <span class="font-oswald text-[10px] tracking-widest uppercase border border-[#8b5a2b] px-1 leading-none self-center">Ad</span>
+    <span>We may earn a commission if you book through this link, at no extra cost to you.</span>
+    <a href="/affiliate-disclosure" class="text-[#c13a3a] underline underline-offset-2 hover:text-[#1a2b4c] transition-colors">Why?</a>
+  </span>
+)}

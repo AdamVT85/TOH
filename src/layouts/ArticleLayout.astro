@@ -2,6 +2,9 @@
 import BaseLayout from './BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import RichText from '../components/RichText.astro';
+
+type RichValue = { node: any } | null;
 
 interface Section {
   heading?: string;
@@ -10,8 +13,8 @@ interface Section {
   imageAlt?: string;
   imageFocus?: string;
   caption?: string;
-  copy?: string;
-  callout?: string;
+  copy?: RichValue;
+  callout?: RichValue;
 }
 
 interface Props {
@@ -142,14 +145,12 @@ const {
                 </figure>
               )}
 
-              {section.copy && section.copy.split('\n\n').map((para) => (
-                <p class="mb-4" set:html={para} />
-              ))}
+              <RichText content={section.copy} />
 
               {section.callout && (
                 <blockquote class="my-10 border-l-4 border-[#c13a3a] pl-6 py-4 bg-[#f4e4bc]/50 italic font-serif text-2xl text-[#8b5a2b] relative shadow-sm flow-root">
                   <span class="absolute -top-6 -left-4 font-anton text-8xl text-[#c13a3a] opacity-20">"</span>
-                  {section.callout}
+                  <RichText content={section.callout} class="[&_p:last-child]:mb-0" />
                 </blockquote>
               )}
             </div>

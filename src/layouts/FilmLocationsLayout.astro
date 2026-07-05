@@ -2,18 +2,21 @@
 import BaseLayout from './BaseLayout.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import RichText from '../components/RichText.astro';
+
+type RichValue = { node: any } | null;
 
 interface Location {
   name: string;
   locationType: string;
-  filmContext?: string;
+  filmContext?: RichValue;
   image?: string;
   imageCaption?: string;
   visitStatus?: string;
   address?: string;
   openingHours?: string;
   cost?: string;
-  tips?: string;
+  tips?: RichValue;
   venueSlug?: string;
 }
 
@@ -119,9 +122,7 @@ const props = Astro.props;
                     </span>
                   </div>
 
-                  {loc.filmContext && (
-                    <p class="font-sans text-lg text-gray-800 mb-8 leading-relaxed">{loc.filmContext}</p>
-                  )}
+                  <RichText content={loc.filmContext} class="font-sans text-lg text-gray-800 mb-8 leading-relaxed [&_p:last-child]:mb-0" />
 
                   <!-- Visit Today Box -->
                   <div class="bg-[#f4e4bc]/50 border-l-4 border-[#c13a3a] p-6 mt-auto">
@@ -131,7 +132,7 @@ const props = Astro.props;
                       {loc.visitStatus && <li><strong>Status:</strong> {loc.visitStatus}</li>}
                       {loc.openingHours && <li><strong>Hours:</strong> {loc.openingHours}</li>}
                       {loc.cost && <li><strong>Cost:</strong> {loc.cost}</li>}
-                      {loc.tips && <li class="mt-2 pt-2 border-t border-[#8b5a2b]/20 italic">{loc.tips}</li>}
+                      {loc.tips && <li class="mt-2 pt-2 border-t border-[#8b5a2b]/20 italic"><RichText inline content={loc.tips} /></li>}
                     </ul>
                   </div>
                 </div>

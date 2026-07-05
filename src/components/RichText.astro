@@ -1,0 +1,78 @@
+---
+import Markdoc from '@markdoc/markdoc';
+
+interface Props {
+  content?: { node: any } | null;
+  class?: string;
+  inline?: boolean;
+}
+
+const { content, class: className, inline = false } = Astro.props;
+
+// Matches the videoEmbed content component declared in keystatic.config.tsx.
+const markdocConfig = {
+  tags: {
+    videoEmbed: {
+      attributes: {
+        url: { type: String, required: true },
+        title: { type: String },
+        caption: { type: String },
+        aspect: { type: String },
+      },
+      transform(node: any) {
+        const { url, title, caption, aspect } = node.attributes;
+        const children = [
+          new Markdoc.Tag('div', { class: 'relative w-full', style: `padding-bottom:${aspect || '56.25%'}` }, [
+            new Markdoc.Tag('iframe', {
+              src: url,
+              title: title || '',
+              class: 'absolute inset-0 w-full h-full',
+              style: 'border:0',
+              allow: 'accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture; web-share',
+              referrerpolicy: 'strict-origin-when-cross-origin',
+              loading: 'lazy',
+            }, []),
+          ]),
+        ];
+        if (caption) {
+          children.push(new Markdoc.Tag('p', { class: 'text-center font-typewriter text-xs text-[#8b5a2b] mt-2 mb-1' }, [caption]));
+        }
+        return new Markdoc.Tag('div', { class: 'my-8 p-2 bg-[#fdfbf2] border border-[#d4b872] shadow-[4px_4px_0px_rgba(212,184,114,0.4)] transform rotate-1' }, children);
+      },
+    },
+  },
+};
+
+let html = '';
+if (content?.node) {
+  html = Markdoc.renderers
+    .html(Markdoc.transform(content.node, markdocConfig as any))
+    .replace(/^<article>/, '')
+    .replace(/<\/article>$/, '')
+    // external links open in a new tab, like the hand-written HTML they replace
+    .replace(/<a href="(https?:[^"]*)">/g, '<a href="$1" target="_blank" rel="noopener noreferrer">');
+  if (inline) {
+    html = html.replace(/<\/p>\s*<p>/g, '<br />').replace(/<\/?p>/g, '').trim();
+  }
+}
+---
+
+{html && (inline
+  ? <span class:list={['rich-text', className]} set:html={html} />
+  : <div class:list={['rich-text', className]} set:html={html} />
+)}
+
+<style is:global>
+  /* set:html output is unscoped, so these must be global.
+     Kept in the components layer so Tailwind utilities can still override them. */
+  @layer components {
+    .rich-text p { margin-bottom: 1rem; }
+    .rich-text a { text-decoration: underline; text-decoration-color: #d4b872; text-underline-offset: 3px; transition: color 0.2s; }
+    .rich-text a:hover { color: #c13a3a; }
+    .rich-text ul, .rich-text ol { padding-left: 1.5rem; margin-bottom: 1rem; }
+    .rich-text ul { list-style: disc; }
+    .rich-text ol { list-style: decimal; }
+    .rich-text h2, .rich-text h3, .rich-text h4 { font-weight: 700; margin: 1.5rem 0 0.75rem; }
+    .rich-text blockquote { border-left: 3px solid #d4b872; padding-left: 1rem; font-style: italic; }
+  }
+</style>

@@ -2,14 +2,17 @@
 import BaseLayout from './BaseLayout.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import RichText from '../components/RichText.astro';
+
+type RichValue = { node: any } | null;
 
 interface Section {
   heading?: string;
   image?: string;
   imageAlt?: string;
   caption?: string;
-  copy?: string;
-  callout?: string;
+  copy?: RichValue;
+  callout?: RichValue;
 }
 
 interface Props {
@@ -27,14 +30,14 @@ interface Props {
   sections?: Section[];
   regions?: {
     region?: string;
-    intro?: string;
+    intro?: RichValue;
     image?: string;
     imageAlt?: string;
     imageFocus?: string;
     caption?: string;
-    places?: { name?: string; category?: string; venueSlug?: string; description?: string; detail?: string; status?: string }[];
+    places?: { name?: string; category?: string; venueSlug?: string; description?: RichValue; detail?: string; status?: string }[];
   }[];
-  lifestyle?: { label?: string; text?: string }[];
+  lifestyle?: { label?: string; text?: RichValue }[];
 }
 
 const props = Astro.props;
@@ -136,14 +139,12 @@ const sections = props.sections || [];
                 </figure>
               )}
 
-              {section.copy && section.copy.split('\n\n').map((para) => (
-                <p class="mb-4" set:html={para} />
-              ))}
+              <RichText content={section.copy} />
 
               {section.callout && (
                 <blockquote class="my-10 border-l-4 border-[#c13a3a] pl-6 py-4 bg-[#f4e4bc]/50 italic font-serif text-2xl text-[#8b5a2b] relative shadow-sm flow-root">
                   <span class="absolute -top-6 -left-4 font-anton text-8xl text-[#c13a3a] opacity-20">"</span>
-                  {section.callout}
+                  <RichText content={section.callout} class="[&_p:last-child]:mb-0" />
                 </blockquote>
               )}
             </div>
@@ -163,9 +164,7 @@ const sections = props.sections || [];
                 {region.region && (
                   <h3 class="font-oswald text-2xl md:text-3xl text-[#c13a3a] uppercase tracking-widest border-b-2 border-[#d4b872] pb-2 mb-5">{region.region}</h3>
                 )}
-                {region.intro && region.intro.split('\n\n').map((para) => (
-                  <p class="mb-4 text-[#222] leading-relaxed" set:html={para} />
-                ))}
+                <RichText content={region.intro} class="text-[#222] leading-relaxed" />
                 {region.image && (
                   <figure class="my-6 p-2 bg-[#fdfbf2] border border-[#d4b872] shadow-[4px_4px_0px_rgba(212,184,114,0.4)] flow-root">
                     <img src={region.image} alt={region.imageAlt || region.region} class="w-full h-64 md:h-80 object-cover filter contrast-125 sepia-[.3]" style={`object-position: ${region.imageFocus || 'center'}`} />
@@ -195,9 +194,7 @@ const sections = props.sections || [];
                               place.name
                             )}
                           </h4>
-                          {place.description && (
-                            <p class="font-sans text-sm text-[#2b3a55] mb-3" set:html={place.description} />
-                          )}
+                          <RichText content={place.description} class="font-sans text-sm text-[#2b3a55] mb-3 [&_p]:mb-2 [&_p:last-child]:mb-0" />
                           {place.detail && (
                             <p class="font-typewriter text-xs text-[#8b5a2b] border-t border-[#e8d5b5] pt-2">{place.detail}</p>
                           )}
@@ -221,9 +218,7 @@ const sections = props.sections || [];
               {props.lifestyle.map((item) => (
                 <div class="border-l-4 border-[#c13a3a] pl-5">
                   {item.label && <h3 class="font-oswald text-xl text-[#fceeb5] uppercase tracking-wider mb-2">{item.label}</h3>}
-                  {item.text && item.text.split('\n\n').map((para) => (
-                    <p class="font-sans text-sm text-[#d8c5a5] mb-3 leading-relaxed" set:html={para} />
-                  ))}
+                  <RichText content={item.text} class="font-sans text-sm text-[#d8c5a5] leading-relaxed [&_p]:mb-3" />
                 </div>
               ))}
             </div>
