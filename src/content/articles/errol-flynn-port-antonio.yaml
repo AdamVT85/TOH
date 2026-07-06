@@ -1,18 +1,19 @@
-title: "Errol Flynn's Jamaica"
+title: Errol Flynn's Jamaic
 subtitle: >-
   In 1946, a storm blew Errol Flynn's schooner onto the coast of a forgotten
-  Jamaican banana port. He spent the rest of his life trying to hold on to
-  it — a love letter to the island that became his last, longest-running
-  production, and a guide to following in his footsteps there today.
+  Jamaican banana port. He spent the rest of his life trying to hold on to it —
+  a love letter to the island that became his last, longest-running production,
+  and a guide to following in his footsteps there today.
 heroImage: /images/articles/errol-flynn-port-antonio/heroImage.jpg
 heroImageAlt: A vintage postcard view of Port Antonio, Jamaica, circa 1908
+heroImageFocus: top
 heroImageCredit: A. Duperly & Sons, Public Domain, via Wikimedia Commons
 publishDate: 2026-07-01
 excerpt: >-
   Errol Flynn washed up on a battered Jamaican banana port in 1946 and never
-  really left. In his own words, and Noël Coward's, and Patrice Wymore's —
-  the story of the hotel, the island and the bamboo raft he left behind, and
-  how to follow him there today.
+  really left. In his own words, and Noël Coward's, and Patrice Wymore's — the
+  story of the hotel, the island and the bamboo raft he left behind, and how to
+  follow him there today.
 watchList:
   - title: Captain Blood
     year: '1935'
@@ -21,89 +22,294 @@ watchList:
   - title: The Adventures of Don Juan
     year: '1948'
 sections:
-  - copy: |-
-      Errol Flynn's My Wicked, Wicked Ways was the first Hollywood memoir I ever read, and I have been chasing that same rush of adventure in a celebrity autobiography ever since. A good deal of it is probably invention, and yes, he was a scoundrel. None of that matters when the book is this rambunctious a read, and there is something telling in the fact that this is exactly how he wanted his adoring public to see him.
+  - imageFocus: center
+    copy: >
+      Errol Flynn's My Wicked, Wicked Ways was the first Hollywood memoir I ever
+      read, and I have been chasing that same rush of adventure in a celebrity
+      autobiography ever since. A good deal of it is probably invention, and
+      yes, he was a scoundrel. None of that matters when the book is this
+      rambunctious a read, and there is something telling in the fact that this
+      is exactly how he wanted his adoring public to see him.
 
-      His years in the South Pacific deserve an article of their own, and would themselves make a fine swashbuckler in the Flynn mould. Today, though, we are staying in the warm water of the Caribbean, and the island Flynn loved above all others: Jamaica.
-    callout: '"Never had I seen a land so beautiful. Now I knew where the writers of the Bible had gotten their description of paradise." — Errol Flynn, My Wicked, Wicked Ways'
+
+      His years in the South Pacific deserve an article of their own, and would
+      themselves make a fine swashbuckler in the Flynn mould. Today, though, we
+      are staying in the warm water of the Caribbean, and the island Flynn loved
+      above all others: Jamaica.
+    callout: >
+      "Never had I seen a land so beautiful. Now I knew where the writers of the
+      Bible had gotten their description of paradise." — Errol Flynn, My Wicked,
+      Wicked Ways
   - heading: Press Play and Read On
-    copy: |-
-      This is "Silvershine," the tune the Jamaican saxophonist Andy Hamilton wrote for Flynn in 1948 while leading the band on the Zaca. Hamilton did not record it until 1991, but this is the sound of Flynn's Port Antonio.
+    imageFocus: center
+    copy: >
+      This is "Silvershine," the tune the Jamaican saxophonist Andy Hamilton
+      wrote for Flynn in 1948 while leading the band on the Zaca. Hamilton did
+      not record it until 1991, but this is the sound of Flynn's Port Antonio.
 
-      {% videoEmbed url="https://www.youtube.com/embed/zokLhFXhgmg" title="Andy Hamilton — Silvershine" aspect="56.25%" /%}
+
+      {% videoEmbed
+         url="https://www.youtube.com/embed/zokLhFXhgmg"
+         title="Andy Hamilton — Silvershine"
+         aspect="56.25%" /%}
+    callout: ''
   - heading: Washed Up in Paradise
-    copy: |-
-      By the time Flynn washed up on Jamaica in 1946, Port Antonio's best days already looked to be behind it. This was a town that had once sent more banana boats out of its harbour than Liverpool sent ships across the Atlantic, the wealthiest port on the island's north coast. Then came Panama disease and a hurricane, and the plantations that had made it rich were gone.
+    imageFocus: center
+    copy: >
+      By the time Flynn washed up on Jamaica in 1946, Port Antonio's best days
+      already looked to be behind it. This was a town that had once sent more
+      banana boats out of its harbour than Liverpool sent ships across the
+      Atlantic, the wealthiest port on the island's north coast. Then came
+      Panama disease and a hurricane, and the plantations that had made it rich
+      were gone.
 
-      Flynn arrived by accident. His schooner, the Zaca, was blown off course on a long sailing trip routed through Mexico and the Panama Canal, and for a couple of days he and his crew had no clear idea where they were. Then the weather broke.
 
-      He was, at that point, one of the most famous men alive. He stepped ashore to shouts of "it's Errol Flynn." He was also, by his own account, a man looking for somewhere to disappear.
+      Flynn arrived by accident. His schooner, the Zaca, was blown off course on
+      a long sailing trip routed through Mexico and the Panama Canal, and for a
+      couple of days he and his crew had no clear idea where they were. Then the
+      weather broke.
 
-      <blockquote class="my-6 pl-5 border-l-4 border-[#d4b872] italic text-[#2b3a55]">"Here I would try to salvage myself. All around was the sea, fine tropic foods, rare sea foods, a wonderful region for skin-diving. And sun, wonderful, year-round sun. After thirty-seven years of wandering, I had found my Grecian isle."<footer class="not-italic font-typewriter text-xs text-[#8b5a2b] mt-2">— Errol Flynn, My Wicked, Wicked Ways</footer></blockquote>
-    callout: '"Suddenly the sky cleared sharply. Winds howled the clouds out, and a powerful sun illuminated the greenest hills I''d ever seen. ''What is this place?'' I asked. ''Jamaica. This is Kingston.'' ''Jamaica?'' So that was it." — Errol Flynn, My Wicked, Wicked Ways'
+
+      He was, at that point, one of the most famous men alive. He stepped ashore
+      to shouts of "it's Errol Flynn." He was also, by his own account, a man
+      looking for somewhere to disappear.
+
+
+      <blockquote class="my-6 pl-5 border-l-4 border-[#d4b872] italic
+      text-[#2b3a55]">"Here I would try to salvage myself. All around was the
+      sea, fine tropic foods, rare sea foods, a wonderful region for
+      skin-diving. And sun, wonderful, year-round sun. After thirty-seven years
+      of wandering, I had found my Grecian isle."<footer class="not-italic
+      font-typewriter text-xs text-[#8b5a2b] mt-2">— Errol Flynn, My Wicked,
+      Wicked Ways</footer></blockquote>
+    callout: >
+      "Suddenly the sky cleared sharply. Winds howled the clouds out, and a
+      powerful sun illuminated the greenest hills I'd ever seen. 'What is this
+      place?' I asked. 'Jamaica. This is Kingston.' 'Jamaica?' So that was it."
+      — Errol Flynn, My Wicked, Wicked Ways
   - heading: An Island of His Own
-    copy: |-
-      Around 1950, Flynn and his third wife, the actress Patrice Wymore, settled in Port Antonio more or less for good, living for long stretches aboard the Zaca, moored off a small island at the mouth of the harbour. That island, 64 acres named Navy Island after an old Royal Navy gun battery once stationed there, became his. He is said to have won it in a poker game. He never built a proper house on it, only a thatched structure wrapped around a living tree, but he planted a row of royal palms that reportedly still stand, and he entertained there often.
+    imageFocus: center
+    copy: >
+      Around 1950, Flynn and his third wife, the actress Patrice Wymore, settled
+      in Port Antonio more or less for good, living for long stretches aboard
+      the Zaca, moored off a small island at the mouth of the harbour. That
+      island, 64 acres named Navy Island after an old Royal Navy gun battery
+      once stationed there, became his. He is said to have won it in a poker
+      game. He never built a proper house on it, only a thatched structure
+      wrapped around a living tree, but he planted a row of royal palms that
+      reportedly still stand, and he entertained there often.
 
-      Noël Coward, who lived further along the coast and counted Flynn as a friend, recorded one such evening in his diary on 27 March 1951. He had spent the morning rafting down the Rio Grande, then dined with Flynn and Pat.
 
-      The Jamaican saxophonist Andy Hamilton, who led the band at the Titchfield Hotel, was a regular hire for Flynn's parties aboard the Zaca. Hamilton later remembered playing on the hotel terrace one night in the late 1940s when Flynn, freshly back from Hollywood, danced with his wife through a couple of numbers. The next morning a car and chauffeur pulled up outside Hamilton's house with a summons: "Robin Hood wants to see you." Down at the harbour, Flynn offered him a regular spot. The tune Hamilton composed for him in 1948, "Silvershine," would follow the saxophonist across the Atlantic to Birmingham and, four decades later, give him a hit record.
+      Noël Coward, who lived further along the coast and counted Flynn as a
+      friend, recorded one such evening in his diary on 27 March 1951. He had
+      spent the morning rafting down the Rio Grande, then dined with Flynn and
+      Pat.
 
-      Flynn had arrived just as Jamaica was becoming the bolthole of choice for the international set. The Jamaica Inn opened at Ocho Rios in 1950 and drew the likes of Marilyn Monroe, Vivien Leigh, and that most travelled of British statesmen, Winston Churchill.
-    callout: '"Dined with Errol Flynn and his wife Pat. Drinks on his yacht, which is beautiful, then barbecue dinner on his island, palm trees, lit by torches." — Noël Coward, diary, 27 March 1951'
+
+      The Jamaican saxophonist Andy Hamilton, who led the band at the Titchfield
+      Hotel, was a regular hire for Flynn's parties aboard the Zaca. Hamilton
+      later remembered playing on the hotel terrace one night in the late 1940s
+      when Flynn, freshly back from Hollywood, danced with his wife through a
+      couple of numbers. The next morning a car and chauffeur pulled up outside
+      Hamilton's house with a summons: "Robin Hood wants to see you." Down at
+      the harbour, Flynn offered him a regular spot. The tune Hamilton composed
+      for him in 1948, "Silvershine," would follow the saxophonist across the
+      Atlantic to Birmingham and, four decades later, give him a hit record.
+
+
+      Flynn had arrived just as Jamaica was becoming the bolthole of choice for
+      the international set. The Jamaica Inn opened at Ocho Rios in 1950 and
+      drew the likes of Marilyn Monroe, Vivien Leigh, and that most travelled of
+      British statesmen, Winston Churchill.
+    callout: >
+      "Dined with Errol Flynn and his wife Pat. Drinks on his yacht, which is
+      beautiful, then barbecue dinner on his island, palm trees, lit by
+      torches." — Noël Coward, diary, 27 March 1951
   - heading: The Man Who Bought a Waterfront
-    copy: |-
-      Flynn did not stop at the island. He bought land near Boston Bay, further down the coast, and acquired a coconut plantation and cattle ranch of roughly 2,000 acres. He is widely reported to have bought the grand old Titchfield Hotel around 1951, the once-glamorous banana-boat hotel that had sat half-forgotten since the trade collapsed. Contemporary press accounts describe him reopening it with a bar of his own, and breathing some of the old glamour back into a building that had spent a decade in decline. Its grounds went on to host Port Antonio's first marlin-fishing tournament, which still runs most years.
+    imageFocus: center
+    copy: >
+      Flynn did not stop at the island. He bought land near Boston Bay, further
+      down the coast, and acquired a coconut plantation and cattle ranch of
+      roughly 2,000 acres. He is widely reported to have bought the grand old
+      Titchfield Hotel around 1951, the once-glamorous banana-boat hotel that
+      had sat half-forgotten since the trade collapsed. Contemporary press
+      accounts describe him reopening it with a bar of his own, and breathing
+      some of the old glamour back into a building that had spent a decade in
+      decline. Its grounds went on to host Port Antonio's first marlin-fishing
+      tournament, which still runs most years.
 
-      For a few years in the 1950s it would not have been an exaggeration to say that Errol Flynn more or less owned Port Antonio's waterfront: a faded boomtown's grandest hotel, its harbour island, and a good stretch of coast besides.
 
-      There is a symmetry here that Flynn, of all people, cannot have missed. The film that made him a star, 1935's *Captain Blood*, cast him as Peter Blood, an Irish physician sold into slavery in 1680s Jamaica who escapes, turns pirate, and rises to become the island's governor. Two decades later, on the same island, Flynn was quietly attempting a gentler version of the same arc: no chains, no cutlass, just a poker win, a chequebook, and a schooner in the harbour.
-    callout: For a few years in the 1950s, Errol Flynn more or less owned Port Antonio's waterfront.
+      For a few years in the 1950s it would not have been an exaggeration to say
+      that Errol Flynn more or less owned Port Antonio's waterfront: a faded
+      boomtown's grandest hotel, its harbour island, and a good stretch of coast
+      besides.
+
+
+      There is a symmetry here that Flynn, of all people, cannot have missed.
+      The film that made him a star, 1935's *Captain Blood*, cast him as Peter
+      Blood, an Irish physician sold into slavery in 1680s Jamaica who escapes,
+      turns pirate, and rises to become the island's governor. Two decades
+      later, on the same island, Flynn was quietly attempting a gentler version
+      of the same arc: no chains, no cutlass, just a poker win, a chequebook,
+      and a schooner in the harbour.
+    callout: >
+      For a few years in the 1950s, Errol Flynn more or less owned Port
+      Antonio's waterfront.
   - heading: A Typical Day in Paradise
-    copy: |-
-      Flynn set down what a day in his Jamaica looked like, and it reads like a brochure he wrote for himself.
+    imageFocus: center
+    copy: >
+      Flynn set down what a day in his Jamaica looked like, and it reads like a
+      brochure he wrote for himself.
 
-      He caught the same landscape on film in Cruise of the Zaca, a short documentary he directed and narrated about his travels on the boat, filmed in 1952 along Mexico's east coast and through the Caribbean with a port call in Jamaica. Around twelve minutes in, he reaches Jamaica, and you can watch him and Wymore take a raft down the river. "This," he says of the view, "might have been the setting for the original garden of Eden."
 
-      {% videoEmbed url="https://player.vimeo.com/video/336111163?app_id=122963" title="Cruise of the Zaca" caption="Flynn's own film of the voyage. The Jamaica section, and the river rafting, begins around the twelve-minute mark." aspect="75%" /%}
+      He caught the same landscape on film in Cruise of the Zaca, a short
+      documentary he directed and narrated about his travels on the boat, filmed
+      in 1952 along Mexico's east coast and through the Caribbean with a port
+      call in Jamaica. Around twelve minutes in, he reaches Jamaica, and you can
+      watch him and Wymore take a raft down the river. "This," he says of the
+      view, "might have been the setting for the original garden of Eden."
 
-      Wymore remembered those mornings in much the same terms: "I remember rafting on the Rio Grande. We would go early in the morning, a bar on one raft, food on another, and musicians playing on a third, and we would spend the whole day rafting down the river."
-    callout: '"Each day a ride over my ranch on horseback, then perhaps a rafting trip down the Rio Grande. As you glide down this river you look up on either side at the most magnificent skyline of hills that God or Nature has created. This was a four-hour jaunt in which you picnicked along the way, you swam in the river, then perhaps a trip in my motor boat around Navy Island or down the coast. At night a stroll in the marketplace. Everywhere there is rum and calypso music." — Errol Flynn, My Wicked, Wicked Ways'
+
+      {% videoEmbed
+         url="https://player.vimeo.com/video/336111163?app_id=122963"
+         title="Cruise of the Zaca"
+         caption="Flynn's own film of the voyage. The Jamaica section, and the river rafting, begins around the twelve-minute mark."
+         aspect="75%" /%}
+
+      Wymore remembered those mornings in much the same terms: "I remember
+      rafting on the Rio Grande. We would go early in the morning, a bar on one
+      raft, food on another, and musicians playing on a third, and we would
+      spend the whole day rafting down the river."
+    callout: >
+      "Each day a ride over my ranch on horseback, then perhaps a rafting trip
+      down the Rio Grande. As you glide down this river you look up on either
+      side at the most magnificent skyline of hills that God or Nature has
+      created. This was a four-hour jaunt in which you picnicked along the way,
+      you swam in the river, then perhaps a trip in my motor boat around Navy
+      Island or down the coast. At night a stroll in the marketplace. Everywhere
+      there is rum and calypso music." — Errol Flynn, My Wicked, Wicked Ways
   - heading: The Bamboo Raft That Outlived Him
-    image: /images/articles/errol-flynn-port-antonio/sections/1/image.jpg
+    image: /images/articles/errol-flynn-port-antonio/sections/6/image.jpg
     imageAlt: A wooden sailing schooner of the kind Errol Flynn owned
-    caption: The kind of schooner Flynn called home for much of his time in Jamaica — his own yacht, the Zaca, survives today, restored and based in Monaco
-    copy: |-
-      Of everything attached to Flynn's name in Port Antonio, the one with the richest afterlife is also the most mythologised. Local legend credits him with turning bamboo rafting, a working method for floating bananas downriver, into the area's signature leisure activity in the 1950s. Even Caribbean Beat, which happily repeats the tale, concedes only that it has "more truth than most" Flynn legends, rather than calling it settled fact.
+    imageFocus: center
+    caption: >-
+      The kind of schooner Flynn called home for much of his time in Jamaica —
+      his own yacht, the Zaca, survives today, restored and based in Monaco
+    copy: >
+      Of everything attached to Flynn's name in Port Antonio, the one with the
+      richest afterlife is also the most mythologised. Local legend credits him
+      with turning bamboo rafting, a working method for floating bananas
+      downriver, into the area's signature leisure activity in the 1950s. Even
+      Caribbean Beat, which happily repeats the tale, concedes only that it has
+      "more truth than most" Flynn legends, rather than calling it settled fact.
 
-      Whatever its precise origin, the result is real, and it is still running: a slow pole down the same stretch of river, on the same kind of raft. When Hurricane Melissa tore through the island in October 2025, it swept nearly 140 of those rafts away. The raft captains, who have rebuilt after floods more than once before, set about doing it again, which is about the most Port Antonio ending that story could have.
+
+      Whatever its precise origin, the result is real, and it is still running:
+      a slow pole down the same stretch of river, on the same kind of raft. When
+      Hurricane Melissa tore through the island in October 2025, it swept nearly
+      140 of those rafts away. The raft captains, who have rebuilt after floods
+      more than once before, set about doing it again, which is about the most
+      Port Antonio ending that story could have.
+    callout: ''
   - heading: How Much of It Survives
-    copy: |-
-      This is not, in the end, a story with a tidy finish. Flynn died in 1959, at fifty, and left his Jamaican holdings to Patrice Wymore. She kept them for the rest of her life, running the estate at Castle as a working cattle ranch and coconut plantation, building a wicker-furniture business, and at one point taking the title of Champion Farmer of Jamaica. She stayed in Portland until her death in 2014, aged 87, and never remarried. The harbour marina still carries her husband's name.
+    imageFocus: center
+    copy: >
+      This is not, in the end, a story with a tidy finish. Flynn died in 1959,
+      at fifty, and left his Jamaican holdings to Patrice Wymore. She kept them
+      for the rest of her life, running the estate at Castle as a working cattle
+      ranch and coconut plantation, building a wicker-furniture business, and at
+      one point taking the title of Champion Farmer of Jamaica. She stayed in
+      Portland until her death in 2014, aged 87, and never remarried. The
+      harbour marina still carries her husband's name.
 
-      Little else that Flynn built or bought survives in a form you can walk into. The Titchfield Hotel changed hands and burned down for good in 1969; the site is now part of a Jamaica Defence Force installation. Navy Island sits closed and undeveloped, owned by Jamaica's Port Authority, its old resort buildings reportedly standing in ruin with trees pushing up through the floors. You can look at it from the water. You cannot, for now, walk it.
 
-      Even the Zaca moved on. The schooner survives, restored by an Italian owner and based today in Monaco, sailing the Mediterranean rather than the Caribbean she made famous, and turning up now and then at classic regattas among the modern megayachts of Port Hercule. Of everything Flynn touched here, almost nothing remains that a visitor can directly experience, with one bamboo-shaped exception.
-    callout: She stayed in Portland until her death in 2014, aged 87, and never remarried. The harbour marina still carries her husband's name.
+      Little else that Flynn built or bought survives in a form you can walk
+      into. The Titchfield Hotel changed hands and burned down for good in 1969;
+      the site is now part of a Jamaica Defence Force installation. Navy Island
+      sits closed and undeveloped, owned by Jamaica's Port Authority, its old
+      resort buildings reportedly standing in ruin with trees pushing up through
+      the floors. You can look at it from the water. You cannot, for now, walk
+      it.
+
+
+      Even the Zaca moved on. The schooner survives, restored by an Italian
+      owner and based today in Monaco, sailing the Mediterranean rather than the
+      Caribbean she made famous, and turning up now and then at classic regattas
+      among the modern megayachts of Port Hercule. Of everything Flynn touched
+      here, almost nothing remains that a visitor can directly experience, with
+      one bamboo-shaped exception.
+    callout: >
+      She stayed in Portland until her death in 2014, aged 87, and never
+      remarried. The harbour marina still carries her husband's name.
   - heading: 'In the Footsteps of Errol Flynn: Port Antonio Today'
-    copy: |-
-      Three things tie the present-day town directly to the Flynn years, and each earns the trip on its own terms.
+    imageFocus: center
+    copy: >
+      Three things tie the present-day town directly to the Flynn years, and
+      each earns the trip on its own terms.
 
-      **The Errol Flynn Marina.** The harbour was renamed in his honour and works today as a genuine, full-service marina, with berths and customs clearance for visiting yachts. It is the obvious first stop, and the easiest place to feel the line running from Flynn's day to now.
 
-      **Rafting the Rio Grande.** This is as close as you will get to retracing Flynn's own hours on the water. Trips run from Berrydale, up in the Rio Grande valley, down to Rafters Rest at St Margaret's Bay, and take roughly two to three hours at pole-speed, two passengers to a raft. It was badly hit by Hurricane Melissa in late 2025, so confirm that services have resumed before you plan a day around it, and expect the operation to look a little patched-up. That, if anything, is in character.
+      **The Errol Flynn Marina.** The harbour was renamed in his honour and
+      works today as a genuine, full-service marina, with berths and customs
+      clearance for visiting yachts. It is the obvious first stop, and the
+      easiest place to feel the line running from Flynn's day to now.
 
-      **Navy Island, from the water.** The island itself is closed and heavily overgrown, but you can see it plainly across the harbour, and local boatmen will run you out to it. Some will land you for a look at the ruins and Flynn's palms, but go expecting jungle rather than a resort.
 
-      **Where to stay.** On the cliffs near the harbour stands the [Trident Hotel](/venues/trident-hotel), a clifftop property from the same era Flynn made fashionable. It was never his, and the connection is one of period rather than ownership, but it draws on exactly the glamour he gave this coast, and it is the most atmospheric bed in town.
+      **Rafting the Rio Grande.** This is as close as you will get to retracing
+      Flynn's own hours on the water. Trips run from Berrydale, up in the Rio
+      Grande valley, down to Rafters Rest at St Margaret's Bay, and take roughly
+      two to three hours at pole-speed, two passengers to a raft. It was badly
+      hit by Hurricane Melissa in late 2025, so confirm that services have
+      resumed before you plan a day around it, and expect the operation to look
+      a little patched-up. That, if anything, is in character.
 
-      **A north-coast detour.** Flynn was one corner of a remarkable mid-century set that gathered on Jamaica's north shore. Noël Coward built his Jamaican home, Firefly, above Port Maria to the west, and it is open to visitors today, kept much as he left it and holding one of the finest views on the island. Ian Fleming wrote the Bond novels a little further along at GoldenEye, now a hotel. Round the coast at Ocho Rios, the Jamaica Inn that drew Churchill and Marilyn Monroe is still taking guests. None of it is Flynn's, but all of it is his world.
 
-      **Watch before you go.** Start with Captain Blood (1935), the pirate picture that made Flynn a star and, fittingly, stranded its hero in 1680s Jamaica. Then The Sea Hawk (1940), which sends him raiding across the Spanish Main as an Elizabethan privateer. And The Adventures of Don Juan (1948), the lavish, European-set swashbuckler that happens to be my own favourite, and exactly the kind of film that belongs on any list of [classic movies that will inspire you to travel](/articles/classic-movies-that-will-inspire-you-to-travel). For the man himself on this exact water, find Cruise of the Zaca, above.
+      **Navy Island, from the water.** The island itself is closed and heavily
+      overgrown, but you can see it plainly across the harbour, and local
+      boatmen will run you out to it. Some will land you for a look at the ruins
+      and Flynn's palms, but go expecting jungle rather than a resort.
 
-      Port Antonio itself needs no Flynn connection to justify the detour. It is a rougher, quieter, more genuinely Jamaican stretch of coast than the resort strips most visitors know, a couple of hours from Ocho Rios and further still from the all-inclusive sprawl of Montego Bay.
 
-      What survives Errol Flynn in Jamaica is not the hotel, or the island, or the yacht. It is the humblest thing he ever put his name to: a raft of lashed bamboo on a green river he called Eden, poled along at walking pace, washed away every few years and back on the water by morning. Battered, faintly mythical, and somehow still afloat. Which is about as fitting a monument as Errol Flynn could ever have asked for.
+      **Where to stay.** On the cliffs near the harbour stands the [Trident
+      Hotel](/venues/trident-hotel), a clifftop property from the same era Flynn
+      made fashionable. It was never his, and the connection is one of period
+      rather than ownership, but it draws on exactly the glamour he gave this
+      coast, and it is the most atmospheric bed in town.
+
+
+      **A north-coast detour.** Flynn was one corner of a remarkable mid-century
+      set that gathered on Jamaica's north shore. Noël Coward built his Jamaican
+      home, Firefly, above Port Maria to the west, and it is open to visitors
+      today, kept much as he left it and holding one of the finest views on the
+      island. Ian Fleming wrote the Bond novels a little further along at
+      GoldenEye, now a hotel. Round the coast at Ocho Rios, the Jamaica Inn that
+      drew Churchill and Marilyn Monroe is still taking guests. None of it is
+      Flynn's, but all of it is his world.
+
+
+      **Watch before you go.** Start with Captain Blood (1935), the pirate
+      picture that made Flynn a star and, fittingly, stranded its hero in 1680s
+      Jamaica. Then The Sea Hawk (1940), which sends him raiding across the
+      Spanish Main as an Elizabethan privateer. And The Adventures of Don Juan
+      (1948), the lavish, European-set swashbuckler that happens to be my own
+      favourite, and exactly the kind of film that belongs on any list of
+      [classic movies that will inspire you to
+      travel](/articles/classic-movies-that-will-inspire-you-to-travel). For the
+      man himself on this exact water, find Cruise of the Zaca, above.
+
+
+      Port Antonio itself needs no Flynn connection to justify the detour. It is
+      a rougher, quieter, more genuinely Jamaican stretch of coast than the
+      resort strips most visitors know, a couple of hours from Ocho Rios and
+      further still from the all-inclusive sprawl of Montego Bay.
+
+
+      What survives Errol Flynn in Jamaica is not the hotel, or the island, or
+      the yacht. It is the humblest thing he ever put his name to: a raft of
+      lashed bamboo on a green river he called Eden, poled along at walking
+      pace, washed away every few years and back on the water by morning.
+      Battered, faintly mythical, and somehow still afloat. Which is about as
+      fitting a monument as Errol Flynn could ever have asked for.
+    callout: ''
 destinationTags:
   - Port Antonio
   - Jamaica
