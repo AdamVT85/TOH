@@ -4,14 +4,16 @@ birthYear: 1906
 deathYear: 1977
 portraitImage: /images/stars/joan-crawford/portraitImage.jpg
 portraitFocus: top
-portraitCredit: Studio publicity still for Humoresque (1946), Public Domain, via Wikimedia Commons
+portraitCredit: >-
+  Studio publicity still for Humoresque (1946), Public Domain, via Wikimedia
+  Commons
 heroImage: /images/stars/joan-crawford/heroImage.jpg
 excerpt: >-
   Born Lucille LeSueur in San Antonio, she remade herself as the immaculate,
-  self-made movie star who was never once off duty. From the Beverly Hills
-  Hotel to Badrutt's Palace, the Flamingo to the George V, this is the ultimate
-  guide to the hotels, restaurants and resorts where Joan Crawford held court —
-  many of them still open today.
+  self-made movie star who was never once off duty. From the Beverly Hills Hotel
+  to Badrutt's Palace, the Flamingo to the George V, this is the ultimate guide
+  to the hotels, restaurants and resorts where Joan Crawford held court — many
+  of them still open today.
 publishDate: 2026-07-05
 keyFilms:
   - title: Grand Hotel
@@ -44,52 +46,64 @@ relatedVenues:
   - hotel-nacional-de-cuba
 relatedArticles:
   - joan-crawford-pepsi-years
-trailSubtitle: Where to walk in her footsteps
 sections:
   - heading: The Star Who Was Never Off Duty
-    copy: |-
-      She was born Lucille LeSueur in San Antonio, grew up poor in Lawton, Oklahoma, worked for her keep at a Kansas City convent school, and danced in Detroit chorus lines before a Shubert revue carried her to Broadway. By the time MGM renamed her Joan Crawford in 1925, she had decided something that would hold for the next fifty years: the shopgirl from Texas was gone, and in her place stood an immaculate, self-made movie star who would never again be caught looking like anything less.
+    copy: >
+      She was born Lucille LeSueur in San Antonio, grew up poor in Lawton,
+      Oklahoma, worked for her keep at a Kansas City convent school, and danced
+      in Detroit chorus lines before a Shubert revue carried her to Broadway. By
+      the time MGM renamed her Joan Crawford in 1925, she had decided something
+      that would hold for the next fifty years: the shopgirl from Texas was
+      gone, and in her place stood an immaculate, self-made movie star who would
+      never again be caught looking like anything less.
 
-      That is the joy of travelling in Joan's footsteps. She did everything, travel included, as a performance, and she loved every minute of it. She arrived at every hotel with steamer trunks and a maid, answered every fan letter by hand, signed every register in full, and swept through lobbies from the Algonquin to the George V as though the cameras were still rolling. She married four times, adopted four children, packed her own picnics for the twins, and won an Oscar for Mildred Pierce. Wherever she went, from a Beverly Hills bungalow to a St. Moritz sleigh, she went as Joan.
 
-      What follows is her story, told through the hotels she checked into, the restaurants she held court in, and the ski resorts, beach clubs and grand suites where Lucille LeSueur was, gloriously and without a day off, Joan Crawford the movie star.
-    callout: >-
+      What follows is Joan's travel story, from Los Angeles to the Belgian
+      Congo, told through the hotels she checked into, the restaurants she held
+      court in, and the ski resorts, beach clubs and grand suites she loved.
+      Here's how to travel in the footsteps of the incomparable Joan Crawford.
+    callout: >
       "I never go outside unless I look like Joan Crawford the movie star. If
-      you want to see the girl next door, go next door." — Joan Crawford
+      you want to see the girl next door, go next door." - Joan Crawford
 regions:
   - region: California
-    intro: |-
-      Joan's America ran on a private railway of grand hotels. She kept homes in Beverly Hills, Brentwood and finally a Fifth Avenue penthouse, but her real addresses were the lobbies, the supper clubs and the studio commissaries where she could be seen being Joan. California is where the whole story started.
+    intro: >
+      Joan's America ran on a private railway of grand hotels. She kept homes in
+      Beverly Hills, Brentwood and finally a Fifth Avenue penthouse, but her
+      real addresses were the lobbies, the supper clubs and the studio
+      commissaries where she could be seen being Joan. California is where the
+      whole story started.
+    imageFocus: center
     places:
       - name: The Washington Hotel (now Palihotel Culver City)
         category: Sleep
-        venueSlug: ''
-        description: >-
-          When twenty-year-old Lucille LeSueur stepped off the train from
-          Kansas City in January 1925 to dance for MGM, this modest boarding
-          hotel on Van Buren Place, a few blocks from the studio lot, was her
-          very first California address. She spent roughly her first six months
-          here, before Joan Crawford existed. The 1920s building has been
-          lovingly restored as the boutique Palihotel Culver City, which means
-          you can now book the room where the whole story started.
+        description: >
+          When twenty-year-old Lucille LeSueur stepped off the train from Kansas
+          City in January 1925 to dance for MGM, this modest boarding hotel on
+          Van Buren Place, a few blocks from the studio lot, was her very first
+          California address. She spent roughly her first six months here,
+          before Joan Crawford existed. The 1920s building has been lovingly
+          restored as the boutique Palihotel Culver City, which means you can
+          now book the room where the whole story started.
         detail: 3927 Van Buren Place, Culver City. Rooms from around $285 per night.
         status: Relocated
       - name: TCL Chinese Theatre (Grauman's)
         category: See
-        venueSlug: ''
-        description: >-
+        description: >
           On September 14, 1929, three months married to Douglas Fairbanks Jr.
           and newly declared "a star" by an MGM accountant, Joan pressed her
           hands and feet into the wet cement of the forecourt beside Pickford,
           Chaplin and Swanson. She had arrived in Hollywood four years earlier
           as an uncredited body-double for Norma Shearer. The prints are still
           there, and so is the sense of occasion.
-        detail: Hollywood Boulevard. Forecourt free to visit; screenings and tours ticketed.
+        detail: >-
+          Hollywood Boulevard. Forecourt free to visit; screenings and tours
+          ticketed.
         status: Open
       - name: The Beverly Hills Hotel
         category: Sleep
         venueSlug: beverly-hills-hotel
-        description: >-
+        description: >
           The pink palace was Joan's natural habitat for premieres, awards
           dinners and feuds. She attended the Photoplay awards here (and was
           famously incensed by a low-cut Marilyn Monroe entrance) and turned up
@@ -100,44 +114,41 @@ regions:
         status: Open
       - name: The Beverly Wilshire
         category: Sleep
-        venueSlug: ''
-        description: >-
+        description: >
           In October 1949, Joan and her lawyer Greg Bautzer attended a party
           here thrown by Louis B. Mayer for Prince Bernhard of the Netherlands.
-          Bautzer danced with Ginger Rogers; on the drive home Joan asked him
-          to step out and check a tyre, then drove off and left him to walk.
-          The hotel is more forgiving of its guests than Joan was of hers.
-        detail: Corner of Wilshire and Rodeo, Beverly Hills. Rooms from around $700 per night.
+          Bautzer danced with Ginger Rogers; on the drive home Joan asked him to
+          step out and check a tyre, then drove off and left him to walk. The
+          hotel is more forgiving of its guests than Joan was of hers.
+        detail: >-
+          Corner of Wilshire and Rodeo, Beverly Hills. Rooms from around $700
+          per night.
         status: Open
       - name: Musso & Frank Grill
         category: Eat
-        venueSlug: ''
-        description: >-
+        description: >
           The one great survivor. Joan's Hollywood was a city of supper clubs
-          (Ciro's, the Mocambo, Romanoff's, the Cocoanut Grove) and every one
-          of them is now gone. Musso's is the exception: it has poured martinis
+          (Ciro's, the Mocambo, Romanoff's, the Cocoanut Grove) and every one of
+          them is now gone. Musso's is the exception: it has poured martinis
           since 1919 and looked much the same through all of Joan's decades.
           When you want to dine where the old town still breathes, this is the
-          room. Order a martini straight up and settle into a red flannel
-          booth.
+          room. Order a martini straight up and settle into a red flannel booth.
         detail: Hollywood Boulevard. Mains from around $30.
         status: Open
       - name: La Quinta Resort & Club
         category: Do
-        venueSlug: ''
-        description: >-
+        description: >
           In the spring of 1946, the week after she won her Oscar, Joan let
           attorney Greg Bautzer follow her out to the desert, and the pair got
           together for the first time at La Quinta. The hacienda-style resort
           where Frank Capra wrote screenplays under the palms is still there,
-          still low-slung and bougainvillea-draped, and still the right place
-          to disappear for a scandalous long weekend.
+          still low-slung and bougainvillea-draped, and still the right place to
+          disappear for a scandalous long weekend.
         detail: La Quinta, near Palm Springs. Rooms from around $400 per night.
         status: Open
       - name: Carmel-by-the-Sea
         category: Do
-        venueSlug: ''
-        description: >-
+        description: >
           For all the caviar and penthouses, Joan's happiest travelling ritual
           was startlingly simple. She loved to pack a picnic. Biographer Scott
           Eyman records that she would drive the twins up the coast to Carmel
@@ -149,23 +160,25 @@ regions:
         status: Open
       - name: The Hollywood Museum
         category: See
-        venueSlug: ''
-        description: >-
+        description: >
           Inside the old Max Factor Building, the Hollywood Museum keeps
           costumes, letters and personal effects from Joan and her
           contemporaries. It is the single best place to stand a few feet from
-          the actual armour (the gowns, the shoulder pads, that face) from
-          which Joan built her public self.
+          the actual armour (the gowns, the shoulder pads, that face) from which
+          Joan built her public self.
         detail: Highland Avenue, Hollywood. General admission around $18.
         status: Open
   - region: New York
-    intro: |-
-      New York bookends the story. A Shubert revue carried the young Lucille LeSueur to Broadway in the early 1920s, and after she married Alfred Steele in 1955 a Fifth Avenue penthouse overlooking Central Park became Joan's true home for the rest of her life.
+    intro: >
+      New York bookends the story. A Shubert revue carried the young Lucille
+      LeSueur to Broadway in the early 1920s, and after she married Alfred
+      Steele in 1955 a Fifth Avenue penthouse overlooking Central Park became
+      Joan's true home for the rest of her life.
+    imageFocus: center
     places:
       - name: The Algonquin Hotel
         category: Sleep
-        venueSlug: ''
-        description: >-
+        description: >
           On June 3, 1929, Joan married Douglas Fairbanks Jr. at St. Malachy's
           church and the newlyweds stayed at the Algonquin. She was
           twenty-three, he was nineteen, and their union made her a sort of
@@ -177,76 +190,76 @@ regions:
         status: Open
       - name: 2 East 70th Street
         category: See
-        venueSlug: ''
-        description: >-
+        description: >
           After she married Alfred Steele, the couple bought and gutted the top
-          two floors of this Fifth Avenue building overlooking Central Park,
-          and her old friend, the decorator Billy Haines, turned it into one of
-          the most photographed apartments in New York. It became Joan's true
-          home for the rest of her life. You cannot go in (it is private), but
-          the façade at 70th and Fifth is a fine stop on a Central Park walk.
-        detail: Fifth Avenue at East 70th Street, New York. Private residence; admire from the street.
+          two floors of this Fifth Avenue building overlooking Central Park, and
+          her old friend, the decorator Billy Haines, turned it into one of the
+          most photographed apartments in New York. It became Joan's true home
+          for the rest of her life. You cannot go in (it is private), but the
+          façade at 70th and Fifth is a fine stop on a Central Park walk.
+        detail: >-
+          Fifth Avenue at East 70th Street, New York. Private residence; admire
+          from the street.
         status: Open
       - name: George Eastman Museum, Rochester
         category: See
-        venueSlug: ''
-        description: >-
-          This is where you can meet Joan off duty. The Eastman Museum holds
-          and has preserved her own home movies, the 16mm footage she shot
-          herself around 1940 to 1942, filming her family often in colour at a
-          time when her features were still black and white. A gift from her
-          grandson Casey LaLonde, they show the larger-than-life star
-          unadorned, simply being herself. The museum also screens classic
-          Hollywood in its Dryden Theatre the way it was meant to be seen, on
-          film, in a proper house, so you can watch Mildred Pierce or Grand
-          Hotel on a pilgrimage rather than a phone.
+        description: >
+          This is where you can meet Joan off duty. The Eastman Museum holds and
+          has preserved her own home movies, the 16mm footage she shot herself
+          around 1940 to 1942, filming her family often in colour at a time when
+          her features were still black and white. A gift from her grandson
+          Casey LaLonde, they show the larger-than-life star unadorned, simply
+          being herself. The museum also screens classic Hollywood in its Dryden
+          Theatre the way it was meant to be seen, on film, in a proper house,
+          so you can watch Mildred Pierce or Grand Hotel on a pilgrimage rather
+          than a phone.
         detail: Rochester, New York. Admission around $18.
         status: Open
       - name: New York Public Library, Billy Rose Theatre Division
         category: See
-        venueSlug: ''
-        description: >-
+        description: >
           The Billy Rose Theatre Division at Lincoln Center is where Joan's
           paper trail lives: photographs, clippings, programmes and the
           documentary residue of a fifty-year career. Serious devotees can
           request materials in the reading room. It is also a short walk from
-          the Plaza and the old Stork Club site, which makes for a tidy
-          Crawford afternoon.
+          the Plaza and the old Stork Club site, which makes for a tidy Crawford
+          afternoon.
         detail: Lincoln Center, New York. Free; reading-room access by registration.
         status: Open
   - region: Elsewhere in North America
-    intro: |-
-      Beyond the two coasts, Joan's American map runs from a 2am Las Vegas elopement to Miami Beach winters as Pepsi's first lady, and back to the Oklahoma frontier town where young "Billie" Cassin grew up long before Hollywood remade her.
+    intro: >
+      Beyond the two coasts, Joan's American map runs from a 2am Las Vegas
+      elopement to Miami Beach winters as Pepsi's first lady, and back to the
+      Oklahoma frontier town where young "Billie" Cassin grew up long before
+      Hollywood remade her.
+    imageFocus: center
     places:
       - name: Flamingo Las Vegas
         category: Sleep
-        venueSlug: ''
-        description: >-
-          Las Vegas gave Joan her most dramatic wedding. At 2am on May 10,
-          1955, she married Pepsi chairman Alfred Steele in the penthouse of
-          the Flamingo, days after he had talked her into eloping. Three weeks
-          earlier she had served as hostess for the grand opening of the
-          Riviera (with Liberace headlining), a hotel since demolished. Bugsy
-          Siegel's Flamingo, much rebuilt, still anchors the Strip and still
-          trades on exactly the midnight glamour Joan married into.
+        description: >
+          Las Vegas gave Joan her most dramatic wedding. At 2am on May 10, 1955,
+          she married Pepsi chairman Alfred Steele in the penthouse of the
+          Flamingo, days after he had talked her into eloping. Three weeks
+          earlier she had served as hostess for the grand opening of the Riviera
+          (with Liberace headlining), a hotel since demolished. Bugsy Siegel's
+          Flamingo, much rebuilt, still anchors the Strip and still trades on
+          exactly the midnight glamour Joan married into.
         detail: Las Vegas Strip. Rooms from around $100 per night.
         status: Open
       - name: Fontainebleau Miami Beach
         category: Sleep
-        venueSlug: ''
-        description: >-
-          Joan came to the Fontainebleau regularly through her Pepsi years,
-          when Miami was the winter capital of American showbusiness and Morris
+        description: >
+          Joan came to the Fontainebleau regularly through her Pepsi years, when
+          Miami was the winter capital of American showbusiness and Morris
           Lapidus's curved white ziggurat was its throne room. It was where she
           could be a Pepsi ambassador by day and a movie star by night without
-          changing hotels. The restored Fontainebleau still trades on that
-          exact combination of boardroom and ballroom.
+          changing hotels. The restored Fontainebleau still trades on that exact
+          combination of boardroom and ballroom.
         detail: Miami Beach, Florida. Rooms from around $500 per night.
         status: Open
       - name: Museum of the Great Plains, Lawton, Oklahoma
         category: See
-        venueSlug: ''
-        description: >-
+        description: >
           Joan spent her childhood as "Billie" Cassin in Lawton, where her
           stepfather ran an opera house and she cut her foot so badly on a
           broken milk bottle that she missed a year and a half of school. The
@@ -256,47 +269,50 @@ regions:
         detail: Lawton, Oklahoma. Admission around $8.
         status: Open
   - region: The Caribbean
-    intro: |-
-      Joan discovered the warm-weather resort circuit through Alfred Steele and Pepsi, and took to it instantly. The Caribbean was where the movie star could finally sit still, provided someone was there to photograph her sitting still.
+    intro: >
+      Joan discovered the warm-weather resort circuit through Alfred Steele and
+      Pepsi, and took to it instantly. The Caribbean was where the movie star
+      could finally sit still, provided someone was there to photograph her
+      sitting still.
+    imageFocus: center
     places:
       - name: Half Moon, Montego Bay
         category: Sleep
-        venueSlug: ''
-        description: >-
-          Joan spent several Christmases in the early 1960s at the historic
-          Half Moon on Jamaica's north coast, having first come with Alfred
-          Steele in the 1950s. The couple were especially fond of the resort's
-          oceanfront cottages. Half Moon remains one of the Caribbean's grand
-          old estates, all crescent beach and colonial calm, and its cottages
-          still suit a movie star who wants the sea to herself.
+        description: >
+          Joan spent several Christmases in the early 1960s at the historic Half
+          Moon on Jamaica's north coast, having first come with Alfred Steele in
+          the 1950s. The couple were especially fond of the resort's oceanfront
+          cottages. Half Moon remains one of the Caribbean's grand old estates,
+          all crescent beach and colonial calm, and its cottages still suit a
+          movie star who wants the sea to herself.
         detail: Montego Bay, Jamaica. Rooms from around $500 per night.
         status: Open
       - name: Hotel Nacional de Cuba, Havana
         category: Do
         venueSlug: hotel-nacional-de-cuba
-        description: >-
+        description: >
           On her honeymoon with Alfred Steele, Joan took in pre-revolution
           Havana at its glittering height, staying at the iconic clifftop Hotel
           Nacional and dancing at the fabled Tropicana nightclub. The Nacional
-          still presides over the Malecón, its twin towers and sea-facing
-          garden bar largely unchanged, a living relic of the Havana that Joan
-          knew when it called itself the Paris of the Caribbean.
+          still presides over the Malecón, its twin towers and sea-facing garden
+          bar largely unchanged, a living relic of the Havana that Joan knew
+          when it called itself the Paris of the Caribbean.
         detail: Havana, Cuba. Rooms from around $200 per night.
         status: Open
       - name: Buena Vista, Nassau (now John Watling's Distillery)
         category: Do
-        venueSlug: ''
-        description: >-
+        description: >
           In the 1960s Joan stayed at the Buena Vista, then a prominent A-list
           hotel on a hill above Nassau. The historic mansion and its gardens
           survive today as John Watling's Distillery, where you can tour the
           colonial estate and taste Bahamian rum where the stars once dined.
-        detail: Nassau, Bahamas. Distillery tours free; tastings and cocktails available.
+        detail: >-
+          Nassau, Bahamas. Distillery tours free; tastings and cocktails
+          available.
         status: Relocated
       - name: Dorado Beach, a Ritz-Carlton Reserve
         category: Sleep
-        venueSlug: ''
-        description: >-
+        description: >
           In December 1958, Joan and Al Steele wintered at Laurance
           Rockefeller's newly opened Dorado Beach on the north coast of Puerto
           Rico, an early temple of understated tropical luxury carved out of a
@@ -308,8 +324,7 @@ regions:
         status: Open
       - name: Fairmont El San Juan Hotel
         category: Sleep
-        venueSlug: ''
-        description: >-
+        description: >
           Joan returned to Puerto Rico in 1969 to receive the Rafael Ramos
           Cobián Achievement Award, and stayed at the glamorous El San Juan on
           Isla Verde Beach. Its carved-mahogany lobby is still one of the great
@@ -319,8 +334,7 @@ regions:
         status: Open
       - name: Caribe Hilton
         category: Drink
-        venueSlug: ''
-        description: >-
+        description: >
           Joan was a frequent visitor to the neighbouring Caribe Hilton, where
           she famously praised the piña coladas, appropriately, since the hotel
           claims to be the drink's birthplace (mixed here by bartender Ramón
@@ -329,47 +343,56 @@ regions:
         detail: San Juan, Puerto Rico. Rooms from around $300 per night.
         status: Open
   - region: Switzerland
-    intro: |-
-      Joan crossed the Atlantic the old way, by liner, with trunks, and treated Europe as a series of the finest suites in the finest cities. Her grandest European journey was the family Christmas of 1955 and 1956: the Queen Mary to Cherbourg, a night train to the Alps, and horse-drawn sleighs to the snow.
+    intro: >
+      Joan crossed the Atlantic the old way, by liner, with trunks, and treated
+      Europe as a series of the finest suites in the finest cities. Her grandest
+      European journey was the family Christmas of 1955 and 1956: the Queen Mary
+      to Cherbourg, a night train to the Alps, and horse-drawn sleighs to the
+      snow.
+    imageFocus: center
     places:
       - name: Badrutt's Palace Hotel, St. Moritz
         category: Sleep
-        venueSlug: ''
-        description: >-
-          On December 22, 1955, Joan, Al Steele and all four children arrived
-          by sleigh at Badrutt's Palace in St. Moritz. On Christmas Eve they
-          opened their presents over champagne and caviar; on their last night
-          Joan threw a party for the writer Paul Gallico. The turreted Palace
-          above the frozen lake is still Switzerland's most theatrical grand
-          hotel, and still exactly the backdrop against which Joan liked to be
+        description: >
+          On December 22, 1955, Joan, Al Steele and all four children arrived by
+          sleigh at Badrutt's Palace in St. Moritz. On Christmas Eve they opened
+          their presents over champagne and caviar; on their last night Joan
+          threw a party for the writer Paul Gallico. The turreted Palace above
+          the frozen lake is still Switzerland's most theatrical grand hotel,
+          and still exactly the backdrop against which Joan liked to be
           photographed in furs.
-        detail: St. Moritz, Switzerland. Rooms from around $900 per night (winter season considerably more).
+        detail: >-
+          St. Moritz, Switzerland. Rooms from around $900 per night (winter
+          season considerably more).
         status: Open
   - region: France
-    intro: |-
-      Every leg of the 1955 to 1956 grand tour ran through Paris, and Joan knew the Riviera long before that: back in the early 1930s she and Douglas Fairbanks Jr. had holidayed along the same shore she would return to on her honeymoon with Alfred Steele.
+    intro: >
+      Every leg of the 1955 to 1956 grand tour ran through Paris, and Joan knew
+      the Riviera long before that: back in the early 1930s she and Douglas
+      Fairbanks Jr. had holidayed along the same shore she would return to on
+      her honeymoon with Alfred Steele.
+    imageFocus: center
     places:
       - name: Four Seasons Hotel George V, Paris
         category: Sleep
         venueSlug: george-v-paris
-        description: >-
+        description: >
           Every leg of that 1955 to 1956 grand tour ran through the George V.
           The family freshened up here on December 21 before the night train to
           Switzerland, and checked back in on the way home in January to
           sightsee for three days before taking the Blue Train south to Cannes.
           The George V remains the most sumptuous of the Paris palaces, the one
-          with the famous flowers, and it wears Joan's brand of polished
-          glamour beautifully.
+          with the famous flowers, and it wears Joan's brand of polished glamour
+          beautifully.
         detail: Avenue George V, Paris. Rooms from around 1,500 euros per night.
         status: Open
       - name: La Réserve de Beaulieu
         category: Sleep
-        venueSlug: ''
-        description: >-
-          On her 1955 honeymoon with Alfred Steele, Joan stayed at the
-          exquisite La Réserve at Beaulieu-sur-Mer, on the Riviera between Nice
-          and Monaco, and was photographed dining on its Mediterranean terrace.
-          She knew this coast well: back in the early 1930s she and Douglas
+        description: >
+          On her 1955 honeymoon with Alfred Steele, Joan stayed at the exquisite
+          La Réserve at Beaulieu-sur-Mer, on the Riviera between Nice and
+          Monaco, and was photographed dining on its Mediterranean terrace. She
+          knew this coast well: back in the early 1930s she and Douglas
           Fairbanks Jr. had holidayed along the same shore. La Réserve is a
           Belle Époque jewel of only thirty-nine rooms, and its sea-facing
           terrace is still set for exactly the sort of lunch Joan liked.
@@ -377,8 +400,7 @@ regions:
         status: Open
       - name: 'Paris: The Pepsi Years'
         category: Sleep
-        venueSlug: ''
-        description: >-
+        description: >
           Once Joan became Pepsi's globe-trotting first lady, Paris meant
           honeymoon nights at Maxim's and the whole apparatus of a corporate
           queen abroad. We follow that itinerary in detail in our Pepsi-years
@@ -386,13 +408,17 @@ regions:
         detail: Paris, France. See the Pepsi-years guide.
         status: Open
   - region: Italy
-    intro: |-
-      Joan based her June 1955 honeymoon with Al Steele on Capri, was photographed among the marble and gilt of the Excelsior on more than one Roman visit, and sailed home from the Bay of Naples aboard the ill-fated Andrea Doria.
+    intro: >
+      Joan based her June 1955 honeymoon with Al Steele on Capri, was
+      photographed among the marble and gilt of the Excelsior on more than one
+      Roman visit, and sailed home from the Bay of Naples aboard the ill-fated
+      Andrea Doria.
+    imageFocus: center
     places:
       - name: The Westin Excelsior, Rome
         category: Sleep
         venueSlug: westin-excelsior-rome
-        description: >-
+        description: >
           The grande dame of the Via Veneto, opened in 1906, the Excelsior was
           Joan's Rome, and she was photographed among its marble and gilt on
           more than one Italian visit. Between the Spanish Steps and the
@@ -402,44 +428,39 @@ regions:
         status: Open
       - name: Grand Hotel Quisisana, Capri
         category: Sleep
-        venueSlug: ''
-        description: >-
+        description: >
           On her June 1955 honeymoon with Al Steele, Joan based herself at the
           Grand Hotel Quisisana in the heart of Capri, the island's grande dame
           and the traditional harbour for Hollywood stars and the international
           jet set for well over a century. A few steps from the Piazzetta, it
-          remains a five-star landmark, exactly the sort of address from which
-          a movie star could stroll out to be photographed.
+          remains a five-star landmark, exactly the sort of address from which a
+          movie star could stroll out to be photographed.
         detail: Via Camerelle, Capri. Rooms from around 500 euros per night.
         status: Open
       - name: La Canzone del Mare, Capri
         category: Do
-        venueSlug: ''
-        description: >-
-          By day the honeymooners decamped to La Canzone del Mare, the
-          exclusive bathing club built into the cliffs at Marina Piccola by the
-          English singer Gracie Fields. Joan was famously photographed here,
-          all sunglasses and Capri pants, against the rocks and the sea. The
-          club still serves lunch and cocktails above its saltwater terraces,
-          and it is still the most glamorous place on the island to spend a
-          morning.
+        description: >
+          By day the honeymooners decamped to La Canzone del Mare, the exclusive
+          bathing club built into the cliffs at Marina Piccola by the English
+          singer Gracie Fields. Joan was famously photographed here, all
+          sunglasses and Capri pants, against the rocks and the sea. The club
+          still serves lunch and cocktails above its saltwater terraces, and it
+          is still the most glamorous place on the island to spend a morning.
         detail: Marina Piccola, Capri. Seasonal; day access and dining by reservation.
         status: Open
       - name: Naples, Pompeii and the Andrea Doria
         category: See
-        venueSlug: ''
-        description: >-
+        description: >
           The following January the family sailed home from the Bay of Naples
-          aboard the ill-fated Andrea Doria, stopping to see Pompeii on the
-          way. (The Naples leg turned briefly frightening when a crowd grabbed
-          at Joan's jewellery and the family fled to the ship.) The bay and its
+          aboard the ill-fated Andrea Doria, stopping to see Pompeii on the way.
+          (The Naples leg turned briefly frightening when a crowd grabbed at
+          Joan's jewellery and the family fled to the ship.) The bay and its
           Roman ruins remain the most cinematic stretch of the Italian south.
         detail: Bay of Naples and Pompeii.
         status: Open
       - name: 'Rome and Milan: The Pepsi Years'
         category: Sleep
-        venueSlug: ''
-        description: >-
+        description: >
           Joan's Pepsi decade filled Italy with more signature hotels, from the
           Hassler above the Spanish Steps to the Hotel Principe di Savoia in
           Milan for the 1961 Giro d'Italia. Both feature in our Pepsi-years
@@ -447,26 +468,30 @@ regions:
         detail: Rome and Milan, Italy. See the Pepsi-years guide.
         status: Open
   - region: England
-    intro: |-
-      Joan's London went right back to 1932, when she and Douglas Fairbanks Jr. took a late honeymoon in Piccadilly, and it ran all the way to 1969 and her final feature. Through it all, the Savoy on the Strand was her London anchor.
+    intro: >
+      Joan's London went right back to 1932, when she and Douglas Fairbanks Jr.
+      took a late honeymoon in Piccadilly, and it ran all the way to 1969 and
+      her final feature. Through it all, the Savoy on the Strand was her London
+      anchor.
+    imageFocus: center
     places:
       - name: The Savoy, London
         category: Sleep
         venueSlug: the-savoy-london
-        description: >-
-          The Savoy on the Strand was Joan's London anchor for decades. She
-          held a press conference and reception here during her 1956 trip to
-          film The Story of Esther Costello, and returned in April 1966 as a
-          guest of honour for the Variety Club's International Convention. She
-          loved to pose for photographers on its riverside steps. The Savoy
-          remains the grandest address on the Thames, and still receives its
-          guests with the ceremony Joan expected.
+        description: >
+          The Savoy on the Strand was Joan's London anchor for decades. She held
+          a press conference and reception here during her 1956 trip to film The
+          Story of Esther Costello, and returned in April 1966 as a guest of
+          honour for the Variety Club's International Convention. She loved to
+          pose for photographers on its riverside steps. The Savoy remains the
+          grandest address on the Thames, and still receives its guests with the
+          ceremony Joan expected.
         detail: Strand, London. Rooms from around 700 pounds per night.
         status: Open
       - name: The Dorchester, London
         category: Sleep
         venueSlug: the-dorchester
-        description: >-
+        description: >
           On that same 1956 London trip, photographers caught Joan at the
           Dorchester on Park Lane having a stray thread bitten off her gown,
           immaculate to the last stitch, as ever. The Dorchester is still
@@ -476,19 +501,17 @@ regions:
         status: Open
       - name: Grosvenor House, London
         category: Sleep
-        venueSlug: ''
-        description: >-
-          In 1969, arriving to film the horror picture Trog (her final
-          feature), Joan based herself in a suite at Grosvenor House on Park
-          Lane. It was the last of her grand London residencies, and the JW
-          Marriott Grosvenor House still offers the sort of Park Lane suite
-          from which a movie star could commute to a film set in style.
+        description: >
+          In 1969, arriving to film the horror picture Trog (her final feature),
+          Joan based herself in a suite at Grosvenor House on Park Lane. It was
+          the last of her grand London residencies, and the JW Marriott
+          Grosvenor House still offers the sort of Park Lane suite from which a
+          movie star could commute to a film set in style.
         detail: Park Lane, London. Rooms from around 500 pounds per night.
         status: Open
       - name: London in the 1930s
         category: Sleep
-        venueSlug: ''
-        description: >-
+        description: >
           Joan's London went right back to 1932, when she and Douglas Fairbanks
           Jr. took a late honeymoon at the Berkeley in Piccadilly, saw Noël
           Coward's Cavalcade at Drury Lane, and weekended at Coward's country
@@ -497,28 +520,34 @@ regions:
         detail: Knightsbridge, London. Rooms from around 600 pounds per night.
         status: Relocated
   - region: Spain
-    intro: |-
-      Joan's Spain was a single, characteristically regal appearance: the movie star as visiting dignitary, gracious, photographed and perfectly turned out.
+    intro: >
+      Joan's Spain was a single, characteristically regal appearance: the movie
+      star as visiting dignitary, gracious, photographed and perfectly turned
+      out.
+    imageFocus: center
     places:
       - name: Madrid
         category: Do
-        venueSlug: ''
-        description: >-
+        description: >
           Joan came to Madrid on June 2, 1962, as a guest of honour for a film
           festival, staying at the Hotel Olympic and taking in the full Spanish
           welcome, bullfight included. It was a characteristically regal
           Crawford appearance: the movie star as visiting dignitary, gracious,
           photographed and perfectly turned out.
-        detail: Madrid, Spain. Pair a visit with the city's grand old hotels around the Gran Vía.
+        detail: >-
+          Madrid, Spain. Pair a visit with the city's grand old hotels around
+          the Gran Vía.
         status: Open
   - region: The Middle East
-    intro: |-
-      The 1957 Pepsi tour carried Joan through a Middle East that has changed beyond recognition. Some of Joan's road is now a road you travel only in the imagination, which is its own kind of Old Hollywood pilgrimage.
+    intro: >
+      The 1957 Pepsi tour carried Joan through a Middle East that has changed
+      beyond recognition. Some of Joan's road is now a road you travel only in
+      the imagination, which is its own kind of Old Hollywood pilgrimage.
+    imageFocus: center
     places:
       - name: Beirut, Baghdad and Beyond
         category: See
-        venueSlug: ''
-        description: >-
+        description: >
           The 1957 Pepsi tour carried Joan through Beirut, Baghdad, Basra and
           Cairo, a glamorous, now largely un-followable itinerary through a
           Middle East that has changed beyond recognition. We cover where you
@@ -528,13 +557,38 @@ regions:
         status: Open
 lifestyle:
   - label: Dress like Joan
-    text: |-
-      A note on the shoulders. Nobody built a silhouette like Joan Crawford. When designer Adrian widened her shoulders for Letty Lynton in 1932, the look was copied by half a million American women within the year, and Joan wore some version of it, defiantly, for the rest of her life. To dress like Joan is not to dress prettily; it is to dress like a fortress. Strong shoulder, hard lip, and the posture of a woman who has never once slouched into a hotel lobby.
+    text: >
+      A note on the shoulders. Nobody built a silhouette like Joan Crawford.
+      When designer Adrian widened her shoulders for Letty Lynton in 1932, the
+      look was copied by half a million American women within the year, and Joan
+      wore some version of it, defiantly, for the rest of her life. To dress
+      like Joan is not to dress prettily; it is to dress like a fortress. Strong
+      shoulder, hard lip, and the posture of a woman who has never once slouched
+      into a hotel lobby.
   - label: Eat like Joan
-    text: |-
-      For all the caviar at the Palace and the sole at Le Pavillon, Joan cooked, and she cooked with the same precision she brought to everything. The delightful Joan Crawford Cookbook collects her own recipes, and they are a window into her table: a charcoal-broiled steak with Roquefort sauce, poached salmon with a mustard-mayonnaise dressing, roast squab for a dinner party, and, to finish, a Floating Island or Crêpes Suzette. Her hors d'oeuvres ran from the elegant (smoked salmon on pumpernickel) to the frankly startling (peanut butter and bacon canapés). But her most personal ritual was the humble picnic hamper, packed herself and driven up the coast to Carmel. Cook a dish or two from her book, pack the rest into a basket, and eat it somewhere beautiful with a movie star's sense of occasion.
+    text: >
+      For all the caviar at the Palace and the sole at Le Pavillon, Joan cooked,
+      and she cooked with the same precision she brought to everything. The
+      delightful Joan Crawford Cookbook collects her own recipes, and they are a
+      window into her table: a charcoal-broiled steak with Roquefort sauce,
+      poached salmon with a mustard-mayonnaise dressing, roast squab for a
+      dinner party, and, to finish, a Floating Island or Crêpes Suzette. Her
+      hors d'oeuvres ran from the elegant (smoked salmon on pumpernickel) to the
+      frankly startling (peanut butter and bacon canapés). But her most personal
+      ritual was the humble picnic hamper, packed herself and driven up the
+      coast to Carmel. Cook a dish or two from her book, pack the rest into a
+      basket, and eat it somewhere beautiful with a movie star's sense of
+      occasion.
   - label: Drink like Joan
-    text: |-
-      Joan's drink was vodka, and she was loyal to it long before the rest of America caught on. She travelled with a personal supply of 100-proof Smirnoff, and once she joined the Pepsi board the pairing wrote itself. Her house pour, the one that fused both halves of her life, could not be simpler.
+    text: >
+      Joan's drink was vodka, and she was loyal to it long before the rest of
+      America caught on. She travelled with a personal supply of 100-proof
+      Smirnoff, and once she joined the Pepsi board the pairing wrote itself.
+      Her house pour, the one that fused both halves of her life, could not be
+      simpler.
 
-      Joan's Vodka and Pepsi: 60ml (2 oz) good vodka, well chilled; cold Pepsi to top; plenty of ice, a tall glass, a twist of lemon. Build over ice in a highball, top with Pepsi, and stir once. Sip it the way Joan did everything: immaculately turned out, chin up, entirely on duty.
+
+      Joan's Vodka and Pepsi: 60ml (2 oz) good vodka, well chilled; cold Pepsi
+      to top; plenty of ice, a tall glass, a twist of lemon. Build over ice in a
+      highball, top with Pepsi, and stir once. Sip it the way Joan did
+      everything: immaculately turned out, chin up, entirely on duty.
