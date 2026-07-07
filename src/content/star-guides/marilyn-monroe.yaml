@@ -1,0 +1,912 @@
+name: Marilyn Monroe
+nickname: The Ultimate Movie Star
+birthYear: 1926
+deathYear: 1962
+portraitImage: /images/stars/marilyn-monroe/portraitImage.jpg
+portraitFocus: top
+portraitCredit: Bert Parry, Public Domain, via Wikimedia Commons
+heroImage: /images/stars/marilyn-monroe/heroImage.jpg
+excerpt: >-
+  Travel in the footsteps of the most famous movie star the world has ever
+  produced. From the Hollywood Roosevelt poolside where it all began to a
+  baronial castle in the Canadian Rockies, from a subway grate in Manhattan to
+  a heart-shaped cabin above Lake Tahoe — the ultimate guide to Marilyn
+  Monroe's hotels, hideaways and haunts, almost all of them still standing.
+publishDate: 2026-07-07
+keyFilms:
+  - title: Niagara
+    year: '1953'
+  - title: Gentlemen Prefer Blondes
+    year: '1953'
+  - title: River of No Return
+    year: '1954'
+  - title: The Seven Year Itch
+    year: '1955'
+  - title: Bus Stop
+    year: '1956'
+  - title: The Prince and the Showgirl
+    year: '1957'
+  - title: Some Like It Hot
+    year: '1959'
+keyDestinations:
+  - Los Angeles
+  - New York
+  - Niagara Falls
+  - Banff
+  - London
+  - Tokyo
+  - Rio de Janeiro
+  - Mexico City
+  - Jamaica
+relatedStars:
+  - frank-sinatra
+  - elizabeth-taylor
+  - ava-gardner
+relatedVenues:
+  - hollywood-roosevelt
+  - beverly-hills-hotel
+  - hotel-bel-air
+  - fairmont-banff-springs
+  - copacabana-palace
+  - the-savoy-london
+  - claridges
+relatedArticles:
+  - swimming-pools-of-classic-hollywood
+  - errol-flynn-port-antonio
+trailSubtitle: Where to walk in her footsteps
+sections:
+  - heading: The Most Famous Woman in the World
+    copy: >-
+      Marilyn Monroe is, quite simply, the most famous movie star the world has
+      ever produced. More has been written about her than almost any woman of
+      the twentieth century, and her image — the platinum waves, the billowing
+      white dress, the knowing over-the-shoulder smile — is recognised
+      instantly in every country on earth. She is the definition of the word
+      glamour, the face that launched a thousand imitations, and more than
+      sixty years after her final film she remains the yardstick against which
+      movie-star magic is still measured.
+
+
+      Yet for all that dazzling fame, Marilyn was never the great globe-trotter
+      that some of her contemporaries were. Where Elizabeth Taylor scandalised
+      half of Europe and Frank Sinatra crossed continents at will, Marilyn's
+      world was, gloriously, an American one, stitched together from Hollywood
+      studio lots, grand hotels, honeymoon getaways and hideaways from Los
+      Angeles to New York, with only a handful of adventures further afield:
+      one unforgettable English summer, a whirlwind Japanese honeymoon, a
+      fortnight in Jamaica and a beloved final escape to Mexico. There is
+      something rather fitting in that — the most iconic of all American icons
+      most at home on American soil — and it happily makes hers one of the
+      most followable trails in all of Old Hollywood. Almost everywhere she
+      went is still standing, and much of it still trades proudly on her
+      passing through.
+
+
+      What follows is her story, told through the hotels she checked into, the
+      delis and steakhouses that still keep her booth, the film sets she lit up
+      and the quiet corners where Norma Jeane could slip away. From the
+      Roosevelt poolside where the whole thing began to a baronial castle in
+      the Canadian Rockies, from a subway grate in Manhattan to a heart-shaped
+      cabin above Lake Tahoe, this is the ultimate guide to travelling in the
+      footsteps of the ultimate movie star.
+    callout: '"Ever notice how ''what the hell'' is always the right decision?" — Marilyn Monroe'
+regions:
+  - region: United States
+    intro: >-
+      Marilyn's America was a coast-to-coast circuit of studio lots and grand
+      hotels, from the Hollywood bungalows where Norma Jeane became a blonde to
+      the white Manhattan suites where she reinvented herself as a serious
+      actress. We have grouped her American haunts by city and state, with the
+      places to sleep first, then where to eat and drink, then what to see and
+      do.
+    places: []
+  - region: Los Angeles
+    places:
+      - name: The Hollywood Roosevelt Hotel
+        category: Sleep
+        venueSlug: hollywood-roosevelt
+        description: >-
+          This is where it all started. A young, unknown Marilyn lived in one
+          of the poolside cabanas for the better part of two years while the
+          modelling jobs trickled in, and it was down by the water here that
+          she posed for her very first professional shoot. That pool now wears
+          a David Hockney design on its floor, the vintage rooms have been
+          polished back to their 1920s glamour, and the top-floor suite that
+          bears her name looks straight down onto the spot where the legend
+          began. Staff will happily tell you about the antique mirror said to
+          hold her reflection.
+        detail: Hollywood Boulevard. Rooms from around $190 per night.
+        status: Open
+      - name: The Beverly Hills Hotel
+        category: Sleep
+        venueSlug: beverly-hills-hotel
+        description: >-
+          The Pink Palace was Marilyn's kind of hotel: all-enveloping,
+          discreet, and built around private bungalows where a famous face
+          could vanish for days. She spent long stretches of 1960 here shooting
+          Let's Make Love, drifting between her garden bungalow and a favourite
+          corner of the Polo Lounge, where a hot-fudge sundae was as likely to
+          appear on her table as a cocktail. The hotel keeps her memory close
+          with a bungalow styled in her honour, gold-leafed and glamorous to
+          the last.
+        detail: >-
+          Beverly Hills. Rooms from around $1,000 per night; bungalows
+          considerably more.
+        status: Open
+      - name: Hotel Bel-Air
+        category: Sleep
+        venueSlug: hotel-bel-air
+        description: >-
+          Few hotels suited Marilyn's craving for privacy better than this one.
+          During her marriage to Joe DiMaggio she is said to have come and gone
+          so quietly, veiled against recognition, that she barely troubled the
+          front desk. It was also here, in the summer of 1962, that Bert Stern
+          photographed her across three long, champagne-fuelled nights for
+          Vogue, a session the world came to know as The Last Sitting. Tucked
+          among bougainvillea and its own swan-dotted lake, it is still one of
+          the most romantic addresses in the city.
+        detail: Stone Canyon Road, Bel-Air. Rooms from around $700 per night.
+        status: Open
+      - name: Avalon Hotel Beverly Hills
+        category: Sleep
+        description: >-
+          Once the Beverly Carlton, this cool slice of mid-century design was
+          one of the young Marilyn's actual homes, a place she rented for
+          roughly three years in the early 1950s as her star was rising.
+          Restored around its distinctive hourglass pool, it is that rare thing
+          on this trail: somewhere genuinely affordable where you really can
+          sleep where she slept.
+        detail: Olympic Boulevard, Beverly Hills. Rooms from around $230 per night.
+        status: Open
+      - name: Musso & Frank Grill
+        category: Eat
+        description: >-
+          Hollywood's oldest restaurant has been shaking martinis since 1919,
+          and precious little about it has changed. Marilyn and Joe DiMaggio
+          were among the stars who took their drinks in the wood-panelled Back
+          Room, opened in 1934 as a private hideaway for the studio set. Slide
+          into a red leather booth, order the martini straight up, and eat
+          somewhere the old town still feels entirely alive.
+        detail: Hollywood Boulevard. Mains from around $30; martinis around $18.
+        status: Open
+      - name: The Formosa Cafe
+        category: Eat
+        description: >-
+          This little red-lacquered landmark stood directly beside the lot
+          where Some Like It Hot was filmed, and Marilyn ducked in often during
+          the shoot. A loving restoration has kept the low lighting, the
+          crimson booths and the wall upon wall of autographed star portraits,
+          hers included. Come for a drink and a plate of dumplings and soak up
+          one of the last genuinely atmospheric rooms in town.
+        detail: West Hollywood. Small plates and mains from around $18.
+        status: Open
+      - name: Canter's Deli
+        category: Eat
+        description: >-
+          Arthur Miller is said to have brought his new wife to this
+          round-the-clock Fairfax institution, and it stuck. The kitchen still
+          lists "The Marilyn," a Swiss-cheese-and-grilled-tomato sandwich on
+          rye, exactly the way she liked it, and the neon, the bakery counter
+          and the all-night buzz are unchanged. It is the ideal 2am stop on any
+          Marilyn pilgrimage.
+        detail: Fairfax Avenue. Sandwiches from around $20.
+        status: Open
+      - name: Barney's Beanery
+        category: Eat
+        description: >-
+          A rambling old roadhouse that has been dishing out comfort since
+          1920. Marilyn is said to have slipped in during the Some Like It Hot
+          period for a bowl of its famous chilli, a recipe still ladled out
+          today. Nothing here is polished or precious, which is precisely the
+          point.
+        detail: West Hollywood. Chilli and mains from around $16.
+        status: Open
+      - name: Rainbow Bar & Grill
+        category: Drink
+        description: >-
+          Rock fans know it as a Sunset Strip shrine, but this room holds a far
+          older secret. Before it became the Rainbow it was the Villa Nova, the
+          Italian restaurant where, in 1952, a friend engineered a blind date
+          between Marilyn and a retired ballplayer named Joe DiMaggio. They
+          shared spaghetti in a back booth, and that booth is still in the
+          building.
+        detail: Sunset Strip, West Hollywood. Mains from around $20.
+        status: Open
+      - name: TCL Chinese Theatre (Grauman's)
+        category: See
+        description: >-
+          When Gentlemen Prefer Blondes became a sensation, Marilyn and co-star
+          Jane Russell were summoned to sink their hands, names and heels into
+          the wet cement of the famous forecourt. The slab is still there,
+          waiting for you to press your own palm against hers. Her Walk of Fame
+          star sits a block east at 6774 Hollywood Boulevard.
+        detail: Hollywood Boulevard. Forecourt free; screenings and tours ticketed.
+        status: Open
+      - name: The Hollywood Museum
+        category: See
+        description: >-
+          Housed in the old Max Factor Building, this is the very place Norma
+          Jeane was transformed into a platinum blonde in the make-up salons on
+          the ground floor. Upstairs, one of the largest Marilyn collections
+          anywhere runs from her personal effects and gowns to her actual car,
+          with pride of place going to the dress she wore to marry Joe DiMaggio
+          and later to entertain the troops in Korea.
+        detail: Highland Avenue, Hollywood. General admission around $18.
+        status: Open
+      - name: Academy Museum of Motion Pictures
+        category: See
+        description: >-
+          The city's most spectacular film museum keeps, among its costume
+          treasures, the shocking-pink gown from Gentlemen Prefer Blondes, the
+          one she wore to sing "Diamonds Are a Girl's Best Friend." To stand an
+          arm's length from it is to appreciate just how small she was and how
+          enormous the image.
+        detail: Wilshire Boulevard, Miracle Mile. General admission around $25.
+        status: Open
+      - name: The Hollywood Studio Club
+        category: See
+        description: >-
+          Before there was Marilyn, there was Norma Jeane in Room 334 of this
+          graceful Julia Morgan building, a supervised residence for young
+          women chasing a break in pictures, where she lodged around 1948 and
+          1949. It was to cover the rent here that she posed for the
+          photographs that became the most famous calendar in history. Now a
+          protected landmark serving a charitable cause, it is a façade to
+          admire from the pavement rather than a hotel, but few stops on the
+          trail carry more of Norma Jeane's story.
+        detail: Lodi Place, Hollywood. Private; admire from the street.
+        status: Open
+      - name: Paramount Pictures Studio Tour
+        category: Do
+        description: >-
+          Most of Marilyn's pictures were shot on the Fox lot in Century City,
+          now closed to the public, so the closest you will get to a working
+          golden-age studio is the tour at neighbouring Paramount. There is a
+          sweet piece of lore here too: as an orphaned child, Norma Jeane is
+          said to have stared up at the water tower of the old RKO studio,
+          today part of the Paramount lot, and dreamed of one day seeing her
+          name in lights.
+        detail: Melrose Avenue, Hollywood. Tours from around $65.
+        status: Open
+      - name: Santa Monica Beach
+        category: Do
+        description: >-
+          In the last summer of her life, the photographer George Barris posed
+          Marilyn among these dunes wrapped in a bulky Mexican cardigan she had
+          picked up on her final trip south of the border. The pictures are
+          among the last ever taken of her, tender and entirely unguarded. Walk
+          the same stretch of sand and it is easy to feel the mood of that
+          afternoon.
+        detail: Santa Monica, California. Beach free.
+        status: Open
+      - name: 12305 Fifth Helena Drive, Brentwood
+        category: See
+        description: >-
+          The little Spanish hacienda Marilyn bought in early 1962 was the
+          first and only home she ever owned outright, and the place she died
+          that August. Saved from demolition and now a protected landmark, it
+          hides at the end of a quiet cul-de-sac behind a wall carved with the
+          motto she chose for it, Cursum Perficio, "I am finishing my journey."
+          It remains a private residence, so this is a respectful pause on the
+          street rather than a visit.
+        detail: Brentwood, Los Angeles. Private; view from the street.
+        status: Open
+      - name: Pierce Brothers Westwood Village Memorial Park
+        category: See
+        description: >-
+          Marilyn rests in a simple pink marble crypt, number 24, in the
+          Corridor of Memories, and you will find it easily: the stone is
+          faintly stained by decades of fans' lipstick kisses. For twenty years
+          after her death, Joe DiMaggio had fresh red roses delivered here
+          three times a week.
+        detail: Glendon Avenue, Westwood. Free to visit.
+        status: Open
+  - region: Palm Springs
+    places:
+      - name: Ingleside Estate
+        category: Sleep
+        description: >-
+          When Hollywood wanted to disappear into the desert, it came to
+          Ingleside. Marilyn was among the guests, alongside the likes of
+          Elizabeth Taylor, Ava Gardner and Marlon Brando, who slipped behind
+          its walls for a discreet weekend. Small, hushed and beautifully
+          revived, it is still exactly the sort of hideaway a movie star could
+          vanish into.
+        detail: Palm Springs. Rooms from around $250 per night.
+        status: Open
+      - name: Forever Marilyn
+        category: See
+        description: >-
+          Palm Springs is where Marilyn stands twenty-six feet tall. The
+          colossal Forever Marilyn statue, frozen mid-pose from The Seven Year
+          Itch, is one of the most photographed sights in the desert. It stands
+          not far from the old Racquet Club, poolside of which, legend has it,
+          a teenage Marilyn caught the eye of a talent scout in the late 1940s.
+          The club itself is now shuttered and awaiting its future, but the
+          giant keeps her at the heart of town.
+        detail: Downtown Palm Springs. Free to visit.
+        status: Open
+  - region: Catalina Island
+    places:
+      - name: Catalina Island Inn
+        category: Sleep
+        description: >-
+          This is a chapter from before Marilyn even existed. In the early
+          1940s, a teenage Norma Jeane arrived in the little harbour town of
+          Avalon with her first husband, Jim Dougherty, who was teaching ocean
+          safety on the island, and the young couple set up home on Metropole
+          Avenue. This friendly inn sits on the very same street, a few doors
+          from her old address, which makes it about as close as anyone can
+          sleep to Norma Jeane's island life.
+        detail: Metropole Avenue, Avalon. Rooms from around $180 per night.
+        status: Open
+      - name: The Marlin Club
+        category: Drink
+        description: >-
+          Avalon's oldest bar occupies a striking blue building from 1905, and
+          it was in the rooms upstairs that the newlywed Doughertys first
+          lodged before finding their own place down the street. Pull up a
+          stool in the actual building where Norma Jeane started married life,
+          years before Hollywood had ever heard her name.
+        detail: Catalina Street, Avalon. Drinks from around $8.
+        status: Open
+  - region: San Diego
+    places:
+      - name: Hotel del Coronado
+        category: Sleep
+        description: >-
+          The great white Victorian pile across the bay from San Diego stood in
+          for a Florida resort in Some Like It Hot, and Marilyn lived on site
+          through the 1958 shoot. Its red turrets, wooden verandas and broad
+          Pacific beach look exactly as the cameras found them, and the hotel
+          wears the connection with obvious pride.
+        detail: Coronado, San Diego. Rooms from around $350 per night.
+        status: Open
+  - region: Sun Valley, Idaho
+    places:
+      - name: Sun Valley Lodge
+        category: Sleep
+        description: >-
+          Marilyn based herself at this grand mountain lodge while filming Bus
+          Stop in 1956. The resort now keeps a celebrity suite in her name,
+          hung with photographs from her stay, and the village's charming 1937
+          Opera House still shows films the old-fashioned way.
+        detail: Sun Valley, Idaho. Rooms from around $230 per night.
+        status: Open
+  - region: Arizona
+    places:
+      - name: Arizona Biltmore
+        category: Sleep
+        description: >-
+          Marilyn loved Arizona as somewhere to be nobody in particular, and
+          she declared the Catalina Pool at this Frank Lloyd Wright-inspired
+          resort her single favourite place on earth to lie in the sun, coming
+          back to it again and again. The Biltmore still radiates its
+          golden-age glamour, block-printed concrete and all.
+        detail: Phoenix, Arizona. Rooms from around $160 per night.
+        status: Open
+      - name: Hotel San Carlos
+        category: Sleep
+        description: >-
+          A dignified 1928 downtown hotel whose guest register reads like a
+          roll call of the era, from Mae West and Clark Gable to Marilyn
+          herself. Compact, historic and full of period detail, it makes a
+          characterful and affordable base for the Marilyn-in-Arizona story.
+        detail: Phoenix, Arizona. Rooms from around $130 per night.
+        status: Open
+  - region: Lake Tahoe
+    places:
+      - name: Cal-Neva Lodge
+        category: Sleep
+        description: >-
+          Keep an eye on this one. The Cal-Neva sits astride the
+          California-Nevada line on the shore of Crystal Bay, and in the early
+          1960s it was Frank Sinatra's own playground. Marilyn was among his
+          guests, staying in a lakeside cabin with a heart-shaped bed and the
+          finest view on the property. Long closed, the resort is now the focus
+          of an ambitious multi-million-dollar restoration, and should it
+          reopen it will instantly become one of the most atmospheric Marilyn
+          addresses anywhere. For now, file it under "watch this space."
+        detail: Crystal Bay, Lake Tahoe. Currently closed; reopening planned.
+        status: Closed
+  - region: San Francisco
+    places:
+      - name: Fairmont San Francisco
+        category: Sleep
+        description: >-
+          Marilyn belongs to the legend of the Fairmont's extraordinary
+          Penthouse Suite, an entire floor of the hotel complete with a
+          two-storey circular library, a billiard room and, so the tales go, a
+          bookcase that swings open to a secret passage. The suite can
+          genuinely be booked by those with the means, but even a night in a
+          standard room buys you the full Nob Hill grandeur.
+        detail: >-
+          Mason Street, Nob Hill. Rooms from around $200 per night; the
+          Penthouse considerably more.
+        status: Open
+      - name: Saints Peter and Paul Church
+        category: See
+        description: >-
+          Marilyn and Joe DiMaggio married at City Hall in January 1954, but
+          they took their most famous wedding pictures on the steps of this
+          twin-spired church in North Beach, in the heart of DiMaggio's old
+          neighbourhood. The church and the leafy Washington Square in front of
+          it are free to wander, a short stroll from Fisherman's Wharf where
+          Joe once kept his boat.
+        detail: Filbert Street, North Beach. Free to visit.
+        status: Open
+  - region: Chicago
+    places:
+      - name: Ambassador Chicago
+        category: Sleep
+        description: >-
+          This Gold Coast landmark was where visiting Hollywood — Marilyn,
+          Elizabeth Taylor and Frank Sinatra among them — laid its head when
+          passing through Chicago. It has a famous rooftop and stands within a
+          short walk of Oak Street Beach and the shops of the Magnificent
+          Mile.
+        detail: State Parkway, Gold Coast. Rooms from around $150 per night.
+        status: Open
+      - name: The Drake Hotel
+        category: Sleep
+        description: >-
+          A stately 1920s hotel at the top of the Magnificent Mile that Marilyn
+          and Joe DiMaggio visited together. The glamour is still there to be
+          enjoyed over afternoon tea in the Palm Court, one of the grandest
+          rooms in the city.
+        detail: East Walton Place, Magnificent Mile. Rooms from around $180 per night.
+        status: Open
+  - region: New York
+    places:
+      - name: The Lexington Hotel
+        category: Sleep
+        description: >-
+          Marilyn and Joe DiMaggio kept Suite 1806 here during their brief
+          1950s marriage. The room has since been restored and renamed the
+          Norma Jeane Suite, and, complete with its own sweeping private
+          terrace, it can actually be booked, so you can spend the night in her
+          genuine New York address.
+        detail: >-
+          Lexington Avenue at 48th Street, Midtown. Rooms from around $180 per
+          night; the suite considerably more.
+        status: Open
+      - name: Waldorf Astoria New York
+        category: Sleep
+        description: >-
+          When Marilyn came east to remake herself as a serious actress, she
+          took a suite high in the Waldorf and had it done out entirely in
+          white, an homage to her girlhood idol Jean Harlow. From here she
+          launched Marilyn Monroe Productions, a startling bid for independence
+          by an actress of her time. Freshly reopened after a sweeping
+          restoration, the hotel is grand once more.
+        detail: Park Avenue, Midtown. Rooms from around $900 per night.
+        status: Open
+      - name: The Carlyle
+        category: Sleep
+        description: >-
+          Of all the grand New York hotels, the Carlyle is the most discreet,
+          which is exactly why Marilyn favoured it. She would come and go
+          through the service entrance on East 77th Street to dodge the crowds,
+          and the hotel still offers the same hushed, art-lined seclusion that
+          drew her in.
+        detail: Upper East Side. Rooms from around $700 per night.
+        status: Open
+      - name: P. J. Clarke's
+        category: Eat
+        description: >-
+          Marilyn was a familiar face at this cherished old saloon, often
+          turning up with Frank Sinatra to eat, drink and disappear into the
+          crowd beneath the stained glass and dark wood. Remarkably little has
+          changed, and the burgers it built its name on are as good as ever.
+        detail: Third Avenue at 55th Street. Burgers from around $21.
+        status: Open
+      - name: Serendipity 3
+        category: Eat
+        description: >-
+          All Tiffany lamps and marble ice-cream tables, this whimsical dessert
+          parlour was one of Marilyn's favourite places to indulge her famous
+          sweet tooth. Order the legendary Frrrozen Hot Chocolate and settle in
+          among the bric-a-brac.
+        detail: East 60th Street, Upper East Side. Desserts from around $16.
+        status: Open
+      - name: Delmonico's
+        category: Eat
+        description: >-
+          For a proper old-fashioned New York evening, Marilyn turned to this
+          landmark chophouse, a fixture since the nineteenth century and the
+          birthplace of more than one dish that went on to conquer the country.
+          Clubby, timeless and heavy with history.
+        detail: Beaver Street, Financial District. Mains from around $50.
+        status: Open
+      - name: The Plaza Hotel
+        category: See
+        description: >-
+          With the Pulitzer Fountain sparkling out front, the Plaza was a
+          favourite backdrop for Marilyn's close friend, the photographer Sam
+          Shaw. Take tea or a cocktail under its gilded ceilings, then strike a
+          pose by the fountain just as she once did.
+        detail: >-
+          Fifth Avenue at Central Park South. Rooms from around $800 per night;
+          tea and drinks open to non-residents.
+        status: Open
+      - name: Grand Central Terminal
+        category: Do
+        description: >-
+          The vast Main Concourse, with its green ceiling of painted
+          constellations, was the setting for some of Marilyn's most striking
+          photo sessions. Stand beneath the stars where she once posed, in one
+          of the most beautiful public rooms anywhere in America.
+        detail: 42nd Street, Midtown. Free to visit.
+        status: Open
+      - name: The Seven Year Itch Subway Grate
+        category: Do
+        description: >-
+          The most famous rush of air in film history was staged at Lexington
+          Avenue and 52nd Street, where a passing train sent Marilyn's white
+          halter dress billowing skyward. Fans still gather at the corner to
+          stand on the spot.
+        detail: Lexington Avenue at 52nd Street. Free to visit.
+        status: Open
+      - name: The Actors Studio
+        category: See
+        description: >-
+          Part of Marilyn's reason for coming to New York was to be taken
+          seriously, and she threw herself into "the Method" under Lee
+          Strasberg. The Actors Studio, in a converted church in the Theater
+          District, is still the movement's spiritual home and one of the most
+          meaningful stops for anyone drawn to the studious, ambitious woman
+          behind the platinum.
+        detail: West 44th Street, Hell's Kitchen. Private working studio; admire from the street.
+        status: Open
+  - region: Connecticut
+    places:
+      - name: 232 Tophet Road, Roxbury
+        category: See
+        description: >-
+          This Revolutionary-era farmhouse was the country retreat Marilyn
+          shared with the playwright Arthur Miller from 1956 to 1961, a rare
+          spell of rural calm in a restless life. She poured herself into doing
+          it up and even bought hundreds of acres around it. It is a private
+          home today, so this is a country drive-by, best paired with the
+          pretty nearby village of Woodbury and the rolling Litchfield County
+          scenery.
+        detail: Roxbury, Connecticut. Private; view from the road.
+        status: Open
+      - name: Canfield Corner Pharmacy
+        category: Do
+        description: >-
+          Over in Woodbury, this delightful old-time pharmacy and soda fountain
+          was where Marilyn came for her New York Times, her hair bleach and
+          her prescriptions. A stool at the counter is still marked in her
+          name, and the shop treasures a local tale about the afternoon she
+          changed the owner's baby daughter right there by the register.
+        detail: Woodbury, Connecticut. Soda-fountain treats from a few dollars.
+        status: Open
+  - region: Florida
+    places:
+      - name: B Ocean Resort
+        category: Sleep
+        description: >-
+          Built in 1956 in the shape of an ocean liner, the old Yankee Clipper
+          was once a playground for stars including Marilyn, and it lives on
+          today as the B Ocean, right on Fort Lauderdale Beach. The nautical
+          portholes survive, and so does the famous Wreck Bar, where costumed
+          "mermaids" still swim past great round windows.
+        detail: Fort Lauderdale, Florida. Rooms from around $180 per night.
+        status: Open
+      - name: Fontainebleau Miami Beach
+        category: Sleep
+        description: >-
+          Morris Lapidus's great curving white landmark hosted Marilyn during a
+          short Florida stay in the early 1960s. Fully restored, the
+          Fontainebleau still delivers precisely the kind of sweeping,
+          cinematic arrival she would have known.
+        detail: Miami Beach, Florida. Rooms from around $190 per night.
+        status: Open
+      - name: Joe's Stone Crab
+        category: Eat
+        description: >-
+          This South Beach institution counted Marilyn and Joe DiMaggio among
+          its guests, and it still honours her on a wall of celebrated names
+          that somehow also takes in Al Capone and Amelia Earhart. Come in
+          season for the stone crab claws it has been cracking since 1913.
+        detail: Miami Beach, Florida. Market price; mains from around $40.
+        status: Open
+      - name: Columbia Restaurant
+        category: Eat
+        description: >-
+          Florida's oldest restaurant, deep in the atmospheric Ybor City
+          quarter of Tampa, welcomed Marilyn on her visits and created a dish
+          in her honour, the "Marilyn & Joe," a sizzling skillet of tenderloin,
+          chicken, shrimp, chorizo and potatoes. Founded in 1905 and tiled from
+          floor to ceiling, it is a feast for the eyes as much as the
+          appetite.
+        detail: Ybor City, Tampa. Mains from around $25.
+        status: Open
+  - region: England
+    intro: >-
+      Marilyn came to Britain only once, in 1956, to film The Prince and the
+      Showgirl with Laurence Olivier. The trip doubled as her honeymoon with
+      Arthur Miller, and for a few months the most famous woman in the world
+      lived quietly in the English countryside and dazzled her way through
+      London.
+    places:
+      - name: Englefield Green and Pinewood Studios
+        category: Do
+        description: >-
+          Marilyn set up home in a private house in the leafy Surrey village of
+          Englefield Green, close to Windsor Great Park, and drove each day to
+          nearby Pinewood Studios for filming. The village and the great royal
+          parkland around it make a tranquil day out from London, exactly the
+          calm she was after.
+        detail: >-
+          Englefield Green, Surrey. Parkland free; studios not generally open
+          to the public.
+        status: Open
+      - name: The Savoy
+        category: Sleep
+        venueSlug: the-savoy-london
+        description: >-
+          Marilyn gave her London press conferences at the Savoy, the grandest
+          address on the Thames, and its riverside glamour has not dimmed in
+          the decades since. Take tea or a cocktail in the American Bar and
+          soak up the room where she charmed the British press.
+        detail: Strand, London. Rooms from around £500 per night.
+        status: Open
+      - name: Claridge's
+        category: Eat
+        venueSlug: claridges
+        description: >-
+          Marilyn lunched at Claridge's during her English summer, and the
+          Mayfair grande dame is still the last word in art-deco elegance.
+          Afternoon tea beneath its glittering foyer makes a fittingly
+          glamorous tribute.
+        detail: >-
+          Brook Street, Mayfair. Rooms from around £850 per night; tea open to
+          non-residents.
+        status: Open
+      - name: Leicester Square and the Empire Cinema
+        category: See
+        description: >-
+          It was at a royal film performance in Leicester Square that Marilyn
+          was presented to the young Queen Elizabeth II, one of the great photo
+          opportunities of the age: two of the most famous women on earth, born
+          the same year, meeting for a single moment. The square is still the
+          beating heart of cinema-going London.
+        detail: Leicester Square, London. Free to visit.
+        status: Open
+      - name: Floris
+        category: Do
+        description: >-
+          This exquisite Jermyn Street perfumer, in business since 1730, made
+          one of Marilyn's favourite scents, the delicately named Rose
+          Geranium. Step into the original panelled shop and take home a bottle
+          of a fragrance a movie star once wore.
+        detail: Jermyn Street, St James's. Fragrances from around £75.
+        status: Open
+  - region: Canada
+    intro: >-
+      Two of Marilyn's most cinematic location shoots took her north of the
+      border, to the thundering falls of Ontario and the snow-capped peaks of
+      the Canadian Rockies. Both settings can still be experienced almost
+      exactly as she found them.
+    places: []
+  - region: Niagara Falls, Ontario
+    places:
+      - name: Crowne Plaza Niagara Falls-Fallsview
+        category: Sleep
+        description: >-
+          The old General Brock Hotel was the local base for the 20th Century
+          Fox crew during the 1952 filming of Niagara, the noir that turned
+          Marilyn into a star. She herself took Room 801, and with a little
+          luck you can still book Room 801 today, high above the falls she
+          helped make famous.
+        detail: Fallsview, Niagara Falls, Ontario. Rooms from around $180 CAD per night.
+        status: Open
+      - name: The Falls and Their Surroundings
+        category: Do
+        description: >-
+          Marilyn did plenty of sightseeing between takes, and her outings make
+          a ready-made day: the lawns of Queen Victoria Park, the viewpoints at
+          Table Rock, a soaking ride aboard the Maid of the Mist, and a quiet
+          loop through the Dufferin Islands. The Rainbow Tower, scene of the
+          film's dramatic finale, still presides over all of it.
+        detail: Niagara Falls, Ontario. Park and viewpoints free; boat trips ticketed.
+        status: Open
+  - region: Banff and Jasper, Alberta
+    places:
+      - name: Fairmont Banff Springs
+        category: Sleep
+        venueSlug: fairmont-banff-springs
+        description: >-
+          In the summer of 1953, Marilyn stayed in this baronial "castle in the
+          Rockies" while shooting the Western River of No Return, with Joe
+          DiMaggio turning up regularly on location. The filming was punishing,
+          and she sprained her ankle in the river, but between scenes she was
+          often spotted walking the Bow River or taking a turn on the
+          celebrated golf course. Ask about the resort's history tour while you
+          are there.
+        detail: Banff, Alberta. Rooms from around $400 CAD per night.
+        status: Open
+      - name: The Canadian Rockies
+        category: Do
+        description: >-
+          The film's astonishing backdrop is all still there for the taking:
+          the peaks and lakes of Banff and Jasper National Parks, the turquoise
+          of Lake Louise, the winding Bow River, and the wilder Maligne and
+          Snake Indian Rivers up in Jasper that stood in for the story's white
+          water.
+        detail: Banff and Jasper National Parks, Alberta. Park passes required.
+        status: Open
+      - name: Whyte Museum of the Canadian Rockies
+        category: See
+        description: >-
+          Banff's own museum keeps photographs of the star taken while she was
+          out and about in town, a quiet, rewarding stop for anyone retracing
+          her mountain summer.
+        detail: Banff, Alberta. Admission around $12 CAD.
+        status: Open
+  - region: Mexico
+    intro: >-
+      Marilyn's Mexican journeys ran from sun-drenched beach breaks with Joe
+      DiMaggio in the early 1950s to a poignant solo trip in 1962, when, newly
+      divorced, she came to buy furniture and art for her first real home and
+      fell for the country's warmth and colour.
+    places:
+      - name: Rosarito Beach Hotel
+        category: Sleep
+        description: >-
+          A grand old Baja beach hotel that has drawn Hollywood since the
+          1920s, and counted Marilyn among its guests in the 1950s. Right on
+          the sand a short hop south of the border, it still leans happily on
+          its golden-age past.
+        detail: Rosarito, Baja California. Rooms from around $105 per night.
+        status: Open
+      - name: El Taquito
+        category: Eat
+        description: >-
+          A long-running Mexico City restaurant said to have charmed Marilyn on
+          her 1962 trip, where she lingered over tequila and margaritas. Full
+          of old-world character, it is a delicious place to raise a glass to
+          her Mexican adventure.
+        detail: Mexico City. Mains from around $15.
+        status: Open
+      - name: Teotihuacan, Cuernavaca and Taxco
+        category: Do
+        description: >-
+          On that final trip Marilyn played the tourist in earnest, climbing
+          the immense pyramids of Teotihuacan outside the capital, unwinding in
+          the eternal-spring town of Cuernavaca, and browsing the silver
+          workshops of hillside Taxco. Together they make a wonderful
+          three-part loop through the Mexico she came to love.
+        detail: Central Mexico. Pyramid admission modest; towns free to explore.
+        status: Open
+  - region: Jamaica
+    places:
+      - name: Jamaica Inn
+        category: Sleep
+        description: >-
+          In January 1957, Marilyn spent a fortnight's honeymoon in Jamaica
+          with her new husband Arthur Miller, flying into Montego Bay and
+          settling at this elegant, colonial-style retreat on the north coast
+          at Ocho Rios. Small, serene and gloriously old-fashioned, with its
+          own private cove, it is still one of the most romantic hideaways in
+          the Caribbean.
+        detail: Ocho Rios, Jamaica. Rooms from around $375 per night.
+        status: Open
+  - region: Rio de Janeiro
+    places:
+      - name: Copacabana Palace
+        category: Sleep
+        venueSlug: copacabana-palace
+        description: >-
+          Marilyn stayed at this legendary beachfront palace, a gleaming 1923
+          landmark on Avenida Atlântica, during her time in Rio. All white
+          façade, marble and grand pool, it remains the grande dame of the
+          Brazilian coast, and it is perfectly placed for that essential Rio
+          ritual, the cable car up Sugarloaf Mountain for the view.
+        detail: Copacabana, Rio de Janeiro. Rooms from around $270 per night.
+        status: Open
+  - region: Japan
+    intro: >-
+      The 1954 honeymoon with Joe DiMaggio doubled as a whirlwind tour of
+      Japan, where Marilyn was met by adoring crowds so vast they occasionally
+      overwhelmed the couple. Their itinerary is unusually easy to follow,
+      since several of the hotels survive.
+    places:
+      - name: Imperial Hotel
+        category: Sleep
+        description: >-
+          The newlyweds checked in here in February 1954 and were mobbed by
+          ecstatic crowds. The original Frank Lloyd Wright building is long
+          gone, but the Imperial remains the grande dame of Japanese
+          hospitality and keeps the Marilyn-and-Joe chapter of its history
+          proudly alive.
+        detail: Hibiya, Tokyo. Rooms from around ¥30,000 per night.
+        status: Open
+      - name: Kawana Hotel
+        category: Sleep
+        description: >-
+          Craving a break from the press, Marilyn and Joe slipped off for two
+          nights to this seaside golf resort on the Izu Peninsula. It is here,
+          the charming story goes, that a late-night craving of Marilyn's led
+          an apprentice chef to dream up omurice, the omelette-and-rice dish
+          still adored across Japan.
+        detail: Ito, Shizuoka. Rooms from around ¥30,000 per night.
+        status: Open
+      - name: Oriental Hotel
+        category: Sleep
+        description: >-
+          Marilyn also spent part of the Japanese trip at Kobe's historic
+          Oriental Hotel. Reborn as a sleek modern hotel that nods to its
+          heritage, it makes an elegant base in this handsome port city.
+        detail: Kobe, Japan. Rooms from around ¥25,000 per night.
+        status: Open
+      - name: Royal Nakasu Honten
+        category: Eat
+        description: >-
+          While Joe ran his baseball clinics, the couple spent several days in
+          Fukuoka and dined each evening at this long-established French
+          restaurant in the buzzing Nakasu district. A characterful spot to
+          round off a Japanese Marilyn pilgrimage.
+        detail: Nakasu, Fukuoka. Mains vary.
+        status: Open
+  - region: South Korea
+    places:
+      - name: A Wartime Detour
+        category: See
+        description: >-
+          Marilyn famously cut her Japanese honeymoon short to fly to Korea and
+          entertain tens of thousands of American troops, singing on open-air
+          stages in the cold and bunking in plain military barracks. She later
+          called it one of the happiest experiences of her life. There is no
+          single site to book here, but it is an essential part of her story,
+          and a reminder of the warmth beneath the glamour.
+        detail: Republic of Korea.
+        status: Open
+lifestyle:
+  - label: A note on the scent.
+    text: >-
+      Asked what she wore to bed, Marilyn gave the most famous answer in the
+      history of perfume: "Five drops of Chanel No. 5." A bottle of it remains
+      the simplest way to carry a little of her with you, though for the true
+      completist there is also her English favourite, Floris Rose Geranium,
+      bought in person on Jermyn Street. Wear one by day and the other by
+      night, exactly as she did.
+  - label: Dress like Marilyn.
+    text: >-
+      Her wardrobe was built on a single, seismic idea: that a white dress and
+      a warm smile could stop traffic, quite literally, over a subway grate. To
+      dress like Marilyn is not to dress expensively; it is to dress with
+      softness and confidence. A halter neck, a swirl of pleated white, a red
+      lip, and the good humour to carry it all lightly. Off duty she loved the
+      opposite too, a chunky knit cardigan and bare feet on a beach, so pack
+      both the glamour and the ease.
+  - label: Eat like Marilyn.
+    text: >-
+      For all the champagne, Marilyn's tastes ran comfortingly simple. She
+      loved "The Marilyn" sandwich at Canter's, a bowl of chilli at Barney's
+      Beanery, spaghetti in a back booth, and, above all, ice cream: she was
+      devoted to hot fudge sundaes and would order one even at the Polo Lounge.
+      Do as she did and refuse to feel guilty about pudding.
+  - label: Drink like Marilyn.
+    text: >-
+      Her drink was champagne, and not just any champagne. She adored Dom
+      Pérignon, reputedly the 1953 vintage, and once famously filled a bathtub
+      with three hundred and fifty bottles of the stuff. You need not go that
+      far. Her serve could not be simpler.
+
+
+      Marilyn's Champagne: one bottle of good champagne, very well chilled; a
+      chilled coupe (never a flute); and, optionally, a single ripe strawberry.
+
+
+      Pour slowly into the coupe, drop in the strawberry if you are feeling
+      romantic, and sip it the way Marilyn did everything, with a little
+      breathlessness and a great deal of style.
+  - label: The last word.
+    text: >-
+      Marilyn's story is a story of grand hotels and secret hideaways, of a
+      girl who never had a home of her own until the very end. To walk her
+      trail is to follow Norma Jeane becoming Marilyn, one glittering,
+      temporary address at a time.

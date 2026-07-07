@@ -23,6 +23,7 @@ pullQuoteAttribution: Travel Old Hollywood
 gallery: []
 whoCameHere:
   - name: Marilyn Monroe
+    starGuideSlug: marilyn-monroe
   - name: Robert Mitchum
   - name: Joe DiMaggio
 asSeenIn:

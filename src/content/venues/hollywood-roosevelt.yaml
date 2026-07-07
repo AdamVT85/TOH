@@ -30,8 +30,10 @@ whoCameHere:
   - name: Clark Gable
   - name: Carole Lombard
   - name: Marilyn Monroe
+    starGuideSlug: marilyn-monroe
   - name: Montgomery Clift
   - name: Errol Flynn
+    starGuideSlug: errol-flynn
   - name: H.G. Wells
 asSeenIn: []
 signatureExperiences:
