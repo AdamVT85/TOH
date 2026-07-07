@@ -3,10 +3,12 @@ nickname: The Eternal Gamine
 birthYear: 1929
 deathYear: 1993
 portraitImage: /images/stars/audrey-hepburn/portraitImage.jpg
+portraitFocus: top
 heroImage: /images/stars/audrey-hepburn/heroImage.png
 excerpt: >-
-  Follow Audrey Hepburn's footsteps from the Spanish Steps to the Swiss Alps — a
-  guide to the real-world locations of Hollywood's most beloved icon.
+  Follow Audrey Hepburn's footsteps from the Spanish Steps to the Swiss Alps.
+  This is a guide to the real-world favourite locations of one of Hollywood's
+  most beloved icons.
 publishDate: 2025-07-01
 keyFilms:
   - title: Roman Holiday
@@ -24,9 +26,8 @@ keyDestinations:
 relatedStars: []
 relatedVenues: []
 relatedArticles: []
-trailSubtitle: Where to walk in her footsteps
 sections:
-  - copy: >-
+  - copy: >
       No star has left a more enchanting trail across Europe than Audrey
       Hepburn. Born in Brussels, raised between Belgium, England, and the
       Netherlands, and ultimately laid to rest in a small Swiss village, Hepburn
@@ -34,8 +35,9 @@ sections:
       corners of the continent. Her films only deepened the connection — she
       made Rome feel like a fairy tale, Paris like a fashion plate, and the
       Swiss countryside like the quietest kind of paradise.
+    callout: ''
   - heading: 'Rome: The Eternal Stage'
-    copy: >-
+    copy: >
       Begin where her legend truly began: Rome. In 1953, William Wyler's Roman
       Holiday turned the city into Hepburn's co-star, and the locations from
       that film remain virtually unchanged. The Spanish Steps, where Princess
@@ -45,8 +47,9 @@ sections:
       the Tiber embankment, and finish at Castel Sant'Angelo. Rome was Hepburn's
       first great city on screen, and the romance between actress and location
       has never faded.
+    callout: ''
   - heading: 'Paris: Funny Face and Beyond'
-    copy: >-
+    copy: >
       Paris claimed Hepburn next. In Funny Face (1957), she descended the
       staircase beneath the Winged Victory of Samothrace at the Louvre, danced
       in a bohemian cafe near Saint-Germain-des-Pres, and posed for photographs
@@ -56,8 +59,9 @@ sections:
       for elegant suspense. Today, a visitor can piece together a full day of
       Hepburn's Paris simply by walking from the Right Bank to the Left and back
       again.
+    callout: ''
   - heading: 'Tolochenaz: A Quiet Ending'
-    copy: >-
+    copy: >
       The trail ends in the village of Tolochenaz, near Lausanne, Switzerland,
       where Hepburn spent the last three decades of her life at a farmhouse
       called La Paisible. She chose this place deliberately — far from
@@ -68,3 +72,7 @@ sections:
       later years devoted to humanitarian work with UNICEF rather than to the
       spotlight. Visiting Tolochenaz is less a tourist stop and more an act of
       gratitude.
+    callout: ''
+trailSubtitle: Where to walk in her footsteps
+regions: []
+lifestyle: []
