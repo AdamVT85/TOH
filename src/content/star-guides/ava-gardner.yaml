@@ -2,22 +2,15 @@ name: Ava Gardner
 nickname: The World's Most Beautiful Animal
 birthYear: 1922
 deathYear: 1990
-portraitImage: /images/stars/ava-gardner/portrait.jpg
+portraitImage: /images/stars/ava-gardner/portraitImage.jpg
 portraitFocus: top
-portraitCredit: 'Wikimedia, via Wikimedia Commons'
+portraitCredit: Wikimedia, via Wikimedia Commons
 excerpt: >-
   Once heralded as the world's most beautiful woman, Ava Gardner's lust for
   travel, booze and men was legendary. From her birthplace in rural North
   Carolina to the flamenco bars of Madrid and her final years in Knightsbridge,
   this is the ultimate guide to the restaurants, hotels and haunts Ava loved,
   many of them still open today.
-keyDestinations:
-  - Madrid
-  - Rome
-  - London
-  - Los Angeles
-  - Havana
-  - Tossa de Mar
 keyFilms:
   - title: The Killers
     year: '1946'
@@ -37,799 +30,13 @@ keyFilms:
     year: '1959'
   - title: The Night of the Iguana
     year: '1964'
-trailSubtitle: Where to walk in her footsteps
-sections:
-  - heading: A Hell of a Good Time
-    copy: |-
-      Once heralded as the world's most beautiful woman, Ava Gardner's lust for travel, booze and men was legendary. Gardner was at the top of her game in the early 1950s: the dark-haired beauty from North Carolina had starred in hit movies like The Killers, Show Boat, Mogambo and The Barefoot Contessa. Her face adorned newspapers around the world, alongside her famous husband, Frank Sinatra. But behind the glamour-girl facade was a fiery tomboy who loved drink and mischief.
-
-      Ava's love affair with Spain and her fondness for flamenco (and a smouldering bullfighter) has become part of the fabric of Hollywood folklore. Read on to discover Ava's favourite restaurants and the hotels she most adored, her favourite drinking and dancing haunts in Europe and the Americas, and where to find her homes in Madrid, Rome, LA and London.
-    callout: >-
-      "The truth is, honey, I've enjoyed my life. I've had a hell of a good
-      time." — Ava Gardner
-regions:
-  - region: Smithfield, North Carolina
-    intro: |-
-      Ava Gardner was born in a tiny farming community called Grabtown, just outside Smithfield, in 1922. She was the youngest of seven children and grew up barefoot and broke, a long way from the Hollywood red carpets that awaited her. Smithfield is the essential starting point for any Ava Gardner pilgrimage.
-    places:
-      - name: Ava Gardner Museum
-        category: Do
-        venueSlug: ''
-        description: >-
-          Your first stop should be the Ava Gardner Museum in downtown
-          Smithfield, for a short introductory film on her life and loves,
-          followed by a stroll around hundreds of photos and artefacts from
-          Ava's career, including original costumes from her movies, personal
-          jewellery and china. It also hosts an annual Ava Gardner Festival in
-          October.
-        detail: '325 East Market Street, Smithfield. Open Tuesday to Saturday, 9:30am to 4:30pm; Sunday 12pm to 5pm; closed Mondays. Admission $14 adults, $12 seniors and students, $8 children aged 6-17, free for under-6s.'
-        status: Open
-      - name: Sunset Memorial Gardens
-        category: See
-        venueSlug: ''
-        description: >-
-          Ava's grave is at Sunset Memorial Gardens, about a five-minute drive
-          from the museum. Ask staff for directions or a map. It's a peaceful,
-          well-maintained cemetery setting and easy to find.
-        detail: Smithfield, North Carolina. About a five-minute drive from the Ava Gardner Museum.
-        status: Open
-      - name: The Howell Theatre
-        category: See
-        venueSlug: ''
-        description: >-
-          A 1935 art deco cinema where Ava watched movies with her mother as a
-          child. She later recalled seeing her favourite star, Clark Gable, in
-          Red Dust here, a film she would remake with him 20 years later as
-          Mogambo. The building is still standing and worth a look from the
-          outside for its original facade.
-        detail: South Third Street, Smithfield. Closed permanently in April 2025 after 90 years of operation.
-        status: Closed
-      - name: Holt Lake
-        category: Do
-        venueSlug: ''
-        description: >-
-          Where the teenage Ava listened to the jukebox with friends at the
-          pavilion. It is still open for boating and picnics, though the dancing
-          pavilion she once danced in no longer exists.
-        detail: Smithfield, North Carolina. Open for boating and picnics.
-        status: Open
-  - region: New York
-    intro: |-
-      Ava spent considerable time in New York during her marriages to Artie Shaw and Frank Sinatra, and during her frequent trips to promote films. Manhattan in the late 1940s and early 1950s was the centre of the entertainment world, and Ava was at the heart of it.
-    places:
-      - name: Russian Samovar
-        category: Eat
-        venueSlug: ''
-        description: >-
-          The building was formerly Jilly's Canteen, owned by Frank Sinatra's
-          close friend Jilly Rizzo, and was the Rat Pack's favourite bolt-hole
-          in New York. The current owners have preserved the original red
-          banquettes from those days, as well as the original bar (which
-          featured in The Manchurian Candidate). Order a vodka martini and
-          listen to the resident pianist's Sinatra renditions, as Ava might have
-          done. She owned all his records and listened to them often, throughout
-          her life.
-        detail: West 52nd Street, New York. Dinner and show evenings from around $50 per person.
-        status: Open
-      - name: Birdland
-        category: Drink
-        venueSlug: ''
-        description: >-
-          Gardner's favourite jazz joint, where she regularly watched the likes
-          of Miles Davis perform (the two struck up a genuine friendship).
-          Sinatra, Marilyn Monroe and Marlene Dietrich were also regulars. The
-          original club on Broadway closed in 1965 but the revived version,
-          which opened in 1996 a few blocks away, carries on the tradition with
-          a full weekly schedule of jazz performances.
-        detail: West 44th Street, New York. $20 minimum spend per person; show tickets from around $30-40 depending on the act.
-        status: Relocated
-      - name: The St. Regis
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          A grand dame hotel founded by John Jacob Astor at the turn of the 20th
-          century, this is the only notable hotel Ava stayed at in New York that
-          is still operating as a hotel. Ava never did anything on the cheap.
-        detail: East 55th Street, New York. Rooms from around $600 per night.
-        status: Open
-      - name: Hampshire House
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          During their marriage, whenever Frank was performing in the city, the
-          couple would stay at this luxury apartment building overlooking
-          Central Park. It's still an exclusive residential building today and
-          not open to the public, but you can admire the art deco facade from
-          the street.
-        detail: Central Park South, New York. Private residential building; admire from the street.
-        status: Open
-  - region: Los Angeles
-    intro: |-
-      Hollywood was Ava's professional home from her arrival at MGM as a teenager in 1941 until she left for Spain in 1955. She lived at multiple addresses across the city, most of which are private residences, but there's still plenty to see.
-    places:
-      - name: The Formosa Cafe
-        category: Eat
-        venueSlug: ''
-        description: >-
-          Where Ava would often be seen dancing (Frank also visited frequently
-          during their divorce). It has been beautifully restored and reopened,
-          with vintage movie memorabilia lining the walls and classic cocktails
-          on the menu. It's one of the best-preserved old Hollywood haunts in
-          the city.
-        detail: Santa Monica Boulevard, West Hollywood.
-        status: Open
-      - name: The Farmers Market
-        category: Eat
-        venueSlug: ''
-        description: >-
-          Another of Ava's regular stops, still going strong and a good spot for
-          a casual lunch.
-        detail: Corner of Third and Fairfax, Los Angeles.
-        status: Open
-      - name: The Polo Lounge, Beverly Hills Hotel
-        category: Drink
-        venueSlug: beverly-hills-hotel
-        description: >-
-          Ava was a regular at the Polo Lounge, and the Beverly Hills Hotel is
-          still the best place in town to soak up old-world Hollywood glamour.
-          The people-watching is priceless.
-        detail: Sunset Boulevard, Beverly Hills. A cocktail at the Polo Lounge will set you back around $25-30.
-        status: Open
-      - name: Chateau Marmont
-        category: Drink
-        venueSlug: chateau-marmont
-        description: >-
-          Where Ava would meet one-time resident Howard Hughes. It is still
-          operating as a private members' hotel, though non-members can
-          sometimes access the restaurant and bar.
-        detail: Sunset Strip, West Hollywood. Rooms from around $500 per night.
-        status: Open
-      - name: Beverly Hills Hotel
-        category: Sleep
-        venueSlug: beverly-hills-hotel
-        description: >-
-          One of the two surviving hotels most closely associated with Ava in
-          Los Angeles.
-        detail: Sunset Boulevard, Beverly Hills. Rooms from around $700 per night.
-        status: Open
-      - name: The Hollywood Museum
-        category: Do
-        venueSlug: ''
-        description: >-
-          Housed in the historic Max Factor building, this is a retro movie
-          extravaganza across four floors and is sure to have Ava-related gems
-          on show.
-        detail: Highland Avenue, Los Angeles. Admission around $15.
-        status: Open
-      - name: Larry Edmunds Bookshop
-        category: Do
-        venueSlug: ''
-        description: >-
-          Stocks a huge array of classic movie books, magazines, prints, posters
-          and more.
-        detail: Hollywood Boulevard, Los Angeles.
-        status: Open
-      - name: Ava Gardner's Star, Hollywood Walk of Fame
-        category: See
-        venueSlug: ''
-        description: >-
-          Do the touristy thing and go see Ava's star on the Hollywood Walk of
-          Fame.
-        detail: 1508 Vine Street, Los Angeles.
-        status: Open
-      - name: Sony Pictures Studios Tour
-        category: Do
-        venueSlug: ''
-        description: >-
-          Covers the legendary lot that used to belong to Ava's old studio, MGM,
-          where she spent her formative years under contract.
-        detail: Culver City. Tours from around $50.
-        status: Open
-      - name: Ava Gardner Mural, Koreatown
-        category: See
-        venueSlug: ''
-        description: >-
-          For something edgier, check out the controversial Ava Gardner mural,
-          which commemorates the spot where the iconic Ambassador Hotel once
-          stood (site of Robert Kennedy's assassination), and where the
-          legendary Cocoanut Grove nightclub once operated. The mural had to be
-          modified after the background bore too much resemblance to the symbol
-          of the old Japanese imperial navy. Only in LA.
-        detail: Koreatown, Los Angeles.
-        status: Open
-  - region: Palm Springs
-    intro: |-
-      Frank and Ava fans should not miss the opportunity to stay at Frank's Twin Palms house, which he had built for himself in the late 1940s. Gardner wrote about the house in her autobiography: "It was the site of probably the most spectacular fight of our young married life, and honey don't think I don't know that's really saying something."
-    places:
-      - name: Twin Palms
-        category: Sleep
-        venueSlug: sinatras-twin-palms
-        description: >-
-          Frank's Palm Springs house, the only home he and Ava could ever really
-          call their own. One of the original bathroom sinks has a crack in it
-          from a champagne bottle that Sinatra hurled at Ava during one of their
-          rows. The Jack Daniel's flag still flies from the roof when guests are
-          in residence.
-        detail: Palm Springs. Available to rent from around $2,600 per night.
-        status: Open
-  - region: The California Coast
-    intro: |-
-      Ava did a road trip along the Pacific Coast Highway with first husband Mickey Rooney for their honeymoon. They married at Santa Ynez Valley Presbyterian Church in Ballard, a small community outside Santa Barbara. After that, they journeyed up the Big Sur coast to Carmel.
-
-      The story, as told by Ava, was that they both got so drunk on their wedding night that they were unable to consummate the marriage. A strong start to what would prove to be a short-lived union.
-    places:
-      - name: Pebble Beach
-        category: Do
-        venueSlug: ''
-        description: >-
-          It was at the world-famous Pebble Beach resort that Ava spent much of
-          her honeymoon. Technically they stayed at the Del Monte Hotel (now a
-          school and office buildings), but they played golf at Pebble Beach.
-        detail: Pebble Beach, California.
-        status: Open
-      - name: Pacific Coast Highway
-        category: Do
-        venueSlug: ''
-        description: >-
-          The drive from Santa Barbara to Carmel remains one of the most
-          spectacular in the world and a fitting honeymoon route, even if your
-          marriage lasts longer than Ava and Mickey's did (most do).
-        detail: Santa Barbara to Carmel, California.
-        status: Open
-  - region: Las Vegas
-    intro: |-
-      Ava stayed in Las Vegas with Howard Hughes and made frequent visits to support Sinatra when he performed there. Las Vegas has never been sentimental about its own history.
-    places:
-      - name: El Rancho Hotel
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Ava stayed here with her sister and Howard Hughes after he flew them
-          to Las Vegas in his private plane for a surprise weekend break.
-        detail: Las Vegas. Demolished.
-        status: Demolished
-      - name: Desert Inn
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          One of the Las Vegas hotels where Ava stayed during her visits to the
-          city.
-        detail: Las Vegas. Demolished.
-        status: Demolished
-  - region: Lake Tahoe
-    intro: |-
-      Ava stayed many times at the Cal-Neva Resort on the north shore of Lake Tahoe, which Frank co-owned and which famously straddled the California-Nevada state line. She and Frank could often be spotted on the lake, boating and boozing.
-    places:
-      - name: Cal-Neva Resort
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Frank co-owned this resort, which straddled the California-Nevada
-          state line. It closed in 2013 after years of decline but is undergoing
-          a major renovation by developer McWhinney in partnership with Proper
-          Hospitality. The historic lodge, Circle Bar and Frank Sinatra Showroom
-          are all being preserved. Watch this space.
-        detail: North shore of Lake Tahoe. Closed in 2013; reopening pushed back to 2027.
-        status: Closed
-  - region: Hawaii
-    intro: |-
-      Ava visited Hawaii during her marriage to Sinatra and returned several times throughout her life. The islands feature in a memorable anecdote from her autobiography in which she nearly drowned after being caught by a wave at Wailua Bay on Kauai.
-    places:
-      - name: Wailua Bay, Kauai
-        category: See
-        venueSlug: ''
-        description: >-
-          The setting for a memorable anecdote from Ava's autobiography, in
-          which she nearly drowned after being caught by a wave.
-        detail: Kauai, Hawaii.
-        status: Open
-  - region: Madrid
-    intro: |-
-      Ava lived in Madrid from the mid-1950s until 1968, making it her longest home outside of the United States and the place where she was arguably happiest. She inhabited three different addresses during her time in the city: suite 716 at the Castellana Hilton (now the InterContinental), a chalet called La Bruja (The Witch) in the La Moraleja neighbourhood, and, most famously, a spectacular penthouse duplex at 11 Calle Doctor Arce, where the all-night flamenco parties drove the neighbours to despair. Juan Domingo Peron, he of Evita fame, lived in the same building.
-
-      Ava enjoyed a hard-living, hard-drinking lifestyle in Madrid and took frequent road trips in search of bullfights, flamenco and gypsy life.
-    places:
-      - name: Horcher
-        category: Eat
-        venueSlug: ''
-        description: >-
-          Ava's favourite restaurant in Madrid, until the management banned her
-          (a frequent occurrence in her later years as her partying got out of
-          control). Founded in 1943 by the German restaurateur Otto Horcher, it
-          is still open, supremely elegant, and serving classic Central European
-          dishes, specialising in game. One of the last survivors of old-world
-          fine dining in Madrid.
-        detail: Calle Alfonso XII, opposite the Retiro Park, Madrid. Expect to spend around €100 per person.
-        status: Open
-      - name: Cerveceria Alemana
-        category: Eat
-        venueSlug: ''
-        description: >-
-          Founded in 1904, this was Ava's regular bar for beer and tapas. She
-          drank here with Ernest Hemingway, who had his own table by the window
-          (there's a framed photograph of him hanging above it). The decor has
-          barely changed since 1904, the waiters still wear white jackets, and
-          the cod croquettes are excellent. The brewery celebrated its 120th
-          anniversary in 2024 and was designated a Traditional Madrid
-          Establishment by the Chamber of Commerce.
-        detail: Plaza de Santa Ana, Madrid.
-        status: Open
-      - name: Museo Chicote
-        category: Drink
-        venueSlug: ''
-        description: >-
-          One of Ava's favourite drinking haunts. She brought both Sinatra and
-          Luis Miguel here at different times. Founded in 1931, it retains its
-          original art deco interior and is widely considered the first cocktail
-          bar in Spain. The bar earned a place in Hemingway's short story The
-          Denunciation, and its celebrity guest list has included Grace Kelly,
-          Sophia Loren and Salvador Dali. Try Hemingway's favourite, the Papa
-          Doble.
-        detail: Gran Via, Madrid. Cocktails from around €12.
-        status: Open
-      - name: Corral de la Moreria
-        category: Drink
-        venueSlug: ''
-        description: >-
-          Opened in 1956, this is where Ava indulged her passion for flamenco.
-          Rumour has it she slapped Sinatra here one evening. Gary Cooper, Rita
-          Hayworth, Picasso and Dali were also regulars. It now holds a Michelin
-          star for its restaurant and was named by the New York Times as one of
-          the 1,000 places to see before you die.
-        detail: Madrid. Shows from around €45 including a drink.
-        status: Open
-      - name: Tablao Flamenco 1911 (Villa Rosa)
-        category: Drink
-        venueSlug: ''
-        description: >-
-          Ava also danced at the Villa Rosa (now the Tablao Flamenco 1911), one
-          of the oldest flamenco tablaos in the world, where some say she would
-          go up on stage and dance herself.
-        detail: Madrid. Shows from around €35.
-        status: Open
-      - name: Hotel Wellington
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Where Ava had her first encounter with Luis Miguel Dominguin, her
-          bullfighter lover, supposedly hours before Sinatra arrived in town. It
-          is still a discreet five-star hotel with an old-world atmosphere.
-        detail: Near El Retiro Park, Madrid. Rooms from around €200 per night.
-        status: Open
-      - name: InterContinental Madrid
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Formerly the Castellana Hilton, this was where Ava stayed with Sinatra
-          during his visits, and where they barely left the room. Salvador Dali
-          visited her here once for afternoon tea, which he "flounced out of
-          because he was offended by the word cucumber," according to Ava.
-        detail: Madrid. Rooms from around €180 per night.
-        status: Open
-      - name: Mandarin Oriental Ritz Madrid
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Formerly the Hotel Ritz, this is where Ava was famously barred after
-          urinating in the vestibule between the entrance and reception. The
-          hotel has since undergone a spectacular renovation and reopened as
-          Madrid's most luxurious hotel, with five restaurants and bars and a
-          spa.
-        detail: Madrid. Rooms from around €500 per night.
-        status: Open
-      - name: El Retiro Park
-        category: Do
-        venueSlug: ''
-        description: >-
-          Opposite Horcher, this is where Ava spent time with gypsy performers
-          who allowed her to indulge her passion for flamenco. It is said that
-          on one raucous night in the early 1960s, she ran across the park in
-          her underwear. This is not an activity we recommend recreating.
-        detail: Madrid. Free.
-        status: Open
-      - name: El Rastro
-        category: Do
-        venueSlug: ''
-        description: >-
-          Shop like Ava and visit El Rastro, Spain's biggest and oldest flea
-          market, held every Sunday morning. Ava loved antiques and furnished
-          all her homes with items she found in local antique shops and rustic
-          flea markets.
-        detail: Madrid. Held every Sunday morning.
-        status: Open
-  - region: Tossa de Mar
-    intro: |-
-      Tossa de Mar on the Costa Brava is where Ava fell in love with Spain. She stayed here in 1950 while filming the hauntingly romantic Pandora and the Flying Dutchman, starring James Mason as her ghostly lover. The epic house used in the film is not available to visit, but there's plenty to see and do that's Ava-related in this delightful little town.
-    places:
-      - name: Hotel Diana
-        category: Sleep
-        venueSlug: hotel-diana-tossa-de-mar
-        description: >-
-          Where Sinatra came to visit Ava on set and the two stayed together. It
-          is still a delightfully romantic boutique hotel right on the beach.
-          Built by a disciple of Gaudi, with sea-view rooms, a beachfront
-          restaurant and direct beach access.
-        detail: Plaza de Espana, Tossa de Mar. Rooms from around €100 per night.
-        status: Open
-      - name: Ava Gardner Statue
-        category: See
-        venueSlug: ''
-        description: >-
-          Don't miss the Ava Gardner statue in the main square, and remember to
-          ask the local baker for a "besos de Ava Gardner" (Ava Gardner's
-          kisses) to nibble on. The medieval walled town (Vila Vella) that
-          crowns the headland above the beach is still there, still gorgeous,
-          and still recognisable from the film.
-        detail: Main square, Tossa de Mar.
-        status: Open
-  - region: Seville, Malaga & Mallorca
-    intro: |-
-      Ava made regular road trips from Madrid all over Spain, in search of bullfights, flamenco and gypsy life.
-    places:
-      - name: Hotel Alfonso XIII
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          In Seville, Ava would often stay at the magnificent Hotel Alfonso
-          XIII, and it was in the hotel lobby during the 1952 Feria that she met
-          Luis Miguel Dominguin for the first time. He was travelling with his
-          girlfriend at the time. That did not deter Ava.
-        detail: Seville. Rooms from around €300 per night.
-        status: Open
-      - name: Plaza de Toros de la Real Maestranza
-        category: See
-        venueSlug: ''
-        description: >-
-          Ava was photographed fully embracing the gypsy/flamenco look at
-          bullfights here, at one of the oldest and most beautiful bullrings in
-          Spain.
-        detail: Seville. Guided tours from around €10; bullfight season March to October.
-        status: Open
-      - name: Grand Hotel Miramar
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          In Malaga, Ava stayed at this stunning Belle Epoque palace overlooking
-          the sea.
-        detail: Malaga. Rooms from around €250 per night.
-        status: Open
-      - name: La Casa de Robert Graves
-        category: Do
-        venueSlug: ''
-        description: >-
-          In later years Ava befriended the great British poet and novelist
-          Robert Graves, and would often visit him and his family at their villa
-          in Deia, Mallorca, which has been turned into a museum. Ava was also
-          spotted watching and joining in flamenco performances in the island's
-          capital, Palma.
-        detail: Deia, Mallorca. Entry around €7.
-        status: Open
-  - region: Rome
-    intro: |-
-      Some clever scribe once described mid-20th century Rome as "Hollywood on the Tiber." The iconic Cinecitta Studios and Via Veneto were the setting for a string of Hollywood scandals. Ava's shenanigans predate Liz and Dick's by a decade.
-
-      Her most notable Rome-based indiscretions occurred while she was in town to promote Mogambo with her co-stars Grace Kelly and Robert Surtees. The trio enjoyed several boisterous nights out together, with the delighted paparazzi following them to a series of bars on the Via Veneto.
-    places:
-      - name: Alfredo alla Scrofa
-        category: Eat
-        venueSlug: ''
-        description: >-
-          The legendary home of the original fettuccine Alfredo, still open and
-          still serving. Founded in 1914, the restaurant now offers cooking
-          classes where you can learn to make the dish yourself before sitting
-          down to a four-course tasting menu. The walls are lined with
-          photographs of celebrities who have eaten here, from Mary Pickford and
-          Douglas Fairbanks to Frank Sinatra and Dean Martin. Ava would gorge
-          herself here.
-        detail: Via della Scrofa, Rome. Cooking class and tasting menu from around €70. Five minutes' walk from Piazza Navona.
-        status: Open
-      - name: Doney, Westin Excelsior
-        category: Drink
-        venueSlug: westin-excelsior-rome
-        description: >-
-          The Via Veneto was a glamorous stretch of legendary hotels, bars and
-          clubs. Many have closed, but the Doney restaurant at the Westin
-          Excelsior is still going strong and remains a good spot for a drink and
-          some dolce vita nostalgia.
-        detail: Via Veneto, Rome.
-        status: Open
-      - name: Westin Excelsior
-        category: Sleep
-        venueSlug: westin-excelsior-rome
-        description: >-
-          Where Ava and Frank reportedly had blazing rows and where the Mogambo
-          promotional tour descended into chaos. It is still one of Rome's grand
-          hotels. Its Villa La Cupola suite, complete with private cinema and
-          wine cellar, is one of the most expensive hotel suites in the world.
-        detail: Via Veneto, Rome. Rooms from around €250 per night.
-        status: Open
-      - name: Hotel Hassler
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          At the top of the Spanish Steps, this is where Ava met up with Sinatra
-          when he dropped into town to see if they could reconcile their stormy
-          marriage. They argued, she left.
-        detail: Top of the Spanish Steps, Rome. Rooms from around €400 per night.
-        status: Open
-      - name: The Grand Hotel
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Where Ava stayed in a suite while filming The Barefoot Contessa, just
-          as her divorce from Sinatra was announced.
-        detail: Via Vittorio Emanuele Orlando, Rome. Rooms from around €300 per night.
-        status: Open
-      - name: Cinecitta Studios
-        category: Do
-        venueSlug: ''
-        description: >-
-          Where most of The Barefoot Contessa interiors were filmed, this offers
-          guided tours of Europe's most famous film lot. Fellini, Visconti and
-          dozens of Hollywood productions worked here.
-        detail: Rome. Tours from around €15.
-        status: Open
-      - name: Grand Hotel Plaza
-        category: Do
-        venueSlug: ''
-        description: >-
-          Housed the Sorelle Fontana fashion house (the sisters who were
-          appointed official dressmakers for The Barefoot Contessa). Its
-          restaurant is loosely themed around the Fontana legacy, with vibrant
-          fashion sketches along the walls. Ava became close friends with the
-          Fontana sisters and continued to wear their clothes throughout her
-          life.
-        detail: Via del Corso, Rome.
-        status: Open
-  - region: Portofino & the Italian Riviera
-    intro: |-
-      Ava stayed in San Remo and Portofino during the location shoots for The Barefoot Contessa. She fell in love with Portofino, the oh-so-glamorous jewel in the crown of the Italian Riviera, and returned often on private holidays.
-    places:
-      - name: Hotel Splendido
-        category: Sleep
-        venueSlug: hotel-splendido
-        description: >-
-          Perched on the hillside above the harbour, this (now Belmond) was Ava's
-          hotel of choice. Its sister hotel, the Splendido Mare on the
-          waterfront, even has a suite named after her: the Ava Gardner Suite.
-        detail: Portofino. Rooms from around $2,000 per night.
-        status: Open
-      - name: San Remo
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Further along the Ligurian coast, San Remo is a faded belle epoque
-          resort with a fraction of Portofino's prices.
-        detail: San Remo, Italian Riviera. Hotels from around €80 per night.
-        status: Open
-  - region: Paris
-    intro: |-
-      Ava stayed at the George V Hotel while on a break from filming Pandora and the Flying Dutchman in 1951. Frank Sinatra flew out to see her. More than a decade later, Ava was back in Paris to discuss starring in The Pink Panther opposite Peter Sellers.
-    places:
-      - name: George V
-        category: Sleep
-        venueSlug: george-v-paris
-        description: >-
-          Where Ava stayed (now the Four Seasons George V) while on a break from
-          filming Pandora and the Flying Dutchman in 1951. Frank Sinatra flew
-          out to see her.
-        detail: Paris. Rooms from around €800 per night.
-        status: Open
-      - name: Tour d'Argent
-        category: Eat
-        venueSlug: ''
-        description: >-
-          The much-storied restaurant where Frank and Ava dined, serving diners
-          overlooking Notre-Dame since 1582. It once held three Michelin stars
-          but has since been reduced to one, a demotion that would have made Ava
-          shrug. Ava visited again more than a decade later to reminisce about
-          the romantic times with Frank. The duck, for which each bird is given
-          a serial number, is the thing to order.
-        detail: Paris. Mains from around €80.
-        status: Open
-      - name: Plaza Athenee
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Where Ava stayed when she returned to Paris to discuss starring in The
-          Pink Panther opposite Peter Sellers.
-        detail: Paris. Rooms from around €700 per night.
-        status: Open
-  - region: London
-    intro: |-
-      Ava moved to London in the late 1960s and lived there for the last 22 years of her life, far longer than she lived anywhere else as an adult. After the noise and chaos of Madrid, London offered her something she had never really had: privacy. She was rarely recognised on the streets of Knightsbridge, which suited her perfectly.
-
-      She settled permanently at 34 Ennismore Gardens, a luxury flat in Knightsbridge, from 1972 until her death in 1990 at the age of 67. You'll find an English Heritage Blue Plaque on the wall outside.
-    places:
-      - name: Rules
-        category: Eat
-        venueSlug: ''
-        description: >-
-          One of London's oldest restaurants (founded 1798), and one place where
-          Ava is known to have eaten that is still very much alive and kicking.
-          The menu has barely changed in decades: game, pies and traditional
-          British dishes served in an interior that looks like a Victorian
-          hunting lodge crossed with a gentleman's club. The walls are lined
-          with portraits and cartoons of the VIPs who have eaten here.
-        detail: Maiden Lane, Covent Garden, London. Mains from around £25.
-        status: Open
-      - name: Claridge's
-        category: Sleep
-        venueSlug: claridges
-        description: >-
-          Where Ava and the rest of the Pandora and the Flying Dutchman cast were
-          put up during filming, and where she hosted a press conference in the
-          hotel's Banquet Room. Still one of London's finest hotels.
-        detail: Mayfair, London. Rooms from around £500 per night.
-        status: Open
-      - name: The Savoy
-        category: Sleep
-        venueSlug: the-savoy-london
-        description: >-
-          Where Ava stayed in 1956 while working with a speech coach for her role
-          in Bhowani Junction. Its American Bar is one of the oldest cocktail
-          bars in Europe and a fitting place to raise a glass to Ava.
-        detail: The Strand, London. Rooms from around £400 per night.
-        status: Open
-      - name: 34 Ennismore Gardens
-        category: See
-        venueSlug: ''
-        description: >-
-          Visit to see the English Heritage Blue Plaque and the quiet, leafy
-          square where Ava spent her final years. It is a remarkably peaceful
-          spot for a woman who spent most of her life causing chaos. A
-          five-minute walk from Harrods in Knightsbridge.
-        detail: 34 Ennismore Gardens, Knightsbridge, London.
-        status: Open
-      - name: The London Palladium
-        category: Do
-        venueSlug: ''
-        description: >-
-          While married to Frank, he performed here for the first time in 1951,
-          with Ava on the front row watching her husband. The Palladium still
-          hosts performances and is worth a visit for its art deco interior.
-        detail: Argyll Street, London.
-        status: Open
-  - region: Havana
-    intro: |-
-      Havana was one of the settings for Ava and Frank's honeymoon in 1951 (Miami was the other). They took a third-floor suite at the Hotel Nacional and spent a blissful few days exploring the city, drinking mojitos and visiting the red-light district of La Playita by night. As honeymoons go, it was very Ava and Frank.
-
-      Ava returned to the Hotel Nacional during her divorce from Sinatra, using the pseudonym Miss Grey, to reminisce about the good times.
-    places:
-      - name: Hotel Nacional de Cuba
-        category: Sleep
-        venueSlug: hotel-nacional-de-cuba
-        description: >-
-          A 1930s art deco landmark perched on a rocky outcrop overlooking the
-          Malecon and the Bay of Havana, witness to endless celebrity trysts
-          during its long reign as Cuba's most famous hotel. It has been declared
-          a National Monument and honoured with UNESCO Memory of the World
-          status. The hallways are lined with photographs of famous guests, from
-          Winston Churchill to Sinatra to Ava herself. The terrace has arguably
-          the best sunset views in Havana, and the Cabaret Parisien hosts nightly
-          shows.
-        detail: Havana, Cuba. Rooms from around $150 per night. Free guided historical tours run Monday to Saturday at 10am.
-        status: Open
-      - name: Finca Vigia
-        category: Do
-        venueSlug: ''
-        description: >-
-          Ava became good friends with Ernest Hemingway, and the two regularly
-          spent time together at his house in Cuba. Finca Vigia (Lookout Farm)
-          is now a museum. You can view the interiors through the open windows
-          and doors but cannot enter the house itself, which preserves
-          Hemingway's furniture, library and personal effects exactly as he left
-          them. His boat, the Pilar, is displayed in the grounds.
-        detail: San Francisco de Paula, about 30 minutes' drive southeast of Havana. Entry around $5.
-        status: Open
-  - region: Mexico
-    intro: |-
-      Ava holidayed in Mexico with Frank Sinatra at the end of a tumultuous year for the couple in 1951. Years later she returned to film, with mixed results.
-    places:
-      - name: Hotel del Prado
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Where Ava and Frank stayed for a few days in Mexico City in 1951. They
-          had all their meals sent to their suite and never left it until they
-          boarded their flight for Acapulco. The hotel collapsed during the 1985
-          earthquake and another has been built in its place.
-        detail: Mexico City. Demolished.
-        status: Demolished
-      - name: Casa Kimberley
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Night of the Iguana (1964), co-starring Richard Burton and Deborah
-          Kerr, was filmed in Puerto Vallarta. Burton was in town with Elizabeth
-          Taylor, and they later bought the villa they rented during filming,
-          Casa Kimberley, turning it into their own private love nest. It has
-          been revamped and reopened as a boutique hotel. You can stay in
-          Elizabeth's room, where the pink bath suite is original and chosen by
-          her.
-        detail: Puerto Vallarta. Rooms from around $300 per night.
-        status: Open
-      - name: Morelia
-        category: See
-        venueSlug: ''
-        description: >-
-          A few years later Ava returned to Mexico to film The Sun Also Rises
-          alongside Errol Flynn and Tyrone Power: the town of Morelia doubled
-          for Pamplona in Spain. This was not a happy stay for Ava, who stayed in
-          a villa outside the town by herself. Morelia is a UNESCO World Heritage
-          city with some of the finest colonial architecture in Mexico.
-        detail: Morelia, Mexico.
-        status: Open
-  - region: Rio de Janeiro
-    intro: |-
-      While promoting The Barefoot Contessa, Ava completed a publicity tour of South America that included Argentina, Chile, Peru, Venezuela and Brazil.
-    places:
-      - name: Belmond Copacabana Palace
-        category: Sleep
-        venueSlug: copacabana-palace
-        description: >-
-          In Rio, Ava stayed at the Copacabana Palace, the same hotel that
-          features in the Notorious and Now Voyager entries on our Classic Movies
-          list. The hotel has been Rio's most famous address since 1923 and its
-          art deco pool is one of the most photographed in the world.
-        detail: Rio de Janeiro. Rooms from around $300 per night.
-        status: Open
-  - region: Kenya
-    intro: |-
-      Ava visited Kenya during the filming of Mogambo in 1953. Much of the action was filmed in the wilds of Kenya and Uganda; the first camp was set up near the Kagera River, the second close to the Uaso Nyiro River.
-    places:
-      - name: Mount Kenya Safari Club
-        category: Sleep
-        venueSlug: mount-kenya-safari-club
-        description: >-
-          The Fairmont Mount Kenya Safari Club in Nanyuki is no stranger to
-          royalty, prominent politicians and Hollywood stars. Winston Churchill
-          enjoyed smoking his cigar in the lavish dining room with his afternoon
-          tea. Ava visited during the filming of Mogambo in 1953, and Sinatra
-          stayed here when he came to visit his wife. The club sits on 120 acres
-          in the foothills of Mount Kenya, straddling the equator, with an animal
-          orphanage next door.
-        detail: Nanyuki, Kenya. Rooms from around $250 per night.
-        status: Open
-      - name: New Stanley Hotel
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          The cast of Mogambo, including Ava, Clark Gable and Grace Kelly, stayed
-          here. Its famous Thorn Tree Cafe, where travellers have been pinning
-          messages to a thorn tree since the 1950s, is still the place to start a
-          Kenyan adventure.
-        detail: Nairobi, Kenya. Rooms from around $100 per night.
-        status: Open
-  - region: Pakistan
-    intro: |-
-      Ava came to Lahore in 1955 to film Bhowani Junction.
-    places:
-      - name: Faletti's Hotel
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Where Ava stayed in Room 55 (now known as the Ava Gardner Suite) while
-          filming Bhowani Junction in 1955. The cast and crew stayed here and
-          enjoyed group dinners in the hotel's restaurant. It remains Lahore's
-          most historic hotel, though it has seen better days.
-        detail: Lahore, Pakistan. Now the Faletti's Grand.
-        status: Open
-  - region: Australia
-    intro: |-
-      Ava came to Melbourne in 1959 to film On the Beach. It was not a happy experience.
-    places:
-      - name: Grand Yarra Hotel
-        category: Sleep
-        venueSlug: ''
-        description: >-
-          Where Ava stayed just outside Melbourne while filming On the Beach in
-          1959. She was quoted as saying: "On the Beach is a film about life
-          after the apocalypse. I think Melbourne is an apt place to film it."
-          Melbourne has improved considerably since then.
-        detail: Outside Melbourne, Australia. Demolished.
-        status: Demolished
-lifestyle: []
+keyDestinations:
+  - Madrid
+  - Rome
+  - London
+  - Los Angeles
+  - Havana
+  - Tossa de Mar
 relatedStars:
   - frank-sinatra
   - elizabeth-taylor
@@ -850,3 +57,875 @@ relatedArticles:
   - becoming-carmen
   - classic-movies-that-will-inspire-you-to-travel
   - swimming-pools-of-classic-hollywood
+sections:
+  - heading: A Hell of a Good Time
+    copy: >
+      Once heralded as the world's most beautiful woman, Ava Gardner's lust for
+      travel, booze and men was legendary. Gardner was at the top of her game in
+      the early 1950s: the dark-haired beauty from North Carolina had starred in
+      hit movies like The Killers, Show Boat, Mogambo and The Barefoot Contessa.
+      Her face adorned newspapers around the world, alongside her famous
+      husband, Frank Sinatra. But behind the glamour-girl facade was a fiery
+      tomboy who loved drink and mischief.
+
+
+      Ava's love affair with Spain and her fondness for flamenco (and a
+      smouldering bullfighter) has become part of the fabric of Hollywood
+      folklore. Read on to discover Ava's favourite restaurants and the hotels
+      she most adored, her favourite drinking and dancing haunts in Europe and
+      the Americas, and where to find her homes in Madrid, Rome, LA and London.
+    callout: >
+      "The truth is, honey, I've enjoyed my life. I've had a hell of a good
+      time." — Ava Gardner
+trailSubtitle: Where to walk in her footsteps
+regions:
+  - region: Smithfield, North Carolina
+    intro: >
+      Ava Gardner was born in a tiny farming community called Grabtown, just
+      outside Smithfield, in 1922. She was the youngest of seven children and
+      grew up barefoot and broke, a long way from the Hollywood red carpets that
+      awaited her. Smithfield is the essential starting point for any Ava
+      Gardner pilgrimage.
+    imageFocus: center
+    places:
+      - name: Ava Gardner Museum
+        category: Do
+        description: >
+          Your first stop should be the Ava Gardner Museum in downtown
+          Smithfield, for a short introductory film on her life and loves,
+          followed by a stroll around hundreds of photos and artefacts from
+          Ava's career, including original costumes from her movies, personal
+          jewellery and china. It also hosts an annual Ava Gardner Festival in
+          October.
+        detail: >-
+          325 East Market Street, Smithfield. Open Tuesday to Saturday, 9:30am
+          to 4:30pm; Sunday 12pm to 5pm; closed Mondays. Admission $14 adults,
+          $12 seniors and students, $8 children aged 6-17, free for under-6s.
+        status: Open
+      - name: Sunset Memorial Gardens
+        category: See
+        description: >
+          Ava's grave is at Sunset Memorial Gardens, about a five-minute drive
+          from the museum. Ask staff for directions or a map. It's a peaceful,
+          well-maintained cemetery setting and easy to find.
+        detail: >-
+          Smithfield, North Carolina. About a five-minute drive from the Ava
+          Gardner Museum.
+        status: Open
+      - name: The Howell Theatre
+        category: See
+        description: >
+          A 1935 art deco cinema where Ava watched movies with her mother as a
+          child. She later recalled seeing her favourite star, Clark Gable, in
+          Red Dust here, a film she would remake with him 20 years later as
+          Mogambo. The building is still standing and worth a look from the
+          outside for its original facade.
+        detail: >-
+          South Third Street, Smithfield. Closed permanently in April 2025 after
+          90 years of operation.
+        status: Closed
+      - name: Holt Lake
+        category: Do
+        description: >
+          Where the teenage Ava listened to the jukebox with friends at the
+          pavilion. It is still open for boating and picnics, though the dancing
+          pavilion she once danced in no longer exists.
+        detail: Smithfield, North Carolina. Open for boating and picnics.
+        status: Open
+  - region: New York
+    intro: >
+      Ava spent considerable time in New York during her marriages to Artie Shaw
+      and Frank Sinatra, and during her frequent trips to promote films.
+      Manhattan in the late 1940s and early 1950s was the centre of the
+      entertainment world, and Ava was at the heart of it.
+    imageFocus: center
+    places:
+      - name: Russian Samovar
+        category: Eat
+        description: >
+          The building was formerly Jilly's Canteen, owned by Frank Sinatra's
+          close friend Jilly Rizzo, and was the Rat Pack's favourite bolt-hole
+          in New York. The current owners have preserved the original red
+          banquettes from those days, as well as the original bar (which
+          featured in The Manchurian Candidate). Order a vodka martini and
+          listen to the resident pianist's Sinatra renditions, as Ava might have
+          done. She owned all his records and listened to them often, throughout
+          her life.
+        detail: >-
+          West 52nd Street, New York. Dinner and show evenings from around $50
+          per person.
+        status: Open
+      - name: Birdland
+        category: Drink
+        description: >
+          Gardner's favourite jazz joint, where she regularly watched the likes
+          of Miles Davis perform (the two struck up a genuine friendship).
+          Sinatra, Marilyn Monroe and Marlene Dietrich were also regulars. The
+          original club on Broadway closed in 1965 but the revived version,
+          which opened in 1996 a few blocks away, carries on the tradition with
+          a full weekly schedule of jazz performances.
+        detail: >-
+          West 44th Street, New York. $20 minimum spend per person; show tickets
+          from around $30-40 depending on the act.
+        status: Relocated
+      - name: The St. Regis
+        category: Sleep
+        description: >
+          A grand dame hotel founded by John Jacob Astor at the turn of the 20th
+          century, this is the only notable hotel Ava stayed at in New York that
+          is still operating as a hotel. Ava never did anything on the cheap.
+        detail: East 55th Street, New York. Rooms from around $600 per night.
+        status: Open
+      - name: Hampshire House
+        category: Sleep
+        description: >
+          During their marriage, whenever Frank was performing in the city, the
+          couple would stay at this luxury apartment building overlooking
+          Central Park. It's still an exclusive residential building today and
+          not open to the public, but you can admire the art deco facade from
+          the street.
+        detail: >-
+          Central Park South, New York. Private residential building; admire
+          from the street.
+        status: Open
+  - region: Los Angeles
+    intro: >
+      Hollywood was Ava's professional home from her arrival at MGM as a
+      teenager in 1941 until she left for Spain in 1955. She lived at multiple
+      addresses across the city, most of which are private residences, but
+      there's still plenty to see.
+    imageFocus: center
+    places:
+      - name: The Formosa Cafe
+        category: Eat
+        description: >
+          Where Ava would often be seen dancing (Frank also visited frequently
+          during their divorce). It has been beautifully restored and reopened,
+          with vintage movie memorabilia lining the walls and classic cocktails
+          on the menu. It's one of the best-preserved old Hollywood haunts in
+          the city.
+        detail: Santa Monica Boulevard, West Hollywood.
+        status: Open
+      - name: The Farmers Market
+        category: Eat
+        description: >
+          Another of Ava's regular stops, still going strong and a good spot for
+          a casual lunch.
+        detail: Corner of Third and Fairfax, Los Angeles.
+        status: Open
+      - name: The Polo Lounge, Beverly Hills Hotel
+        category: Drink
+        venueSlug: beverly-hills-hotel
+        description: >
+          Ava was a regular at the Polo Lounge, and the Beverly Hills Hotel is
+          still the best place in town to soak up old-world Hollywood glamour.
+          The people-watching is priceless.
+        detail: >-
+          Sunset Boulevard, Beverly Hills. A cocktail at the Polo Lounge will
+          set you back around $25-30.
+        status: Open
+      - name: Chateau Marmont
+        category: Drink
+        venueSlug: chateau-marmont
+        description: >
+          Where Ava would meet one-time resident Howard Hughes. It is still
+          operating as a private members' hotel, though non-members can
+          sometimes access the restaurant and bar.
+        detail: Sunset Strip, West Hollywood. Rooms from around $500 per night.
+        status: Open
+      - name: Beverly Hills Hotel
+        category: Sleep
+        venueSlug: beverly-hills-hotel
+        description: >
+          One of the two surviving hotels most closely associated with Ava in
+          Los Angeles.
+        detail: Sunset Boulevard, Beverly Hills. Rooms from around $700 per night.
+        status: Open
+      - name: The Hollywood Museum
+        category: Do
+        description: >
+          Housed in the historic Max Factor building, this is a retro movie
+          extravaganza across four floors and is sure to have Ava-related gems
+          on show.
+        detail: Highland Avenue, Los Angeles. Admission around $15.
+        status: Open
+      - name: Larry Edmunds Bookshop
+        category: Do
+        description: >
+          Stocks a huge array of classic movie books, magazines, prints, posters
+          and more.
+        detail: Hollywood Boulevard, Los Angeles.
+        status: Open
+      - name: Ava Gardner's Star, Hollywood Walk of Fame
+        category: See
+        description: >
+          Do the touristy thing and go see Ava's star on the Hollywood Walk of
+          Fame.
+        detail: 1508 Vine Street, Los Angeles.
+        status: Open
+      - name: Sony Pictures Studios Tour
+        category: Do
+        description: >
+          Covers the legendary lot that used to belong to Ava's old studio, MGM,
+          where she spent her formative years under contract.
+        detail: Culver City. Tours from around $50.
+        status: Open
+      - name: Ava Gardner Mural, Koreatown
+        category: See
+        description: >
+          For something edgier, check out the controversial Ava Gardner mural,
+          which commemorates the spot where the iconic Ambassador Hotel once
+          stood (site of Robert Kennedy's assassination), and where the
+          legendary Cocoanut Grove nightclub once operated. The mural had to be
+          modified after the background bore too much resemblance to the symbol
+          of the old Japanese imperial navy. Only in LA.
+        detail: Koreatown, Los Angeles.
+        status: Open
+  - region: Palm Springs
+    intro: >
+      Frank and Ava fans should not miss the opportunity to stay at Frank's Twin
+      Palms house, which he had built for himself in the late 1940s. Gardner
+      wrote about the house in her autobiography: "It was the site of probably
+      the most spectacular fight of our young married life, and honey don't
+      think I don't know that's really saying something."
+    imageFocus: center
+    places:
+      - name: Twin Palms
+        category: Sleep
+        venueSlug: sinatras-twin-palms
+        description: >
+          Frank's Palm Springs house, the only home he and Ava could ever really
+          call their own. One of the original bathroom sinks has a crack in it
+          from a champagne bottle that Sinatra hurled at Ava during one of their
+          rows. The Jack Daniel's flag still flies from the roof when guests are
+          in residence.
+        detail: Palm Springs. Available to rent from around $2,600 per night.
+        status: Open
+  - region: The California Coast
+    intro: >
+      Ava did a road trip along the Pacific Coast Highway with first husband
+      Mickey Rooney for their honeymoon. They married at Santa Ynez Valley
+      Presbyterian Church in Ballard, a small community outside Santa Barbara.
+      After that, they journeyed up the Big Sur coast to Carmel.
+
+
+      The story, as told by Ava, was that they both got so drunk on their
+      wedding night that they were unable to consummate the marriage. A strong
+      start to what would prove to be a short-lived union.
+    imageFocus: center
+    places:
+      - name: Pebble Beach
+        category: Do
+        description: >
+          It was at the world-famous Pebble Beach resort that Ava spent much of
+          her honeymoon. Technically they stayed at the Del Monte Hotel (now a
+          school and office buildings), but they played golf at Pebble Beach.
+        detail: Pebble Beach, California.
+        status: Open
+      - name: Pacific Coast Highway
+        category: Do
+        description: >
+          The drive from Santa Barbara to Carmel remains one of the most
+          spectacular in the world and a fitting honeymoon route, even if your
+          marriage lasts longer than Ava and Mickey's did (most do).
+        detail: Santa Barbara to Carmel, California.
+        status: Open
+  - region: Las Vegas
+    intro: >
+      Ava stayed in Las Vegas with Howard Hughes and made frequent visits to
+      support Sinatra when he performed there. Las Vegas has never been
+      sentimental about its own history.
+    imageFocus: center
+    places:
+      - name: El Rancho Hotel
+        category: Sleep
+        description: >
+          Ava stayed here with her sister and Howard Hughes after he flew them
+          to Las Vegas in his private plane for a surprise weekend break.
+        detail: Las Vegas. Demolished.
+        status: Demolished
+      - name: Desert Inn
+        category: Sleep
+        description: >
+          One of the Las Vegas hotels where Ava stayed during her visits to the
+          city.
+        detail: Las Vegas. Demolished.
+        status: Demolished
+  - region: Lake Tahoe
+    intro: >
+      Ava stayed many times at the Cal-Neva Resort on the north shore of Lake
+      Tahoe, which Frank co-owned and which famously straddled the
+      California-Nevada state line. She and Frank could often be spotted on the
+      lake, boating and boozing.
+    imageFocus: center
+    places:
+      - name: Cal-Neva Resort
+        category: Sleep
+        description: >
+          Frank co-owned this resort, which straddled the California-Nevada
+          state line. It closed in 2013 after years of decline but is undergoing
+          a major renovation by developer McWhinney in partnership with Proper
+          Hospitality. The historic lodge, Circle Bar and Frank Sinatra Showroom
+          are all being preserved. Watch this space.
+        detail: >-
+          North shore of Lake Tahoe. Closed in 2013; reopening pushed back to
+          2027.
+        status: Closed
+  - region: Hawaii
+    intro: >
+      Ava visited Hawaii during her marriage to Sinatra and returned several
+      times throughout her life. The islands feature in a memorable anecdote
+      from her autobiography in which she nearly drowned after being caught by a
+      wave at Wailua Bay on Kauai.
+    imageFocus: center
+    places:
+      - name: Wailua Bay, Kauai
+        category: See
+        description: >
+          The setting for a memorable anecdote from Ava's autobiography, in
+          which she nearly drowned after being caught by a wave.
+        detail: Kauai, Hawaii.
+        status: Open
+  - region: Madrid
+    intro: >
+      Ava lived in Madrid from the mid-1950s until 1968, making it her longest
+      home outside of the United States and the place where she was arguably
+      happiest. She inhabited three different addresses during her time in the
+      city: suite 716 at the Castellana Hilton (now the InterContinental), a
+      chalet called La Bruja (The Witch) in the La Moraleja neighbourhood, and,
+      most famously, a spectacular penthouse duplex at 11 Calle Doctor Arce,
+      where the all-night flamenco parties drove the neighbours to despair. Juan
+      Domingo Peron, he of Evita fame, lived in the same building.
+
+
+      Ava enjoyed a hard-living, hard-drinking lifestyle in Madrid and took
+      frequent road trips in search of bullfights, flamenco and gypsy life.
+    imageFocus: center
+    places:
+      - name: Horcher
+        category: Eat
+        description: >
+          Ava's favourite restaurant in Madrid, until the management banned her
+          (a frequent occurrence in her later years as her partying got out of
+          control). Founded in 1943 by the German restaurateur Otto Horcher, it
+          is still open, supremely elegant, and serving classic Central European
+          dishes, specialising in game. One of the last survivors of old-world
+          fine dining in Madrid.
+        detail: >-
+          Calle Alfonso XII, opposite the Retiro Park, Madrid. Expect to spend
+          around €100 per person.
+        status: Open
+      - name: Cerveceria Alemana
+        category: Eat
+        description: >
+          Founded in 1904, this was Ava's regular bar for beer and tapas. She
+          drank here with Ernest Hemingway, who had his own table by the window
+          (there's a framed photograph of him hanging above it). The decor has
+          barely changed since 1904, the waiters still wear white jackets, and
+          the cod croquettes are excellent. The brewery celebrated its 120th
+          anniversary in 2024 and was designated a Traditional Madrid
+          Establishment by the Chamber of Commerce.
+        detail: Plaza de Santa Ana, Madrid.
+        status: Open
+      - name: Museo Chicote
+        category: Drink
+        description: >
+          One of Ava's favourite drinking haunts. She brought both Sinatra and
+          Luis Miguel here at different times. Founded in 1931, it retains its
+          original art deco interior and is widely considered the first cocktail
+          bar in Spain. The bar earned a place in Hemingway's short story The
+          Denunciation, and its celebrity guest list has included Grace Kelly,
+          Sophia Loren and Salvador Dali. Try Hemingway's favourite, the Papa
+          Doble.
+        detail: Gran Via, Madrid. Cocktails from around €12.
+        status: Open
+      - name: Corral de la Moreria
+        category: Drink
+        description: >
+          Opened in 1956, this is where Ava indulged her passion for flamenco.
+          Rumour has it she slapped Sinatra here one evening. Gary Cooper, Rita
+          Hayworth, Picasso and Dali were also regulars. It now holds a Michelin
+          star for its restaurant and was named by the New York Times as one of
+          the 1,000 places to see before you die.
+        detail: Madrid. Shows from around €45 including a drink.
+        status: Open
+      - name: Tablao Flamenco 1911 (Villa Rosa)
+        category: Drink
+        description: >
+          Ava also danced at the Villa Rosa (now the Tablao Flamenco 1911), one
+          of the oldest flamenco tablaos in the world, where some say she would
+          go up on stage and dance herself.
+        detail: Madrid. Shows from around €35.
+        status: Open
+      - name: Hotel Wellington
+        category: Sleep
+        description: >
+          Where Ava had her first encounter with Luis Miguel Dominguin, her
+          bullfighter lover, supposedly hours before Sinatra arrived in town. It
+          is still a discreet five-star hotel with an old-world atmosphere.
+        detail: Near El Retiro Park, Madrid. Rooms from around €200 per night.
+        status: Open
+      - name: InterContinental Madrid
+        category: Sleep
+        description: >
+          Formerly the Castellana Hilton, this was where Ava stayed with Sinatra
+          during his visits, and where they barely left the room. Salvador Dali
+          visited her here once for afternoon tea, which he "flounced out of
+          because he was offended by the word cucumber," according to Ava.
+        detail: Madrid. Rooms from around €180 per night.
+        status: Open
+      - name: Mandarin Oriental Ritz Madrid
+        category: Sleep
+        description: >
+          Formerly the Hotel Ritz, this is where Ava was famously barred after
+          urinating in the vestibule between the entrance and reception. The
+          hotel has since undergone a spectacular renovation and reopened as
+          Madrid's most luxurious hotel, with five restaurants and bars and a
+          spa.
+        detail: Madrid. Rooms from around €500 per night.
+        status: Open
+      - name: El Retiro Park
+        category: Do
+        description: >
+          Opposite Horcher, this is where Ava spent time with gypsy performers
+          who allowed her to indulge her passion for flamenco. It is said that
+          on one raucous night in the early 1960s, she ran across the park in
+          her underwear. This is not an activity we recommend recreating.
+        detail: Madrid. Free.
+        status: Open
+      - name: El Rastro
+        category: Do
+        description: >
+          Shop like Ava and visit El Rastro, Spain's biggest and oldest flea
+          market, held every Sunday morning. Ava loved antiques and furnished
+          all her homes with items she found in local antique shops and rustic
+          flea markets.
+        detail: Madrid. Held every Sunday morning.
+        status: Open
+  - region: Tossa de Mar
+    intro: >
+      Tossa de Mar on the Costa Brava is where Ava fell in love with Spain. She
+      stayed here in 1950 while filming the hauntingly romantic Pandora and the
+      Flying Dutchman, starring James Mason as her ghostly lover. The epic house
+      used in the film is not available to visit, but there's plenty to see and
+      do that's Ava-related in this delightful little town.
+    imageFocus: center
+    places:
+      - name: Hotel Diana
+        category: Sleep
+        venueSlug: hotel-diana-tossa-de-mar
+        description: >
+          Where Sinatra came to visit Ava on set and the two stayed together. It
+          is still a delightfully romantic boutique hotel right on the beach.
+          Built by a disciple of Gaudi, with sea-view rooms, a beachfront
+          restaurant and direct beach access.
+        detail: Plaza de Espana, Tossa de Mar. Rooms from around €100 per night.
+        status: Open
+      - name: Ava Gardner Statue
+        category: See
+        description: >
+          Don't miss the Ava Gardner statue in the main square, and remember to
+          ask the local baker for a "besos de Ava Gardner" (Ava Gardner's
+          kisses) to nibble on. The medieval walled town (Vila Vella) that
+          crowns the headland above the beach is still there, still gorgeous,
+          and still recognisable from the film.
+        detail: Main square, Tossa de Mar.
+        status: Open
+  - region: Seville, Malaga & Mallorca
+    intro: >
+      Ava made regular road trips from Madrid all over Spain, in search of
+      bullfights, flamenco and gypsy life.
+    imageFocus: center
+    places:
+      - name: Hotel Alfonso XIII
+        category: Sleep
+        description: >
+          In Seville, Ava would often stay at the magnificent Hotel Alfonso
+          XIII, and it was in the hotel lobby during the 1952 Feria that she met
+          Luis Miguel Dominguin for the first time. He was travelling with his
+          girlfriend at the time. That did not deter Ava.
+        detail: Seville. Rooms from around €300 per night.
+        status: Open
+      - name: Plaza de Toros de la Real Maestranza
+        category: See
+        description: >
+          Ava was photographed fully embracing the gypsy/flamenco look at
+          bullfights here, at one of the oldest and most beautiful bullrings in
+          Spain.
+        detail: >-
+          Seville. Guided tours from around €10; bullfight season March to
+          October.
+        status: Open
+      - name: Grand Hotel Miramar
+        category: Sleep
+        description: >
+          In Malaga, Ava stayed at this stunning Belle Epoque palace overlooking
+          the sea.
+        detail: Malaga. Rooms from around €250 per night.
+        status: Open
+      - name: La Casa de Robert Graves
+        category: Do
+        description: >
+          In later years Ava befriended the great British poet and novelist
+          Robert Graves, and would often visit him and his family at their villa
+          in Deia, Mallorca, which has been turned into a museum. Ava was also
+          spotted watching and joining in flamenco performances in the island's
+          capital, Palma.
+        detail: Deia, Mallorca. Entry around €7.
+        status: Open
+  - region: Rome
+    intro: >
+      Some clever scribe once described mid-20th century Rome as "Hollywood on
+      the Tiber." The iconic Cinecitta Studios and Via Veneto were the setting
+      for a string of Hollywood scandals. Ava's shenanigans predate Liz and
+      Dick's by a decade.
+
+
+      Her most notable Rome-based indiscretions occurred while she was in town
+      to promote Mogambo with her co-stars Grace Kelly and Robert Surtees. The
+      trio enjoyed several boisterous nights out together, with the delighted
+      paparazzi following them to a series of bars on the Via Veneto.
+    imageFocus: center
+    places:
+      - name: Alfredo alla Scrofa
+        category: Eat
+        description: >
+          The legendary home of the original fettuccine Alfredo, still open and
+          still serving. Founded in 1914, the restaurant now offers cooking
+          classes where you can learn to make the dish yourself before sitting
+          down to a four-course tasting menu. The walls are lined with
+          photographs of celebrities who have eaten here, from Mary Pickford and
+          Douglas Fairbanks to Frank Sinatra and Dean Martin. Ava would gorge
+          herself here.
+        detail: >-
+          Via della Scrofa, Rome. Cooking class and tasting menu from around
+          €70. Five minutes' walk from Piazza Navona.
+        status: Open
+      - name: Doney, Westin Excelsior
+        category: Drink
+        venueSlug: westin-excelsior-rome
+        description: >
+          The Via Veneto was a glamorous stretch of legendary hotels, bars and
+          clubs. Many have closed, but the Doney restaurant at the Westin
+          Excelsior is still going strong and remains a good spot for a drink
+          and some dolce vita nostalgia.
+        detail: Via Veneto, Rome.
+        status: Open
+      - name: Westin Excelsior
+        category: Sleep
+        venueSlug: westin-excelsior-rome
+        description: >
+          Where Ava and Frank reportedly had blazing rows and where the Mogambo
+          promotional tour descended into chaos. It is still one of Rome's grand
+          hotels. Its Villa La Cupola suite, complete with private cinema and
+          wine cellar, is one of the most expensive hotel suites in the world.
+        detail: Via Veneto, Rome. Rooms from around €250 per night.
+        status: Open
+      - name: Hotel Hassler
+        category: Sleep
+        description: >
+          At the top of the Spanish Steps, this is where Ava met up with Sinatra
+          when he dropped into town to see if they could reconcile their stormy
+          marriage. They argued, she left.
+        detail: Top of the Spanish Steps, Rome. Rooms from around €400 per night.
+        status: Open
+      - name: The Grand Hotel
+        category: Sleep
+        description: >
+          Where Ava stayed in a suite while filming The Barefoot Contessa, just
+          as her divorce from Sinatra was announced.
+        detail: Via Vittorio Emanuele Orlando, Rome. Rooms from around €300 per night.
+        status: Open
+      - name: Cinecitta Studios
+        category: Do
+        description: >
+          Where most of The Barefoot Contessa interiors were filmed, this offers
+          guided tours of Europe's most famous film lot. Fellini, Visconti and
+          dozens of Hollywood productions worked here.
+        detail: Rome. Tours from around €15.
+        status: Open
+      - name: Grand Hotel Plaza
+        category: Do
+        description: >
+          Housed the Sorelle Fontana fashion house (the sisters who were
+          appointed official dressmakers for The Barefoot Contessa). Its
+          restaurant is loosely themed around the Fontana legacy, with vibrant
+          fashion sketches along the walls. Ava became close friends with the
+          Fontana sisters and continued to wear their clothes throughout her
+          life.
+        detail: Via del Corso, Rome.
+        status: Open
+  - region: Portofino & the Italian Riviera
+    intro: >
+      Ava stayed in San Remo and Portofino during the location shoots for The
+      Barefoot Contessa. She fell in love with Portofino, the oh-so-glamorous
+      jewel in the crown of the Italian Riviera, and returned often on private
+      holidays.
+    imageFocus: center
+    places:
+      - name: Hotel Splendido
+        category: Sleep
+        venueSlug: hotel-splendido
+        description: >
+          Perched on the hillside above the harbour, this (now Belmond) was
+          Ava's hotel of choice. Its sister hotel, the Splendido Mare on the
+          waterfront, even has a suite named after her: the Ava Gardner Suite.
+        detail: Portofino. Rooms from around $2,000 per night.
+        status: Open
+      - name: San Remo
+        category: Sleep
+        description: >
+          Further along the Ligurian coast, San Remo is a faded belle epoque
+          resort with a fraction of Portofino's prices.
+        detail: San Remo, Italian Riviera. Hotels from around €80 per night.
+        status: Open
+  - region: Paris
+    intro: >
+      Ava stayed at the George V Hotel while on a break from filming Pandora and
+      the Flying Dutchman in 1951. Frank Sinatra flew out to see her. More than
+      a decade later, Ava was back in Paris to discuss starring in The Pink
+      Panther opposite Peter Sellers.
+    imageFocus: center
+    places:
+      - name: George V
+        category: Sleep
+        venueSlug: george-v-paris
+        description: >
+          Where Ava stayed (now the Four Seasons George V) while on a break from
+          filming Pandora and the Flying Dutchman in 1951. Frank Sinatra flew
+          out to see her.
+        detail: Paris. Rooms from around €800 per night.
+        status: Open
+      - name: Tour d'Argent
+        category: Eat
+        description: >
+          The much-storied restaurant where Frank and Ava dined, serving diners
+          overlooking Notre-Dame since 1582. It once held three Michelin stars
+          but has since been reduced to one, a demotion that would have made Ava
+          shrug. Ava visited again more than a decade later to reminisce about
+          the romantic times with Frank. The duck, for which each bird is given
+          a serial number, is the thing to order.
+        detail: Paris. Mains from around €80.
+        status: Open
+      - name: Plaza Athenee
+        category: Sleep
+        description: >
+          Where Ava stayed when she returned to Paris to discuss starring in The
+          Pink Panther opposite Peter Sellers.
+        detail: Paris. Rooms from around €700 per night.
+        status: Open
+  - region: London
+    intro: >
+      Ava moved to London in the late 1960s and lived there for the last 22
+      years of her life, far longer than she lived anywhere else as an adult.
+      After the noise and chaos of Madrid, London offered her something she had
+      never really had: privacy. She was rarely recognised on the streets of
+      Knightsbridge, which suited her perfectly.
+
+
+      She settled permanently at 34 Ennismore Gardens, a luxury flat in
+      Knightsbridge, from 1972 until her death in 1990 at the age of 67. You'll
+      find an English Heritage Blue Plaque on the wall outside.
+    imageFocus: center
+    places:
+      - name: Rules
+        category: Eat
+        description: >
+          One of London's oldest restaurants (founded 1798), and one place where
+          Ava is known to have eaten that is still very much alive and kicking.
+          The menu has barely changed in decades: game, pies and traditional
+          British dishes served in an interior that looks like a Victorian
+          hunting lodge crossed with a gentleman's club. The walls are lined
+          with portraits and cartoons of the VIPs who have eaten here.
+        detail: Maiden Lane, Covent Garden, London. Mains from around £25.
+        status: Open
+      - name: Claridge's
+        category: Sleep
+        venueSlug: claridges
+        description: >
+          Where Ava and the rest of the Pandora and the Flying Dutchman cast
+          were put up during filming, and where she hosted a press conference in
+          the hotel's Banquet Room. Still one of London's finest hotels.
+        detail: Mayfair, London. Rooms from around £500 per night.
+        status: Open
+      - name: The Savoy
+        category: Sleep
+        venueSlug: the-savoy-london
+        description: >
+          Where Ava stayed in 1956 while working with a speech coach for her
+          role in Bhowani Junction. Its American Bar is one of the oldest
+          cocktail bars in Europe and a fitting place to raise a glass to Ava.
+        detail: The Strand, London. Rooms from around £400 per night.
+        status: Open
+      - name: 34 Ennismore Gardens
+        category: See
+        description: >
+          Visit to see the English Heritage Blue Plaque and the quiet, leafy
+          square where Ava spent her final years. It is a remarkably peaceful
+          spot for a woman who spent most of her life causing chaos. A
+          five-minute walk from Harrods in Knightsbridge.
+        detail: 34 Ennismore Gardens, Knightsbridge, London.
+        status: Open
+      - name: The London Palladium
+        category: Do
+        description: >
+          While married to Frank, he performed here for the first time in 1951,
+          with Ava on the front row watching her husband. The Palladium still
+          hosts performances and is worth a visit for its art deco interior.
+        detail: Argyll Street, London.
+        status: Open
+  - region: Havana
+    intro: >
+      Havana was one of the settings for Ava and Frank's honeymoon in 1951
+      (Miami was the other). They took a third-floor suite at the Hotel Nacional
+      and spent a blissful few days exploring the city, drinking mojitos and
+      visiting the red-light district of La Playita by night. As honeymoons go,
+      it was very Ava and Frank.
+
+
+      Ava returned to the Hotel Nacional during her divorce from Sinatra, using
+      the pseudonym Miss Grey, to reminisce about the good times.
+    imageFocus: center
+    places:
+      - name: Hotel Nacional de Cuba
+        category: Sleep
+        venueSlug: hotel-nacional-de-cuba
+        description: >
+          A 1930s art deco landmark perched on a rocky outcrop overlooking the
+          Malecon and the Bay of Havana, witness to endless celebrity trysts
+          during its long reign as Cuba's most famous hotel. It has been
+          declared a National Monument and honoured with UNESCO Memory of the
+          World status. The hallways are lined with photographs of famous
+          guests, from Winston Churchill to Sinatra to Ava herself. The terrace
+          has arguably the best sunset views in Havana, and the Cabaret Parisien
+          hosts nightly shows.
+        detail: >-
+          Havana, Cuba. Rooms from around $150 per night. Free guided historical
+          tours run Monday to Saturday at 10am.
+        status: Open
+      - name: Finca Vigia
+        category: Do
+        description: >
+          Ava became good friends with Ernest Hemingway, and the two regularly
+          spent time together at his house in Cuba. Finca Vigia (Lookout Farm)
+          is now a museum. You can view the interiors through the open windows
+          and doors but cannot enter the house itself, which preserves
+          Hemingway's furniture, library and personal effects exactly as he left
+          them. His boat, the Pilar, is displayed in the grounds.
+        detail: >-
+          San Francisco de Paula, about 30 minutes' drive southeast of Havana.
+          Entry around $5.
+        status: Open
+  - region: Mexico
+    intro: >
+      Ava holidayed in Mexico with Frank Sinatra at the end of a tumultuous year
+      for the couple in 1951. Years later she returned to film, with mixed
+      results.
+    imageFocus: center
+    places:
+      - name: Hotel del Prado
+        category: Sleep
+        description: >
+          Where Ava and Frank stayed for a few days in Mexico City in 1951. They
+          had all their meals sent to their suite and never left it until they
+          boarded their flight for Acapulco. The hotel collapsed during the 1985
+          earthquake and another has been built in its place.
+        detail: Mexico City. Demolished.
+        status: Demolished
+      - name: Casa Kimberley
+        category: Sleep
+        description: >
+          Night of the Iguana (1964), co-starring Richard Burton and Deborah
+          Kerr, was filmed in Puerto Vallarta. Burton was in town with Elizabeth
+          Taylor, and they later bought the villa they rented during filming,
+          Casa Kimberley, turning it into their own private love nest. It has
+          been revamped and reopened as a boutique hotel. You can stay in
+          Elizabeth's room, where the pink bath suite is original and chosen by
+          her.
+        detail: Puerto Vallarta. Rooms from around $300 per night.
+        status: Open
+      - name: Morelia
+        category: See
+        description: >
+          A few years later Ava returned to Mexico to film The Sun Also Rises
+          alongside Errol Flynn and Tyrone Power: the town of Morelia doubled
+          for Pamplona in Spain. This was not a happy stay for Ava, who stayed
+          in a villa outside the town by herself. Morelia is a UNESCO World
+          Heritage city with some of the finest colonial architecture in Mexico.
+        detail: Morelia, Mexico.
+        status: Open
+  - region: Rio de Janeiro
+    intro: >
+      While promoting The Barefoot Contessa, Ava completed a publicity tour of
+      South America that included Argentina, Chile, Peru, Venezuela and Brazil.
+    imageFocus: center
+    places:
+      - name: Belmond Copacabana Palace
+        category: Sleep
+        venueSlug: copacabana-palace
+        description: >
+          In Rio, Ava stayed at the Copacabana Palace, the same hotel that
+          features in the Notorious and Now Voyager entries on our Classic
+          Movies list. The hotel has been Rio's most famous address since 1923
+          and its art deco pool is one of the most photographed in the world.
+        detail: Rio de Janeiro. Rooms from around $300 per night.
+        status: Open
+  - region: Kenya
+    intro: >
+      Ava visited Kenya during the filming of Mogambo in 1953. Much of the
+      action was filmed in the wilds of Kenya and Uganda; the first camp was set
+      up near the Kagera River, the second close to the Uaso Nyiro River.
+    imageFocus: center
+    places:
+      - name: Mount Kenya Safari Club
+        category: Sleep
+        venueSlug: mount-kenya-safari-club
+        description: >
+          The Fairmont Mount Kenya Safari Club in Nanyuki is no stranger to
+          royalty, prominent politicians and Hollywood stars. Winston Churchill
+          enjoyed smoking his cigar in the lavish dining room with his afternoon
+          tea. Ava visited during the filming of Mogambo in 1953, and Sinatra
+          stayed here when he came to visit his wife. The club sits on 120 acres
+          in the foothills of Mount Kenya, straddling the equator, with an
+          animal orphanage next door.
+        detail: Nanyuki, Kenya. Rooms from around $250 per night.
+        status: Open
+      - name: New Stanley Hotel
+        category: Sleep
+        description: >
+          The cast of Mogambo, including Ava, Clark Gable and Grace Kelly,
+          stayed here. Its famous Thorn Tree Cafe, where travellers have been
+          pinning messages to a thorn tree since the 1950s, is still the place
+          to start a Kenyan adventure.
+        detail: Nairobi, Kenya. Rooms from around $100 per night.
+        status: Open
+  - region: Pakistan
+    intro: |
+      Ava came to Lahore in 1955 to film Bhowani Junction.
+    imageFocus: center
+    places:
+      - name: Faletti's Hotel
+        category: Sleep
+        description: >
+          Where Ava stayed in Room 55 (now known as the Ava Gardner Suite) while
+          filming Bhowani Junction in 1955. The cast and crew stayed here and
+          enjoyed group dinners in the hotel's restaurant. It remains Lahore's
+          most historic hotel, though it has seen better days.
+        detail: Lahore, Pakistan. Now the Faletti's Grand.
+        status: Open
+  - region: Australia
+    intro: >
+      Ava came to Melbourne in 1959 to film On the Beach. It was not a happy
+      experience.
+    imageFocus: center
+    places:
+      - name: Grand Yarra Hotel
+        category: Sleep
+        description: >
+          Where Ava stayed just outside Melbourne while filming On the Beach in
+          1959. She was quoted as saying: "On the Beach is a film about life
+          after the apocalypse. I think Melbourne is an apt place to film it."
+          Melbourne has improved considerably since then.
+        detail: Outside Melbourne, Australia. Demolished.
+        status: Demolished
+lifestyle: []
