@@ -3,13 +3,14 @@ nickname: The Last of the Swashbucklers
 birthYear: 1909
 deathYear: 1959
 portraitImage: /images/stars/errol-flynn/portraitImage.jpg
+portraitFocus: top
 portraitCredit: Photoplay, Public Domain, via Wikimedia Commons
 heroImage: /images/stars/errol-flynn/heroImage.jpg
 excerpt: >-
-  Hollywood's great swashbuckler discovered Jamaica's northeast coast almost
-  by accident, bought a piece of it, and spent his last decade turning a
-  sleepy banana port into a celebrity hideaway. Most of what he built is gone
-  — but not all of it.
+  Hollywood's great swashbuckler discovered Jamaica's northeast coast almost by
+  accident, bought a piece of it, and spent his last decade turning a sleepy
+  banana port into a celebrity hideaway. Most of what he built is gone — but not
+  all of it.
 publishDate: 2026-06-30
 keyFilms:
   - title: Captain Blood
@@ -23,17 +24,48 @@ relatedVenues:
   - trident-hotel
 relatedArticles:
   - errol-flynn-port-antonio
-trailSubtitle: Where to walk in his footsteps
 sections:
-  - copy: |-
-      By the time Errol Flynn discovered Jamaica's northeast coast in the late 1940s, he had already spent more than a decade as Hollywood's reigning swashbuckler — Captain Blood, Robin Hood, a string of adventure pictures that made him one of the most recognisable faces in the world. What he found at Port Antonio was, by most accounts, a happy accident: bad weather forced his schooner the Zaca to put in there, and he liked what he saw enough to stay.
+  - copy: >
+      By the time Errol Flynn discovered Jamaica's northeast coast in the late
+      1940s, he had already spent more than a decade as Hollywood's reigning
+      swashbuckler — Captain Blood, Robin Hood, a string of adventure pictures
+      that made him one of the most recognisable faces in the world. What he
+      found at Port Antonio was, by most accounts, a happy accident: bad weather
+      forced his schooner the Zaca to put in there, and he liked what he saw
+      enough to stay.
 
-      What followed was the last decade of his life: he settled in Port Antonio with his third wife, Patrice Wymore, bought land across the bay, and effectively built the town's reputation as a celebrity hideaway, almost single-handedly, before he died in 1959 at the age of fifty.
+
+      What followed was the last decade of his life: he settled in Port Antonio
+      with his third wife, Patrice Wymore, bought land across the bay, and
+      effectively built the town's reputation as a celebrity hideaway, almost
+      single-handedly, before he died in 1959 at the age of fifty.
+    callout: ''
   - heading: A Decade of Building
-    copy: |-
-      Flynn bought Navy Island, a 64-acre island at the mouth of Port Antonio's harbour, and moored the Zaca offshore as something close to a second home. He never built a permanent house there, but he planted a row of royal palms that reportedly still stand. He also acquired land at nearby Boston Bay and bought the historic Titchfield Hotel, intending to restore it.
+    copy: >
+      Flynn bought Navy Island, a 64-acre island at the mouth of Port Antonio's
+      harbour, and moored the Zaca offshore as something close to a second home.
+      He never built a permanent house there, but he planted a row of royal
+      palms that reportedly still stand. He also acquired land at nearby Boston
+      Bay and bought the historic Titchfield Hotel, intending to restore it.
 
-      It did not last. The Titchfield burned down for good in 1969, a decade after Flynn's death. Navy Island today sits closed and undeveloped, owned by the Jamaican Port Authority, its old resort buildings now ruins with trees growing through the floorboards. Of everything Flynn built in Port Antonio, very little survives in a form a visitor can actually walk through.
+
+      It did not last. The Titchfield burned down for good in 1969, a decade
+      after Flynn's death. Navy Island today sits closed and undeveloped, owned
+      by the Jamaican Port Authority, its old resort buildings now ruins with
+      trees growing through the floorboards. Of everything Flynn built in Port
+      Antonio, very little survives in a form a visitor can actually walk
+      through.
+    callout: ''
   - heading: What's Left
-    copy: |-
-      Two things do remain. The marina at the harbour's edge was renamed the Errol Flynn Marina in his honour in 2009 and still operates today as a working yacht harbour. And the Trident Hotel, perched on the cliffs near Navy Island, opened during the years Flynn was putting Port Antonio on the map — not a property he owned, but very much a product of the cachet he gave the area. The full story, and what's worth visiting in Port Antonio today, is told in our companion piece below.
+    copy: >
+      Two things do remain. The marina at the harbour's edge was renamed the
+      Errol Flynn Marina in his honour in 2009 and still operates today as a
+      working yacht harbour. And the Trident Hotel, perched on the cliffs near
+      Navy Island, opened during the years Flynn was putting Port Antonio on the
+      map — not a property he owned, but very much a product of the cachet he
+      gave the area. The full story, and what's worth visiting in Port Antonio
+      today, is told in our companion piece below.
+    callout: ''
+trailSubtitle: Where to walk in his footsteps
+regions: []
+lifestyle: []
