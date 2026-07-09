@@ -7,9 +7,8 @@ portraitFocus: top
 heroImage: /images/stars/audrey-hepburn/heroImage.png
 excerpt: >-
   From the Brussels townhouse where she was born to the Swiss village where she
-  chose to rest — the ultimate guide to Audrey Hepburn's hotels, cafés, film
-  locations and UNICEF travels. Few stars saw so much of the world, and almost
-  everywhere she went is still there to visit.
+  chose to rest - this is the ultimate guide to Audrey Hepburn's hotels, cafés,
+  film locations and UNICEF travels. 
 publishDate: 2025-07-01
 updatedDate: 2026-07-07
 keyFilms:
@@ -54,36 +53,27 @@ relatedVenues:
 relatedArticles:
   - classic-movies-that-will-inspire-you-to-travel
   - errol-flynn-port-antonio
-trailSubtitle: Where to walk in her footsteps
 sections:
   - heading: The Star Who Saw the World
     copy: >
-      Few stars saw as much of the world as Audrey Hepburn, and fewer still knew
-      so precisely what they loved about it. She immortalised Paris and Rome on
-      film, the Spanish Steps in Roman Holiday, the sweeping Opéra staircase in
-      Funny Face, and returned to both cities again and again in life, keeping
-      favourite hotels, cafés and gentle daily rituals in each. Her taste ran
-      from a suite above the Spanish Steps to a family-run hotel near the Arc de
-      Triomphe, from the ski slopes of St Moritz to a hillside villa on the
-      Marbella coast, and everywhere she went she brought the same effortless
-      sense of style.
-
-
-      Her greatest travels came later in life. As a UNICEF Goodwill Ambassador
-      she crossed Africa, Asia and South America, tirelessly and often, and
-      though those journeys occasionally took her to grand hotels, most nights
-      were spent in simple tents and field compounds beside the refugee camps
-      she came to serve. From the Brussels townhouse where she was born to the
-      Swiss village where she chose to rest, this is a guide to travelling in
-      the footsteps of a woman who saw a great deal of the world, knew exactly
-      what she liked, and left a little of her grace in every corner of it.
-    callout: '"Paris is always a good idea." — Audrey Hepburn, as Sabrina'
+      Few stars saw as much of the world as Audrey Hepburn. She immortalised
+      Paris and Rome on film, and returned to both cities again and again during
+      her life, keeping favourite hotels, cafés and gentle daily rituals in
+      each. Her taste ran from a suite above the Spanish Steps to a family-run
+      hotel near the Arc de Triomphe. From the ski slopes of St Moritz to a
+      hillside villa on the Marbella coast, Audrey  brought the same effortless
+      sense of style everywhere she went.
+    callout: |
+      "Paris is always a good idea." — Audrey Hepburn, as Sabrina
+trailSubtitle: Where to walk in her footsteps
 regions:
   - region: Belgium — Brussels
+    intro: ''
+    imageFocus: center
     places:
       - name: 48 Rue Keyenveld, Ixelles
         category: See
-        description: >-
+        description: >
           Audrey was born in a handsome townhouse in the leafy Ixelles district
           of Brussels on 4 May 1929, and lived in the city until she was five.
           The building is a private residence today, but a golden plaque marks
@@ -93,7 +83,7 @@ regions:
         detail: Ixelles, Brussels. Private; admire from the street.
         status: Open
   - region: The Netherlands
-    intro: >-
+    intro: >
       Audrey spent the Second World War in and around Arnhem, in the eastern
       Netherlands, where her Dutch mother had taken the family believing it
       would be safe. Instead the region became a battlefield, and the young
@@ -101,10 +91,11 @@ regions:
       of 1944 to 1945, surviving on tulip bulbs and going without for weeks at a
       time. The malnutrition marked her for life, and the memory of being helped
       by relief workers is precisely what drew her to UNICEF decades later.
+    imageFocus: center
     places:
       - name: Audrey's Wartime Home, Velp
         category: See
-        description: >-
+        description: >
           Through the hardest years of the war the family lived in the small
           town of Velp, just outside Arnhem, at a house on Rosendaalselaan now
           marked in her memory. It is a private home, so this is a respectful
@@ -114,7 +105,7 @@ regions:
         status: Open
       - name: Airborne Museum Hartenstein
         category: See
-        description: >-
+        description: >
           To understand the war that engulfed Audrey's childhood, visit this
           superb museum in nearby Oosterbeek, housed in a former hotel that
           served as a British headquarters during the 1944 Battle of Arnhem. Its
@@ -123,19 +114,22 @@ regions:
         detail: Oosterbeek, near Arnhem. Admission around €15.
         status: Open
   - region: Switzerland
-    intro: >-
+    intro: >
       Switzerland was not a location to Audrey; it was home. From the mid-1960s
       she lived a deliberately ordinary life in the Lake Geneva village of
       Tolochenaz, in a farmhouse called La Paisible, "the peaceful place," and
       it was here that she chose to be buried. The tranquil towns and grand
       mountain resorts of her adopted country hold more of the real woman than
       anywhere else on the trail.
+    imageFocus: center
     places: []
   - region: Tolochenaz & Morges
+    intro: ''
+    imageFocus: center
     places:
       - name: La Paisible
         category: See
-        description: >-
+        description: >
           The rambling eighteenth-century farmhouse above Tolochenaz was
           Audrey's sanctuary for the last thirty years of her life, the place
           she gardened, raised her sons and retreated from the world. It remains
@@ -146,7 +140,7 @@ regions:
         status: Open
       - name: Place Audrey Hepburn, Tolochenaz
         category: See
-        description: >-
+        description: >
           In the centre of her adopted village, a pretty square has been named
           in her honour, complete with a bronze bust and memorial plaques
           dedicated to the actress. It is the warmest possible tribute from the
@@ -155,7 +149,7 @@ regions:
         status: Open
       - name: Tolochenaz Cemetery
         category: See
-        description: >-
+        description: >
           Audrey was laid to rest here in 1993, in a peaceful and unassuming
           plot just across from the local church. There are no red ropes and no
           crowds, only a simple stone in a quiet churchyard, exactly as she
@@ -164,7 +158,7 @@ regions:
         status: Open
       - name: Morges Market and the Grand-Rue
         category: Do
-        description: >-
+        description: >
           Audrey adored the neighbouring lakeside town of Morges, wandering its
           charming, pedestrian-friendly streets and shopping for fresh produce
           at the market that still runs along the Grand-Rue. Time your visit for
@@ -174,7 +168,7 @@ regions:
         status: Open
       - name: Morges Town Hall (Hôtel de Ville)
         category: See
-        description: >-
+        description: >
           It was in this historic building that Audrey married her second
           husband, the Italian psychiatrist Andrea Dotti, in 1969. A handsome
           civic landmark in the heart of town, and a quiet piece of her private
@@ -183,17 +177,19 @@ regions:
         status: Open
       - name: Fondation Bolle
         category: See
-        description: >-
+        description: >
           This small museum in Morges regularly stages temporary summer
           exhibitions celebrating Audrey's life, films and inimitable style.
           Check ahead for what is on, as the shows change from year to year.
         detail: Morges, Vaud. Admission varies by exhibition.
         status: Open
   - region: St Moritz
+    intro: ''
+    imageFocus: center
     places:
       - name: Badrutt's Palace Hotel
         category: Sleep
-        description: >-
+        description: >
           Nestled high in the Engadine Alps, this fairy-tale palace was Audrey's
           favourite Swiss ski retreat, all turrets, fur throws and firelit
           grandeur above the frozen lake. It remains one of the great winter
@@ -201,10 +197,12 @@ regions:
         detail: St Moritz, Grisons. Rooms from around CHF 700 per night.
         status: Open
   - region: Lake Lucerne
+    intro: ''
+    imageFocus: center
     places:
       - name: Bürgenstock Resort
         category: Sleep
-        description: >-
+        description: >
           This historic resort on its own mountain shelf above Lake Lucerne
           holds deep personal significance: it was in the Bürgenstock chapel
           that Audrey married the actor Mel Ferrer in 1954. Recently and
@@ -231,13 +229,16 @@ regions:
       falling for an older man across a series of rendezvous at the Ritz, the
       hotel that became her own Paris home. Between them, these films are a love
       letter to the city, and a ready-made itinerary for any admirer.
+    imageFocus: center
     places: []
   - region: Paris
+    intro: ''
+    imageFocus: center
     places:
       - name: Hôtel Ritz Paris
         category: Sleep
         venueSlug: the-ritz-paris
-        description: >-
+        description: >
           Audrey's connection to the legendary hotel on Place Vendôme runs
           through her whole career. She stayed in its opulent suites during
           promotional visits and used them to prepare for premieres, most
@@ -252,7 +253,7 @@ regions:
         status: Open
       - name: Hôtel Raphael
         category: Sleep
-        description: >-
+        description: >
           If the Ritz was for premieres, the Raphael was for real life. This
           intimate, family-run hotel near the Arc de Triomphe was Audrey's true
           home away from home during her Paris shoots, and she loved it for its
@@ -264,7 +265,7 @@ regions:
         status: Open
       - name: The Louvre
         category: See
-        description: >-
+        description: >
           The world's greatest museum gave Audrey her most breathtaking screen
           moment. In Funny Face, in a flowing ruby gown, she drifts down the
           Daru staircase past the Winged Victory of Samothrace, her scarf
@@ -275,7 +276,7 @@ regions:
         status: Open
       - name: Opéra Garnier
         category: See
-        description: >-
+        description: >
           The Paris Opera House is celebrated the world over for its interiors,
           but for Audrey's admirers it is the grand staircase that matters. In
           Funny Face, dressed in a glorious emerald-green coat, she descends
@@ -286,7 +287,7 @@ regions:
         status: Open
       - name: The Palais-Royal and the Champs-Élysées Gardens
         category: See
-        description: >-
+        description: >
           Two of the most atmospheric settings in Charade sit within easy reach
           of each other. The elegant colonnades of the Palais-Royal, near the
           Louvre, provide the film's tense final act, while in the leafy
@@ -297,7 +298,7 @@ regions:
         status: Open
       - name: Carette
         category: Eat
-        description: >-
+        description: >
           A long-standing Parisian café dating to the 1920s, Carette was a
           favourite of Audrey's, who came for the one thing she could never
           resist: their chocolat chaud. Take a table on the terrace at Place du
@@ -307,7 +308,7 @@ regions:
         status: Open
       - name: Maxim's
         category: Eat
-        description: >-
+        description: >
           No restaurant conjures Belle Époque Paris like Maxim's, the
           crimson-and-gilt Art Nouveau institution that has fed the city's beau
           monde since 1893. It is also woven into Audrey's own story: she
@@ -319,20 +320,24 @@ regions:
         status: Open
       - name: Givenchy
         category: Do
-        description: >-
+        description: >
           No address mattered more to Audrey than the house of Givenchy. Her
           lifelong friendship with the designer Hubert de Givenchy began in 1953
           and shaped her entire look, from the little black dress of Breakfast
           at Tiffany's to the L'Interdit perfume he blended just for her. Visit
           the flagship on Avenue George V, the heart of Paris couture, and you
           are at the source of the Hepburn style.
-        detail: Avenue George V, 8th arrondissement. Browsing free; couture rather less so.
+        detail: >-
+          Avenue George V, 8th arrondissement. Browsing free; couture rather
+          less so.
         status: Open
   - region: The French Riviera
+    intro: ''
+    imageFocus: center
     places:
       - name: COMO Le Beauvallon
         category: Sleep
-        description: >-
+        description: >
           Audrey retreated to this Belle Époque palace on the Gulf of
           Saint-Tropez, a Riviera hideaway that had earlier drawn the likes of
           Winston Churchill and F. Scott Fitzgerald. Set among gardens above the
@@ -341,7 +346,7 @@ regions:
         status: Open
       - name: Épi 1959
         category: Sleep
-        description: >-
+        description: >
           For something more barefoot and beachy, Audrey spent time at this
           glamorous, laid-back resort on the quiet stretches of Pampelonne Beach
           in Saint-Tropez. It was the ideal escape during the filming of Two for
@@ -349,15 +354,16 @@ regions:
         detail: Ramatuelle, Saint-Tropez. Rooms and beach club vary seasonally.
         status: Open
   - region: England — London
-    intro: >-
+    intro: >
       Audrey learned her craft on the London stage before Hollywood ever called,
       and the city remained a favourite for the rest of her life. Her English
       chapter runs from a Mayfair flat to the grandest of Mayfair hotels.
+    imageFocus: center
     places:
       - name: Claridge's
         category: Sleep
         venueSlug: claridges
-        description: >-
+        description: >
           The art-deco grande dame of Mayfair was one of Audrey's favoured
           London escapes, and it famously hosted her "Welcome Home" cocktail
           reception in May 1953, after the filming of Roman Holiday that would
@@ -369,7 +375,7 @@ regions:
         status: Open
       - name: 65 South Audley Street, Mayfair
         category: See
-        description: >-
+        description: >
           In the early 1950s, Audrey lived in a flat here, at the very moment
           she made the leap from the London stage to international cinema icon.
           The spot is marked with an official English Heritage Blue Plaque, one
@@ -377,10 +383,12 @@ regions:
         detail: South Audley Street, Mayfair. Private; view from the street.
         status: Open
   - region: Ireland — Newbridge, County Dublin
+    intro: ''
+    imageFocus: center
     places:
       - name: Museum of Style Icons, Newbridge Silverware
         category: See
-        description: >-
+        description: >
           Audrey's style refuses to age, and exhibitions of her clothes tour the
           world constantly. One of the most rewarding permanent collections is
           here at Newbridge Silverware, where the Museum of Style Icons displays
@@ -389,7 +397,7 @@ regions:
         detail: Newbridge, County Dublin. Admission free.
         status: Open
   - region: Italy
-    intro: >-
+    intro: >
       Rome was Audrey's second home. Roman Holiday (1953) made her a star and
       immortalised the city on film, sending her runaway princess scootering
       past its ancient wonders and turning half of Rome into a permanent Audrey
@@ -398,22 +406,27 @@ regions:
       Trastevere like any other Roman. Her Rome is the rare film location where
       you can follow almost every scene on foot, and the whole day is free but
       for the gelato.
+    imageFocus: center
     places: []
   - region: Rome
+    intro: ''
+    imageFocus: center
     places:
       - name: Hassler Roma
         category: Sleep
-        description: >-
+        description: >
           This legendary hotel at the very top of the Spanish Steps was Audrey's
           ultimate home away from home in Rome, and she was especially fond of
           the wood-framed San Pietro Suite. The rooftop restaurant offers one of
           the greatest views in the city, straight down over the rooftops she
           loved to wander.
-        detail: Piazza Trinità dei Monti, above the Spanish Steps. Rooms from around €800 per night.
+        detail: >-
+          Piazza Trinità dei Monti, above the Spanish Steps. Rooms from around
+          €800 per night.
         status: Open
       - name: The Spanish Steps
         category: See
-        description: >-
+        description: >
           The most famous staircase in Rome is pure Roman Holiday, the
           sun-drenched setting where Audrey's runaway princess eats a gelato and
           cuts her hair loose. Climb them at dawn before the crowds arrive and
@@ -422,7 +435,7 @@ regions:
         status: Open
       - name: The Trevi Fountain
         category: See
-        description: >-
+        description: >
           Rome's grandest fountain plays its part in Roman Holiday too: it is
           near here, on Vicolo Scavolino just off the piazza, that the runaway
           princess slips into a barber's shop and has her long hair cropped into
@@ -432,18 +445,18 @@ regions:
         status: Open
       - name: The Mouth of Truth (Bocca della Verità)
         category: See
-        description: >-
+        description: >
           This is the fountain-that-isn't: a great marble disc carved with the
           face of a sea god, set in the portico of the church of Santa Maria in
-          Cosmedin. In Roman Holiday's most beloved scene, Gregory Peck slips his
-          hand into its mouth and pretends it has been bitten off, drawing a
-          genuine shriek from Audrey. Legend says the mouth bites the hand of any
-          liar, so place yours with a clear conscience.
+          Cosmedin. In Roman Holiday's most beloved scene, Gregory Peck slips
+          his hand into its mouth and pretends it has been bitten off, drawing a
+          genuine shriek from Audrey. Legend says the mouth bites the hand of
+          any liar, so place yours with a clear conscience.
         detail: Piazza della Bocca della Verità. Free; small donation for the portico.
         status: Open
       - name: Castel Sant'Angelo
         category: See
-        description: >-
+        description: >
           Hadrian's cylindrical mausoleum, later a papal fortress, presides over
           the Tiber, and it was on a barge moored at its foot that the princess
           dances the night away, sparking the film's riverside brawl. The barges
@@ -454,7 +467,7 @@ regions:
         status: Open
       - name: Via Margutta
         category: See
-        description: >-
+        description: >
           Joe Bradley's apartment, where the princess spends her stolen night,
           sits at number 51 on this cobbled artists' lane near the Spanish
           Steps, later the real-life home of Federico Fellini. Cloaked in ivy
@@ -464,19 +477,19 @@ regions:
         status: Open
       - name: Rent a Vespa
         category: Do
-        description: >-
+        description: >
           No scene is more Roman Holiday than Audrey and Gregory Peck weaving
-          through the traffic on a Vespa, and the good news is you can do exactly
-          that. Several outfits hire vintage-style scooters and run guided tours
-          past the Colosseum, along Via dei Fori Imperiali and around Piazza
-          Venezia, the very route the pair careered down on screen. If you dare
-          brave the Roman traffic, there is no better way to feel like her
-          princess on the loose.
+          through the traffic on a Vespa, and the good news is you can do
+          exactly that. Several outfits hire vintage-style scooters and run
+          guided tours past the Colosseum, along Via dei Fori Imperiali and
+          around Piazza Venezia, the very route the pair careered down on
+          screen. If you dare brave the Roman traffic, there is no better way to
+          feel like her princess on the loose.
         detail: Central Rome. Guided Vespa tours from around €90.
         status: Open
       - name: Palazzo Colonna
         category: See
-        description: >-
+        description: >
           The breathtaking gilded gallery of this thirteenth-century palace is
           the setting for the unforgettable final scene of Roman Holiday, the
           press conference where princess and reporter say their wordless
@@ -485,7 +498,7 @@ regions:
         status: Open
       - name: Romolo alla Fornarina
         category: Eat
-        description: >-
+        description: >
           When Audrey lived in Rome, Sunday lunch was often taken at this
           atmospheric Trastevere trattoria, tucked into a garden said to have
           belonged to Raphael's muse. Long, lazy and gloriously Roman, it is
@@ -494,7 +507,7 @@ regions:
         status: Open
       - name: Da Nino
         category: Eat
-        description: >-
+        description: >
           A discreet, old-world Roman institution just off the smart shopping
           streets, Da Nino was one of Audrey's regular haunts on Via Borgognona.
           Tuscan cooking, white tablecloths and precious little fuss.
@@ -502,17 +515,19 @@ regions:
         status: Open
       - name: Antico Caffè Greco
         category: Drink
-        description: >-
+        description: >
           Rome's oldest café, open since 1760 on the smart Via dei Condotti a
           step from the Spanish Steps, has served Keats, Byron, Casanova and the
           film stars of Audrey's Rome beneath its red velvet and gilt. Take an
-          espresso standing at the marble bar, or linger in the little salons for
-          the full weight of history.
-        detail: Via dei Condotti. Coffee from a few euros; table service considerably more.
+          espresso standing at the marble bar, or linger in the little salons
+          for the full weight of history.
+        detail: >-
+          Via dei Condotti. Coffee from a few euros; table service considerably
+          more.
         status: Open
       - name: Giolitti
         category: Eat
-        description: >-
+        description: >
           For the gelato Audrey's princess so happily devoured, make for this
           beloved parlour near the Pantheon, serving Romans since 1900. Order a
           cone piled high, wander out into the piazza and eat it exactly as she
@@ -521,7 +536,7 @@ regions:
         status: Open
       - name: Harry's Bar
         category: Drink
-        description: >-
+        description: >
           The glossy heart of Rome's dolce vita, this Via Veneto institution has
           mixed cocktails for film stars and jet-setters since 1958. Settle into
           the wood-panelled bar for a negroni and a taste of the glamorous Rome
@@ -530,7 +545,7 @@ regions:
         status: Open
       - name: Villa Borghese and Campo de' Fiori
         category: Do
-        description: >-
+        description: >
           To follow Audrey's everyday Rome, walk in the gardens of Villa
           Borghese as she did, then queue for vegetables at the morning market
           in Campo de' Fiori, just as she once did with her sons, relatively
@@ -538,22 +553,27 @@ regions:
         detail: Central Rome. Free to explore; market goods vary.
         status: Open
   - region: Taormina, Sicily
+    intro: ''
+    imageFocus: center
     places:
       - name: San Domenico Palace, A Four Seasons Hotel
         category: Sleep
         venueSlug: four-seasons-san-domenico-palace
-        description: >-
+        description: >
           Perched above the Ionian Sea, this former fourteenth-century convent
           hosted Audrey during the golden age of the jet set. Now impeccably
-          reborn as a Four Seasons, with its cloisters, sea-terraces and clifftop
-          pool, it is one of the most romantic addresses in the Mediterranean.
+          reborn as a Four Seasons, with its cloisters, sea-terraces and
+          clifftop pool, it is one of the most romantic addresses in the
+          Mediterranean.
         detail: Taormina, Sicily. Rooms from around €1,200 per night.
         status: Open
   - region: Austria — Salzburg
+    intro: ''
+    imageFocus: center
     places:
       - name: Rosewood Schloss Fuschl
         category: Sleep
-        description: >-
+        description: >
           Audrey stayed at this historic lakeside retreat, a former archbishop's
           hunting lodge on the shores of Lake Fuschl just outside Salzburg.
           Freshly reimagined by Rosewood, the castle still commands its own
@@ -561,25 +581,29 @@ regions:
         detail: Lake Fuschl, near Salzburg. Rooms from around €900 per night.
         status: Open
   - region: Spain
-    intro: >-
+    intro: >
       Audrey fell in love with Marbella in the 1960s, when its Golden Mile was
       the private playground of European aristocracy and Hollywood royalty. She
       loved the coast so much that she built a home there.
+    imageFocus: center
     places: []
   - region: Marbella
+    intro: ''
+    imageFocus: center
     places:
       - name: Marbella Club
         category: Sleep
-        description: >-
+        description: >
           Before they built their own villa, Audrey and her first husband Mel
-          Ferrer were closely associated with this iconic beach-club hotel on the
-          Golden Mile, where they frequently stayed. Founded by Prince Alfonso de
-          Hohenlohe, it remains the effortlessly elegant heart of old Marbella.
+          Ferrer were closely associated with this iconic beach-club hotel on
+          the Golden Mile, where they frequently stayed. Founded by Prince
+          Alfonso de Hohenlohe, it remains the effortlessly elegant heart of old
+          Marbella.
         detail: Golden Mile, Marbella. Rooms from around €400 per night.
         status: Open
       - name: Santa Catalina Villa
         category: Sleep
-        description: >-
+        description: >
           Audrey and Mel Ferrer built their own private hillside villa on the
           Golden Mile, next to the Marbella Club, and named it Santa Catalina.
           Here, among expansive gardens and a vegetable patch, she spent several
@@ -589,10 +613,12 @@ regions:
         detail: Guadalmina Alta, Marbella. Whole-villa rates on request.
         status: Open
   - region: Majorca
+    intro: ''
+    imageFocus: center
     places:
       - name: Four Seasons Resort Mallorca at Formentor
         category: Sleep
-        description: >-
+        description: >
           On Majorca's secluded Formentor peninsula, Audrey stayed at the
           legendary Hotel Formentor, a pine-forested sanctuary that had drawn
           stars from Grace Kelly to Charlie Chaplin since it opened in 1929.
@@ -601,19 +627,21 @@ regions:
         detail: Formentor, Majorca. Rooms from around €1,000 per night.
         status: Open
   - region: Portugal — Lisbon
+    intro: ''
+    imageFocus: center
     places:
       - name: Four Seasons Hotel Ritz Lisbon
         category: Sleep
-        description: >-
+        description: >
           Audrey stayed at this grand mid-century landmark, historically the
           Ritz, during her visit to Portugal in September 1968. A modernist
-          palace hung with commissioned art and tapestries, it remains the finest
-          address in the Portuguese capital.
+          palace hung with commissioned art and tapestries, it remains the
+          finest address in the Portuguese capital.
         detail: Lisbon. Rooms from around €700 per night.
         status: Open
       - name: Estoril and Cascais
         category: Do
-        description: >-
+        description: >
           While in Portugal, Audrey spent time along the coast in the pretty
           resort towns of Estoril and Cascais, in the company of the fashion
           designer Oscar de la Renta. A short train ride from Lisbon, the
@@ -622,24 +650,27 @@ regions:
         detail: Estoril and Cascais. Free to explore.
         status: Open
   - region: Denmark & Sweden
-    intro: >-
+    intro: >
       During her 1959 Scandinavian trip, Audrey toured Copenhagen and Stockholm
       for the press and premiere of The Nun's Story.
+    imageFocus: center
     places: []
   - region: Copenhagen
+    intro: ''
+    imageFocus: center
     places:
       - name: Hotel d'Angleterre
         category: Sleep
-        description: >-
+        description: >
           Audrey stayed at this historic five-star grande dame on Kongens Nytorv
           during her visit to the Danish capital. Dating to the eighteenth
-          century, gleaming white and endlessly refined, it is still the grandest
-          place to sleep in Copenhagen.
+          century, gleaming white and endlessly refined, it is still the
+          grandest place to sleep in Copenhagen.
         detail: Kongens Nytorv, Copenhagen. Rooms from around DKK 3,500 per night.
         status: Open
       - name: Palace Hotel
         category: Sleep
-        description: >-
+        description: >
           Audrey also frequented Copenhagen's other great silver-screen hotel,
           the Anton Rosen-designed Palace on the City Hall Square, which hosted
           many of the era's biggest stars. A striking piece of Danish Art
@@ -647,10 +678,12 @@ regions:
         detail: City Hall Square, Copenhagen. Rates vary.
         status: Open
   - region: Stockholm
+    intro: ''
+    imageFocus: center
     places:
       - name: A Premiere in Stockholm
         category: See
-        description: >-
+        description: >
           Audrey travelled on to Stockholm for the Swedish premiere of The Nun's
           Story, and was photographed about the city during the visit. There is
           no single site to book, but the elegant streets of Gamla Stan and the
@@ -658,10 +691,12 @@ regions:
         detail: Stockholm. Free to explore.
         status: Open
   - region: Greece — Hydra
+    intro: ''
+    imageFocus: center
     places:
       - name: The Island of Hydra
         category: Do
-        description: >-
+        description: >
           In July 1970, Audrey holidayed on the car-free island of Hydra with
           her husband Andrea Dotti and friends, soaking up the bohemian,
           laid-back atmosphere of the Saronic Gulf. Hydra has no large resorts
@@ -671,10 +706,12 @@ regions:
         detail: Hydra, Saronic Gulf. Reached by ferry from Athens.
         status: Open
   - region: Morocco — Marrakech
+    intro: ''
+    imageFocus: center
     places:
       - name: La Mamounia
         category: Sleep
-        description: >-
+        description: >
           Audrey stayed at this fabled palace hotel on her visits to Marrakech,
           joining a long line of Hollywood royalty drawn to its twenty acres of
           lush gardens and its traditional Moroccan architecture. Perfumed,
@@ -683,7 +720,7 @@ regions:
         detail: Marrakech. Rooms from around €700 per night.
         status: Open
   - region: United States
-    intro: >-
+    intro: >
       Audrey criss-crossed the States far more than her quiet reputation
       suggests, from Hollywood premieres to press tours and, in her final years,
       UNICEF galas. In Los Angeles she generally rented houses, checking into
@@ -691,24 +728,27 @@ regions:
       her mark on a string of grand old addresses, from Dallas penthouses to
       Palm Beach hideaways, and on the two Manhattan landmarks tied to her most
       famous film.
+    imageFocus: center
     places: []
   - region: Los Angeles
+    intro: ''
+    imageFocus: center
     places:
       - name: Hotel Bel-Air
         category: Sleep
         venueSlug: hotel-bel-air
-        description: >-
-          On her visits to Los Angeles, Audrey was known to stay at this romantic
-          hideaway among the bougainvillea and swans of Stone Canyon, long a
-          favourite of Golden Age Hollywood. Discreet, garden-wrapped and
-          gloriously private, it was exactly the sort of retreat she preferred to
-          the glare of the studios.
+        description: >
+          On her visits to Los Angeles, Audrey was known to stay at this
+          romantic hideaway among the bougainvillea and swans of Stone Canyon,
+          long a favourite of Golden Age Hollywood. Discreet, garden-wrapped and
+          gloriously private, it was exactly the sort of retreat she preferred
+          to the glare of the studios.
         detail: Stone Canyon Road, Bel-Air. Rooms from around $700 per night.
         status: Open
       - name: The Beverly Hills Hotel
         category: Sleep
         venueSlug: beverly-hills-hotel
-        description: >-
+        description: >
           The Pink Palace, another haunt of the Old Hollywood set, welcomed
           Audrey during her Southern California stays. Slip into the Polo Lounge
           or one of the garden bungalows and you are in the company of every
@@ -717,7 +757,7 @@ regions:
         status: Open
       - name: The Beverly Wilshire
         category: Sleep
-        description: >-
+        description: >
           Audrey was also photographed enjoying this grand hotel at the foot of
           Rodeo Drive during her time in Southern California. Beautifully
           positioned for Beverly Hills shopping and star-spotting, it remains a
@@ -726,38 +766,44 @@ regions:
         status: Open
       - name: Hollywood Walk of Fame Star
         category: See
-        description: >-
+        description: >
           Audrey's star is set into the pavement at 1652 Vine Street, a required
           stop for anyone touring film-history Hollywood.
         detail: Hollywood, Los Angeles. Free to visit.
         status: Open
   - region: Santa Barbara
+    intro: ''
+    imageFocus: center
     places:
       - name: San Ysidro Ranch
         category: Sleep
-        description: >-
+        description: >
           Audrey was among the many legends to hide away at this fabled ranch in
           the foothills above Santa Barbara, a celebrity sanctuary since the
           1930s under the ownership of actor Ronald Colman. Prized for its
-          seclusion, it drew a glamorous roster from Lucille Ball and Bing Crosby
-          to Winston Churchill. Cottages scattered through citrus groves make it
-          one of the most romantic retreats in California.
+          seclusion, it drew a glamorous roster from Lucille Ball and Bing
+          Crosby to Winston Churchill. Cottages scattered through citrus groves
+          make it one of the most romantic retreats in California.
         detail: Montecito, Santa Barbara. Cottages from around $1,000 per night.
         status: Open
   - region: San Francisco
+    intro: ''
+    imageFocus: center
     places:
       - name: The Palace Hotel
         category: Sleep
-        description: >-
+        description: >
           Audrey stayed at this landmark San Francisco hotel during her 1953 US
           tour for the stage musical Gigi, where she was famously photographed
           with a poodle. Its glass-domed Garden Court remains one of the most
           beautiful rooms in the city.
-        detail: New Montgomery Street, San Francisco. Rooms from around $300 per night.
+        detail: >-
+          New Montgomery Street, San Francisco. Rooms from around $300 per
+          night.
         status: Open
       - name: Fairmont San Francisco
         category: Sleep
-        description: >-
+        description: >
           Audrey visited and stayed at this Nob Hill grande dame during her
           lifetime, and gave a UNICEF speech here just a year before she passed
           away. Grand, gilded and crowning the top of the hill, it is a fitting
@@ -765,10 +811,12 @@ regions:
         detail: Mason Street, Nob Hill. Rooms from around $250 per night.
         status: Open
   - region: Dallas
+    intro: ''
+    imageFocus: center
     places:
       - name: The Stoneleigh
         category: Sleep
-        description: >-
+        description: >
           This 1920s Uptown Dallas landmark was a favourite of Golden Age
           Hollywood, and its twelfth-floor Penthouse Suite is especially well
           known for hosting Audrey. Now an Autograph Collection hotel, it keeps
@@ -777,17 +825,19 @@ regions:
         status: Open
       - name: The Statler
         category: Sleep
-        description: >-
+        description: >
           This mid-century-modern icon in Downtown Dallas has welcomed a roll
-          call of legends over the years, Audrey among them. Handsomely restored,
-          it is a stylish base in the heart of the city.
+          call of legends over the years, Audrey among them. Handsomely
+          restored, it is a stylish base in the heart of the city.
         detail: Downtown, Dallas. Rooms from around $200 per night.
         status: Open
   - region: New York
+    intro: ''
+    imageFocus: center
     places:
       - name: The Pierre
         category: Sleep
-        description: >-
+        description: >
           This stately hotel overlooking Central Park is where Audrey celebrated
           her Roman Holiday Oscar, one of the great nights of her early career.
           Afternoon tea in the Rotunda beneath its painted murals makes an
@@ -797,7 +847,7 @@ regions:
       - name: Warwick New York
         category: Sleep
         venueSlug: the-warwick-new-york
-        description: >-
+        description: >
           Built by William Randolph Hearst, this Midtown landmark has long drawn
           Hollywood royalty, and Audrey was among its famous guests. A
           characterful and central place to stay, steps from the theatres and
@@ -806,39 +856,43 @@ regions:
         status: Open
       - name: The Carlyle
         category: Sleep
-        description: >-
+        description: >
           When Audrey came to Manhattan for work or leisure, she favoured this
           hushed, art-lined landmark on the Upper East Side, discreet enough to
           protect even the most recognisable face in the world. It was here that
-          she first met Jacqueline Kennedy Onassis. Take a drink in the Bemelmans
-          Bar and soak up the seclusion she prized.
+          she first met Jacqueline Kennedy Onassis. Take a drink in the
+          Bemelmans Bar and soak up the seclusion she prized.
         detail: Madison Avenue, Upper East Side. Rooms from around $800 per night.
         status: Open
       - name: The "Breakfast at Tiffany's" Townhouse
         category: See
-        description: >-
+        description: >
           In her most iconic film, Holly Golightly lived at a graceful
-          five-storey brownstone at 169 East 71st Street. The interiors were shot
-          on a Hollywood set, but the exterior is one of the most famous film
-          addresses in New York, and fans still pause on the pavement to picture
-          her climbing the steps in that black Givenchy gown.
+          five-storey brownstone at 169 East 71st Street. The interiors were
+          shot on a Hollywood set, but the exterior is one of the most famous
+          film addresses in New York, and fans still pause on the pavement to
+          picture her climbing the steps in that black Givenchy gown.
         detail: East 71st Street, Upper East Side. Private; view from the street.
         status: Open
       - name: The Blue Box Café at Tiffany & Co.
         category: Eat
-        description: >-
-          You can, at last, quite literally have breakfast at Tiffany's. The Blue
-          Box Café inside the flagship store on Fifth Avenue serves eggs and
-          caviar, tea service and a famous Blue Box Cosmo in a room of
-          Tiffany-blue boxes and black-and-white Audrey portraits. It is as close
-          as anyone gets to stepping inside the movie.
-        detail: Fifth Avenue at 57th Street. Breakfast and tea service; reservations recommended.
+        description: >
+          You can, at last, quite literally have breakfast at Tiffany's. The
+          Blue Box Café inside the flagship store on Fifth Avenue serves eggs
+          and caviar, tea service and a famous Blue Box Cosmo in a room of
+          Tiffany-blue boxes and black-and-white Audrey portraits. It is as
+          close as anyone gets to stepping inside the movie.
+        detail: >-
+          Fifth Avenue at 57th Street. Breakfast and tea service; reservations
+          recommended.
         status: Open
   - region: Palm Beach
+    intro: ''
+    imageFocus: center
     places:
       - name: The Brazilian Court Hotel
         category: Sleep
-        description: >-
+        description: >
           Audrey stayed at this butter-hued 1926 hideaway off Hibiscus Avenue,
           long a discreet sanctuary for Hollywood royalty. In tribute, the
           property today offers a dedicated Hepburn Suite in her honour, making
@@ -849,21 +903,25 @@ regions:
           Suite considerably more.
         status: Open
   - region: Canada — Vancouver
+    intro: ''
+    imageFocus: center
     places:
       - name: Rosewood Hotel Georgia
         category: Sleep
-        description: >-
-          Audrey stayed at this handsomely restored 1927 landmark during her time
-          in Vancouver, where she famously requested a special gourmet
+        description: >
+          Audrey stayed at this handsomely restored 1927 landmark during her
+          time in Vancouver, where she famously requested a special gourmet
           room-service menu that could be served late into the night. A jewel of
           the city's golden age, polished back to full glamour.
         detail: Vancouver, British Columbia. Rooms from around CAD 400 per night.
         status: Open
   - region: Jamaica
+    intro: ''
+    imageFocus: center
     places:
       - name: Geejam
         category: Sleep
-        description: >-
+        description: >
           Audrey holidayed at the Panorama Villa, a mid-century retreat perched
           in the jungle near Port Antonio with sweeping views of the Caribbean
           Sea and the Blue Mountains. It is now part of the intimate,
@@ -872,7 +930,7 @@ regions:
         status: Open
       - name: Jamaica Inn
         category: Sleep
-        description: >-
+        description: >
           This timeless, under-the-radar resort at Ocho Rios has quietly hosted
           Old Hollywood for generations, Audrey and Marilyn Monroe among them.
           Small, serene and gloriously old-fashioned, with its own private cove.
@@ -880,7 +938,7 @@ regions:
         status: Open
       - name: Firefly Estate
         category: See
-        description: >-
+        description: >
           In the hills near Oracabessa stands the former home of the playwright
           Noël Coward, who entertained a stream of famous guests here, Audrey
           among them. Now open to visitors, the house is preserved much as he
@@ -888,16 +946,17 @@ regions:
         detail: Oracabessa, Jamaica. Admission around $10.
         status: Open
   - region: Brazil — Rio de Janeiro
-    intro: >-
+    intro: >
       Much of Audrey's later travel through South America was UNICEF work, and
       most nights on those missions were spent in the plainest of
       accommodations, close to the communities she came to help. When glamour
       did enter the picture, however, it was of the very highest order.
+    imageFocus: center
     places:
       - name: Copacabana Palace
         category: Sleep
         venueSlug: copacabana-palace
-        description: >-
+        description: >
           Audrey is famously associated with this gleaming 1923 landmark on
           Avenida Atlântica, one of South America's most legendary hotels and a
           byword for hosting Hollywood royalty and international luminaries. All
@@ -907,10 +966,12 @@ regions:
         detail: Copacabana, Rio de Janeiro. Rooms from around $500 per night.
         status: Open
   - region: Japan — Nara
+    intro: ''
+    imageFocus: center
     places:
       - name: Nara Hotel
         category: Sleep
-        description: >-
+        description: >
           Audrey and her two sons spent three nights at this stately hotel in
           March 1983, while in Japan to celebrate the thirtieth anniversary of
           the house of Givenchy. She was captivated by its serenity and by the
@@ -920,10 +981,12 @@ regions:
         detail: Nara. Rooms from around ¥25,000 per night.
         status: Open
   - region: Thailand — Bangkok
+    intro: ''
+    imageFocus: center
     places:
       - name: Mandarin Oriental, Bangkok
         category: Sleep
-        description: >-
+        description: >
           One of the most storied hotels in Asia welcomed Audrey during her
           travels through the region, and her portrait still hangs in its famous
           Author's Lounge, alongside those of the writers and stars who made the
@@ -932,7 +995,7 @@ regions:
         detail: Chao Phraya River, Bangkok. Rooms from around ฿20,000 per night.
         status: Open
   - region: Africa
-    intro: >-
+    intro: >
       Audrey's final and most important role was not on any screen. From 1988
       until her death, she served as a UNICEF Goodwill Ambassador, travelling to
       Kenya, Ethiopia, Sudan and Somalia to bear witness to famine and to
@@ -940,13 +1003,16 @@ regions:
       and basic UNICEF compounds near the refugee camps, resting only
       occasionally at regional establishments. It is the chapter of her life she
       was proudest of, and the one that best reveals the woman behind the icon.
+    imageFocus: center
     places: []
   - region: Nanyuki, Kenya
+    intro: ''
+    imageFocus: center
     places:
       - name: Fairmont Mount Kenya Safari Club
         category: Sleep
         venueSlug: mount-kenya-safari-club
-        description: >-
+        description: >
           Between missions, Audrey occasionally rested at this historic club on
           the slopes of Mount Kenya, an old-world safari retreat straddling the
           equator with the snow-capped peak as its backdrop. A place of quiet
@@ -955,7 +1021,7 @@ regions:
         status: Open
 lifestyle:
   - label: Smell like her.
-    text: >-
+    text: >
       Audrey's signature scent was made for her and no one else: in 1957 Hubert
       de Givenchy blended L'Interdit, a white-floral musk, exclusively for his
       muse before releasing it to the world. Earlier still, in 1951, the house
@@ -963,24 +1029,24 @@ lifestyle:
       Spring Flower, later sold to the public. Wear either and you carry a scent
       first worn by Audrey herself.
   - label: Care for your skin like her.
-    text: >-
+    text: >
       Audrey credited half her beauty to her dermatologist, Erno Laszlo, and
       swore by his mineral-rich Sea Mud Deep Cleansing Bar, an iconic soap still
-      made today. Proof that the most famous face of the century kept its routine
-      gloriously simple.
+      made today. Proof that the most famous face of the century kept its
+      routine gloriously simple.
   - label: Wear her sunglasses.
-    text: >-
+    text: >
       Two pairs defined Holly Golightly in Breakfast at Tiffany's: the
       tortoiseshell cat-eye Manhattan by Oliver Goldsmith, made to Audrey's own
       specification, and the thick-framed Ray-Ban Wayfarer she wore in the same
       1961 classic. Either will lend you an instant dose of her cool.
   - label: Dress like her.
-    text: >-
+    text: >
       Audrey's style was a partnership, hers and Givenchy's, built on a single
-      radical idea: that simplicity is the ultimate elegance. A slim black dress,
-      ballet flats or low kitten heels, a boat neck, a silk scarf and oversized
-      dark glasses. To dress like Audrey is to strip everything back until only
-      the essential, and the exquisite, remains.
+      radical idea: that simplicity is the ultimate elegance. A slim black
+      dress, ballet flats or low kitten heels, a boat neck, a silk scarf and
+      oversized dark glasses. To dress like Audrey is to strip everything back
+      until only the essential, and the exquisite, remains.
   - label: Drink like her.
     text: >
       Forget the cocktails: Audrey's true weakness was chocolat chaud, the thick
