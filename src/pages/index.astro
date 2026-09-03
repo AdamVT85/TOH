@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Footer from '../components/Footer.astro';
 import ArticlesCarousel from '../components/ArticlesCarousel';
 import DeparturesBoard from '../components/DeparturesBoard.astro';
+import Img from '../components/Img.astro';
 import { getInstagramPosts } from '../lib/instagram.js';
 import { createReader } from '@keystatic/core/reader';
 import keystaticConfig from '../../keystatic.config';
@@ -99,10 +100,12 @@ const cardRotations = ['-rotate-2', 'rotate-3', '-rotate-1', 'rotate-2'];
 
       <!-- Hero Background Image (Clipped & Slanted) -->
       <div class="absolute top-[80px] md:top-[120px] left-0 w-full h-[340px] md:h-[700px] z-0" style="clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%)">
-        <img
+        <Img
           src={homepage?.heroImage || "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?q=80&w=2070&auto=format&fit=crop"}
           class="w-full h-full object-cover filter contrast-125 saturate-150 sepia-[.3]"
-          alt="Vintage Travel Background"
+          alt=""
+          preset="hero"
+          priority
         />
         <div class="absolute inset-0 bg-gradient-to-tr from-[#a32226]/70 via-transparent to-[#2b3a55]/70 mix-blend-multiply"></div>
       </div>
@@ -147,7 +150,7 @@ const cardRotations = ['-rotate-2', 'rotate-3', '-rotate-1', 'rotate-2'];
                 <div class="w-full h-40 md:h-48 border-[3px] border-[#1a2b4c] mb-4 overflow-hidden bg-white relative">
                   <div class="absolute inset-0 bg-orange-900/20 mix-blend-multiply z-10 pointer-events-none"></div>
                   {card.image && (
-                    <img src={card.image} alt={card.titleBottom} class="w-full h-full object-cover filter contrast-125 saturate-150 sepia-[.3]" />
+                    <Img src={card.image} alt={card.titleBottom} preset="card" class="w-full h-full object-cover filter contrast-125 saturate-150 sepia-[.3]" />
                   )}
                 </div>
                 {card.text && (
@@ -228,7 +231,7 @@ const cardRotations = ['-rotate-2', 'rotate-3', '-rotate-1', 'rotate-2'];
                 <a href={`/stars/${star.slug}`} class="flex flex-col items-center group cursor-pointer transform transition-transform hover:-translate-y-2">
                   <div class="w-24 h-32 md:w-32 md:h-40 rounded-full border-[4px] border-[#d4b872] shadow-[0_0_15px_rgba(212,184,114,0.6)] overflow-hidden mb-4 relative bg-[#1a2b4c]">
                     <div class="absolute inset-0 border-[3px] border-[#8a6d3b] rounded-full z-10 pointer-events-none"></div>
-                    <img src={star.portraitImage} alt={star.name} class="w-full h-full object-cover grayscale contrast-125 sepia-[.2] group-hover:scale-110 transition-transform duration-700" style={`object-position: ${star.portraitFocus}`} />
+                    <Img src={star.portraitImage} alt={star.name} preset="thumb" class="w-full h-full object-cover grayscale contrast-125 sepia-[.2] group-hover:scale-110 transition-transform duration-700" style={`object-position: ${star.portraitFocus}`} />
                   </div>
                   <span class="font-oswald text-lg md:text-xl text-[#fceeb5] tracking-widest uppercase bg-[#1a2b4c] px-4 py-1 border-2 border-[#d4b872] shadow-[4px_4px_0px_rgba(0,0,0,0.5)]">
                     {lastNameUpper(star.name)}
@@ -275,7 +278,7 @@ const cardRotations = ['-rotate-2', 'rotate-3', '-rotate-1', 'rotate-2'];
                   </div>
 
                   <div class="w-full h-48 overflow-hidden mb-4 border-2 border-[#e8d5b5]">
-                    <img src={post.img} alt={post.caption} class="w-full h-full object-cover filter sepia-[.4] contrast-125 group-hover:scale-110 transition-transform duration-700" />
+                    <Img src={post.img} alt={post.caption} preset="card" class="w-full h-full object-cover filter sepia-[.4] contrast-125 group-hover:scale-110 transition-transform duration-700" />
                   </div>
 
                   <h4 class="font-handwriting text-2xl md:text-3xl text-[#1a2b4c] leading-tight mb-1 px-2">{post.caption}</h4>

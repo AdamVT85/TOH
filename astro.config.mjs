@@ -5,11 +5,22 @@ import tailwindcss from '@tailwindcss/vite';
 import keystatic from '@keystatic/astro';
 import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel';
+import { IMAGE_SIZES } from './src/lib/images.js';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://traveloldhollywood.com',
-  adapter: vercel(),
+  adapter: vercel({
+    // Serve every <Image> through Vercel's Image Optimization API in production
+    // (resized, WebP/AVIF, cached at the edge). Dev uses the local sharp service.
+    // `sizes` must list every width the <Img> component presets request.
+    imageService: true,
+    imagesConfig: {
+      sizes: IMAGE_SIZES,
+      domains: [],
+      formats: ['image/avif', 'image/webp'],
+    },
+  }),
   integrations: [react(), keystatic(), sitemap()],
   vite: {
     plugins: [tailwindcss()],

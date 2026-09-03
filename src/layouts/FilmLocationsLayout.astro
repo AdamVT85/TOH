@@ -3,6 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import RichText from '../components/RichText.astro';
+import Img from '../components/Img.astro';
 import { hasRichText } from '../lib/richtext.js';
 
 type RichValue = { node: any } | null;
@@ -52,7 +53,7 @@ const props = Astro.props;
       <div class="relative w-full h-[60vh] md:h-[80vh] overflow-hidden flex flex-col justify-end pb-16 px-8 md:px-16">
         <div class="absolute inset-0 z-0">
           {props.heroImage && (
-            <img src={props.heroImage} alt={props.heroImageAlt || props.filmTitle} class="w-full h-full object-cover filter contrast-125 sepia-[.3]" />
+            <Img src={props.heroImage} alt={props.heroImageAlt || props.filmTitle} preset="hero" priority class="w-full h-full object-cover filter contrast-125 sepia-[.3]" />
           )}
           <div class="absolute inset-0 bg-gradient-to-t from-[#1a2b4c] via-[#1a2b4c]/60 to-transparent"></div>
         </div>
@@ -108,7 +109,7 @@ const props = Astro.props;
                   <div class="absolute inset-0 bg-[#d4b872] transform translate-x-3 translate-y-3 z-0"></div>
                   <div class="relative z-10 border-4 border-white overflow-hidden bg-white">
                     {loc.image && (
-                      <img src={loc.image} alt={loc.name} class="w-full h-64 md:h-80 object-cover filter sepia-[.2] contrast-110 group-hover:scale-105 transition-transform duration-700" />
+                      <Img src={loc.image} alt={loc.name} preset="card" class="w-full h-64 md:h-80 object-cover filter sepia-[.2] contrast-110 group-hover:scale-105 transition-transform duration-700" />
                     )}
                   </div>
                   <p class="font-typewriter text-[10px] text-gray-500 mt-4 text-right uppercase tracking-widest">Fig {index + 1}. {loc.name}</p>
@@ -153,7 +154,7 @@ const props = Astro.props;
                 {hotel.image && (
                   <div class="w-full sm:w-2/5 h-48 sm:h-auto border-b-2 sm:border-b-0 sm:border-r-2 border-[#8b5a2b] overflow-hidden">
                     <a href={hotel.venueSlug ? `/venues/${hotel.venueSlug}` : '#'}>
-                      <img src={hotel.image} alt={hotel.name} class="w-full h-full object-cover filter sepia-[.3] contrast-110 group-hover:scale-105 transition-transform duration-500" />
+                      <Img src={hotel.image} alt={hotel.name} preset="card" class="w-full h-full object-cover filter sepia-[.3] contrast-110 group-hover:scale-105 transition-transform duration-500" />
                     </a>
                   </div>
                 )}

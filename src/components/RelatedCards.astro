@@ -1,4 +1,6 @@
 ---
+import Img from './Img.astro';
+
 interface Props {
   items?: { href: string; title: string; label: string; image?: string }[];
 }
@@ -13,9 +15,10 @@ const { items = [] } = Astro.props;
       >
         {it.image && (
           <div class="aspect-video overflow-hidden">
-            <img
+            <Img
               src={it.image}
               alt={it.title}
+              preset="card"
               class="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
             />
           </div>

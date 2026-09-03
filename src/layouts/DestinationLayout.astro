@@ -3,6 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import RichText from '../components/RichText.astro';
+import Img from '../components/Img.astro';
 import { hasRichText } from '../lib/richtext.js';
 
 type RichValue = { node: any } | null;
@@ -52,7 +53,7 @@ const stampPositions = [
       <!-- Hero Section -->
       <div class="relative w-full h-[60vh] min-h-[500px] overflow-hidden">
         {props.heroImage && (
-          <img src={props.heroImage} alt={props.heroImageAlt || props.title} class="w-full h-full object-cover filter contrast-125 sepia-[.3]" />
+          <Img src={props.heroImage} alt={props.heroImageAlt || props.title} preset="hero" priority class="w-full h-full object-cover filter contrast-125 sepia-[.3]" />
         )}
         <div class="absolute inset-0 bg-gradient-to-t from-[#1a2b4c] via-[#1a2b4c]/40 to-transparent opacity-90"></div>
         {props.heroImageCredit && (
@@ -103,7 +104,7 @@ const stampPositions = [
 
                 {section.image && (
                   <figure class={`my-6 p-2 bg-[#fdfbf2] border border-[#d4b872] shadow-[4px_4px_0px_rgba(212,184,114,0.4)] ${i % 2 === 0 ? 'transform -rotate-1' : 'transform rotate-1'} flow-root`}>
-                    <img src={section.image} alt={section.imageAlt || section.heading} class="w-full h-64 md:h-96 object-cover filter contrast-125 sepia-[.3]" />
+                    <Img src={section.image} alt={section.imageAlt || section.heading || ''} preset="hero" class="w-full h-64 md:h-96 object-cover filter contrast-125 sepia-[.3]" />
                     {section.caption && (
                       <figcaption class="text-center font-typewriter text-xs text-[#8b5a2b] mt-3 mb-1 uppercase tracking-widest">{section.caption}</figcaption>
                     )}

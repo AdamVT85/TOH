@@ -1,0 +1,104 @@
+---
+/**
+ * Site-wide <img> replacement for Keystatic-managed images in public/.
+ *
+ * Wraps Astro's <Image> so every picture gets an intrinsic width/height (no
+ * layout shift), a responsive srcset, lazy loading below the fold, and — in
+ * production — on-the-fly resizing/WebP via the Vercel Image Optimization API
+ * (enabled with `imageService: true` in astro.config.mjs). In dev the local
+ * sharp service does the same job.
+ *
+ * Usage:
+ *   <Img src={venue.heroImage} alt="…" preset="hero" priority />
+ *   <Img src={card.image} alt="…" preset="card" class="w-full h-48 object-cover" />
+ *
+ * `preset` picks sensible srcset widths + `sizes` for the slot; pass `widths`
+ * / `sizes` to override. External URLs or missing files fall back to a plain
+ * lazy <img> so nothing ever breaks the page.
+ */
+import { Image } from 'astro:assets';
+import { imageDimensions, snapToSize } from '../lib/images.js';
+
+type Preset = 'hero' | 'card' | 'thumb';
+
+interface Props {
+  src?: string | null;
+  alt: string;
+  class?: string;
+  style?: string;
+  /** Above-the-fold image: eager load + high fetch priority. */
+  priority?: boolean;
+  preset?: Preset;
+  widths?: number[];
+  sizes?: string;
+  draggable?: boolean;
+  [key: string]: unknown;
+}
+
+const PRESETS: Record<Preset, { widths: number[]; sizes: string }> = {
+  // Full-bleed heroes inside the 1200px poster frame.
+  hero: { widths: [828, 1200, 1920], sizes: '(min-width: 1280px) 1200px, 100vw' },
+  // Grid / carousel cards, typically 1–3 across.
+  card: { widths: [640, 1080], sizes: '(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw' },
+  // Portraits, gallery tiles, nearby-venue squares.
+  thumb: { widths: [320, 640], sizes: '320px' },
+};
+
+const {
+  src,
+  alt,
+  class: className,
+  style,
+  priority = false,
+  preset = 'card',
+  widths,
+  sizes,
+  ...rest
+} = Astro.props;
+
+const dims = src ? await imageDimensions(src) : null;
+const chosen = PRESETS[preset];
+const loading = priority ? 'eager' : 'lazy';
+const decoding = priority ? 'sync' : 'async';
+const fetchpriority = priority ? 'high' : undefined;
+
+// Never ask the optimiser to upscale: drop srcset widths wider than the file,
+// and size the fallback `src` to the largest width the slot actually needs.
+// Width/height attributes keep the file's aspect ratio so there is no layout
+// shift; both are snapped to a configured size so the Vercel service does not
+// have to re-map them (which leaks an `inputtedWidth` attribute into the HTML).
+const candidateWidths = (widths ?? chosen.widths).filter((w) => w <= (dims?.width ?? Infinity));
+const width = dims ? Math.min(snapToSize(dims.width), Math.max(...(candidateWidths.length ? candidateWidths : [snapToSize(dims.width)]))) : 0;
+const height = dims ? Math.round(width * (dims.height / dims.width)) : 0;
+const srcsetWidths = candidateWidths.length ? candidateWidths : [width];
+---
+
+{src && dims && (
+  <Image
+    src={src}
+    width={width}
+    height={height}
+    widths={srcsetWidths}
+    sizes={sizes ?? chosen.sizes}
+    quality={80}
+    alt={alt}
+    class={className}
+    style={style}
+    loading={loading}
+    decoding={decoding}
+    fetchpriority={fetchpriority}
+    {...rest}
+  />
+)}
+{src && !dims && (
+  <img
+    src={src}
+    alt={alt}
+    class={className}
+    style={style}
+    loading={loading}
+    decoding={decoding}
+    fetchpriority={fetchpriority}
+    {...rest}
+  />
+)}

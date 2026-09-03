@@ -82,7 +82,7 @@ export default function ArticlesCarousel({ articles }: Props) {
               <div className="w-full h-48 overflow-hidden border-2 border-[#1a2b4c] mb-5 relative pointer-events-none bg-[#1a2b4c]">
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10 duration-500"></div>
                 {article.heroImage && (
-                  <img draggable={false} src={article.heroImage} alt={article.title} className="w-full h-full object-cover filter contrast-110 sepia-[.2] group-hover:scale-110 transition-transform duration-700" />
+                  <img draggable={false} src={article.heroImage} alt={article.title} loading="lazy" decoding="async" className="w-full h-full object-cover filter contrast-110 sepia-[.2] group-hover:scale-110 transition-transform duration-700" />
                 )}
               </div>
               <div className="text-center flex-grow flex flex-col pointer-events-none px-1">
